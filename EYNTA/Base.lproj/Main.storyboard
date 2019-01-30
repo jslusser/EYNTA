@@ -329,7 +329,7 @@
                                         <rect key="frame" x="8" y="8" width="359" height="583"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text" base64-UTF8="YES">
+                                        <string key="text" base64-UTF8="YES">
 SW4gdGhlIHBhc3QgdHdvIGRlY2FkZXMsIEFzc2lzdGVkIExpdmluZyBGYWNpbGl0aWVzIGhhdmUgZ3Jv
 d24gbmF0aW9ud2lkZSBpbiB0aGUgaGVhbHRoIGNhcmUgaW5kdXN0cnkuCgpUaGVyZSBhcmUgYXBwcm94
 aW1hdGVseSAzMywwMDAgQXNzaXN0ZWQgTGl2aW5nIEZhY2lsaXRpZXMgb3BlcmF0aW5nIGluIHRoZSBV
@@ -461,7 +461,7 @@ cyBwcmltYXJpbHkgYSBtZWRpY2FsIGluc3RpdHV0aW9uLgoMCkFzc2lzdGVkIExpdmluZyBpcyBhbiBl
 eGNpdGluZyBvcHRpb24gZm9yIGluZGl2aWR1YWxzIHdobyB3YW50IHRvIG1heGltaXplIHRoZWlyIGlu
 ZGVwZW5kZW5jZSB3aGlsZSBsaXZpbmcgaW4gdGhlIHNhZmV0eSBvZiBhIHN1cGVydmlzZWQsIHJlc2lk
 ZW50aWFsIHNldHRpbmcuCg
-</mutableString>
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -572,7 +572,7 @@ ZWxldmlzaW9uLCBhbiBlYXN5IGNoYWlyLCBhIGJlZCwgYSBkcmVzc2VyLCBhIHJlZnJpZ2VyYXRvciwg
 YSBjbG9zZXQgYW5kIGEgYmF0aHJvb20uICBUaGUgaW1wb3J0YW50IHRoaW5nIGlzIHRoYXQgeW91IG11
 c3QgdHJ5IHRvIGp1ZGdlIGV2ZXJ5dGhpbmcgYmFzZWQgb24gd2hhdCBUSEVZIHdpbGwgcmVxdWlyZSwg
 bm90IHdoYXQgWU9VIHJlcXVpcmUuICBJbiBvdGhlciB3b3Jkcywgd2hvIGlzIHJlYWxseSBtb3Zpbmcg
-aW4/Cg
+aW4/4oCo4oCoWFhYCg
 </mutableString>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
