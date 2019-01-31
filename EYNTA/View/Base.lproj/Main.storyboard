@@ -117,6 +117,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Jb8-nj-9dO" kind="show" id="ak3-Rh-sFC"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="jh9-Qj-DS0">
                                         <rect key="frame" x="0.0" y="220" width="375" height="44"/>
@@ -620,7 +623,7 @@ aW4/4oCo4oCoWFhYWAo
                                         <rect key="frame" x="8" y="8" width="359" height="587"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text">Now that you have chosen the facilities you want to tour, it’s time to make an appointment. Ask to speak with the Marketing or Sales Director.  Tell them that you would like to ask a few questions before you decide to tour.
+                                        <string key="text">Now that you have chosen the facilities you want to tour, it’s time to make an appointment. Ask to speak with the Marketing or Sales Director.  Tell them that you would like to ask a few questions before you decide to tour.
 
 What is the Marketing Director’s name?  Will that person be the one to tour you?  Can he or she tour you on a weekend?  If not, is there an Assistant Marketing Director?  What is his or her name?  Will he or she be able to tour you on a weekend?
 
@@ -642,7 +645,7 @@ When you go, make sure you have the following information with you:
 From what you have just read, it makes it even clearer why you don’t want to be a “showupper.”  All of the above things have to be discussed in detail with each family.
 
 Making an appointment is “where it’s at!”
-</mutableString>
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -671,14 +674,19 @@ Making an appointment is “where it’s at!”
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s33-cI-qIW">
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="qnP-K3-w3B">
+                                <rect key="frame" x="132" y="233" width="110" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s33-cI-qIW">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TLp-NL-kv1">
                                         <rect key="frame" x="8" y="8" width="359" height="406"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text" base64-UTF8="YES">
+                                        <string key="text" base64-UTF8="YES">
 WW91IGFyZSBhYm91dCB0byBlbnRlciB0aGUg4oCccXVlc3Rpb27igJ0gc2VjdGlvbuKAnSBvZiBvdXIg
 Ym9vay4KCk5vdGU6ICBZb3Ugd2lsbCBuZWVkIGEgeWVsbG93IGhpZ2hsaWdodGVyIGZyb20gdGhpcyBw
 b2ludCBvbi4KClRoaXMgc2VjdGlvbiB3aWxsIGhlbHAgeW91IG9yZ2FuaXplIHlvdXIgdGhvdWdodHMs
@@ -714,31 +722,133 @@ IG9yIHVuY2xlPwoKVGhlIGNhcmUgb2YgdGhlIG91dHNpZGUgb2YgdGhlIGZhY2lsaXR5IGlzIGluZGlj
 YXRpdmUgb2YgdGhlIGNhcmUgb25lIHdvdWxkIHJlY2VpdmUgaW5zaWRlIHRoZSBmYWNpbGl0eS4KCuKA
 pmlmIHRoZSBwbGFudHMgYXJlIGR5aW5nIG9mIHRoaXJzdCBhbmQgdGhlIHBhaW50IGlzIHBlZWxpbmcg
 b2ZmIHRoZSB3YWxscywgeW91IG5lZWQgdG8gcGVlbCBvbiBvdXQgb2YgdGhlcmUgQVNBUCE
-</mutableString>
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7X-fr-Ov2">
-                                        <rect key="frame" x="129" y="453" width="116" height="30"/>
+                                        <rect key="frame" x="113" y="422" width="148" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="List of Questions"/>
+                                        <state key="normal" title="Go to Ch 4 Questions"/>
+                                        <connections>
+                                            <action selector="gotoCh4Questions:" destination="H9f-TO-OaQ" eventType="touchUpInside" id="OKj-7c-FJd"/>
+                                            <segue destination="Lme-Fd-5Cx" kind="show" id="pPP-Ya-bTf"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="s33-cI-qIW" firstAttribute="bottom" secondItem="T3g-6v-mmf" secondAttribute="bottom" id="ATQ-l4-Wfz"/>
-                            <constraint firstItem="s33-cI-qIW" firstAttribute="leading" secondItem="T3g-6v-mmf" secondAttribute="leading" id="QB6-xK-s0O"/>
-                            <constraint firstItem="s33-cI-qIW" firstAttribute="trailing" secondItem="T3g-6v-mmf" secondAttribute="trailing" id="XbH-Fu-WVt"/>
-                            <constraint firstItem="s33-cI-qIW" firstAttribute="top" secondItem="T3g-6v-mmf" secondAttribute="top" id="bV8-ZU-6Om"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="T3g-6v-mmf"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7rx-1L-vXd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="H9f-TO-OaQ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2388" y="923.38830584707648"/>
+        </scene>
+        <!--Chapter 5 - Licenses & Administration-->
+        <scene sceneID="3Q4-hm-esY">
+            <objects>
+                <viewController title="Chapter 5 - Licenses &amp; Administration" id="Jb8-nj-9dO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YEw-Nj-JFD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YFp-fV-PMV">
+                                <rect key="frame" x="0.0" y="64" width="373" height="447"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nib-uX-tbX">
+                                <rect key="frame" x="1" y="110" width="373" height="447"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SK2-EN-VTl">
+                                        <rect key="frame" x="8" y="8" width="357" height="314"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <mutableString key="text">In the following chapter, you will be asking questions about documents, policies and inspections.  These questions will reveal the credibility and professionalism of the individuals that operate the company.  Are they organized?  Do they have all of the things you are asking for?  Remember, the Marketing or Sales Representative may not have everything immediately on hand.  Give him a few minutes to produce the requested documents.
+
+(insert image here)
+
+...although very important, you will be asking questions about some pretty boring stuff.  But, if things you are asking for are not shown to you, it’s time to move on.</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPx-39-cTu">
+                                        <rect key="frame" x="111" y="330" width="150" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Go To Ch 5 Questions"/>
+                                        <connections>
+                                            <segue destination="rvK-Ez-ruc" kind="show" id="sl0-0A-G0s"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="V8c-Xt-gnY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x4q-Kk-bqe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3175.1999999999998" y="926.98650674662679"/>
+        </scene>
+        <!--Chapter 4 Questions-->
+        <scene sceneID="vQQ-Ob-OoJ">
+            <objects>
+                <tableViewController title="Chapter 4 Questions" id="Lme-Fd-5Cx" customClass="Q4TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="GFY-36-McD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="dE6-B9-50J" customClass="QuestionsTableViewCell" customModule="EYNTA" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dE6-B9-50J" id="taQ-c5-EDz">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Lme-Fd-5Cx" id="qDw-Kn-0ws"/>
+                            <outlet property="delegate" destination="Lme-Fd-5Cx" id="mQs-Rr-0CV"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EFH-yZ-XYU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2388" y="1691"/>
+        </scene>
+        <!--Chapter 5 Questions-->
+        <scene sceneID="vxf-IQ-hU6">
+            <objects>
+                <tableViewController title="Chapter 5 Questions" id="rvK-Ez-ruc" customClass="Q5TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="oaf-hC-v21">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ZoZ-qs-itN">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZoZ-qs-itN" id="iXP-zK-6l6">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="rvK-Ez-ruc" id="cTU-54-z9I"/>
+                            <outlet property="delegate" destination="rvK-Ez-ruc" id="4k8-P8-Zec"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Px5-Qx-s8a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3175" y="1691"/>
         </scene>
     </scenes>
     <resources>
