@@ -77,6 +77,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="lw1-bf-YpV" kind="show" id="x0F-tN-2Km"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ukD-Vf-RXm">
                                         <rect key="frame" x="0.0" y="132" width="375" height="44"/>
@@ -94,6 +97,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="d44-ca-3f6" kind="show" id="Rfm-Sz-dgn"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="GZt-9G-DMf">
                                         <rect key="frame" x="0.0" y="176" width="375" height="44"/>
@@ -493,11 +499,16 @@ ZW50aWFsIHNldHRpbmcuCg
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ppu-4h-C9B">
                                 <rect key="frame" x="0.0" y="62" width="375" height="609"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NCi-O0-Cz1">
-                                        <rect key="frame" x="8" y="8" width="359" height="579"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IOW" translatesAutoresizingMaskIntoConstraints="NO" id="CAe-5I-1gZ">
+                                        <rect key="frame" x="8" y="8" width="359" height="52"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <mutableString key="text" base64-UTF8="YES">
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NCi-O0-Cz1">
+                                        <rect key="frame" x="8" y="68" width="359" height="519"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <string key="text" base64-UTF8="YES">
 Tm93IHRoYXQgeW91IGhhdmUgcmVhZCBhbGwgb2YgdGhlIHRlY2huaWNhbCBzdHVmZiwgbGV04oCZcyBz
 aXQgZG93biBhbmQgY2hhdC4KCkFzIHByb2Zlc3Npb25hbHMsIHdlIHRha2Ugb3VyIGpvYiB2ZXJ5IHNl
 cmlvdXNseS4gIE91ciBqb2IgaXMgdG8gYXNzaXN0IHNlbmlvcnMgYW5kIGZhbWlsaWVzIGFuZCBoZWFs
@@ -573,7 +584,7 @@ YSBjbG9zZXQgYW5kIGEgYmF0aHJvb20uICBUaGUgaW1wb3J0YW50IHRoaW5nIGlzIHRoYXQgeW91IG11
 c3QgdHJ5IHRvIGp1ZGdlIGV2ZXJ5dGhpbmcgYmFzZWQgb24gd2hhdCBUSEVZIHdpbGwgcmVxdWlyZSwg
 bm90IHdoYXQgWU9VIHJlcXVpcmUuICBJbiBvdGhlciB3b3Jkcywgd2hvIGlzIHJlYWxseSBtb3Zpbmcg
 aW4/4oCo4oCoWFhYWAo
-</mutableString>
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -594,5 +605,143 @@ aW4/4oCo4oCoWFhYWAo
             </objects>
             <point key="canvasLocation" x="864.79999999999995" y="919.79010494752629"/>
         </scene>
+        <!--Chapter 3 - Before You Go-->
+        <scene sceneID="3bx-HW-IWk">
+            <objects>
+                <viewController title="Chapter 3 - Before You Go" id="lw1-bf-YpV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qci-w9-Twd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J9y-nm-iUh">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="i1R-OZ-rZ4">
+                                        <rect key="frame" x="8" y="8" width="359" height="587"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <mutableString key="text">Now that you have chosen the facilities you want to tour, it’s time to make an appointment. Ask to speak with the Marketing or Sales Director.  Tell them that you would like to ask a few questions before you decide to tour.
+
+What is the Marketing Director’s name?  Will that person be the one to tour you?  Can he or she tour you on a weekend?  If not, is there an Assistant Marketing Director?  What is his or her name?  Will he or she be able to tour you on a weekend?
+
+Ask some brief, general questions about cost and accommodations.   Discuss price ranges for the type of room you think that you may be interested in.  Make sure the Facility is within your budget range before you go.  Of course, if you have time, you can ask the Marketing Director to send you brochures with a price list and you can digest that information before you go to tour the facility.
+
+When speaking with the Marketing Director, give a brief synopsis of your loved one’s condition.  In most cases, the Marketing Director will be able to tell you on the phone whether they can accommodate him or her at their facility. Depending on what care your loved one needs, ask questions pertaining to his or her specific situation, such as Alzheimer care, acceptance of wheelchairs (electric or otherwise), catheters, and/or feeding tubes.  These types of preliminary questions will assist you in not wasting your valuable time.
+ 
+After this phone conversation, if you feel this facility may be worth looking at and may meet the needs of your loved one, then go ahead and make the appointment.  
+When you go, make sure you have the following information with you:
+
+*Name of first and secondary insurance companies;
+
+*Was he or she a Veteran or a spouse of a veteran?
+
+*As much information on his or her medical condition as you can provide;
+
+*A budget for him or her that you have figured out in advance, composed of Social Security income, amount of pension he or she is receiving, any other monthly income, savings, assets, or his or her ability to receive any other income from any other source.
+
+From what you have just read, it makes it even clearer why you don’t want to be a “showupper.”  All of the above things have to be discussed in detail with each family.
+
+Making an appointment is “where it’s at!”
+</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="J9y-nm-iUh" firstAttribute="leading" secondItem="xL1-97-mFd" secondAttribute="leading" id="2sy-CG-8lf"/>
+                            <constraint firstItem="J9y-nm-iUh" firstAttribute="top" secondItem="xL1-97-mFd" secondAttribute="top" id="R3r-4A-b6K"/>
+                            <constraint firstItem="J9y-nm-iUh" firstAttribute="trailing" secondItem="xL1-97-mFd" secondAttribute="trailing" id="fKi-cw-ogG"/>
+                            <constraint firstItem="J9y-nm-iUh" firstAttribute="bottom" secondItem="xL1-97-mFd" secondAttribute="bottom" id="tfU-Ay-vac"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xL1-97-mFd"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aKr-CL-WSe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1636" y="920.68965517241384"/>
+        </scene>
+        <!--Chapter 4 - General Aspects of Community-->
+        <scene sceneID="mzM-i4-XR0">
+            <objects>
+                <viewController title="Chapter 4 - General Aspects of Community" id="d44-ca-3f6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gc3-D1-g4b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s33-cI-qIW">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TLp-NL-kv1">
+                                        <rect key="frame" x="8" y="8" width="359" height="406"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <mutableString key="text" base64-UTF8="YES">
+WW91IGFyZSBhYm91dCB0byBlbnRlciB0aGUg4oCccXVlc3Rpb27igJ0gc2VjdGlvbuKAnSBvZiBvdXIg
+Ym9vay4KCk5vdGU6ICBZb3Ugd2lsbCBuZWVkIGEgeWVsbG93IGhpZ2hsaWdodGVyIGZyb20gdGhpcyBw
+b2ludCBvbi4KClRoaXMgc2VjdGlvbiB3aWxsIGhlbHAgeW91IG9yZ2FuaXplIHlvdXIgdGhvdWdodHMs
+IGNob29zZSB5b3VyIHF1ZXN0aW9ucywgYW5kIGhlbHAgeW91IGdhdGhlciB0aGUgaW5mb3JtYXRpb24g
+dGhhdCB5b3UgbmVlZCBpbiBtYWtpbmcgYW4gaW50ZWxsaWdlbnQgZGVjaXNpb24uICBBcyBhbHdheXMs
+IHRoZSB1bHRpbWF0ZSBnb2FsIGlzIHRvIGdpdmUgeW91IHBlYWNlIG9mIG1pbmQuIAoKVGhlc2UgcXVl
+c3Rpb25zIHdlcmUgY3JlYXRlZCB3aXRoIHRoZSBpbnRlbnRpb24gb2YgZWR1Y2F0aW5nIHlvdSBhbmQg
+Z2l2aW5nIHlvdSBhIHRvb2wgdGhhdCB3aWxsIHB1dCBZT1UgaW4gY29udHJvbCBvZiB0aGUgdG91cmlu
+ZyBleHBlcmllbmNlLiAgQWxsIG9mIHRoZSBxdWVzdGlvbnMgYXJlIGdyb3VwZWQgYnkgc3ViamVjdHMg
+Zm9yIHlvdXIgY29udmVuaWVuY2UuICBUaGlzIHdpbGwgaGVscCB5b3Ugd2hpbGUgWU9VIGFyZSBpbnRl
+cnZpZXdpbmcgdGhlIEFzc2lzdGVkIExpdmluZyBGYWNpbGl0eS4KCkZyb20gdGhpcyBwb2ludCBvbiwg
+d2Ugd2lsbCBjYWxsIHRoZSBwb3RlbnRpYWwgcmVzaWRlbnQsIGEgcmVzaWRlbnQsIG9rPwoKUHNzc3Nz
+c3TigKbigKbigKbigKbigKYuRG8geW91IGhhdmUgeW91ciBoaWdobGlnaHRlcj8KCkFmdGVyIHlvdSBo
+YXZlIHJlYWQgYWxsIG9mIHRoZSBxdWVzdGlvbnMsIGdvIG92ZXIgYWxsIG9mIHRoZSBxdWVzdGlvbnMg
+b25jZSBhZ2FpbiBhbmQgaGlnaGxpZ2h0IHRoZSBvbmVzIHRoYXQgeW91IHRoaW5rIGFyZSBhcHByb3By
+aWF0ZSBmb3IgeW91ciBzZWFyY2guIAoKSXTigJlzIG9rIGlmIHlvdSBoaWdobGlnaHRlZCBqdXN0IGEg
+ZmV3IHF1ZXN0aW9ucyBvciBpZiB5b3Ugd2FudCB0byBhc2sgYWxsIG9mIHRoZSBxdWVzdGlvbnMgaW4g
+dGhlIGJvb2suIFRoZXNlIGhpZ2hsaWdodGVkIHF1ZXN0aW9ucyB0aGF0IHlvdSBoYXZlIHNlbGVjdGVk
+IGFyZSBub3cgdGFpbG9yZWQgdG8geW91ciBuZWVkcyBvciB0byB0aGUgbmVlZHMgb2YgeW91ciBsb3Zl
+ZCBvbmUuIFRoZXNlIHdpbGwgYmUgdGhlIHF1ZXN0aW9ucyB0aGF0IHlvdSB3aWxsIGFzayB0aHJvdWdo
+b3V0IHlvdXIgQUxGIHRvdXIuICBUaGUgS0VZIGlzIHRvIGdhdGhlciB0aGUgY29ycmVjdCBhbnN3ZXJz
+IHRoYXQgeW91IG5lZWQuIAwKUmVtZW1iZXIsIHlvdSBrbm93IHlvdXJzZWxmIG9yIHlvdXIgbG92ZWQg
+b25lIGJldHRlciB0aGFuIGFueWJvZHkgZWxzZeKApuKApi5idXQgdGFrZSBpbnRvIGNvbnNpZGVyYXRp
+b24gdGhlIGN1cnJlbnQgc3RhdHVzIG9mIHRoYXQgcGVyc29uIGF0IHRoZSB0aW1lIG9mIHlvdXIgc2Vh
+cmNoLiAMCkdlbmVyYWwgQXNwZWN0cyBvZiB0aGUgQ29tbXVuaXR5CkxldOKAmXMgdGhpbmsgYWJvdXQg
+d2hhdCBhIOKAnGZpcnN0IGltcHJlc3Npb27igJ0gcmVhbGx5IG1lYW5zIGluIG91ciBwYXJ0aWN1bGFy
+IGNhc2UuICBZb3UgYXJlIGxvb2tpbmcgZm9yIGEgcGxhY2UgdGhhdCB3aWxsIHRha2Ugd29uZGVyZnVs
+IGNhcmUgb2YgeW91ciBsb3ZlZCBvbmUuICBJZiB0aGUgZmFjYWRlIG9mIHRoZSBzdHJ1Y3R1cmUgaXMg
+aW4gZGlzcmVwYWlyLCB0aGUgbGFuZHNjYXBpbmcgbGVhdmVzIGEgbG90IHRvIGJlIGRlc2lyZWQsIGFu
+ZCBubyB0aG91Z2h0IGlzIGdpdmVuIHRvIGl0cyB1cGtlZXAsIHRoZW4sIHdoYXQgZG9lcyB0aGlzIHNh
+eSBhYm91dCBob3cgdGhleSB3aWxsIHRha2UgY2FyZSBvZiB5b3VyIG1vdGhlciwgZmF0aGVyLCBhdW50
+IG9yIHVuY2xlPwoKVGhlIGNhcmUgb2YgdGhlIG91dHNpZGUgb2YgdGhlIGZhY2lsaXR5IGlzIGluZGlj
+YXRpdmUgb2YgdGhlIGNhcmUgb25lIHdvdWxkIHJlY2VpdmUgaW5zaWRlIHRoZSBmYWNpbGl0eS4KCuKA
+pmlmIHRoZSBwbGFudHMgYXJlIGR5aW5nIG9mIHRoaXJzdCBhbmQgdGhlIHBhaW50IGlzIHBlZWxpbmcg
+b2ZmIHRoZSB3YWxscywgeW91IG5lZWQgdG8gcGVlbCBvbiBvdXQgb2YgdGhlcmUgQVNBUCE
+</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7X-fr-Ov2">
+                                        <rect key="frame" x="129" y="453" width="116" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="List of Questions"/>
+                                    </button>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="s33-cI-qIW" firstAttribute="bottom" secondItem="T3g-6v-mmf" secondAttribute="bottom" id="ATQ-l4-Wfz"/>
+                            <constraint firstItem="s33-cI-qIW" firstAttribute="leading" secondItem="T3g-6v-mmf" secondAttribute="leading" id="QB6-xK-s0O"/>
+                            <constraint firstItem="s33-cI-qIW" firstAttribute="trailing" secondItem="T3g-6v-mmf" secondAttribute="trailing" id="XbH-Fu-WVt"/>
+                            <constraint firstItem="s33-cI-qIW" firstAttribute="top" secondItem="T3g-6v-mmf" secondAttribute="top" id="bV8-ZU-6Om"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="T3g-6v-mmf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7rx-1L-vXd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2388" y="923.38830584707648"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="IOW" width="816" height="346"/>
+    </resources>
 </document>
