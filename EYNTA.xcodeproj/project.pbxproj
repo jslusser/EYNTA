@@ -14,6 +14,16 @@
 		943B2A19220391BC00038A65 /* Q4TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943B2A18220391BC00038A65 /* Q4TableViewController.swift */; };
 		943B2A1B2203A41E00038A65 /* ch5Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 943B2A1A2203A41E00038A65 /* ch5Questions.json */; };
 		943B2A1D2203AAD000038A65 /* Q5TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943B2A1C2203AAD000038A65 /* Q5TableViewController.swift */; };
+		943B2A1F2203BCA400038A65 /* chxQuestions.json in Resources */ = {isa = PBXBuildFile; fileRef = 943B2A1E2203BCA300038A65 /* chxQuestions.json */; };
+		943B2A212203BE1800038A65 /* ch7Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 943B2A202203BE1800038A65 /* ch7Questions.json */; };
+		943B2A232203BE2700038A65 /* ch8Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 943B2A222203BE2700038A65 /* ch8Questions.json */; };
+		943B2A252203BE3A00038A65 /* ch9Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 943B2A242203BE3A00038A65 /* ch9Questions.json */; };
+		943B2A272203BE4700038A65 /* ch10Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 943B2A262203BE4700038A65 /* ch10Questions.json */; };
+		943B2A292203BE5400038A65 /* ch11Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 943B2A282203BE5400038A65 /* ch11Questions.json */; };
+		943B2A2B2203BE6800038A65 /* ch12Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 943B2A2A2203BE6800038A65 /* ch12Questions.json */; };
+		943B2A2D2203BE7800038A65 /* ch13Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 943B2A2C2203BE7800038A65 /* ch13Questions.json */; };
+		943B2A2F2203BE8500038A65 /* ch14Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 943B2A2E2203BE8500038A65 /* ch14Questions.json */; };
+		943B2A312203BE9400038A65 /* ch6Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 943B2A302203BE9400038A65 /* ch6Questions.json */; };
 		946676A021EE86D800A61966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9466769F21EE86D800A61966 /* AppDelegate.swift */; };
 		946676A521EE86D800A61966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946676A321EE86D800A61966 /* Main.storyboard */; };
 		946676A721EE86DC00A61966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946676A621EE86DC00A61966 /* Assets.xcassets */; };
@@ -29,6 +39,16 @@
 		943B2A18220391BC00038A65 /* Q4TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q4TableViewController.swift; sourceTree = "<group>"; };
 		943B2A1A2203A41E00038A65 /* ch5Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ch5Questions.json; sourceTree = "<group>"; };
 		943B2A1C2203AAD000038A65 /* Q5TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q5TableViewController.swift; sourceTree = "<group>"; };
+		943B2A1E2203BCA300038A65 /* chxQuestions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chxQuestions.json; sourceTree = "<group>"; };
+		943B2A202203BE1800038A65 /* ch7Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ch7Questions.json; sourceTree = "<group>"; };
+		943B2A222203BE2700038A65 /* ch8Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ch8Questions.json; sourceTree = "<group>"; };
+		943B2A242203BE3A00038A65 /* ch9Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ch9Questions.json; sourceTree = "<group>"; };
+		943B2A262203BE4700038A65 /* ch10Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ch10Questions.json; sourceTree = "<group>"; };
+		943B2A282203BE5400038A65 /* ch11Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ch11Questions.json; sourceTree = "<group>"; };
+		943B2A2A2203BE6800038A65 /* ch12Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ch12Questions.json; sourceTree = "<group>"; };
+		943B2A2C2203BE7800038A65 /* ch13Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ch13Questions.json; sourceTree = "<group>"; };
+		943B2A2E2203BE8500038A65 /* ch14Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ch14Questions.json; sourceTree = "<group>"; };
+		943B2A302203BE9400038A65 /* ch6Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ch6Questions.json; sourceTree = "<group>"; };
 		9466769C21EE86D800A61966 /* EYNTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EYNTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9466769F21EE86D800A61966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		946676A421EE86D800A61966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -76,6 +96,16 @@
 				943B2A0F220385B500038A65 /* Questions.swift */,
 				943B2A14220387A000038A65 /* ch4Questions.json */,
 				943B2A1A2203A41E00038A65 /* ch5Questions.json */,
+				943B2A302203BE9400038A65 /* ch6Questions.json */,
+				943B2A202203BE1800038A65 /* ch7Questions.json */,
+				943B2A222203BE2700038A65 /* ch8Questions.json */,
+				943B2A242203BE3A00038A65 /* ch9Questions.json */,
+				943B2A262203BE4700038A65 /* ch10Questions.json */,
+				943B2A282203BE5400038A65 /* ch11Questions.json */,
+				943B2A2A2203BE6800038A65 /* ch12Questions.json */,
+				943B2A2C2203BE7800038A65 /* ch13Questions.json */,
+				943B2A2E2203BE8500038A65 /* ch14Questions.json */,
+				943B2A1E2203BCA300038A65 /* chxQuestions.json */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -167,11 +197,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				943B2A2D2203BE7800038A65 /* ch13Questions.json in Resources */,
+				943B2A252203BE3A00038A65 /* ch9Questions.json in Resources */,
+				943B2A2B2203BE6800038A65 /* ch12Questions.json in Resources */,
+				943B2A232203BE2700038A65 /* ch8Questions.json in Resources */,
+				943B2A292203BE5400038A65 /* ch11Questions.json in Resources */,
+				943B2A312203BE9400038A65 /* ch6Questions.json in Resources */,
 				946676AA21EE86DC00A61966 /* LaunchScreen.storyboard in Resources */,
+				943B2A1F2203BCA400038A65 /* chxQuestions.json in Resources */,
 				943B2A0B220382D500038A65 /* QuestionsTableViewCell.xib in Resources */,
+				943B2A2F2203BE8500038A65 /* ch14Questions.json in Resources */,
 				946676A721EE86DC00A61966 /* Assets.xcassets in Resources */,
+				943B2A272203BE4700038A65 /* ch10Questions.json in Resources */,
 				946676A521EE86D800A61966 /* Main.storyboard in Resources */,
 				943B2A1B2203A41E00038A65 /* ch5Questions.json in Resources */,
+				943B2A212203BE1800038A65 /* ch7Questions.json in Resources */,
 				943B2A15220387A000038A65 /* ch4Questions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
