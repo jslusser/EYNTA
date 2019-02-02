@@ -1,109 +1,205 @@
  [{
-  "questionCopy": "xs?",
+  "questionCopy": "Is the lobby welcoming for residents and guests?",
   "chapter": "ch7"
   },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do the residents seem to be happy?  Talk with some of them.",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do the residents look neat and clean and well taken care of?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Does the population appear to resemble what you are looking for?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have Concierge Service?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Are there bathrooms conveniently located in the common areas?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have a nice, outside sitting area?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have a nice seating area in the lobby?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "What is the ratio of men to women?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you see an Ombudsman poster?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Are the Administrative offices accessible to the residents and families?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x
+     "questionCopy": "Is the Nurse's station accessible to the residents and families?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have a move-in coordinator to assist with the move?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do other agencies come in to the facility?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "What is the facility policy regarding solicitation?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Is there a resident curfew?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Does your community have a guest room for out-of-town guests?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you see a community phone for resident use?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Can residents bring their car?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have assigned parking?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Is the resident parking area covered?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have a facility pet?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have an activity room?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have a swimming pool?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have a library?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have a fitness center?",
      "chapter": "ch7"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have a computer room?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Do you have a theater?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Do you have a coffee shop?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Is there a pleasant odor in the dining room?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "xIs the menu posted in the dining room?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Do you provide mail boxes for the resieents?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "How does a resident send out mail?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Do you have a model room that I can see?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Does your building have cat walks?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Does a resident have to go outside to get to the common areas?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Are the halls free of obstacles?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Are the exits free of obstacles and easy to reach?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Are the halls well lighted?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Are the floors slippery?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Is the carpet safe for wheelchair and walker use?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Are the fire extinguishers visible?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Is there a designated area for smkoking?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Do you have smoke detectors in residents' rooms as well as the common areas?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Do you have surveillance cameras inside your community?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Do you have surveillance cameras outside your community?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Is your main enterance supervised at all times?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Are there enough elevators to accommodate the number of residents?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Do the doors to the elevator open and close properly?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Are the inspections up to date and posted inside the elevators?",
+     "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Does your facility have hurricane shutters?",
      "chapter": "ch7"
  }
  ]

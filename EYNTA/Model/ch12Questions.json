@@ -1,109 +1,145 @@
  [{
-  "questionCopy": "xs?",
+  "questionCopy": "Do you have a Housekeeping Director?",
   "chapter": "ch12"
   },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have an Assistant Housekeeping Director?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have a Housekeeping staff?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Is your Housekeeping staff available 24 hours a day?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "How often do you clean the rooms?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "How often do you do the laundry?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Is personal laundry included in the monthly rate?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Is the laundry for linens and towels incouded in the monthly rate?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "If more laundry days are needed, is there an extra charge?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Are towels, washcloths and linens provided?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Can residents bring their own towels, washcloths and linens?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x
+     "questionCopy": "Do residents have to label their own towels, washcloths and linens?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Will you wash their towels, washcloths and linens seperately from other residents?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Is there an extra charge for this?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have a dry cleaning service available for the residents' use?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have a price list?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have a laundry room for the residents' use?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "How often do you vacuum the rooms?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "How often do you clean the appliances?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "How often do you defrost the refrigerator?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have a Maintenance Director?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have an Assistant Maintenance Director?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have a Maintenance staff?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "How are Maintenance issues handled?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "If the room is carpeted, how often do you shampoo the carpet?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Is there a charge for light bulbs?",
      "chapter": "ch12"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Are maintenance services available for the residents seven days a week?",
+     "chapter": "ch12"
+ },
+ {
+     "questionCopy": "How often do you change the air conditioning filters?",
+     "chapter": "ch12"
+ },
+ {
+     "questionCopy": "Is your Maintenance Director HVAC (Heating, Ventilation and Air Conditioning) certified?",
+     "chapter": "ch12"
+ },
+ {
+     "questionCopy": "Is your Maintenance director in charge of fire drills?",
+     "chapter": "ch12"
+ },
+ {
+     "questionCopy": "Does your Maintenance Director maintain a fire drill log?",
+     "chapter": "ch12"
+ },
+ {
+     "questionCopy": "Does your Maintenance Director service your Housekeeping equipment?",
+     "chapter": "ch12"
+ },
+ {
+     "questionCopy": "Is your Maintenance Department responsible for outdoor areas and landscaping?",
+     "chapter": "ch12"
+ },
+ {
+     "questionCopy": "Are your Housekeeping and Maintenance Directors trained in the handling of chemicals?",
+     "chapter": "ch12"
+ },
+ {
+     "questionCopy": "Is your Maintenance Director trained for hurriane preparedness?",
+     "chapter": "ch12"
+ },
+ {
+     "questionCopy": "Does your Maintenance Director monitor the fire sprinkler system on a regular basis?",
      "chapter": "ch12"
  }
  ]

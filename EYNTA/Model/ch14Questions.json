@@ -1,109 +1,125 @@
  [{
-  "questionCopy": "xs?",
+  "questionCopy": "Do you have an Emergency Plan?",
   "chapter": "ch14"
   },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have an Evacuation Plan?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Are these plans posted?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Can I see them?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Who approves your Emergency Plan?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Who approves your Evacuation Plan?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Is your facility built to withstand tornados (if applicalbe)?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Is your facility built to withstand hurricanes (if applicalbe)?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Is your facility built to withstand earthquakes (if applicalbe)?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you notify the family prior to an evacuation when possible?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Where do you take the residents if there is a need for evacuation?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x
+     "questionCopy": "Can I have the address and phone number of that facility?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Can the family decide if they want to take the resident home?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Who determines when the facility should be evacuated?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Were you here the last time there was an evacuation?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Are you a host facility for another community in the area?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have enough supplies for the residents if you host another community?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Can I see your emergency supplies?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "What is your policy concerning food, water, and medication during an emergency?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Are you in a flood zone?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have Fire Drills?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "How often?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "What are your regulations concerning smoking?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "What are your regulation concerning alcohol consumption?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have a security guard on duty at night?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Are all doors locked at night?",
      "chapter": "ch14"
  },
  {
-     "questionCopy": "x?",
+     "questionCopy": "Do you have a sprinkler system in all of the rooms as well as the common areas?",
+     "chapter": "ch14"
+ },
+ {
+     "questionCopy": "Do you have a generator?",
+     "chapter": "ch14"
+ },
+ {
+     "questionCopy": "Will your elevator still work in a blackout?",
+     "chapter": "ch14"
+ },
+ {
+     "questionCopy": "How quickly are calls for assistance responded to?",
+     "chapter": "ch14"
+ },
+ {
+     "questionCopy": "Is there enough staff to meet the residents' needs?",
      "chapter": "ch14"
  }
  ]
