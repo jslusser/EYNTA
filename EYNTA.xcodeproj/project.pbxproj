@@ -29,6 +29,10 @@
 		946676A721EE86DC00A61966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946676A621EE86DC00A61966 /* Assets.xcassets */; };
 		946676AA21EE86DC00A61966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946676A821EE86DC00A61966 /* LaunchScreen.storyboard */; };
 		946676B221EE87A500A61966 /* ContentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946676B121EE87A500A61966 /* ContentsTableViewController.swift */; };
+		94BBDCC62207523B00A1068E /* chx15Glossary.json in Resources */ = {isa = PBXBuildFile; fileRef = 94BBDCC52207523B00A1068E /* chx15Glossary.json */; };
+		94BBDCC922075A1A00A1068E /* VocabularyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BBDCC722075A1A00A1068E /* VocabularyTableViewCell.swift */; };
+		94BBDCCA22075A1A00A1068E /* VocabularyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94BBDCC822075A1A00A1068E /* VocabularyTableViewCell.xib */; };
+		94BBDCCC22075C7B00A1068E /* VocabularyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BBDCCB22075C7B00A1068E /* VocabularyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +60,10 @@
 		946676A921EE86DC00A61966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		946676AB21EE86DC00A61966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		946676B121EE87A500A61966 /* ContentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsTableViewController.swift; sourceTree = "<group>"; };
+		94BBDCC52207523B00A1068E /* chx15Glossary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chx15Glossary.json; sourceTree = "<group>"; };
+		94BBDCC722075A1A00A1068E /* VocabularyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyTableViewCell.swift; sourceTree = "<group>"; };
+		94BBDCC822075A1A00A1068E /* VocabularyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VocabularyTableViewCell.xib; sourceTree = "<group>"; };
+		94BBDCCB22075C7B00A1068E /* VocabularyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,8 @@
 				946676A321EE86D800A61966 /* Main.storyboard */,
 				943B2A08220382D500038A65 /* QuestionsTableViewCell.swift */,
 				943B2A09220382D500038A65 /* QuestionsTableViewCell.xib */,
+				94BBDCC722075A1A00A1068E /* VocabularyTableViewCell.swift */,
+				94BBDCC822075A1A00A1068E /* VocabularyTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -86,6 +96,7 @@
 				943B2A18220391BC00038A65 /* Q4TableViewController.swift */,
 				943B2A1C2203AAD000038A65 /* Q5TableViewController.swift */,
 				946676B121EE87A500A61966 /* ContentsTableViewController.swift */,
+				94BBDCCB22075C7B00A1068E /* VocabularyTableViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -105,6 +116,7 @@
 				943B2A2A2203BE6800038A65 /* ch12Questions.json */,
 				943B2A2C2203BE7800038A65 /* ch13Questions.json */,
 				943B2A2E2203BE8500038A65 /* ch14Questions.json */,
+				94BBDCC52207523B00A1068E /* chx15Glossary.json */,
 				943B2A1E2203BCA300038A65 /* chxQuestions.json */,
 			);
 			path = Model;
@@ -204,6 +216,8 @@
 				943B2A292203BE5400038A65 /* ch11Questions.json in Resources */,
 				943B2A312203BE9400038A65 /* ch6Questions.json in Resources */,
 				946676AA21EE86DC00A61966 /* LaunchScreen.storyboard in Resources */,
+				94BBDCCA22075A1A00A1068E /* VocabularyTableViewCell.xib in Resources */,
+				94BBDCC62207523B00A1068E /* chx15Glossary.json in Resources */,
 				943B2A1F2203BCA400038A65 /* chxQuestions.json in Resources */,
 				943B2A0B220382D500038A65 /* QuestionsTableViewCell.xib in Resources */,
 				943B2A2F2203BE8500038A65 /* ch14Questions.json in Resources */,
@@ -227,6 +241,8 @@
 				943B2A1D2203AAD000038A65 /* Q5TableViewController.swift in Sources */,
 				943B2A0A220382D500038A65 /* QuestionsTableViewCell.swift in Sources */,
 				943B2A10220385B500038A65 /* Questions.swift in Sources */,
+				94BBDCC922075A1A00A1068E /* VocabularyTableViewCell.swift in Sources */,
+				94BBDCCC22075C7B00A1068E /* VocabularyTableViewController.swift in Sources */,
 				946676B221EE87A500A61966 /* ContentsTableViewController.swift in Sources */,
 				943B2A19220391BC00038A65 /* Q4TableViewController.swift in Sources */,
 			);

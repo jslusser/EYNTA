@@ -1,0 +1,327 @@
+ [{
+  "term": "Administrator",
+  "definition": "A professional person who oversees the day to day operations of an ALF.
+",
+  "chapter": "ch15"
+  },
+ {
+     "term": "ADL's",
+     "definition": "Activities of Daily Living - Activities to include bathing, dressing, eating, toileting, walking, and transferring.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "ALF",
+     "definition": "Assisted Living Facility - A residential living setting that provides assistance with Activities of Daily Living. Staff is available 24 hours a day to meet the resident’s needs.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Acute",
+     "definition": "A rapid and severe condition.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Area Agency on Aging",
+     "definition": "Local government agencies that provide services for seniors within their area.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Assessment",
+     "definition": "Usually done by a nurse to determine the individual’s care needs based on physical and psychological evaluation.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Aphasia",
+     "definition": "A loss of the ability to produce or comprehend language.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Alzheimer's Disease",
+     "definition": "A progressive disease that causes the death of nerve cells in the brain resulting in loss of memory.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "AD",
+     "definition": "Advanced Directive - A signed document stating your wishes should you become mentally or physically unable to do so.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Bedfast",
+     "definition": "To be bedridden.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Cognitive Impairment",
+     "definition": "A decrease in mental capacity.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "CHF",
+     "definition": "Congestive Heart Failure - A heart disease caused by inadequate pumping of the heart.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "CM",
+     "definition": "Case Manager - An individual, usually an RN or a social worker, who handles a case while a person is in a hospital or rehabilitation center.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "CCRC",
+     "definition": "Continuing Care Retirement Community - A community that offers several levels of care to include Independent Living, Assisted Living and a Nursing Home.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "CNA",
+     "definition": "Certified Nursing Assistant - A Certified Nursing Assistant provides assistance in personal care such as bathing, dressing, and toileting. The CNAs work under the guidance of an LPN or an RN.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "DME",
+     "definition": "Durable Medical Equipment - Equipment that is used for a medical reason either in the home or in an ALF. (such as wheelchairs, commodes, and walkers.)",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Dementia",
+     "definition": "The decline in intellectual function.  This affects thinking, remembering, and reasoning.  Dementia can be mild, moderate or severe.  Many people with mild to moderate dementia can reside in the general population of an ALF.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "DX",
+     "definition": "Diagnosis - Identification of an illness or a disorder.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Decubitis",
+     "definition": "Also called pressure sores or pressure ulcers.  This is a breakdown of the skin usually caused by staying in one position for too long without shifting body weight.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Discharge Planner",
+     "definition": "Following a hospital or rehabilitation stay, this person (usually a social worker or a nurse) assists an individual and/or family to make healthcare and/or future living arrangements.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Durable POA",
+     "definition": "A legal document in which a competent person gives another person the power to make healthcare decisions for him or her if they are unable to make those decisions for themselves.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Dysphasia",
+     "definition": "A medical term for difficulty in swallowing - a swallowing disorder.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "ERP",
+     "definition": "Emergency Response System - Electronic monitors that are either on a person or in their living space that provides automatic response to emergencies.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Edema",
+     "definition": "The increase of fluid in any organ or tissue that causes swelling.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Foley Catheter",
+     "definition": "A tube inserted into the bladder in order to drain urine.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "GI Tube",
+     "definition": "A tube surgically inserted through an opening in the stomach.  This is for individuals that cannot take nutrition by mouth.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Guardianship",
+     "definition": "In cases of legal incompetence, a person is assigned by the court to handle the individual’s legal affairs.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "HMO",
+     "definition": "Health Maintenance Organization - HMO is a health organization that provides care by using only the doctors and hospitals that are in their network. ",
+     "chapter": "ch15"
+ },
+ {
+     "term": "HHC",
+     "definition": "Home Health Care - An Agency that provides medical and nursing services in the patient’s home.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Hospice",
+     "definition": "A program for terminally ill individuals and their families to enhance the life of the dying person.  The goal of hospice is to provide comfort, counseling, social, spiritual and physical support.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "h.s.",
+     "definition": "hour of sleep",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Incompetence",
+     "definition": "When an individual is incapable of handling his assets and understanding his legal rights.  This must be determined through a legal proceeding.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "IL",
+     "definition": "Independent Living - A residential living setting that provides little or no extra assistance with Activities of Daily Living.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Incontinent",
+     "definition": "Inability to control bladder and/or bowel function.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Living Will",
+     "definition": "A document in which a competent person states in advance that he does not want artificial means used to prolong his life if he develops a terminal illness.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "LTCI",
+     "definition": "Long Term Care Insurance - A policy purchased by an individual to help cover costs associated with Long Term Care.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "LPN",
+     "definition": "Licensed Practical Nurse - A Licensed Practical Nurse has a license by having passed state or national boards. An LPN must operate under the guidance of an RN or a physician.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "LOC",
+     "definition": "Level of Care - Additional fees charged by facilities to cover personal services other than room and board.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Medical Director",
+     "definition": "A doctor who is in charge of the overall care of residents in a facility.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Medicare",
+     "definition": "A U.S. government program of hospitalization insurance for people 65 and over and for certain disabled people under the age of 65.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Medicaid",
+     "definition": "A U.S. government program financed by federal, state and local funds.  This covers hospital and medical insurance for people of all ages with certain income limits.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "NAS",
+     "definition": "No added salt - Although many foods contain a certain amount of salt, this type of diet makes sure there is no extra salt added to the food.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "NCS",
+     "definition": "No concentrated sugar - Although many foods contain a certain amount of natural sugars, this type of diet makes sure there is no extra sugar added to the food.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "NPO",
+     "definition": "Nothing by mouth.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "OT",
+     "definition": "Occupational Therapy - OT is a form of treatment to assist in regaining skills needed to live a normal life.  (Ex: bathing, brushing your teeth, combing your hair, dressing, opening a door, and using utensils.)",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Ombudsman",
+     "definition": "A person, usually an advocate of the elderly, who receives and investigates complaints.  Posters must be placed in all ALFs and other facilities so that residents can see them and call them if they need help or if they want to voice a complaint.  (such as discrimination, inappropriate care, etc.)",
+     "chapter": "ch15"
+ },
+ {
+     "term": "PPO",
+     "definition": "Preferred Provider Organization.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "POA",
+     "definition": "Power of Attorney - A document that allows one person to act in a legal matter on behalf of another.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "p.r.n.",
+     "definition": "as needed.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "PT",
+     "definition": "Physical Therapy - PT is a form of treatment that will assist in relieving pain and restoring function after one has sustained an injury, had a disease or lost a limb.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "PCP",
+     "definition": "Primary Care Physician - A PCP is a doctor who will manage your care and, when needed, refer you to a specialist.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Plan of Care or Care Plan",
+     "definition": "A written plan that describes the type of care and frequency of care a person needs.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Primary Insurance",
+     "definition": "Health care coverage, such as Medicare, that pays first on an insurance claim for medical or hospital care.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Psychotropic Drugs",
+     "definition": "Drugs that are used for hallucinations, severe agitation, delusions or paranoia.  These are also called antidepressants, anti-anxiety and anti-psychotic drugs.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "q.h.",
+     "definition": "every hour.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "RN",
+     "definition": "Registered Nurse - A Registered Nurse is a healthcare professional.  An RN oversees the duties of an LPN and a CNA.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Respite Care",
+     "definition": "Provides temporary relief for caregivers by placing loved one in alternative housing for short stays.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "SSI",
+     "definition": "Supplementary Security Income - Monthly benefits for individuals with low income.  Must be over 65, blind, or have a disability.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "SSDI",
+     "definition": "Social Security Disability Insurance - Monthly benefits given through the U.S. Social Security Administration.  This is for individuals who can not work due to a medical condition.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Side rails,
+     "definition": "Rails on a hospital bed for protection.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Speech Therapy",
+     "definition": "Treatment for speech impairment.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "STM",
+     "definition": "Short-term memory.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "SNF",
+     "definition": "Skilled Nursing Facility - Commonly referred to as a nursing home.  An institution that provides skilled medical care, nursing care or rehabilitation.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "Tri-care",
+     "definition": "A health care program for active duty and retired uniformed services members and their families.",
+     "chapter": "ch15"
+ },
+ {
+     "term": "t.i.d.",
+     "definition": "three times a day.",
+     "chapter": "ch15"
+ }
+ ]

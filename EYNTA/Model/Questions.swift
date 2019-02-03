@@ -12,6 +12,15 @@ struct Question : Codable {
     let questionCopy: String
     let chapter: chapterNumber
     enum chapterNumber: String, Codable {
-        case ch4, ch5, ch6, ch7, ch8, ch9, ch10, ch11, ch12, ch13, ch14
+        case ch4, ch5, ch6, ch7, ch8, ch9, ch10, ch11, ch12, ch13, ch14, ch15
     }
 }
+struct Vocabulary : Codable {
+    let term: String
+    let definition: String
+    let chapter: chapterNumber
+    enum chapterNumber: String, Codable {
+        case ch4, ch5, ch6, ch7, ch8, ch9, ch10, ch11, ch12, ch13, ch14, ch15
+    }
+}
+
