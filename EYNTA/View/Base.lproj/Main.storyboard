@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K4N-HZ-usf">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K4N-HZ-usf">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15508"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -22,10 +20,10 @@
                             <tableViewSection id="sUY-GB-HJD">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Ewr-O4-YJa">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ewr-O4-YJa" id="yiw-Qe-hA3">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 1 - Introduction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkv-Dl-Qw5" userLabel="Chapter 1 - Introduction">
@@ -42,10 +40,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="P9q-Q7-K0r">
-                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="72" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="P9q-Q7-K0r" id="stk-2X-Dv5">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 2 - In Other Words" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XHg-bI-LAa">
@@ -62,10 +60,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="iSV-Zv-cfk">
-                                        <rect key="frame" x="0.0" y="88" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="116" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iSV-Zv-cfk" id="HZy-sM-x1x">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 3 - Before You Go" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DzX-7z-e2X">
@@ -82,10 +80,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ukD-Vf-RXm">
-                                        <rect key="frame" x="0.0" y="132" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="160" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ukD-Vf-RXm" id="uYt-Cu-VzL">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 4 - General Aspects of Community" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cf6-4U-7Fi">
@@ -102,10 +100,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="GZt-9G-DMf">
-                                        <rect key="frame" x="0.0" y="176" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="204" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GZt-9G-DMf" id="cJV-Ni-Bw2">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 5 - Licenses &amp; Administration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ow7-AS-uMh">
@@ -122,10 +120,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="jh9-Qj-DS0">
-                                        <rect key="frame" x="0.0" y="220" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="248" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jh9-Qj-DS0" id="4CD-kh-CnX">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 6 - Contract" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LBx-UG-I8N">
@@ -142,10 +140,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="gFk-QV-btu">
-                                        <rect key="frame" x="0.0" y="264" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="292" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gFk-QV-btu" id="vKx-t8-3Td">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 7 - Observations/Tour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFQ-dQ-vR5">
@@ -162,10 +160,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Fvd-Lk-w0N">
-                                        <rect key="frame" x="0.0" y="308" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="336" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Fvd-Lk-w0N" id="V70-kM-6uQ">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 8 - Accommodations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKQ-jv-dGK">
@@ -182,10 +180,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="gIh-qj-a03">
-                                        <rect key="frame" x="0.0" y="352" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="380" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gIh-qj-a03" id="hUv-Pq-L3k">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 9 - Medical and Nursing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZlH-Hl-JCp">
@@ -202,10 +200,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="vYb-3r-Fce">
-                                        <rect key="frame" x="0.0" y="396" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="424" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vYb-3r-Fce" id="Rpd-x7-hnA">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 10 - Food Services" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pvw-Ci-k8q">
@@ -222,10 +220,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="epD-Jn-vSk">
-                                        <rect key="frame" x="0.0" y="440" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="468" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="epD-Jn-vSk" id="VxW-IM-4mQ">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 11 - Activities" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WuX-Kx-bog">
@@ -242,10 +240,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="yzs-gg-C1K">
-                                        <rect key="frame" x="0.0" y="484" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="512" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yzs-gg-C1K" id="PHy-R9-smE">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 12 - Housekeeping &amp; Maintenance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxe-iD-Fr7">
@@ -262,10 +260,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="NQG-VM-Wpa">
-                                        <rect key="frame" x="0.0" y="528" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="556" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NQG-VM-Wpa" id="2JN-9s-yXf">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 13 - Transportation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fK7-59-SBn">
@@ -282,10 +280,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="WxC-aO-k3u">
-                                        <rect key="frame" x="0.0" y="572" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="600" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WxC-aO-k3u" id="RGz-9Y-ptR">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 14 - Emergency Plan &amp; Safety" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2H-A3-BVG">
@@ -302,10 +300,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Xkv-pd-JcK">
-                                        <rect key="frame" x="0.0" y="616" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="644" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xkv-pd-JcK" id="9ec-kd-1lM">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 15 - Acronyms and Vocabulary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRH-c2-1Up">
@@ -322,10 +320,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="fij-91-msV">
-                                        <rect key="frame" x="0.0" y="660" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="688" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fij-91-msV" id="p6f-Ap-GlW">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 16 - About the Authors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8QO-BI-5dE">
@@ -342,10 +340,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Vq9-78-Ovr">
-                                        <rect key="frame" x="0.0" y="704" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="732" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Vq9-78-Ovr" id="jpZ-w5-aJY">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 17 - Helpful Resources" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9K-fR-f2o">
@@ -381,7 +379,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="K4N-HZ-usf" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fAr-C1-SgY">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -401,158 +399,230 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SVV-XJ-aZo">
-                                <rect key="frame" x="0.0" y="64" width="375" height="599"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SVV-XJ-aZo">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NQU-4t-fWH">
-                                        <rect key="frame" x="8" y="8" width="359" height="583"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NQU-4t-fWH">
+                                        <rect key="frame" x="8" y="0.0" width="359" height="623"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <string key="text" base64-UTF8="YES">
-SW4gdGhlIHBhc3QgdHdvIGRlY2FkZXMsIEFzc2lzdGVkIExpdmluZyBGYWNpbGl0aWVzIGhhdmUgZ3Jv
-d24gbmF0aW9ud2lkZSBpbiB0aGUgaGVhbHRoIGNhcmUgaW5kdXN0cnkuCgpUaGVyZSBhcmUgYXBwcm94
-aW1hdGVseSAzMywwMDAgQXNzaXN0ZWQgTGl2aW5nIEZhY2lsaXRpZXMgb3BlcmF0aW5nIGluIHRoZSBV
-bml0ZWQgU3RhdGVzIHRvZGF5LiAgVGhlIG51bWJlciBvZiByZXNpZGVudHMgbGl2aW5nIGluIGEgZmFj
-aWxpdHkgY2FuIHJhbmdlIGZyb20ganVzdCBhIGZldyB0byBvdmVyIDMwMCwgd2l0aCB0aGUgbW9zdCBj
-b21tb24gc2l6ZSBob3VzaW5nIGJldHdlZW4gMjUgYW5kIDEyMCBpbmRpdmlkdWFscy4KClllYXJzIGFn
-bywgZXZlcnlvbmUgcmVmZXJyZWQgdG8gYWxsIG51cnNpbmcgZmFjaWxpdGllcyBhcyDigJx0aGUgaG9t
-ZS7igJ0gIFRoZSBwb3B1bGF0aW9uIHdpdGhpbiB0aGVtIHdhcyBhIG1peCBhbmQgbWF0Y2ggb2YgYWxs
-IGFnZXMsIGRpYWdub3NlcywgYW5kIGJlaGF2aW9ycy4gIFdoZW4gYSBmYW1pbHkgY291bGQgbm8gbG9u
-Z2VyIGNhcmUgZm9yIGEgbG92ZWQgb25lLCB0aGV5IGhhZCBubyBjaG9pY2UgYnV0IHRvIHBsYWNlIGhp
-bSBvciBoZXIgaW4g4oCcdGhlIGhvbWUu4oCdICBJdCB3YXMgdGhlIG9ubHkgb3B0aW9uIGF2YWlsYWJs
-ZSB0byB0aGVtIGF0IHRoZSB0aW1lLgoKV2hlbiBBc3Npc3RlZCBMaXZpbmcgRmFjaWxpdGllcyB3ZXJl
-IGZpcnN0IGNyZWF0ZWQsIHRoZXkgd2VyZSBtb3JlIGxpa2UgaG90ZWxzIG9yIHJldGlyZW1lbnQgY29t
-bXVuaXRpZXMuICBJZiBwZW9wbGUgaGFkIGluY29udGluZW5jZSBpc3N1ZXMgb3IgcmVxdWlyZWQgbW9y
-ZSBvbmUgb24gb25lIHN1cGVydmlzZWQsIHBlcnNvbmFsIGNhcmUsIHRoZXkgd291bGQgaGF2ZSB0byBs
-ZWF2ZSB0aGUgZmFjaWxpdHkgYW5kIGdvIHRvIGEgbnVyc2luZyBob21lLgoKRHVyaW5nIHRoaXMgdGlt
-ZSB0aGVyZSB3YXMgYSB0cmVtZW5kb3VzIGdyb3d0aCBpbiB0aGUgc2VuaW9yIHBvcHVsYXRpb24uICBU
-aGlzIHdhcyBkdWUgdG8gbWFueSBmYWN0b3JzIHN1Y2ggYXMgc2VuaW9ycyBsaXZpbmcgbG9uZ2VyLCBh
-bmQgdGhlIGtub3dsZWRnZSB0aGF0IHRoZSBiYWJ5IGJvb21lcnMgd291bGQgYmUgYWdpbmcgaW4gdGhl
-IHZlcnkgbmVhciBmdXR1cmUuICBUaGUgZ292ZXJubWVudGFsIGFnZW5jaWVzLCBuYXRpb253aWRlLCBo
-YWQgdG8gbW9kaWZ5LCB1cGRhdGUsIGFuZCBmaW5kIG5ldyB3YXlzIHRvIGFjY29tbW9kYXRlIHRoZSBz
-ZW5pb3IgY29tbXVuaXR5LgoKIFRoZSBnb3Zlcm5tZW50IGFuZCB0aGUgaGVhbHRoIGNhcmUgaW5kdXN0
-cnkgd29ya2VkIHRvZ2V0aGVyIHRvIGNyZWF0ZSByZWd1bGF0ZWQgY29tbXVuaXRpZXMgdG8gcHJvdmlk
-ZSBhcHByb3ByaWF0ZSwgYXMgd2VsbCBhcyBwZXJzb25hbGl6ZWQgY2FyZSB0aGF0IHdvdWxkIG1lZXQg
-dGhlIG5lZWRzIG9mIGVhY2ggaW5kaXZpZHVhbC4gIFRoZXNlIGNoYW5nZXMgbm90IG9ubHkgaW1wcm92
-ZWQgdGhlIHF1YWxpdHkgb2YgCgwKc2VydmljZSwgYnV0IG1hZGUgaXQgbW9yZSBjb3N0LWVmZmVjdGl2
-ZSBmb3IgZmFtaWxpZXMgcGF5aW5nIHByaXZhdGVseS4gIEl0IHdhcyBhbHNvIG1vcmUgY29zdC1lZmZl
-Y3RpdmUgZm9yIHRoZSBnb3Zlcm5tZW50IHRvIGFzc2lzdCBhbiBpbmRpdmlkdWFsIGZpbmFuY2lhbGx5
-IGFuZCBtYWtlIHN1cmUgdGhleSB3ZXJlIHJlY2VpdmluZyB0aGUgcHJvcGVyIGNhcmUgaW4gYW4gQXNz
-aXN0ZWQgTGl2aW5nIEZhY2lsaXR5IHJhdGhlciB0aGFuIGEgU2tpbGxlZCBOdXJzaW5nIEhvbWUuCgpP
-bmNlIHRoZSBBc3Npc3RlZCBMaXZpbmcgRmFjaWxpdGllcyB3ZXJlIGVzdGFibGlzaGVkLCB0aGUgbmVl
-ZCBmb3Igb3RoZXIgdHlwZXMgb2YgYWx0ZXJuYXRpdmUgaG91c2luZyBjYW1lIHRvIGxpZ2h0LiAgU29t
-ZSBvZiB0aGVzZSB3ZXJlIEluZGVwZW5kZW50IExpdmluZyBGYWNpbGl0aWVzLCBBZHVsdCBGYW1pbHkg
-Q2FyZSBIb21lcywgQWx6aGVpbWVyLURlbWVudGlhIFVuaXRzIGFuZCBTa2lsbGVkIE51cnNpbmcgRmFj
-aWxpdGllcy4KCkV2ZW4gdG9kYXksIG1hbnkgcGVvcGxlIGRvIG5vdCBjb21wbGV0ZWx5IHVuZGVyc3Rh
-bmQgdGhlIGNvbmNlcHQgb2YsIG9yIHdoYXQgaXMgYWN0dWFsbHkgb2ZmZXJlZCBpbiBhbiBBc3Npc3Rl
-ZCBMaXZpbmcgRmFjaWxpdHkuCgpBc3Npc3RlZCBMaXZpbmcgRmFjaWxpdGllcyBhcmUgbGljZW5zZWQg
-YW5kIHJlZ3VsYXRlZCBieSB0aGUgc3RhdGUgaW4gd2hpY2ggdGhleSBhcmUgbG9jYXRlZC4gIEJlY2F1
-c2UgdGhlIGNvbmNlcHQgb2YgYW4gQXNzaXN0ZWQgTGl2aW5nIEZhY2lsaXR5IGNhbiB2YXJ5IGZyb20g
-c3RhdGUgdG8gc3RhdGUsIGVsaWdpYmlsaXR5IGNhbiBhbHNvIHZhcnkuCgpJbiBzb21lIGNhc2VzLCB0
-aGUgY3JpdGVyaW9uIGZvciBiZWluZyBhZG1pdHRlZCBpbnRvIGFuIEFzc2lzdGVkIExpdmluZyBGYWNp
-bGl0eSwgaXMgYXMgc2ltcGxlIGFzIGJlaW5nIGFibGUgdG8gdHJhbnNmZXIgZnJvbSBvbmUgY2hhaXIg
-dG8gYW5vdGhlciB3aXRoIGFzc2lzdGFuY2UuICBLZWVwIGluIG1pbmQsIHRoZSByZXNpZGVudCBtdXN0
-IGJlIGFibGUgdG8gYXNzaXN0IGluIGNvbXBsZXRpbmcgdGhpcyB0YXNrLiAgVGhlIHB1cnBvc2Ugb2Yg
-YW4gQXNzaXN0ZWQgTGl2aW5nIEZhY2lsaXR5IGlzIHRvIOKAnEFTU0lTVCzigJ0gbm90IHRvIGFjdHVh
-bGx5IGRvIHRoZSB0YXNrIGZvciB0aGUgcmVzaWRlbnQuICBUaGUgZ29hbCBpcyB0byBrZWVwIHRoZSBy
-ZXNpZGVudCBhcyBhY3RpdmUgYW5kIGludm9sdmVkIGluIGhpcyBvd24gcGVyc29uYWwgY2FyZSB3aGls
-ZSBwZXJmb3JtaW5nIHRoZSBBY3Rpdml0aWVzIG9mIERhaWx5IExpdmluZy4KCkFkbWlzc2lvbiBjcml0
-ZXJpYSBhcmUgbm90IG9ubHkgYmFzZWQgb24gY2xpbmljYWwgYXNwZWN0cywgYnV0IG9uIG1hbnkgb3Ro
-ZXIgaXNzdWVzIHN1Y2ggYXMgc2FmZXR5LiAgQSBwcm9zcGVjdGl2ZSByZXNpZGVudCBtdXN0IGJlIHBo
-eXNpY2FsbHkgYWJsZSB0byBleGl0IHRoZSBidWlsZGluZywgd2l0aCBhc3Npc3RhbmNlLCBpbiBhIGZp
-cmUgZHJpbGwgb3IgYW55IG90aGVyIGVtZXJnZW5jeSBzaXR1YXRpb24uICAgIAoMCkluIHNvbWUgY2Fz
-ZXMsIEFzc2lzdGVkIExpdmluZyBGYWNpbGl0aWVzIHdpbGwgbm90IGFkbWl0IHBlb3BsZSBldmVuIGlm
-IHRoZXkgY2FuIHRyYW5zZmVyLiAgIEVhY2ggZmFjaWxpdHkgaGFzIGl0cyBvd24gY3JpdGVyaWEsIHRo
-ZWlyIG93biBwb2xpY2llcywgYW5kIHRoZWlyIG93biB0YXJnZXQgcG9wdWxhdGlvbiB0eXBlLiAgVGhl
-eSBtYXkgbm90IHdhbnQgd2hlZWxjaGFpcnMgb3IgZXZlbiB3YWxrZXJzLiBUaGlzIGlzIHVwIHRvIHRo
-ZW0uICBUaGV5IGNhbiBpbXBsZW1lbnQgYW55IGhvdXNlIHBvbGljeSB0aGV5IGNob29zZSwgYXMgbG9u
-ZyBhcyB0aGV5IHJlbWFpbiBpbiBjb21wbGlhbmNlIHdpdGggdGhlIHN0YXRlIHJlZ3VsYXRpb25zLiAK
-CkJlY2F1c2UgQXNzaXN0ZWQgTGl2aW5nIEZhY2lsaXRpZXMgYXJlIHByaXZhdGVseSBvciBjb3Jwb3Jh
-dGVseSBvd25lZCwgdGhlIHBvbGljaWVzIHRoZXkgaW1wbGVtZW50IGFyZSBsZWdhbCBhcyBsb25nIGFz
-IHRoZXkgYXJlIGFwcHJvdmVkIGJ5IHRoZSBoZWFsdGggY2FyZSBhZG1pbmlzdHJhdGlvbiBpbiB3aGF0
-ZXZlciBzdGF0ZSB0aGV5IGFyZSBsb2NhdGVkLgoKQXNzaXN0ZWQgTGl2aW5nIEZhY2lsaXR5IGlzIHRo
-ZSBtb3N0IGNvbW1vbiB0ZXJtIHVzZWQgZm9yIHRoaXMgdHlwZSBvZiBob3VzaW5nLiAgU29tZSBvdGhl
-ciB0ZXJtcyBhcmU6CgogICAgICBSZXNpZGVudGlhbCBDYXJlIEZhY2lsaXRpZXMKICAgICAgUGVyc29u
-YWwgQ2FyZSBGYWNpbGl0aWVzCiAgICAgQWR1bHQgQ29uZ3JlZ2F0ZSBDYXJlIENvbW11bml0aWVzCiAg
-ICAgUmV0aXJlbWVudCBSZXNpZGVuY2VzCiAgICAgU3VwcG9ydGVkIENhcmUgRmFjaWxpdGllcwogICAg
-IFNlbmlvciBMaXZpbmcgQ29tbXVuaXRpZXMKSW4gRmxvcmlkYSwgYW5kIGluIG1hbnkgb3RoZXIgc3Rh
-dGVzLCBzaXgtYmVkIGZhY2lsaXRpZXMgYXJlIGJlY29taW5nIHZlcnkgcG9wdWxhciwgYXMgd2VsbC4g
-IFRoZXNlIHNtYWxsZXIgZmFjaWxpdGllcyBhcmUgZ2FpbmluZyBwb3B1bGFyaXR5IGR1ZSB0byB0aGUg
-ZmFjdCB0aGF0IHRoZXkgYXJlIGFibGUgdG8gcHJvdmlkZSBtb3JlIHBlcnNvbmFsaXplZCBzZXJ2aWNl
-cy4gIFRoZXNlIGZhY2lsaXRpZXMgYXJlIHVzdWFsbHkgaW4gcHJpdmF0ZSBob21lcyBhbmQgYXJlIGxp
-Y2Vuc2VkIGFuZCByZWd1bGF0ZWQgYnkgdGhlIHNhbWUgZ292ZXJubWVudGFsIGFnZW5jaWVzIHRoYXQg
-Z292ZXJuIGFsbCBvZiB0aGUgQXNzaXN0ZWQgTGl2aW5nIEZhY2lsaXRpZXMsIHJlZ2FyZGxlc3Mgb2Yg
-c2l6ZS4gIFRoZSBzbWFsbGVyIGhvbWVzIG11c3QgcGFzcyBhbGwgc3VydmV5cyBhbmQgaW5zcGVjdGlv
-bnMgcmVxdWlyZWQgYnkgdGhlIHN0YXRlIGluIHdoaWNoIHRoZXkgYXJlIGxvY2F0ZWQuIApUaGUgYXZl
-cmFnZSBhZ2Ugb2YgYSByZXNpZGVudCBpbiBhbiBBc3Npc3RlZCBMaXZpbmcgRmFjaWxpdHkgaXMgYSBs
-aXR0bGUgb3ZlciA4MCwgYW5kIHVzdWFsbHkgc29tZW9uZSB3aG8gaXMgaW4gbmVlZCBvZiBhdCBsZWFz
-dCBvbmUgb3IgbW9yZSBBY3Rpdml0aWVzIG9mIERhaWx5IExpdmluZy4gIFNvbWUgb2YgdGhlIEFjdGl2
-aXRpZXMgb2YgRGFpbHkgTGl2aW5nIChBRExzKSBhcmUgc2hvd2VyaW5nLCBkcmVzc2luZywgdG9pbGV0
-aW5nLCBlYXRpbmcgYW5kIG1lZGljYXRpb24gbWFuYWdlbWVudC4gIFRoZSBzdGFmZiBvZiBhbiBBc3Np
-c3RlZCBMaXZpbmcgRmFjaWxpdHkgaXMgdHJhaW5lZCB0byBwcm92aWRlIGFzc2lzdGFuY2Ugd2l0aCBh
-bGwgb2YgdGhvc2UgQURMcy4gCgpXZSBzaG91bGQgbWVudGlvbiBoZXJlIHRoYXQgdGhlIG5lZWQgZm9y
-IHNvbWUgdHlwZSBvZiBsaWZlc3R5bGUgY2hhbmdlIGlzIHVzdWFsbHkgZmlyc3QgaW5kaWNhdGVkIHdo
-ZW4gYSBwZXJzb24gaGFzIGRpZmZpY3VsdHkgaW4gb25lIG9yIG1vcmUgb2YgdGhlIGZvbGxvd2luZyBh
-cmVhczoKCiAgICAgRGlmZmljdWx0eSBpbiBzZWxmLWNhcmUsIHN1Y2ggYXMgYmF0aGluZywgZHJlc3Np
-bmcsIHRvaWxldGluZywgb3IgZWF0aW5nOwoKICAgICBEZWNsaW5lIGluIHBoeXNpY2FsIG9yIG1lbnRh
-bCBoZWFsdGg7CiAgICAgRmFtaWx5IG5vdCBhdmFpbGFibGUgdG8gcHJvdmlkZSBjYXJlIG9yIHN1cGVy
-dmlzaW9uLgpBcyB3ZSBtZW50aW9uZWQgYmVmb3JlLCBhcyBhIHJlc3VsdCBvZiBuZXcgcmVndWxhdGlv
-bnMgYW5kIGNoYW5nZXMgaW4gdGhlIGhlYWx0aCBjYXJlIGluZHVzdHJ5LCByZXNpZGVudHMgYXJlIG5v
-dyBwcm92aWRlZCB3aXRoIG1vcmUgc2VydmljZXMgaW4gYW4gQXNzaXN0ZWQgTGl2aW5nIEZhY2lsaXR5
-IHRvIGluY2x1ZGUsIGJ1dCBhcmUgbm90IGxpbWl0ZWQgdG86ICBob3VzZWtlZXBpbmcgYW5kIGxhdW5k
-cnkgc2VydmljZXMsIHRyYW5zcG9ydGF0aW9uIHRvIGRvY3RvcnMsIHNvY2lhbCBhY3Rpdml0aWVzIGFu
-ZCAyNCBob3VyIHN1cGVydmlzaW9uLgoKVGhlcmUgYXJlIG1hbnkgQXNzaXN0ZWQgTGl2aW5nIEZhY2ls
-aXRpZXMgdGhhdCBwcm92aWRlIGNhcmUgZm9yIHRoZSBtZW50YWxseSBpbGwgYW5kIHBlb3BsZSB3aXRo
-IGFkdmFuY2VkIGRlbWVudGlhIG9yIEFsemhlaW1lcuKAmXMgZGlzZWFzZS4gU2VjdXJlZCBhcmVhcyBm
-b3IgaW5kaXZpZHVhbHMgdGhhdCByZXF1aXJlIGNsb3NlciBzdXBlcnZpc2lvbiBpbiBvcmRlciB0byBt
-YW5hZ2UgdGhlaXIgYmVoYXZpb3JzIGFyZSBwcm92aWRlZC4gIFRoZXNlIGFyZWFzIGNhbiBiZSBhIHBh
-cnQgb2YgdGhlIG1haW4gYnVpbGRpbmcgb3IgYSBzZXBhcmF0ZSwgc2VsZi1jb250YWluZWQgdW5pdC4g
-CgpBc3Npc3RlZCBMaXZpbmcgRmFjaWxpdGllcyBvZmZlciBzb2NpYWwgYW5kIHJlY3JlYXRpb25hbCBw
-cm9ncmFtcywgZW50ZXJ0YWlubWVudCwgYW5kIG90aGVyIHN0aW11bGF0aW5nIGFjdGl2aXRpZXMuICBT
-dHVkaWVzIHNob3cgdGhhdCBzb2NpYWwgaW50ZXJhY3Rpb24gYW5kIGFjdGl2aXRpZXMgaGF2ZSBhIHN0
-cm9uZyBpbXBhY3Qgb24gdGhlIHdlbGwtIApiZWluZyBvZiB0aGUgZWxkZXJseS4gIFRoZSBnb2FsIG9m
-IHRoZSBBc3Npc3RlZCBMaXZpbmcgRmFjaWxpdHkgaXMgdG8gcHJvbW90ZSB0aGUgaW5kZXBlbmRlbmNl
-IG9mIHRoZSByZXNpZGVudHMgYXMgd2VsbCBhcyBwcm92aWRlIGEgaG9tZS1saWtlIHNldHRpbmcuICBI
-YXZpbmcgYW4gYWN0aXZlIGFuZCBzb2NpYWwgZW52aXJvbm1lbnQgY2FuIGhlbHAgdG8gYWNoaWV2ZSB0
-aGlzIGdvYWwuIAoKTW9zdCBmYWNpbGl0aWVzIGFyZSBwYWlkIGZvciBieSBwcml2YXRlLCDigJxvdXQg
-b2YgcG9ja2V04oCdIGZ1bmRzLiAgSG93ZXZlciwgZmluYW5jaWFsIGFzc2lzdGFuY2UgY2FuIGJlIGZv
-dW5kIHRocm91Z2ggdGhlIFZldGVyYW7igJlzIEFkbWluaXN0cmF0aW9uLCBMb25nIFRlcm0gQ2FyZSBJ
-bnN1cmFuY2UsIGFuZCBzb21lIHN0YXRlIHByb2dyYW1zIGlmIGNlcnRhaW4gcmVxdWlyZW1lbnRzIGFy
-ZSBtZXQuCgpUaGUgbWFqb3JpdHkgb2YgZmFjaWxpdGllcyByZWNlaXZlIHBheW1lbnRzIG9uIGEgbW9u
-dGhseSBiYXNpcywgc2ltaWxhciB0byBhIHJlbnQuIE1hbnkgcmVxdWlyZSBhIHNlY3VyaXR5IGRlcG9z
-aXQgb3IgYSBjb21tdW5pdHkgZmVlIHdoaWNoIG1heSBiZSByZWZ1bmRhYmxlLCBkZXBlbmRpbmcgb24g
-dGhlIGNvbW11bml0eSBwb2xpY3kuCgpJdCBpcyBpbXBvcnRhbnQgdG8gbm90ZSB0aGF0IGFkZGl0aW9u
-YWwgZmVlcyBtYXkgYmUgaW5jbHVkZWQgaW4gdGhlIG1vbnRobHkgcmF0ZS4gIFRoZXJlIG1heSBiZSBm
-ZWVzIGZvciDigJxhIGxhIGNhcnRl4oCdIHNlcnZpY2VzIG9yIExldmVsIG9mIENhcmUuICBTb21lIGNv
-bW11bml0aWVzIGRvIGhhdmUgYW4gYWxsLWluY2x1c2l2ZSByYXRlIHdoaWNoIG1heSBiZSBtb3JlIGJl
-bmVmaWNpYWwgZm9yIHRoZSBwcm9zcGVjdGl2ZSByZXNpZGVudC4gIFRoaXMgd2lsbCBhbGxvdyBmb3Ig
-bW9yZSBjYXJlIGFzIG5lZWRlZCB3aGlsZSBtYWludGFpbmluZyB0aGUgc2FtZSBtb250aGx5IHJhdGUu
-IAoKRXZlcnkgc3RhdGUgcmVxdWlyZXMgYSBjb250cmFjdC4gIEluIHRoaXMgY29udHJhY3QsIHlvdSB3
-aWxsIGZpbmQgdGhlIG1vbnRobHkgY29zdHMgYW5kIGEgbGlzdCBvZiBzZXJ2aWNlcyB0aGF0IHRoZSBp
-bmRpdmlkdWFsIHdpbGwgYmUgcmVjZWl2aW5nIGF0IHRoZSBmYWNpbGl0eS4gQ29udHJhY3RzIG1heSBi
-ZSBicm9rZW4gYnkgZ2l2aW5nIGEgd3JpdHRlbiBub3RpY2UgaW4gdGhlIHRpbWUgZnJhbWUgcmVxdWly
-ZWQgYnkgdGhlIHN0YXRlIGluIHdoaWNoIHRoZSBmYWNpbGl0eSBpcyBsb2NhdGVkIGFuZCBieSB0aGUg
-Y29tbXVuaXR5IHBvbGljeS4KCk92ZXJhbGwsIHRoZSBiZXN0IHdheSB0byBkZXNjcmliZSBBc3Npc3Rl
-ZCBMaXZpbmcgaXMgdG8gdGhpbmsgb2YgaXQgYXMgYSBicmlkZ2UgYmV0d2VlbiBsaXZpbmcgYXQgaG9t
-ZSBhbmQgbGl2aW5nIGluIGEgbnVyc2luZyBob21lLiAgQXNzaXN0ZWQgTGl2aW5nIGhhcyBhIHJlc2lk
-ZW50aWFsIGZvY3VzIHdpdGggYSBob21lLWxpa2UgZW52aXJvbm1lbnQuICBBIG51cnNpbmcgaG9tZSBp
-cyBwcmltYXJpbHkgYSBtZWRpY2FsIGluc3RpdHV0aW9uLgoMCkFzc2lzdGVkIExpdmluZyBpcyBhbiBl
-eGNpdGluZyBvcHRpb24gZm9yIGluZGl2aWR1YWxzIHdobyB3YW50IHRvIG1heGltaXplIHRoZWlyIGlu
-ZGVwZW5kZW5jZSB3aGlsZSBsaXZpbmcgaW4gdGhlIHNhZmV0eSBvZiBhIHN1cGVydmlzZWQsIHJlc2lk
-ZW50aWFsIHNldHRpbmcuCg
+                                        <attributedString key="attributedText">
+                                            <fragment>
+                                                <mutableString key="content">In the past two decades, Assisted Living Facilities have grown nationwide in the health care industry.
+
+There are approximately 33,000 Assisted Living Facilities operating in the United States today.  The number of residents living in a facility can range from just a few to over 300, with the most common size housing between 25 and 120 individuals.
+
+Years ago, everyone referred to all nursing facilities as “the home.”  The population within them was a mix and match of all ages, diagnoses, and behaviors.  When a family could no longer care for a loved one, they had no choice but to place him or her in “the home.”  It was the only option available to them at the time.
+
+When Assisted Living Facilities were first created, they were more like hotels or retirement communities.  If people had incontinence issues or required more one on one supervised, personal care, they would have to leave the facility and go to a nursing home.
+
+During this time there was a tremendous growth in the senior population.  This was due to many factors such as seniors living longer, and the knowledge that the baby boomers would be aging in the very near future.  The governmental agencies, nationwide, had to modify, update, and find new ways to accommodate the senior community.
+
+The government and the health care industry worked together to create regulated communities to provide appropriate, as well as personalized care that would meet the needs of each individual.  These changes not only improved the quality of service, but made it more cost-effective for families paying privately.  It was also more cost-effective for the government to assist an individual financially and make sure they were receiving the proper care in an Assisted Living Facility rather than a Skilled Nursing Home.
+
+Once the Assisted Living Facilities were established, the need for other types of alternative housing came to light.  Some of these were Independent Living Facilities, Adult Family Care Homes, Alzheimer-Dementia Units and Skilled Nursing Facilities.
+
+Even today, many people do not completely understand the concept of, or what is actually offered in an Assisted Living Facility.
+
+Assisted Living Facilities are licensed and regulated by the state in which they are located.  Because the concept of an Assisted Living Facility can vary from state to state, eligibility can also vary.
+
+In some cases, the criterion for being admitted into an Assisted Living Facility, is as simple as being able to transfer from one chair to another with assistance.  Keep in mind, the resident must be able to assist in completing this task.  The purpose of an Assisted Living Facility is to “ASSIST,” not to actually do the task for the resident.  The goal is to keep the resident as active and involved in his own personal care while performing the Activities of Daily Living.
+
+Admission criteria are not only based on clinical aspects, but on many other issues such as safety.  A prospective resident must be physically able to exit the building, with assistance, in a fire drill or any other emergency situation.    
+
+In some cases, Assisted Living Facilities will not admit people even if they can transfer.   Each facility has its own criteria, their own policies, and their own target population type.  They may not want wheelchairs or even walkers. This is up to them.  They can implement any house policy they choose, as long as they remain in compliance with the state regulations. 
+
+Because Assisted Living Facilities are privately or corporately owned, the policies they implement are legal as long as they are approved by the health care administration in whatever state they are located.
+
+Assisted Living Facility is the most common term used for this type of housing.  Some other terms are:
+
+     </mutableString>
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="• ">
+                                                <attributes>
+                                                    <font key="NSFont" size="17" name="AmericanTypewriter-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">Residential Care Facilities
+     </string>
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="• ">
+                                                <attributes>
+                                                    <font key="NSFont" size="17" name="AmericanTypewriter-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">Personal Care Facilities
+     </string>
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="• ">
+                                                <attributes>
+                                                    <font key="NSFont" size="17" name="AmericanTypewriter-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">Adult Congregate Care Communities
+     </string>
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="• ">
+                                                <attributes>
+                                                    <font key="NSFont" size="17" name="AmericanTypewriter-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">Retirement Residences
+     </string>
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="• ">
+                                                <attributes>
+                                                    <font key="NSFont" size="17" name="AmericanTypewriter-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">Supported Care Facilities
+     </string>
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="• ">
+                                                <attributes>
+                                                    <font key="NSFont" size="17" name="AmericanTypewriter-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <mutableString key="content">Senior Living Communities 
+In Florida, and in many other states, six-bed facilities are becoming very popular, as well.  These smaller facilities are gaining popularity due to the fact that they are able to provide more personalized services.  These facilities are usually in private homes and are licensed and regulated by the same governmental agencies that govern all of the Assisted Living Facilities, regardless of size.  The smaller homes must pass all surveys and inspections required by the state in which they are located. 
+ The average age of a resident in an Assisted Living Facility is a little over 80, and usually someone who is in need of at least one or more Activities of Daily Living.  Some of the Activities of Daily Living (ADLs) are showering, dressing, toileting, eating and medication management.  The staff of an Assisted Living Facility is trained to provide assistance with all of those ADLs. 
+
+We should mention here that the need for some type of lifestyle change is usually first indicated when a person has difficulty in one or more of the following areas:
+
+     </mutableString>
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="• ">
+                                                <attributes>
+                                                    <font key="NSFont" size="17" name="AmericanTypewriter-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">Difficulty in self-care, such as bathing, dressing, toileting, or eating;
+     </string>
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="• ">
+                                                <attributes>
+                                                    <font key="NSFont" size="17" name="AmericanTypewriter-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content">Decline in physical or mental health;
+     </string>
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="• ">
+                                                <attributes>
+                                                    <font key="NSFont" size="17" name="AmericanTypewriter-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <mutableString key="content">Family not available to provide care or supervision. 
+As we mentioned before, as a result of new regulations and changes in the health care industry, residents are now provided with more services in an Assisted Living Facility to include, but are not limited to:  housekeeping and laundry services, transportation to doctors, social activities and 24 hour supervision.
+
+There are many Assisted Living Facilities that provide care for the mentally ill and people with advanced dementia or Alzheimer’s disease. Secured areas for individuals that require closer supervision in order to manage their behaviors are provided.  These areas can be a part of the main building or a separate, self-contained unit. 
+
+Assisted Living Facilities offer social and recreational programs, entertainment, and other stimulating activities.  Studies show that social interaction and activities have a strong impact on the well- being of the elderly.  The goal of the Assisted Living Facility is to promote the independence of the residents as well as provide a home-like setting.  Having an active and social environment can help to achieve this goal. 
+
+Most facilities are paid for by private, “out of pocket” funds.  However, financial assistance can be found through the Veteran’s Administration, Long Term Care Insurance, and some state programs if certain requirements are met.
+
+The majority of facilities receive payments on a monthly basis, similar to a rent. Many require a security deposit or a community fee which may be refundable, depending on the community policy.
+
+It is important to note that additional fees may be included in the monthly rate.  There may be fees for “a la carte” services or Level of Care.  Some communities do have an all-inclusive rate which may be more beneficial for the prospective resident.  This will allow for more care as needed while maintaining the same monthly rate. 
+
+Every state requires a contract.  In this contract, you will find the monthly costs and a list of services that the individual will be receiving at the facility. Contracts may be broken by giving a written notice in the time frame required by the state in which the facility is located and by the community policy.
+
+Overall, the best way to describe Assisted Living is to think of it as a bridge between living at home and living in a nursing home.  Assisted Living has a residential focus with a home-like environment.  A nursing home is primarily a medical institution.
+
+Assisted Living is an exciting option for individuals who want to maximize their independence while living in the safety of a supervised, residential setting.  </mutableString>
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="Next up: Chapter 2 - In Other Words">
+                                                <attributes>
+                                                    <font key="NSFont" size="17" name="Arial-BoldMT"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment>
+                                                <string key="content" base64-UTF8="YES">
+Cg
 </string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <attributes>
+                                                    <font key="NSFont" metaFont="system" size="17"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="NQU-4t-fWH" firstAttribute="centerX" secondItem="SVV-XJ-aZo" secondAttribute="centerX" id="AVI-bK-mT2"/>
+                                    <constraint firstItem="NQU-4t-fWH" firstAttribute="leading" secondItem="SVV-XJ-aZo" secondAttribute="leadingMargin" id="Gtb-fB-KbZ"/>
+                                    <constraint firstItem="NQU-4t-fWH" firstAttribute="centerY" secondItem="SVV-XJ-aZo" secondAttribute="centerY" id="T7p-Dq-dsz"/>
+                                    <constraint firstAttribute="bottom" secondItem="NQU-4t-fWH" secondAttribute="bottom" id="hH6-ny-AHt"/>
+                                    <constraint firstItem="NQU-4t-fWH" firstAttribute="top" secondItem="SVV-XJ-aZo" secondAttribute="top" id="i2f-wp-bJz"/>
+                                    <constraint firstItem="NQU-4t-fWH" firstAttribute="trailing" secondItem="SVV-XJ-aZo" secondAttribute="trailingMargin" id="ufM-FW-WZJ"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ifT-ZF-Ucy" firstAttribute="bottom" secondItem="SVV-XJ-aZo" secondAttribute="bottom" constant="4" id="8ix-R1-wBs"/>
-                            <constraint firstItem="SVV-XJ-aZo" firstAttribute="leading" secondItem="ifT-ZF-Ucy" secondAttribute="leading" id="IV0-fy-XPw"/>
-                            <constraint firstItem="SVV-XJ-aZo" firstAttribute="top" secondItem="ifT-ZF-Ucy" secondAttribute="top" id="tYC-ZL-JCI"/>
-                            <constraint firstItem="SVV-XJ-aZo" firstAttribute="trailing" secondItem="ifT-ZF-Ucy" secondAttribute="trailing" id="uVg-GK-TID"/>
+                            <constraint firstItem="SVV-XJ-aZo" firstAttribute="centerX" secondItem="TpH-yy-iBV" secondAttribute="centerX" id="22u-0t-p83"/>
+                            <constraint firstItem="SVV-XJ-aZo" firstAttribute="bottom" secondItem="ifT-ZF-Ucy" secondAttribute="bottom" id="VZL-zn-mEE"/>
+                            <constraint firstItem="SVV-XJ-aZo" firstAttribute="leading" secondItem="ifT-ZF-Ucy" secondAttribute="leading" id="Vj1-20-4Jf"/>
+                            <constraint firstItem="SVV-XJ-aZo" firstAttribute="top" secondItem="ifT-ZF-Ucy" secondAttribute="top" id="ihu-Un-nBk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ifT-ZF-Ucy"/>
                     </view>
@@ -1466,7 +1536,7 @@ http://www.alz.org/index.asp
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="dE6-B9-50J" customClass="QuestionsTableViewCell" customModule="EYNTA" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dE6-B9-50J" id="taQ-c5-EDz">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -1494,7 +1564,7 @@ http://www.alz.org/index.asp
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ZoZ-qs-itN">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZoZ-qs-itN" id="iXP-zK-6l6">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -1529,7 +1599,7 @@ http://www.alz.org/index.asp
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="O19-y0-Jnh" id="hix-gl-o3y">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
