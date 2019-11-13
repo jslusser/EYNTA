@@ -26,7 +26,7 @@ class Q5TableViewController: UITableViewController, CellProtocol {
             selectedQuestions.append(questions[indexPath.row])
         } else {
             // MARK: - This logic is here in the event that a given ingredient isn't in the selected ingredients array
-            guard let index = selectedQuestions.index(where: { $0.questionCopy == questions[indexPath.row].questionCopy }) else { return }
+            guard let index = selectedQuestions.firstIndex(where: { $0.questionCopy == questions[indexPath.row].questionCopy }) else { return }
             selectedQuestions.remove(at: index)
         }
     }
