@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K4N-HZ-usf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K4N-HZ-usf">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15508"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -402,12 +402,10 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SVV-XJ-aZo">
                                 <rect key="frame" x="0.0" y="44" width="375" height="623"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NQU-4t-fWH">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NQU-4t-fWH">
                                         <rect key="frame" x="8" y="0.0" width="359" height="623"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <attributedString key="attributedText">
-                                            <fragment>
-                                                <string key="content">In the past two decades, Assisted Living Facilities have grown nationwide in the health care industry.
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <string key="text">In the past two decades, Assisted Living Facilities have grown nationwide in the health care industry.
 
 There are approximately 33,000 Assisted Living Facilities operating in the United States today.  The number of residents living in a facility can range from just a few to over 300, with the most common size housing between 25 and 120 individuals.
 
@@ -435,137 +433,20 @@ Because Assisted Living Facilities are privately or corporately owned, the polic
 
 Assisted Living Facility is the most common term used for this type of housing.  Some other terms are:
 
-     </string>
-                                                <attributes>
-                                                    <font key="NSFont" metaFont="system" size="17"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment content="• ">
-                                                <attributes>
-                                                    <font key="NSFont" size="17" name="AmericanTypewriter-Bold"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment>
-                                                <string key="content">Residential Care Facilities
-     </string>
-                                                <attributes>
-                                                    <font key="NSFont" metaFont="system" size="17"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment content="• ">
-                                                <attributes>
-                                                    <font key="NSFont" size="17" name="AmericanTypewriter-Bold"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment>
-                                                <string key="content">Personal Care Facilities
-     </string>
-                                                <attributes>
-                                                    <font key="NSFont" metaFont="system" size="17"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment content="• ">
-                                                <attributes>
-                                                    <font key="NSFont" size="17" name="AmericanTypewriter-Bold"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment>
-                                                <string key="content">Adult Congregate Care Communities
-     </string>
-                                                <attributes>
-                                                    <font key="NSFont" metaFont="system" size="17"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment content="• ">
-                                                <attributes>
-                                                    <font key="NSFont" size="17" name="AmericanTypewriter-Bold"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment>
-                                                <string key="content">Retirement Residences
-     </string>
-                                                <attributes>
-                                                    <font key="NSFont" metaFont="system" size="17"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment content="• ">
-                                                <attributes>
-                                                    <font key="NSFont" size="17" name="AmericanTypewriter-Bold"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment>
-                                                <string key="content">Supported Care Facilities
-     </string>
-                                                <attributes>
-                                                    <font key="NSFont" metaFont="system" size="17"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment content="• ">
-                                                <attributes>
-                                                    <font key="NSFont" size="17" name="AmericanTypewriter-Bold"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment>
-                                                <string key="content">Senior Living Communities 
+     • Residential Care Facilities
+     • Personal Care Facilities
+     • Adult Congregate Care Communities
+     • Retirement Residences
+     • Supported Care Facilities
+     • Senior Living Communities 
 In Florida, and in many other states, six-bed facilities are becoming very popular, as well.  These smaller facilities are gaining popularity due to the fact that they are able to provide more personalized services.  These facilities are usually in private homes and are licensed and regulated by the same governmental agencies that govern all of the Assisted Living Facilities, regardless of size.  The smaller homes must pass all surveys and inspections required by the state in which they are located. 
  The average age of a resident in an Assisted Living Facility is a little over 80, and usually someone who is in need of at least one or more Activities of Daily Living.  Some of the Activities of Daily Living (ADLs) are showering, dressing, toileting, eating and medication management.  The staff of an Assisted Living Facility is trained to provide assistance with all of those ADLs. 
 
 We should mention here that the need for some type of lifestyle change is usually first indicated when a person has difficulty in one or more of the following areas:
 
-     </string>
-                                                <attributes>
-                                                    <font key="NSFont" metaFont="system" size="17"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment content="• ">
-                                                <attributes>
-                                                    <font key="NSFont" size="17" name="AmericanTypewriter-Bold"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment>
-                                                <string key="content">Difficulty in self-care, such as bathing, dressing, toileting, or eating;
-     </string>
-                                                <attributes>
-                                                    <font key="NSFont" metaFont="system" size="17"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment content="• ">
-                                                <attributes>
-                                                    <font key="NSFont" size="17" name="AmericanTypewriter-Bold"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment>
-                                                <string key="content">Decline in physical or mental health;
-     </string>
-                                                <attributes>
-                                                    <font key="NSFont" metaFont="system" size="17"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment content="• ">
-                                                <attributes>
-                                                    <font key="NSFont" size="17" name="AmericanTypewriter-Bold"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment>
-                                                <string key="content">Family not available to provide care or supervision. 
+     • Difficulty in self-care, such as bathing, dressing, toileting, or eating;
+     • Decline in physical or mental health;
+     • Family not available to provide care or supervision. 
 As we mentioned before, as a result of new regulations and changes in the health care industry, residents are now provided with more services in an Assisted Living Facility to include, but are not limited to:  housekeeping and laundry services, transportation to doctors, social activities and 24 hour supervision.
 
 There are many Assisted Living Facilities that provide care for the mentally ill and people with advanced dementia or Alzheimer’s disease. Secured areas for individuals that require closer supervision in order to manage their behaviors are provided.  These areas can be a part of the main building or a separate, self-contained unit. 
@@ -582,28 +463,10 @@ Every state requires a contract.  In this contract, you will find the monthly co
 
 Overall, the best way to describe Assisted Living is to think of it as a bridge between living at home and living in a nursing home.  Assisted Living has a residential focus with a home-like environment.  A nursing home is primarily a medical institution.
 
-Assisted Living is an exciting option for individuals who want to maximize their independence while living in the safety of a supervised, residential setting.  </string>
-                                                <attributes>
-                                                    <font key="NSFont" metaFont="system" size="17"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment content="Next up: Chapter 2 - In Other Words">
-                                                <attributes>
-                                                    <font key="NSFont" size="17" name="Arial-BoldMT"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment>
-                                                <string key="content" base64-UTF8="YES">
-Cg
+Assisted Living is an exciting option for individuals who want to maximize their independence while living in the safety of a supervised, residential setting.  Next up: Chapter 2 - In Other Words
 </string>
-                                                <attributes>
-                                                    <font key="NSFont" metaFont="system" size="17"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                        </attributedString>
+                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
@@ -651,7 +514,7 @@ Cg
                                         <rect key="frame" x="8" y="68" width="359" height="519"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <mutableString key="text" base64-UTF8="YES">
+                                        <string key="text" base64-UTF8="YES">
 Tm93IHRoYXQgeW91IGhhdmUgcmVhZCBhbGwgb2YgdGhlIHRlY2huaWNhbCBzdHVmZiwgbGV04oCZcyBz
 aXQgZG93biBhbmQgY2hhdC4KCkFzIHByb2Zlc3Npb25hbHMsIHdlIHRha2Ugb3VyIGpvYiB2ZXJ5IHNl
 cmlvdXNseS4gIE91ciBqb2IgaXMgdG8gYXNzaXN0IHNlbmlvcnMgYW5kIGZhbWlsaWVzIGFuZCBoZWFs
@@ -727,7 +590,7 @@ YSBjbG9zZXQgYW5kIGEgYmF0aHJvb20uICBUaGUgaW1wb3J0YW50IHRoaW5nIGlzIHRoYXQgeW91IG11
 c3QgdHJ5IHRvIGp1ZGdlIGV2ZXJ5dGhpbmcgYmFzZWQgb24gd2hhdCBUSEVZIHdpbGwgcmVxdWlyZSwg
 bm90IHdoYXQgWU9VIHJlcXVpcmUuICBJbiBvdGhlciB3b3Jkcywgd2hvIGlzIHJlYWxseSBtb3Zpbmcg
 aW4/4oCo4oCoTmV4dCB1cDogQ2hhcHRlciAzIC0gQmVmb3JlIFlvdSBHbw
-</mutableString>
+</string>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -763,7 +626,7 @@ aW4/4oCo4oCoTmV4dCB1cDogQ2hhcHRlciAzIC0gQmVmb3JlIFlvdSBHbw
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="i1R-OZ-rZ4">
                                         <rect key="frame" x="8" y="20" width="359" height="583"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <mutableString key="text">Now that you have chosen the facilities you want to tour, it’s time to make an appointment. Ask to speak with the Marketing or Sales Director.  Tell them that you would like to ask a few questions before you decide to tour.
+                                        <string key="text">Now that you have chosen the facilities you want to tour, it’s time to make an appointment. Ask to speak with the Marketing or Sales Director.  Tell them that you would like to ask a few questions before you decide to tour.
 
 What is the Marketing Director’s name?  Will that person be the one to tour you?  Can he or she tour you on a weekend?  If not, is there an Assistant Marketing Director?  What is his or her name?  Will he or she be able to tour you on a weekend?
 
@@ -783,7 +646,7 @@ After this phone conversation, if you feel this facility may be worth looking at
 
 From what you have just read, it makes it even clearer why you don’t want to be a “showupper.”  All of the above things have to be discussed in detail with each family.
 
-Making an appointment is “where it’s at!”  Next up: Chapter 4 - General Aspects of Community</mutableString>
+Making an appointment is “where it’s at!”  Next up: Chapter 4 - General Aspects of Community</string>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -829,7 +692,7 @@ Making an appointment is “where it’s at!”  Next up: Chapter 4 - Genera
                                         <rect key="frame" x="8" y="8" width="359" height="406"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <mutableString key="text" base64-UTF8="YES">
+                                        <string key="text" base64-UTF8="YES">
 WW91IGFyZSBhYm91dCB0byBlbnRlciB0aGUg4oCccXVlc3Rpb27igJ0gc2VjdGlvbuKAnSBvZiBvdXIg
 Ym9vay4KCk5vdGU6ICBZb3Ugd2lsbCBuZWVkIGEgeWVsbG93IGhpZ2hsaWdodGVyIGZyb20gdGhpcyBw
 b2ludCBvbi4KClRoaXMgc2VjdGlvbiB3aWxsIGhlbHAgeW91IG9yZ2FuaXplIHlvdXIgdGhvdWdodHMs
@@ -866,7 +729,7 @@ ZGljYXRpdmUgb2YgdGhlIGNhcmUgb25lIHdvdWxkIHJlY2VpdmUgaW5zaWRlIHRoZSBmYWNpbGl0eS4K
 CuKApmlmIHRoZSBwbGFudHMgYXJlIGR5aW5nIG9mIHRoaXJzdCBhbmQgdGhlIHBhaW50IGlzIHBlZWxp
 bmcgb2ZmIHRoZSB3YWxscywgeW91IG5lZWQgdG8gcGVlbCBvbiBvdXQgb2YgdGhlcmUgQVNBUCHigKji
 gKhOZXh0IHVwOiBDaGFwdGVyIDUgLSBMaWNlbnNlcyAmIEFkbWluaXN0cmF0aW9uA
-</mutableString>
+</string>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -908,11 +771,11 @@ gKhOZXh0IHVwOiBDaGFwdGVyIDUgLSBMaWNlbnNlcyAmIEFkbWluaXN0cmF0aW9uA
                                         <rect key="frame" x="8" y="8" width="357" height="314"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <mutableString key="text">In the following chapter, you will be asking questions about documents, policies and inspections.  These questions will reveal the credibility and professionalism of the individuals that operate the company.  Are they organized?  Do they have all of the things you are asking for?  Remember, the Marketing or Sales Representative may not have everything immediately on hand.  Give him a few minutes to produce the requested documents.
+                                        <string key="text">In the following chapter, you will be asking questions about documents, policies and inspections.  These questions will reveal the credibility and professionalism of the individuals that operate the company.  Are they organized?  Do they have all of the things you are asking for?  Remember, the Marketing or Sales Representative may not have everything immediately on hand.  Give him a few minutes to produce the requested documents.
 
 (insert image here)
 
-...although very important, you will be asking questions about some pretty boring stuff.  But, if things you are asking for are not shown to you, it’s time to move on.  Next up: Chapter 6 - Contract</mutableString>
+...although very important, you will be asking questions about some pretty boring stuff.  But, if things you are asking for are not shown to you, it’s time to move on.  Next up: Chapter 6 - Contract</string>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -952,11 +815,11 @@ gKhOZXh0IHVwOiBDaGFwdGVyIDUgLSBMaWNlbnNlcyAmIEFkbWluaXN0cmF0aW9uA
                                         <rect key="frame" x="8" y="8" width="359" height="267"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <mutableString key="text">Yet another chapter on policies and procedures!  Boring, but an absolute must! 
+                                        <string key="text">Yet another chapter on policies and procedures!  Boring, but an absolute must! 
 
 Here, you will learn all about important costs that you may or may not incur during your loved one’s stay at the facility you choose.  In this chapter you will get an ALF education, for sure!
 
-...this is the MONEY chapter. You will see the words, “money, fees, rates, up front costs, and increases, in every other question.  It’s scary, but it’s better to know everything up front and leave nothing to chance.  Our philosophy comes into play here... “…educate and therefore protect...”  Next up: Chapter 7 - Observations/Tour</mutableString>
+...this is the MONEY chapter. You will see the words, “money, fees, rates, up front costs, and increases, in every other question.  It’s scary, but it’s better to know everything up front and leave nothing to chance.  Our philosophy comes into play here... “…educate and therefore protect...”  Next up: Chapter 7 - Observations/Tour</string>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -996,11 +859,11 @@ Here, you will learn all about important costs that you may or may not incur dur
                                         <rect key="frame" x="0.0" y="0.0" width="367" height="283"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <mutableString key="text">Now, you are going to actually SEE the facility.  Keep your eyes wide open!  You are mainly looking for safety issues.
+                                        <string key="text">Now, you are going to actually SEE the facility.  Keep your eyes wide open!  You are mainly looking for safety issues.
 
 Also, look around to see if your loved ones will fit in well with the residents that you see.  Do they look well cared for?  Say hi to them, and ask them how they like it there.
 
-…if you trip over an obstacle on the floor, you have not found the right place.  If you fall and slide down the hallway into someone’s room, you definitely have not found the right place.  Oh, and if a staff member is smoking in the bathroom….it’s time to move on.  Next up: Chapter 8 - Accommodations</mutableString>
+…if you trip over an obstacle on the floor, you have not found the right place.  If you fall and slide down the hallway into someone’s room, you definitely have not found the right place.  Oh, and if a staff member is smoking in the bathroom….it’s time to move on.  Next up: Chapter 8 - Accommodations</string>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1037,7 +900,7 @@ Also, look around to see if your loved ones will fit in well with the residents 
                                         <rect key="frame" x="0.0" y="0.0" width="371" height="465"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <mutableString key="text">This is the part of the book where you have to ask a lot of “money questions.”  Every room you look at could have a different rate depending on the size, the location and whether it’s for one person or two.
+                                        <string key="text">This is the part of the book where you have to ask a lot of “money questions.”  Every room you look at could have a different rate depending on the size, the location and whether it’s for one person or two.
 
 Can your loved one share a room with someone else?  There are two good reasons why that would be a good thing.  One is that it will definitely be less expensive, and the other is that he or she will have someone to talk to.  If you decide that sharing a room is a possibility, talk to the possible roommate of your loved one.  See if you think it would be a good match.
 
@@ -1045,7 +908,7 @@ Make sure the room has all the safety features that are needed.  See if the air-
 
 
 
-…if the roommate has icicles hanging off her nose, and she’s comfortable, this may not be a good fit for your loved one.  Next up: Chapter 9 - Medical and Nursing</mutableString>
+…if the roommate has icicles hanging off her nose, and she’s comfortable, this may not be a good fit for your loved one.  Next up: Chapter 9 - Medical and Nursing</string>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1082,7 +945,7 @@ Make sure the room has all the safety features that are needed.  See if the air-
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="436"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <mutableString key="text">It’s hard to say if one chapter is more important than another, but this one’s all about the CARE your loved one is going to receive.  That’s VERY important!
+                                        <string key="text">It’s hard to say if one chapter is more important than another, but this one’s all about the CARE your loved one is going to receive.  That’s VERY important!
 
 These questions will determine how comfortable you will feel leaving your family member in the hands of the staff of the particular facility.
 
@@ -1090,7 +953,7 @@ Ask them to show you how they dispense the medications. Where do they keep the m
 
 If you are really interested in this facility, tell the Marketing Director that you would like to have a meeting with the Director of Nursing before making your decision.
 
-There is no “in other words” here.  This is serious stuff!  Next up: Chapter 10 - Food Services</mutableString>
+There is no “in other words” here.  This is serious stuff!  Next up: Chapter 10 - Food Services</string>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1127,7 +990,7 @@ There is no “in other words” here.  This is serious stuff!  Next up: Cha
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="491"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <mutableString key="text">If you ask a potential resident, “What is the most important question you would like to ask the facility?”  It’s a guarantee that they will say. “Is the food good?”
+                                        <string key="text">If you ask a potential resident, “What is the most important question you would like to ask the facility?”  It’s a guarantee that they will say. “Is the food good?”
 
 Many people need special diets, whether for health reasons or religious reasons, or just because that’s what they like.  In this chapter, you will be able to ask everything you can think of (and some you didn’t think of, but we did, regarding food service).
 
@@ -1136,7 +999,7 @@ When you are touring, if you think this facility may be in the running, then, as
 
 
 
-…If you did not get a “Happy Meal” at the facility, and you find yourselves supersizing every item at McDonalds after your tour, this may not be the dining room for you.  Next up: Chapter 11 - Activities</mutableString>
+…If you did not get a “Happy Meal” at the facility, and you find yourselves supersizing every item at McDonalds after your tour, this may not be the dining room for you.  Next up: Chapter 11 - Activities</string>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1173,7 +1036,7 @@ When you are touring, if you think this facility may be in the running, then, as
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="469"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <mutableString key="text">I can not begin to impress upon you how important this department is!  This department will determine how your loved ones will fill up their days. 
+                                        <string key="text">I can not begin to impress upon you how important this department is!  This department will determine how your loved ones will fill up their days. 
 
 Get the Activity Calendar.  Look it over.  Make sure there are a lot of choices.  Depending on the type of facility required, there should be musical programs, parties, religious services, arts and crafts, adult discussion groups, shopping, movies, and games.  Where would we be without Bingo?
 
@@ -1183,7 +1046,7 @@ Observe the Activity Director.  Is he/she energetic?  Does he/she have a good pe
 
 
 
-…If the Activity Director resembles the farmer holding the pitchfork in that famous work of art, the place just might be a little too low key!  Next up: Chapter 12 - Housekeeping and Maintenance</mutableString>
+…If the Activity Director resembles the farmer holding the pitchfork in that famous work of art, the place just might be a little too low key!  Next up: Chapter 12 - Housekeeping and Maintenance</string>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1220,7 +1083,7 @@ Observe the Activity Director.  Is he/she energetic?  Does he/she have a good pe
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="461"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <mutableString key="text">These two departments have a lot to do with keeping your loved one comfortable and in a clean environment.
+                                        <string key="text">These two departments have a lot to do with keeping your loved one comfortable and in a clean environment.
 
 The Maintenance Director is there to help when things are broken or not in proper working order, such as the air-conditioning or something as small as making a new key. 
 
@@ -1230,7 +1093,7 @@ If the facility is doing the laundry, make sure you label all of the clothes tha
 
 
 
-…You don’t want Mom to see Mrs. Jones coming to the dining room wearing her favorite dress!  Next up: Chapter 13 - Transportation</mutableString>
+…You don’t want Mom to see Mrs. Jones coming to the dining room wearing her favorite dress!  Next up: Chapter 13 - Transportation</string>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1267,7 +1130,7 @@ If the facility is doing the laundry, make sure you label all of the clothes tha
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="493"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <mutableString key="text">Now that your loved one is all settled in his or her new home, we have to think about how we are going to get him or her out!  Just kidding! 
+                                        <string key="text">Now that your loved one is all settled in his or her new home, we have to think about how we are going to get him or her out!  Just kidding! 
 
 Seriously, how will residents get to a restaurant if they want to go out to dinner?  How will they get to the Beauty Salon?  How will they get to a store to buy some personal items?  How will they get to a doctor appointment?
 
@@ -1275,7 +1138,7 @@ This chapter will give you the opportunity to ask every detail about transportat
 
 
 
-…check out the driver.  If he’s wearing quadruple bi-focals, maybe Mom shouldn’t get on the bus!  Next up: Chapter 14 - Emergency Plan &amp; Safety</mutableString>
+…check out the driver.  If he’s wearing quadruple bi-focals, maybe Mom shouldn’t get on the bus!  Next up: Chapter 14 - Emergency Plan &amp; Safety</string>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1312,7 +1175,7 @@ This chapter will give you the opportunity to ask every detail about transportat
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="511"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <mutableString key="text">This chapter separates the men from the boys, the professionals from the non-professionals, and most importantly, the safe communities from the unsafe communities.
+                                        <string key="text">This chapter separates the men from the boys, the professionals from the non-professionals, and most importantly, the safe communities from the unsafe communities.
 
 You’re going to ask about fire drills, evacuations, generators, fire   sprinkler systems, hurricanes, floods, and tornados.  This is all about the safety of your loved one.
 
@@ -1323,7 +1186,7 @@ You should feel totally secure after you finish asking the questions in this cha
 There is no “in other words” here.  This is serious stuff!
 
   
-Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms &amp; Vocabulary</mutableString>
+Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms &amp; Vocabulary</string>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1360,7 +1223,7 @@ Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms &amp; Vocabul
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="444"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.  Next up: Chapter 16 - About the Authors</mutableString>
+                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.  Next up: Chapter 16 - About the Authors</string>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1389,48 +1252,57 @@ Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms &amp; Vocabul
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hYu-HK-vAW">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hYu-HK-vAW">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="46p-vG-nFN">
-                                        <rect key="frame" x="0.0" y="0.0" width="367" height="467"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="46p-vG-nFN">
+                                        <rect key="frame" x="8" y="20" width="359" height="583"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <mutableString key="text">Humberto Fortuna, MA, MS, was born in Buenos Aires, Argentina in 1968. At age 20, Mr. Fortuna earned his first Master of Arts degree at the Santa Ana Music Conservatory. 
+                                        <mutableString key="text">Humberto Fortuna, MA, MS, was born in Buenos Aires, Argentina in 1968. At age 20, Mr. Fortuna earned his first Master of Arts degree at the Santa Ana Music Conservatory.  
 Mr. Fortuna began his career in the health care field by working as an Activities Program Director in a senior center in South Florida. He became a Social Service Director in various long term care facilities and a Unit Manager for an Alzheimer’s-Dementia skilled nursing facility.  
-Mr. Fortuna was awarded his second Master’s Degree in Health Care Management, with a concentration in Nursing Home Administration from Lynn University, Florida, in 1998. He then furthered his studies and received a Graduate Certificate in Aging Studies in 1999.  The same year, he became an Activity Consultant, certified by the National Certification Council for Activity Professionals.	
-Mr. Fortuna was the Executive Director for a 220 bed Assisted Living Facility in Pompano Beach, Florida, until he went on to create his own company, Placement Counselors Corporation, in September, 1999. His company currently represents over 500 communities, including Skilled Nursing Facilities, Assisted Living Facilities, Adult Family Care Facilities, and Alzheimer’s-Dementia Units in the southeast region of Florida.  He also continues to be a consultant for the above mentioned facilities.
-Mr. Fortuna currently has his own private practice as a Geriatric Specialist and serves as a Board member for the SunServe organization, as well as other advisory boards. With his partner, Cindy VanDusen,  he continues to develop Scoop Publishing as one of the most interesting and resourceful companies devoted to the senior community. Their ultimate goal is to educate and protect our senior population. 
-Visit us at www.scoopforseniors.com  Cindy VanDusen began her senior advocate career as a Certified Exercise Instructor in 1983 and brought that knowledge to the senior population by creating exercise and fitness programs for many Assisted Living Facilities and Nursing Homes.  For 11 years, she owned and operated her own exercise studio, “Off Broadway Workshop,” where she offered special classes for seniors .
+ Mr. Fortuna was awarded his second Master’s Degree in Health Care Management, with a concentration in Nursing Home Administration from Lynn University, Florida, in 1998. He then furthered his studies and received a Graduate Certificate in Aging Studies in 1999.  The same year, he became an Activity Consultant, certified by the National Certification Council for Activity Professionals.	
+ Mr. Fortuna was the Executive Director for a 220 bed Assisted Living Facility in Pompano Beach, Florida, until he went on to create his own company, Placement Counselors Corporation, in September, 1999. His company currently represents over 500 communities, including Skilled Nursing Facilities, Assisted Living Facilities, Adult Family Care Facilities, and Alzheimer’s-Dementia Units in the southeast region of Florida.  He also continues to be a consultant for the above mentioned facilities.
+ Mr. Fortuna currently has his own private practice as a Geriatric Specialist and serves as a Board member for the SunServe organization, as well as other advisory boards. With his partner, Cindy VanDusen,  he continues to develop Scoop Publishing as one of the most interesting and resourceful companies devoted to the senior community. Their ultimate goal is to educate and protect our senior population. 
+ Visit us at www.scoopforseniors.com  Cindy VanDusen began her senior advocate career as a Certified Exercise Instructor in 1983 and brought that knowledge to the senior population by creating exercise and fitness programs for many Assisted Living Facilities and Nursing Homes.  For 11 years, she owned and operated her own exercise studio, “Off Broadway Workshop,” where she offered special classes for seniors .
 In 1992, she created her own company, “Activities on Wheels” which brought activity programs into various health care facilities and senior living condominiums.  “Activities on Wheels” provided her with  experience in dealing with diverse types of health care facilities as well as a diverse senior population. She worked with Independent, Assisted Living, Dementia and Nursing Home residents, realizing that each segment of the senior population had very different needs.
-Cindy VanDusen has written and published many  books and games for the senior population including “Make Your Point,” (1996) “Math and Riddle Bingo,” (1998), “Quizmania,” (2001) and “You Can’t Bloom In Your Room,” (2003), all of which are still available today.
-After selling her successful company, she became interested in the Administration area of the health care industry.  She earned her CORE Training Certificate from the Florida Department of Elder Affairs in 2000 and became involved in Marketing and Sales for Assisted Living Facilities. After 12 years in the same 200 bed Assisted Living Facility as the Marketing and Sales Director, she stepped into the Executive Director position. 
-Ms. VanDusen has published many articles on senior activities in magazines and newspapers throughout her career. 
-In 2007, Ms. VanDusen became the Administrator of Placement Counselors Corporation.
-Together, Cindy and Humberto have over 42 years of experience in the health care field.   The successful blending of their diverse and interesting backgrounds has resulted in this first book in a series on various aspects of health care.  They hope to educate and enlighten the public by providing good, solid advice based on their experiences.  
+ Cindy VanDusen has written and published many  books and games for the senior population including “Make Your Point,” (1996) “Math and Riddle Bingo,” (1998), “Quizmania,” (2001) and “You Can’t Bloom In Your Room,” (2003), all of which are still available today.
+ After selling her successful company, she became interested in the Administration area of the health care industry.  She earned her CORE Training Certificate from the Florida Department of Elder Affairs in 2000 and became involved in Marketing and Sales for Assisted Living Facilities. After 12 years in the same 200 bed Assisted Living Facility as the Marketing and Sales Director, she stepped into the Executive Director position. 
+ Ms. VanDusen has published many articles on senior activities in magazines and newspapers throughout her career. 
+ In 2007, Ms. VanDusen became the Administrator of Placement Counselors Corporation.
+ Together, Cindy and Humberto have over 42 years of experience in the health care field.   The successful blending of their diverse and interesting backgrounds has resulted in this first book in a series on various aspects of health care.  They hope to educate and enlighten the public by providing good, solid advice based on their experiences.  
  Through “Scoop for Seniors” we strive to stimulate our seniors with quality products.  We truly believe that they should be offered products that are challenging, interesting, and stimulating.  
 Through our formal education and experience in the field, and as owners of senior related businesses, we are able to comprehend and understand the health care needs of clients, families and health care providers, thus creating our perfect partnership.
-All the items that we present at “Scoop for Seniors” are of our own creation.  As a unique team, we are able to create books, games, music and other related products that can be used by professionals and caregivers working with the geriatric population.
-We hope you will continue to visit our site regularly as we will be adding new and interesting products all the time.
-
-
-
+ All the items that we present at “Scoop for Seniors” are of our own creation.  As a unique team, we are able to create books, games, music and other related products that can be used by professionals and caregivers working with the geriatric population.
+ We hope you will continue to visit our site regularly as we will be adding new and interesting products all the time.
 
 If you would like to contact us directly with any suggestions, or if you are in need of more resources, please feel free to contact us directly via email at info@scoopforseniors.com 
 or mail us at 2699 Stirling Road, Suite C-107, Ft. Lauderdale, Florida 33312. 
-To contact Cindy, e-mail her at cindy@scoopforseniors.com   
-To contact Humberto, e-mail him at humberto@scoopforseniors.com
+ To contact Cindy, e-mail her at cindy@scoopforseniors.com   
+ To contact Humberto, e-mail him at humberto@scoopforseniors.com
 
 Next up: Chapter 17 - Helpful Resources</mutableString>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="46p-vG-nFN" firstAttribute="leading" secondItem="hYu-HK-vAW" secondAttribute="leading" constant="8" id="B9l-dL-KMF"/>
+                                    <constraint firstAttribute="bottom" secondItem="46p-vG-nFN" secondAttribute="bottom" constant="20" symbolic="YES" id="aZS-Nb-vBT"/>
+                                    <constraint firstItem="46p-vG-nFN" firstAttribute="centerX" secondItem="hYu-HK-vAW" secondAttribute="centerX" id="n3p-iD-Eew"/>
+                                    <constraint firstItem="46p-vG-nFN" firstAttribute="centerY" secondItem="hYu-HK-vAW" secondAttribute="centerY" id="vFy-Ce-YRp"/>
+                                    <constraint firstAttribute="trailing" secondItem="46p-vG-nFN" secondAttribute="trailing" constant="8" id="vNr-ve-QxS"/>
+                                    <constraint firstItem="46p-vG-nFN" firstAttribute="top" secondItem="hYu-HK-vAW" secondAttribute="top" constant="20" symbolic="YES" id="ve4-s2-9uZ"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hYu-HK-vAW" firstAttribute="top" secondItem="B96-Yv-xe6" secondAttribute="top" id="Srt-Gz-fTF"/>
+                            <constraint firstAttribute="trailing" secondItem="hYu-HK-vAW" secondAttribute="trailing" id="txS-ks-6X7"/>
+                            <constraint firstItem="hYu-HK-vAW" firstAttribute="bottom" secondItem="B96-Yv-xe6" secondAttribute="bottom" id="uFk-bj-D7d"/>
+                            <constraint firstItem="hYu-HK-vAW" firstAttribute="leading" secondItem="f8T-k6-vpS" secondAttribute="leading" id="xXd-6t-nGs"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="B96-Yv-xe6"/>
                     </view>
                 </viewController>
@@ -1446,13 +1318,11 @@ Next up: Chapter 17 - Helpful Resources</mutableString>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TZD-4g-2bk">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TZD-4g-2bk">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="scO-3D-3Pa">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="487"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="scO-3D-3Pa">
+                                        <rect key="frame" x="20" y="20" width="335" height="583"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <string key="text">Medicare
 http://www.medicare.gov/
@@ -1480,9 +1350,23 @@ http://www.alz.org/index.asp
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="scO-3D-3Pa" firstAttribute="centerY" secondItem="TZD-4g-2bk" secondAttribute="centerY" id="4ox-yW-g83"/>
+                                    <constraint firstItem="scO-3D-3Pa" firstAttribute="top" secondItem="TZD-4g-2bk" secondAttribute="top" constant="20" symbolic="YES" id="Cgz-xN-mar"/>
+                                    <constraint firstAttribute="bottom" secondItem="scO-3D-3Pa" secondAttribute="bottom" constant="20" symbolic="YES" id="DVP-ls-VZ6"/>
+                                    <constraint firstItem="scO-3D-3Pa" firstAttribute="leading" secondItem="TZD-4g-2bk" secondAttribute="leading" constant="20" symbolic="YES" id="Xmc-yY-Rx5"/>
+                                    <constraint firstAttribute="trailing" secondItem="scO-3D-3Pa" secondAttribute="trailing" constant="20" symbolic="YES" id="aBg-kg-mI2"/>
+                                    <constraint firstItem="scO-3D-3Pa" firstAttribute="centerX" secondItem="TZD-4g-2bk" secondAttribute="centerX" id="gEr-g8-fq2"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="TZD-4g-2bk" secondAttribute="trailing" id="PWX-Pv-6M8"/>
+                            <constraint firstItem="TZD-4g-2bk" firstAttribute="bottom" secondItem="oRE-i3-9Oq" secondAttribute="bottom" id="Ynv-mX-Emb"/>
+                            <constraint firstItem="TZD-4g-2bk" firstAttribute="leading" secondItem="Ved-aL-Nkr" secondAttribute="leading" id="e1w-Pq-wEY"/>
+                            <constraint firstItem="TZD-4g-2bk" firstAttribute="top" secondItem="oRE-i3-9Oq" secondAttribute="top" id="nXw-Gg-p9z"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="oRE-i3-9Oq"/>
                     </view>
                 </viewController>
