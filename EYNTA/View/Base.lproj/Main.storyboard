@@ -505,7 +505,7 @@ Assisted Living is an exciting option for individuals who want to maximize their
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ppu-4h-C9B">
                                 <rect key="frame" x="0.0" y="62" width="375" height="609"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IOW" translatesAutoresizingMaskIntoConstraints="NO" id="CAe-5I-1gZ">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IOW2" translatesAutoresizingMaskIntoConstraints="NO" id="CAe-5I-1gZ">
                                         <rect key="frame" x="8" y="8" width="359" height="52"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -1258,7 +1258,7 @@ Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms &amp; Vocabul
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="46p-vG-nFN">
                                         <rect key="frame" x="8" y="20" width="359" height="583"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <mutableString key="text">Humberto Fortuna, MA, MS, was born in Buenos Aires, Argentina in 1968. At age 20, Mr. Fortuna earned his first Master of Arts degree at the Santa Ana Music Conservatory.  
+                                        <string key="text">Humberto Fortuna, MA, MS, was born in Buenos Aires, Argentina in 1968. At age 20, Mr. Fortuna earned his first Master of Arts degree at the Santa Ana Music Conservatory.  
 Mr. Fortuna began his career in the health care field by working as an Activities Program Director in a senior center in South Florida. He became a Social Service Director in various long term care facilities and a Unit Manager for an Alzheimer’s-Dementia skilled nursing facility.  
  Mr. Fortuna was awarded his second Master’s Degree in Health Care Management, with a concentration in Nursing Home Administration from Lynn University, Florida, in 1998. He then furthered his studies and received a Graduate Certificate in Aging Studies in 1999.  The same year, he became an Activity Consultant, certified by the National Certification Council for Activity Professionals.	
  Mr. Fortuna was the Executive Director for a 220 bed Assisted Living Facility in Pompano Beach, Florida, until he went on to create his own company, Placement Counselors Corporation, in September, 1999. His company currently represents over 500 communities, including Skilled Nursing Facilities, Assisted Living Facilities, Adult Family Care Facilities, and Alzheimer’s-Dementia Units in the southeast region of Florida.  He also continues to be a consultant for the above mentioned facilities.
@@ -1280,7 +1280,7 @@ or mail us at 2699 Stirling Road, Suite C-107, Ft. Lauderdale, Florida 33312.
  To contact Cindy, e-mail her at cindy@scoopforseniors.com   
  To contact Humberto, e-mail him at humberto@scoopforseniors.com
 
-Next up: Chapter 17 - Helpful Resources</mutableString>
+Next up: Chapter 17 - Helpful Resources</string>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1464,6 +1464,6 @@ http://www.alz.org/index.asp
         </scene>
     </scenes>
     <resources>
-        <image name="IOW" width="816" height="346"/>
+        <image name="IOW2" width="118" height="50"/>
     </resources>
 </document>
