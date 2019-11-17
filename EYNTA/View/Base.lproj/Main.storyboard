@@ -1052,6 +1052,9 @@ There is no “in other words” here.  This is serious stuff!  Next up: Cha
                                         <integer key="value" value="25"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="Uaa-hz-ghq" kind="show" id="p6u-P9-5fO"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -1106,6 +1109,9 @@ When you are touring, if you think this facility may be in the running, then, as
                                         <integer key="value" value="25"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="Vhh-0a-uP1" kind="show" id="dxi-BY-DWK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -1162,6 +1168,9 @@ Observe the Activity Director.  Is he/she energetic?  Does he/she have a good pe
                                         <integer key="value" value="25"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="PVO-CM-v3E" kind="show" id="DzE-Ak-mS2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -1218,6 +1227,9 @@ If the facility is doing the laundry, make sure you label all of the clothes tha
                                         <integer key="value" value="25"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="kvE-rj-1gr" kind="show" id="27p-Ju-nET"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -1272,6 +1284,9 @@ This chapter will give you the opportunity to ask every detail about transportat
                                         <integer key="value" value="25"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="RMx-kt-ZKu" kind="show" id="4jZ-ax-egc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -1331,6 +1346,9 @@ Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms &amp; Vocabul
                                         <integer key="value" value="25"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="lkT-Fn-FJx" kind="show" id="Moa-cA-exb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -1658,6 +1676,180 @@ http://www.alz.org/index.asp
                 <placeholder placeholderIdentifier="IBFirstResponder" id="65B-pW-AtA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5417" y="1691"/>
+        </scene>
+        <!--Chapter 9 Questions-->
+        <scene sceneID="CwG-a4-GC7">
+            <objects>
+                <tableViewController id="Uaa-hz-ghq" userLabel="Chapter 9 Questions" customClass="Q9TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="INb-yO-LLr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ZhJ-yA-QNc">
+                                <rect key="frame" x="0.0" y="28" width="375" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZhJ-yA-QNc" id="wOp-XQ-gBy">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Uaa-hz-ghq" id="ML9-xV-26G"/>
+                            <outlet property="delegate" destination="Uaa-hz-ghq" id="GPO-gE-prk"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="akE-I6-O4k"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sZL-cX-QPs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6119" y="1691"/>
+        </scene>
+        <!--Chapter 10 Questions-->
+        <scene sceneID="Lq6-K5-H8U">
+            <objects>
+                <tableViewController id="Vhh-0a-uP1" userLabel="Chapter 10 Questions" customClass="Q10TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="N1p-u0-S12">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="hvj-tN-ot2">
+                                <rect key="frame" x="0.0" y="28" width="375" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hvj-tN-ot2" id="4Ai-SH-Fzp">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Vhh-0a-uP1" id="uCo-99-xZN"/>
+                            <outlet property="delegate" destination="Vhh-0a-uP1" id="bG7-cB-9Ts"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="KOL-4w-QA2"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FMo-0k-WLi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6828" y="1691"/>
+        </scene>
+        <!--Chapter 11 Questions-->
+        <scene sceneID="6YW-a5-gAT">
+            <objects>
+                <tableViewController id="PVO-CM-v3E" userLabel="Chapter 11 Questions" customClass="Q11TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Rwt-vR-DkD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="pNF-Zg-fgc">
+                                <rect key="frame" x="0.0" y="28" width="375" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pNF-Zg-fgc" id="J4L-Pj-yzr">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="PVO-CM-v3E" id="tf9-sI-7ox"/>
+                            <outlet property="delegate" destination="PVO-CM-v3E" id="l7M-Bs-5a6"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="chW-KH-g6v"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kiv-xa-MXd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7532" y="1691"/>
+        </scene>
+        <!--Chapter 12 Questions-->
+        <scene sceneID="bto-sG-7lD">
+            <objects>
+                <tableViewController id="kvE-rj-1gr" userLabel="Chapter 12 Questions" customClass="Q12TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="sMf-sY-c9A">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Uuw-bG-8aa">
+                                <rect key="frame" x="0.0" y="28" width="375" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Uuw-bG-8aa" id="5Kt-ec-E88">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="kvE-rj-1gr" id="7NT-W6-jib"/>
+                            <outlet property="delegate" destination="kvE-rj-1gr" id="xNC-Pq-35s"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Sw0-x7-gos"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xen-xC-936" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8502" y="1691"/>
+        </scene>
+        <!--Chapter 13 Questions-->
+        <scene sceneID="lZb-LF-TBr">
+            <objects>
+                <tableViewController id="RMx-kt-ZKu" userLabel="Chapter 13 Questions" customClass="Q13TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="oul-m4-1Jx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Xh2-iN-Jok">
+                                <rect key="frame" x="0.0" y="28" width="375" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xh2-iN-Jok" id="8sH-fX-vn9">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="RMx-kt-ZKu" id="oye-10-PLQ"/>
+                            <outlet property="delegate" destination="RMx-kt-ZKu" id="e2Y-kZ-ZVz"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="BV3-ye-QNJ"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xP5-cd-knc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9198" y="1691"/>
+        </scene>
+        <!--Chapter 14 Questions-->
+        <scene sceneID="lKO-pk-yb5">
+            <objects>
+                <tableViewController id="lkT-Fn-FJx" userLabel="Chapter 14 Questions" customClass="Q14TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="f32-Hc-wXw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="gZZ-vH-Qta">
+                                <rect key="frame" x="0.0" y="28" width="375" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gZZ-vH-Qta" id="bVZ-hq-0bB">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="lkT-Fn-FJx" id="Lz3-7Z-IoC"/>
+                            <outlet property="delegate" destination="lkT-Fn-FJx" id="41t-cC-x75"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="R8e-3H-0CY"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PBf-uq-L2O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9910" y="1691"/>
         </scene>
     </scenes>
     <resources>

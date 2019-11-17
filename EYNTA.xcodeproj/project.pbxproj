@@ -32,6 +32,12 @@
 		946676B221EE87A500A61966 /* ContentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946676B121EE87A500A61966 /* ContentsTableViewController.swift */; };
 		94AF5BF72380EC3D007A710D /* Q7TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AF5BF62380EC3D007A710D /* Q7TableViewController.swift */; };
 		94AF5BF92380EEAC007A710D /* Q8TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AF5BF82380EEAC007A710D /* Q8TableViewController.swift */; };
+		94AF5BFB2380F030007A710D /* Q9TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AF5BFA2380F030007A710D /* Q9TableViewController.swift */; };
+		94AF5BFD2380F048007A710D /* Q10TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AF5BFC2380F048007A710D /* Q10TableViewController.swift */; };
+		94AF5BFF2380F055007A710D /* Q11TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AF5BFE2380F055007A710D /* Q11TableViewController.swift */; };
+		94AF5C012380F063007A710D /* Q12TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AF5C002380F063007A710D /* Q12TableViewController.swift */; };
+		94AF5C032380F071007A710D /* Q13TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AF5C022380F071007A710D /* Q13TableViewController.swift */; };
+		94AF5C052380F081007A710D /* Q14TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AF5C042380F081007A710D /* Q14TableViewController.swift */; };
 		94BBDCC62207523B00A1068E /* chx15Glossary.json in Resources */ = {isa = PBXBuildFile; fileRef = 94BBDCC52207523B00A1068E /* chx15Glossary.json */; };
 		94BBDCC922075A1A00A1068E /* VocabularyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BBDCC722075A1A00A1068E /* VocabularyTableViewCell.swift */; };
 		94BBDCCA22075A1A00A1068E /* VocabularyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94BBDCC822075A1A00A1068E /* VocabularyTableViewCell.xib */; };
@@ -66,6 +72,12 @@
 		946676B121EE87A500A61966 /* ContentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsTableViewController.swift; sourceTree = "<group>"; };
 		94AF5BF62380EC3D007A710D /* Q7TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q7TableViewController.swift; sourceTree = SOURCE_ROOT; };
 		94AF5BF82380EEAC007A710D /* Q8TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Q8TableViewController.swift; path = EYNTA/Q8TableViewController.swift; sourceTree = SOURCE_ROOT; };
+		94AF5BFA2380F030007A710D /* Q9TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q9TableViewController.swift; sourceTree = "<group>"; };
+		94AF5BFC2380F048007A710D /* Q10TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q10TableViewController.swift; sourceTree = "<group>"; };
+		94AF5BFE2380F055007A710D /* Q11TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q11TableViewController.swift; sourceTree = "<group>"; };
+		94AF5C002380F063007A710D /* Q12TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q12TableViewController.swift; sourceTree = "<group>"; };
+		94AF5C022380F071007A710D /* Q13TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q13TableViewController.swift; sourceTree = "<group>"; };
+		94AF5C042380F081007A710D /* Q14TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q14TableViewController.swift; sourceTree = "<group>"; };
 		94BBDCC52207523B00A1068E /* chx15Glossary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chx15Glossary.json; sourceTree = "<group>"; };
 		94BBDCC722075A1A00A1068E /* VocabularyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyTableViewCell.swift; sourceTree = "<group>"; };
 		94BBDCC822075A1A00A1068E /* VocabularyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VocabularyTableViewCell.xib; sourceTree = "<group>"; };
@@ -104,6 +116,12 @@
 				946373DE220CC38A008FCFEF /* Q6TableViewController.swift */,
 				94AF5BF62380EC3D007A710D /* Q7TableViewController.swift */,
 				94AF5BF82380EEAC007A710D /* Q8TableViewController.swift */,
+				94AF5BFA2380F030007A710D /* Q9TableViewController.swift */,
+				94AF5BFC2380F048007A710D /* Q10TableViewController.swift */,
+				94AF5BFE2380F055007A710D /* Q11TableViewController.swift */,
+				94AF5C002380F063007A710D /* Q12TableViewController.swift */,
+				94AF5C022380F071007A710D /* Q13TableViewController.swift */,
+				94AF5C042380F081007A710D /* Q14TableViewController.swift */,
 				946676B121EE87A500A61966 /* ContentsTableViewController.swift */,
 				94BBDCCB22075C7B00A1068E /* VocabularyTableViewController.swift */,
 			);
@@ -249,6 +267,8 @@
 			files = (
 				94AF5BF92380EEAC007A710D /* Q8TableViewController.swift in Sources */,
 				946676A021EE86D800A61966 /* AppDelegate.swift in Sources */,
+				94AF5C012380F063007A710D /* Q12TableViewController.swift in Sources */,
+				94AF5C032380F071007A710D /* Q13TableViewController.swift in Sources */,
 				943B2A1D2203AAD000038A65 /* Q5TableViewController.swift in Sources */,
 				946373DF220CC38A008FCFEF /* Q6TableViewController.swift in Sources */,
 				94AF5BF72380EC3D007A710D /* Q7TableViewController.swift in Sources */,
@@ -256,8 +276,12 @@
 				943B2A10220385B500038A65 /* Questions.swift in Sources */,
 				94BBDCC922075A1A00A1068E /* VocabularyTableViewCell.swift in Sources */,
 				94BBDCCC22075C7B00A1068E /* VocabularyTableViewController.swift in Sources */,
+				94AF5BFF2380F055007A710D /* Q11TableViewController.swift in Sources */,
+				94AF5C052380F081007A710D /* Q14TableViewController.swift in Sources */,
 				946676B221EE87A500A61966 /* ContentsTableViewController.swift in Sources */,
 				943B2A19220391BC00038A65 /* Q4TableViewController.swift in Sources */,
+				94AF5BFB2380F030007A710D /* Q9TableViewController.swift in Sources */,
+				94AF5BFD2380F048007A710D /* Q10TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
