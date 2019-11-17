@@ -1247,7 +1247,7 @@ This chapter will give you the opportunity to ask every detail about transportat
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tVS-Wb-NC3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9261.6000000000004" y="939.58020989505258"/>
+            <point key="canvasLocation" x="9198" y="941"/>
         </scene>
         <!--Chapter 14 - Emergency Plan & Safety-->
         <scene sceneID="Dbs-kW-2Sv">
@@ -1257,15 +1257,10 @@ This chapter will give you the opportunity to ask every detail about transportat
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gsh-Zn-qTm">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cTw-Ml-RHl">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="511"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <string key="text">This chapter separates the men from the boys, the professionals from the non-professionals, and most importantly, the safe communities from the unsafe communities.
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cTw-Ml-RHl">
+                                <rect key="frame" x="8" y="44" width="359" height="565"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">This chapter separates the men from the boys, the professionals from the non-professionals, and most importantly, the safe communities from the unsafe communities.
 
 You’re going to ask about fire drills, evacuations, generators, fire   sprinkler systems, hurricanes, floods, and tornados.  This is all about the safety of your loved one.
 
@@ -1277,25 +1272,40 @@ There is no “in other words” here.  This is serious stuff!
 
   
 Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms &amp; Vocabulary</string>
-                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHW-AC-God">
-                                        <rect key="frame" x="109" y="519" width="157" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Go To Ch 14 Questions"/>
-                                    </button>
-                                </subviews>
-                            </scrollView>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHW-AC-God">
+                                <rect key="frame" x="25" y="617" width="325" height="30"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Go To Ch 14 Questions"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="XHW-AC-God" firstAttribute="top" secondItem="cTw-Ml-RHl" secondAttribute="bottom" constant="8" id="2Uv-Hm-psw"/>
+                            <constraint firstItem="XHW-AC-God" firstAttribute="centerX" secondItem="JXw-wo-DPY" secondAttribute="centerX" id="2YT-J6-C1R"/>
+                            <constraint firstItem="t5N-Kl-jTz" firstAttribute="bottom" secondItem="XHW-AC-God" secondAttribute="bottom" constant="20" id="4vB-1I-Qy2"/>
+                            <constraint firstItem="XHW-AC-God" firstAttribute="leading" secondItem="t5N-Kl-jTz" secondAttribute="leading" constant="25" id="CO3-AQ-fz5"/>
+                            <constraint firstItem="cTw-Ml-RHl" firstAttribute="top" secondItem="t5N-Kl-jTz" secondAttribute="top" id="ILD-3R-sVh"/>
+                            <constraint firstItem="t5N-Kl-jTz" firstAttribute="trailing" secondItem="cTw-Ml-RHl" secondAttribute="trailing" constant="8" id="LWw-qb-6XL"/>
+                            <constraint firstItem="cTw-Ml-RHl" firstAttribute="leading" secondItem="t5N-Kl-jTz" secondAttribute="leading" constant="8" id="gMq-RZ-Pe1"/>
+                            <constraint firstItem="t5N-Kl-jTz" firstAttribute="trailing" secondItem="XHW-AC-God" secondAttribute="trailing" constant="25" id="iUB-gv-ewP"/>
+                            <constraint firstItem="XHW-AC-God" firstAttribute="top" secondItem="cTw-Ml-RHl" secondAttribute="bottom" constant="8" id="sBA-WU-KDs"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="t5N-Kl-jTz"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DZb-Hl-BsD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10004" y="941.37931034482767"/>
+            <point key="canvasLocation" x="9909.6000000000004" y="940.47976011994012"/>
         </scene>
         <!--Chapter 15 - Acronyms and Vocabulary-->
         <scene sceneID="9yD-OV-Bts">
@@ -1305,34 +1315,44 @@ Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms &amp; Vocabul
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sOW-7G-5XN">
-                                <rect key="frame" x="0.0" y="72" width="375" height="595"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="56q-zx-wBV">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="444"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.  Next up: Chapter 16 - About the Authors</string>
-                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tb4-Ma-9SU">
-                                        <rect key="frame" x="164" y="467" width="46" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                </subviews>
-                            </scrollView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="56q-zx-wBV">
+                                <rect key="frame" x="8" y="44" width="359" height="565"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.  Next up: Chapter 16 - About the Authors</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tb4-Ma-9SU">
+                                <rect key="frame" x="25" y="617" width="325" height="30"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="56q-zx-wBV" firstAttribute="leading" secondItem="QoF-tr-CJp" secondAttribute="leading" constant="8" id="3WO-5t-4dM"/>
+                            <constraint firstItem="56q-zx-wBV" firstAttribute="top" secondItem="QoF-tr-CJp" secondAttribute="top" id="66U-9q-JWo"/>
+                            <constraint firstItem="QoF-tr-CJp" firstAttribute="trailing" secondItem="56q-zx-wBV" secondAttribute="trailing" constant="8" id="EVN-Ia-Nyr"/>
+                            <constraint firstItem="Tb4-Ma-9SU" firstAttribute="centerX" secondItem="zed-mw-HWj" secondAttribute="centerX" id="FER-4i-Xhb"/>
+                            <constraint firstItem="Tb4-Ma-9SU" firstAttribute="leading" secondItem="QoF-tr-CJp" secondAttribute="leading" constant="25" id="b1V-N6-TSG"/>
+                            <constraint firstItem="Tb4-Ma-9SU" firstAttribute="top" secondItem="56q-zx-wBV" secondAttribute="bottom" constant="8" id="e3d-6o-1ok"/>
+                            <constraint firstItem="Tb4-Ma-9SU" firstAttribute="top" secondItem="56q-zx-wBV" secondAttribute="bottom" constant="8" id="hDu-UO-Dgk"/>
+                            <constraint firstItem="QoF-tr-CJp" firstAttribute="bottom" secondItem="Tb4-Ma-9SU" secondAttribute="bottom" constant="20" id="lsM-72-Tdg"/>
+                            <constraint firstItem="QoF-tr-CJp" firstAttribute="trailing" secondItem="Tb4-Ma-9SU" secondAttribute="trailing" constant="25" id="xrH-wx-zWI"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="QoF-tr-CJp"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gvC-Gh-odI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10780" y="946.77661169415296"/>
+            <point key="canvasLocation" x="10637.6" y="939.58020989505258"/>
         </scene>
         <!--Chapter 16 - About the Authors-->
         <scene sceneID="tlp-c7-P9G">
