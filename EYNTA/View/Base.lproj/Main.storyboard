@@ -1094,15 +1094,10 @@ When you are touring, if you think this facility may be in the running, then, as
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fam-KM-uCY">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eY7-KM-lmT">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="469"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <string key="text">I can not begin to impress upon you how important this department is!  This department will determine how your loved ones will fill up their days. 
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eY7-KM-lmT">
+                                <rect key="frame" x="8" y="44" width="359" height="565"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <mutableString key="text">I can not begin to impress upon you how important this department is!  This department will determine how your loved ones will fill up their days. 
 
 Get the Activity Calendar.  Look it over.  Make sure there are a lot of choices.  Depending on the type of facility required, there should be musical programs, parties, religious services, arts and crafts, adult discussion groups, shopping, movies, and games.  Where would we be without Bingo?
 
@@ -1110,28 +1105,41 @@ If you are choosing a smaller facility, of course, the number and type of activi
 
 Observe the Activity Director.  Is he/she energetic?  Does he/she have a good personality?  Is he/she friendly?
 
-
-
-…If the Activity Director resembles the farmer holding the pitchfork in that famous work of art, the place just might be a little too low key!  Next up: Chapter 12 - Housekeeping and Maintenance</string>
-                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YKj-I8-jiW">
-                                        <rect key="frame" x="110" y="477" width="154" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Go To Ch 11 Questions"/>
-                                    </button>
-                                </subviews>
-                            </scrollView>
+…If the Activity Director resembles the farmer holding the pitchfork in that famous work of art, the place just might be a little too low key!  Next up: Chapter 12 - Housekeeping and Maintenance</mutableString>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YKj-I8-jiW">
+                                <rect key="frame" x="25" y="617" width="325" height="30"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Go To Ch 11 Questions"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gMb-ft-FYy" firstAttribute="bottom" secondItem="YKj-I8-jiW" secondAttribute="bottom" constant="20" id="6aQ-T4-ZIF"/>
+                            <constraint firstItem="eY7-KM-lmT" firstAttribute="top" secondItem="gMb-ft-FYy" secondAttribute="top" id="Ljo-ym-bni"/>
+                            <constraint firstItem="eY7-KM-lmT" firstAttribute="leading" secondItem="gMb-ft-FYy" secondAttribute="leading" constant="8" id="MJA-lM-tC6"/>
+                            <constraint firstItem="YKj-I8-jiW" firstAttribute="centerX" secondItem="ux6-97-2yY" secondAttribute="centerX" id="SVL-do-Niu"/>
+                            <constraint firstItem="YKj-I8-jiW" firstAttribute="top" secondItem="eY7-KM-lmT" secondAttribute="bottom" constant="8" id="XyV-M1-ETm"/>
+                            <constraint firstItem="gMb-ft-FYy" firstAttribute="trailing" secondItem="eY7-KM-lmT" secondAttribute="trailing" constant="8" id="iAW-c9-gYb"/>
+                            <constraint firstItem="YKj-I8-jiW" firstAttribute="top" secondItem="eY7-KM-lmT" secondAttribute="bottom" constant="8" id="lx2-3z-Gfi"/>
+                            <constraint firstItem="gMb-ft-FYy" firstAttribute="trailing" secondItem="YKj-I8-jiW" secondAttribute="trailing" constant="25" id="q0E-Re-HWp"/>
+                            <constraint firstItem="YKj-I8-jiW" firstAttribute="leading" secondItem="gMb-ft-FYy" secondAttribute="leading" constant="25" id="uuz-NN-rPn"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="gMb-ft-FYy"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10Q-wq-rVb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7752.8000000000002" y="937.78110944527748"/>
+            <point key="canvasLocation" x="7532" y="919.79010494752629"/>
         </scene>
         <!--Chapter 12 - Housekeeping & Maintenance-->
         <scene sceneID="zVm-FF-ypr">
