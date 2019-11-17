@@ -505,6 +505,8 @@ Assisted Living is an exciting option for individuals who want to maximize their
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <constraints>
                                     <constraint firstItem="NQU-4t-fWH" firstAttribute="centerX" secondItem="SVV-XJ-aZo" secondAttribute="centerX" id="AVI-bK-mT2"/>
                                     <constraint firstItem="NQU-4t-fWH" firstAttribute="leading" secondItem="SVV-XJ-aZo" secondAttribute="leadingMargin" id="Gtb-fB-KbZ"/>
@@ -515,7 +517,8 @@ Assisted Living is an exciting option for individuals who want to maximize their
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="SVV-XJ-aZo" firstAttribute="centerX" secondItem="TpH-yy-iBV" secondAttribute="centerX" id="22u-0t-p83"/>
                             <constraint firstItem="SVV-XJ-aZo" firstAttribute="bottom" secondItem="ifT-ZF-Ucy" secondAttribute="bottom" id="VZL-zn-mEE"/>
@@ -631,9 +634,12 @@ aW4/4oCo4oCoTmV4dCB1cDogQ2hhcHRlciAzIC0gQmVmb3JlIFlvdSBHbw
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="p5k-2i-pJR" firstAttribute="bottom" secondItem="ppu-4h-C9B" secondAttribute="bottom" id="FZM-rk-8Yv"/>
                             <constraint firstItem="ppu-4h-C9B" firstAttribute="top" secondItem="p5k-2i-pJR" secondAttribute="top" id="aE8-Rl-Cr2"/>
@@ -687,6 +693,8 @@ Making an appointment is “where it’s at!”  Next up: Chapter 4 - Genera
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <constraints>
                                     <constraint firstItem="i1R-OZ-rZ4" firstAttribute="top" secondItem="J9y-nm-iUh" secondAttribute="top" constant="20" symbolic="YES" id="H5N-8g-Xj9"/>
                                     <constraint firstAttribute="trailing" secondItem="i1R-OZ-rZ4" secondAttribute="trailing" constant="8" id="IHI-Sf-17N"/>
@@ -697,7 +705,8 @@ Making an appointment is “where it’s at!”  Next up: Chapter 4 - Genera
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="J9y-nm-iUh" firstAttribute="leading" secondItem="xL1-97-mFd" secondAttribute="leading" id="2sy-CG-8lf"/>
                             <constraint firstItem="J9y-nm-iUh" firstAttribute="top" secondItem="xL1-97-mFd" secondAttribute="top" id="R3r-4A-b6K"/>
@@ -722,6 +731,7 @@ Making an appointment is “where it’s at!”  Next up: Chapter 4 - Genera
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TLp-NL-kv1">
                                 <rect key="frame" x="8" y="44" width="359" height="565"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <string key="text" base64-UTF8="YES">
 WW91IGFyZSBhYm91dCB0byBlbnRlciB0aGUg4oCccXVlc3Rpb27igJ0gc2VjdGlvbuKAnSBvZiBvdXIg
 Ym9vay4KCk5vdGU6ICBZb3Ugd2lsbCBuZWVkIGEgeWVsbG93IGhpZ2hsaWdodGVyIGZyb20gdGhpcyBw
@@ -780,7 +790,8 @@ gKhOZXh0IHVwOiBDaGFwdGVyIDUgLSBMaWNlbnNlcyAmIEFkbWluaXN0cmF0aW9uA
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="TLp-NL-kv1" firstAttribute="leading" secondItem="T3g-6v-mmf" secondAttribute="leading" constant="8" id="IUj-fh-hTf"/>
                             <constraint firstItem="T3g-6v-mmf" firstAttribute="bottom" secondItem="B7X-fr-Ov2" secondAttribute="bottom" constant="20" id="ReR-qV-yAJ"/>
@@ -835,7 +846,8 @@ gKhOZXh0IHVwOiBDaGFwdGVyIDUgLSBMaWNlbnNlcyAmIEFkbWluaXN0cmF0aW9uA
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="SK2-EN-VTl" firstAttribute="top" secondItem="V8c-Xt-gnY" secondAttribute="top" id="3v3-Pq-5ri"/>
                             <constraint firstItem="JPx-39-cTu" firstAttribute="top" secondItem="SK2-EN-VTl" secondAttribute="bottom" constant="8" id="60N-gT-ArM"/>
@@ -889,7 +901,8 @@ Here, you will learn all about important costs that you may or may not incur dur
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="QOb-Z9-G7I" firstAttribute="top" secondItem="qpv-sn-A5W" secondAttribute="bottom" constant="8" id="BfV-gC-oNT"/>
                             <constraint firstItem="qpv-sn-A5W" firstAttribute="top" secondItem="4yk-lo-tG3" secondAttribute="top" id="ZTS-DH-8Ig"/>
@@ -940,7 +953,8 @@ Also, look around to see if your loved ones will fit in well with the residents 
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="ESO-Yv-XH2" firstAttribute="bottom" secondItem="XIt-yZ-ZgG" secondAttribute="bottom" constant="20" id="4Hq-Mm-gUB"/>
                             <constraint firstItem="18S-li-cwM" firstAttribute="top" secondItem="ESO-Yv-XH2" secondAttribute="top" id="8c7-Zb-gxD"/>
@@ -993,7 +1007,8 @@ Make sure the room has all the safety features that are needed.  See if the air-
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="yAM-eR-nyE" firstAttribute="bottom" secondItem="Asm-mb-A1z" secondAttribute="bottom" constant="20" id="4e5-0m-SCG"/>
                             <constraint firstItem="IW2-nf-9FO" firstAttribute="leading" secondItem="yAM-eR-nyE" secondAttribute="leading" constant="8" id="5YZ-Og-X5B"/>
@@ -1048,7 +1063,8 @@ There is no “in other words” here.  This is serious stuff!  Next up: Cha
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="k0f-o4-KAn" firstAttribute="trailing" secondItem="Lkn-t0-Pq5" secondAttribute="trailing" constant="25" id="0wn-rl-emW"/>
                             <constraint firstItem="Lkn-t0-Pq5" firstAttribute="centerX" secondItem="bhx-RW-ZoF" secondAttribute="centerX" id="6wX-4G-IF0"/>
@@ -1101,7 +1117,8 @@ When you are touring, if you think this facility may be in the running, then, as
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="taq-oe-e9p" firstAttribute="top" secondItem="hz6-eV-8t3" secondAttribute="bottom" constant="8" id="7qk-l1-0tT"/>
                             <constraint firstItem="hz6-eV-8t3" firstAttribute="top" secondItem="7NK-Kl-aY9" secondAttribute="top" id="Frc-7a-Oev"/>
@@ -1156,7 +1173,8 @@ Observe the Activity Director.  Is he/she energetic?  Does he/she have a good pe
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="gMb-ft-FYy" firstAttribute="bottom" secondItem="YKj-I8-jiW" secondAttribute="bottom" constant="20" id="6aQ-T4-ZIF"/>
                             <constraint firstItem="eY7-KM-lmT" firstAttribute="top" secondItem="gMb-ft-FYy" secondAttribute="top" id="Ljo-ym-bni"/>
@@ -1211,7 +1229,8 @@ If the facility is doing the laundry, make sure you label all of the clothes tha
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="lcI-p8-JRn" firstAttribute="leading" secondItem="pVx-nl-cR7" secondAttribute="leading" constant="8" id="6It-ux-fen"/>
                             <constraint firstItem="pVx-nl-cR7" firstAttribute="trailing" secondItem="j0T-s4-1Zf" secondAttribute="trailing" constant="25" id="CKE-sm-rfc"/>
@@ -1264,7 +1283,8 @@ This chapter will give you the opportunity to ask every detail about transportat
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="haJ-HH-KM2" firstAttribute="leading" secondItem="rtr-w9-Y5F" secondAttribute="leading" constant="8" id="2RL-Fv-GwE"/>
                             <constraint firstItem="haJ-HH-KM2" firstAttribute="top" secondItem="rtr-w9-Y5F" secondAttribute="top" id="381-tf-bgF"/>
@@ -1322,7 +1342,8 @@ Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms &amp; Vocabul
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="XHW-AC-God" firstAttribute="top" secondItem="cTw-Ml-RHl" secondAttribute="bottom" constant="8" id="2Uv-Hm-psw"/>
                             <constraint firstItem="XHW-AC-God" firstAttribute="centerX" secondItem="JXw-wo-DPY" secondAttribute="centerX" id="2YT-J6-C1R"/>
@@ -1369,7 +1390,8 @@ Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms &amp; Vocabul
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="56q-zx-wBV" firstAttribute="leading" secondItem="QoF-tr-CJp" secondAttribute="leading" constant="8" id="3WO-5t-4dM"/>
                             <constraint firstItem="56q-zx-wBV" firstAttribute="top" secondItem="QoF-tr-CJp" secondAttribute="top" id="66U-9q-JWo"/>
@@ -1427,7 +1449,8 @@ Next up: Chapter 17 - Helpful Resources</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="B96-Yv-xe6" firstAttribute="bottom" secondItem="46p-vG-nFN" secondAttribute="bottom" constant="20" id="9tD-S7-ji8"/>
                             <constraint firstItem="B96-Yv-xe6" firstAttribute="trailing" secondItem="46p-vG-nFN" secondAttribute="trailing" constant="8" id="Lv4-Lf-XGj"/>
@@ -1485,7 +1508,8 @@ http://www.alz.org/index.asp
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="oRE-i3-9Oq" firstAttribute="bottom" secondItem="scO-3D-3Pa" secondAttribute="bottom" constant="20" id="9pJ-d3-EtD"/>
                             <constraint firstItem="scO-3D-3Pa" firstAttribute="leading" secondItem="oRE-i3-9Oq" secondAttribute="leading" constant="8" id="PNF-DW-lAV"/>
