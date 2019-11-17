@@ -1149,15 +1149,10 @@ Observe the Activity Director.  Is he/she energetic?  Does he/she have a good pe
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SsF-zw-LXK">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lcI-p8-JRn">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="461"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <string key="text">These two departments have a lot to do with keeping your loved one comfortable and in a clean environment.
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lcI-p8-JRn">
+                                <rect key="frame" x="8" y="44" width="359" height="565"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <mutableString key="text">These two departments have a lot to do with keeping your loved one comfortable and in a clean environment.
 
 The Maintenance Director is there to help when things are broken or not in proper working order, such as the air-conditioning or something as small as making a new key. 
 
@@ -1165,22 +1160,35 @@ The Housekeeping staff should always make sure the rooms smell good and are in o
 
 If the facility is doing the laundry, make sure you label all of the clothes that you bring into the facility.  Most facilities do several residents’ laundry at the same time and clothes could get misplaced. 
 
-
-
-…You don’t want Mom to see Mrs. Jones coming to the dining room wearing her favorite dress!  Next up: Chapter 13 - Transportation</string>
-                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j0T-s4-1Zf">
-                                        <rect key="frame" x="109" y="469" width="156" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Go To Ch 12 Questions"/>
-                                    </button>
-                                </subviews>
-                            </scrollView>
+…You don’t want Mom to see Mrs. Jones coming to the dining room wearing her favorite dress!  Next up: Chapter 13 - Transportation</mutableString>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j0T-s4-1Zf">
+                                <rect key="frame" x="25" y="617" width="325" height="30"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Go To Ch 12 Questions"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lcI-p8-JRn" firstAttribute="leading" secondItem="pVx-nl-cR7" secondAttribute="leading" constant="8" id="6It-ux-fen"/>
+                            <constraint firstItem="pVx-nl-cR7" firstAttribute="trailing" secondItem="j0T-s4-1Zf" secondAttribute="trailing" constant="25" id="CKE-sm-rfc"/>
+                            <constraint firstItem="j0T-s4-1Zf" firstAttribute="leading" secondItem="pVx-nl-cR7" secondAttribute="leading" constant="25" id="Cn6-AK-7RM"/>
+                            <constraint firstItem="j0T-s4-1Zf" firstAttribute="top" secondItem="lcI-p8-JRn" secondAttribute="bottom" constant="8" id="Mfp-b1-3ks"/>
+                            <constraint firstItem="j0T-s4-1Zf" firstAttribute="top" secondItem="lcI-p8-JRn" secondAttribute="bottom" constant="8" id="ZxD-e9-OYo"/>
+                            <constraint firstItem="j0T-s4-1Zf" firstAttribute="centerX" secondItem="ULA-wj-xrN" secondAttribute="centerX" id="gUx-dh-4tT"/>
+                            <constraint firstItem="pVx-nl-cR7" firstAttribute="bottom" secondItem="j0T-s4-1Zf" secondAttribute="bottom" constant="20" id="nH6-m9-t6U"/>
+                            <constraint firstItem="lcI-p8-JRn" firstAttribute="top" secondItem="pVx-nl-cR7" secondAttribute="top" id="oZt-5T-wYQ"/>
+                            <constraint firstItem="pVx-nl-cR7" firstAttribute="trailing" secondItem="lcI-p8-JRn" secondAttribute="trailing" constant="8" id="sp0-fM-rBo"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="pVx-nl-cR7"/>
                     </view>
                 </viewController>
@@ -1196,36 +1204,44 @@ If the facility is doing the laundry, make sure you label all of the clothes tha
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3SV-pN-SRZ">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="haJ-HH-KM2">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="493"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <string key="text">Now that your loved one is all settled in his or her new home, we have to think about how we are going to get him or her out!  Just kidding! 
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="haJ-HH-KM2">
+                                <rect key="frame" x="8" y="44" width="359" height="565"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <mutableString key="text">Now that your loved one is all settled in his or her new home, we have to think about how we are going to get him or her out!  Just kidding! 
 
 Seriously, how will residents get to a restaurant if they want to go out to dinner?  How will they get to the Beauty Salon?  How will they get to a store to buy some personal items?  How will they get to a doctor appointment?
 
 This chapter will give you the opportunity to ask every detail about transportation.
 
-
-
-…check out the driver.  If he’s wearing quadruple bi-focals, maybe Mom shouldn’t get on the bus!  Next up: Chapter 14 - Emergency Plan &amp; Safety</string>
-                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USs-bb-qoU">
-                                        <rect key="frame" x="109" y="501" width="157" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Go To Ch 13 Questions"/>
-                                    </button>
-                                </subviews>
-                            </scrollView>
+…check out the driver.  If he’s wearing quadruple bi-focals, maybe Mom shouldn’t get on the bus!  Next up: Chapter 14 - Emergency Plan &amp; Safety</mutableString>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USs-bb-qoU">
+                                <rect key="frame" x="25" y="617" width="325" height="30"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Go To Ch 13 Questions"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="haJ-HH-KM2" firstAttribute="leading" secondItem="rtr-w9-Y5F" secondAttribute="leading" constant="8" id="2RL-Fv-GwE"/>
+                            <constraint firstItem="haJ-HH-KM2" firstAttribute="top" secondItem="rtr-w9-Y5F" secondAttribute="top" id="381-tf-bgF"/>
+                            <constraint firstItem="USs-bb-qoU" firstAttribute="top" secondItem="haJ-HH-KM2" secondAttribute="bottom" constant="8" id="5Dn-tq-JhP"/>
+                            <constraint firstItem="USs-bb-qoU" firstAttribute="top" secondItem="haJ-HH-KM2" secondAttribute="bottom" constant="8" id="5rK-el-1wX"/>
+                            <constraint firstItem="rtr-w9-Y5F" firstAttribute="bottom" secondItem="USs-bb-qoU" secondAttribute="bottom" constant="20" id="WXm-ml-WmF"/>
+                            <constraint firstItem="rtr-w9-Y5F" firstAttribute="trailing" secondItem="USs-bb-qoU" secondAttribute="trailing" constant="25" id="a64-HO-bpn"/>
+                            <constraint firstItem="rtr-w9-Y5F" firstAttribute="trailing" secondItem="haJ-HH-KM2" secondAttribute="trailing" constant="8" id="mCN-2e-0Nb"/>
+                            <constraint firstItem="USs-bb-qoU" firstAttribute="leading" secondItem="rtr-w9-Y5F" secondAttribute="leading" constant="25" id="mE7-pO-P7G"/>
+                            <constraint firstItem="USs-bb-qoU" firstAttribute="centerX" secondItem="8X0-PZ-3Tt" secondAttribute="centerX" id="wpo-W9-DdI"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="rtr-w9-Y5F"/>
                     </view>
                 </viewController>
