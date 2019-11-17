@@ -20,14 +20,14 @@
                         <sections>
                             <tableViewSection id="sUY-GB-HJD">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Ewr-O4-YJa">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="sGG-Vw-c32">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ewr-O4-YJa" id="yiw-Qe-hA3">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sGG-Vw-c32" id="bgU-IW-eDr">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 1 - Introduction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkv-Dl-Qw5" userLabel="Chapter 1 - Introduction">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 1 - Introduction" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ItO-Ri-cCK" userLabel="Chapter 1 - Introduction">
                                                     <rect key="frame" x="16" y="11" width="315" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -39,7 +39,7 @@
                                         <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <connections>
-                                            <segue destination="g2j-If-LQI" kind="show" id="r40-Da-h9y"/>
+                                            <segue destination="g2j-If-LQI" kind="show" id="neu-Y3-8zM"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="P9q-Q7-K0r">
@@ -394,6 +394,28 @@
                                             <segue destination="ldB-bg-HIM" kind="show" id="gUr-gu-zJ9"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Ewr-O4-YJa">
+                                        <rect key="frame" x="0.0" y="776" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ewr-O4-YJa" id="yiw-Qe-hA3">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Book Cover Title Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkv-Dl-Qw5" userLabel="Book Cover Title Page">
+                                                    <rect key="frame" x="16" y="11" width="315" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <connections>
+                                            <segue destination="qrw-ej-wnO" kind="show" id="ndt-OD-Mib"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -425,6 +447,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="meu-Ip-c2Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="44" y="91.304347826086968"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HHx-ck-E3I">
+            <objects>
+                <viewController id="qrw-ej-wnO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Iz2-BC-7ER">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cover" translatesAutoresizingMaskIntoConstraints="NO" id="dSE-wZ-9TX">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="dSE-wZ-9TX" firstAttribute="leading" secondItem="hZZ-1B-0nq" secondAttribute="leading" id="DOP-Ex-RG2"/>
+                            <constraint firstItem="dSE-wZ-9TX" firstAttribute="bottom" secondItem="hZZ-1B-0nq" secondAttribute="bottom" id="Xic-DF-pqn"/>
+                            <constraint firstItem="dSE-wZ-9TX" firstAttribute="top" secondItem="hZZ-1B-0nq" secondAttribute="top" id="djx-br-vq8"/>
+                            <constraint firstItem="dSE-wZ-9TX" firstAttribute="trailing" secondItem="hZZ-1B-0nq" secondAttribute="trailing" id="ifg-ok-0hr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hZZ-1B-0nq"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="aZM-WJ-c1W"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kjg-TE-ILp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="12844" y="941"/>
         </scene>
         <!--Chapter 1 - Introduction-->
         <scene sceneID="3MG-BU-KRg">
@@ -527,6 +578,7 @@ Assisted Living is an exciting option for individuals who want to maximize their
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ifT-ZF-Ucy"/>
                     </view>
+                    <navigationItem key="navigationItem" id="BMz-E7-2Nu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IAQ-21-5Wl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -862,11 +914,11 @@ gKhOZXh0IHVwOiBDaGFwdGVyIDUgLSBMaWNlbnNlcyAmIEFkbWluaXN0cmF0aW9uA
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qpv-sn-A5W">
                                 <rect key="frame" x="8" y="44" width="359" height="565"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <mutableString key="text">Yet another chapter on policies and procedures!  Boring, but an absolute must! 
+                                <string key="text">Yet another chapter on policies and procedures!  Boring, but an absolute must! 
 
 Here, you will learn all about important costs that you may or may not incur during your loved one’s stay at the facility you choose.  In this chapter you will get an ALF education, for sure!
 
-...this is the MONEY chapter. You will see the words, “money, fees, rates, up front costs, and increases", in every other question.  It’s scary, but it’s better to know everything up front and leave nothing to chance.  Our philosophy comes into play here... “…educate and therefore protect...”  Next up: Chapter 7 - Observations/Tour</mutableString>
+...this is the MONEY chapter. You will see the words, “money, fees, rates, up front costs, and increases", in every other question.  It’s scary, but it’s better to know everything up front and leave nothing to chance.  Our philosophy comes into play here... “…educate and therefore protect...”  Next up: Chapter 7 - Observations/Tour</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -972,13 +1024,13 @@ Also, look around to see if your loved ones will fit in well with the residents 
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IW2-nf-9FO">
                                 <rect key="frame" x="8" y="44" width="359" height="565"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <mutableString key="text">This is the part of the book where you have to ask a lot of “money questions.”  Every room you look at could have a different rate depending on the size, the location and whether it’s for one person or two.
+                                <string key="text">This is the part of the book where you have to ask a lot of “money questions.”  Every room you look at could have a different rate depending on the size, the location and whether it’s for one person or two.
 
 Can your loved one share a room with someone else?  There are two good reasons why that would be a good thing.  One is that it will definitely be less expensive, and the other is that he or she will have someone to talk to.  If you decide that sharing a room is a possibility, talk to the possible roommate of your loved one.  See if you think it would be a good match.
 
 Make sure the room has all the safety features that are needed.  See if the air-conditioning comes on when you lower the thermostat.
 
-…if the roommate has icicles hanging off her nose, and she’s comfortable, this may not be a good fit for your loved one.  Next up: Chapter 9 - Medical and Nursing</mutableString>
+…if the roommate has icicles hanging off her nose, and she’s comfortable, this may not be a good fit for your loved one.  Next up: Chapter 9 - Medical and Nursing</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1088,13 +1140,13 @@ There is no “in other words” here.  This is serious stuff!  Next up: Cha
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hz6-eV-8t3">
                                 <rect key="frame" x="8" y="44" width="375" height="565"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <mutableString key="text">If you ask a potential resident, “What is the most important question you would like to ask the facility?”  It’s a guarantee that they will say. “Is the food good?”
+                                <string key="text">If you ask a potential resident, “What is the most important question you would like to ask the facility?”  It’s a guarantee that they will say. “Is the food good?”
 
 Many people need special diets, whether for health reasons or religious reasons, or just because that’s what they like.  In this chapter, you will be able to ask everything you can think of (and some you didn’t think of, but we did, regarding food service).
 
 When you are touring, if you think this facility may be in the running, then, ask to speak with the Food Service Director.  If you’re not in a big hurry, see if you can sample a meal.  If your family member is not with you, see if you can bring him or her back for a meal. 
 
-…If you did not get a “Happy Meal” at the facility, and you find yourselves supersizing every item at McDonalds after your tour, this may not be the dining room for you.  Next up: Chapter 11 - Activities</mutableString>
+…If you did not get a “Happy Meal” at the facility, and you find yourselves supersizing every item at McDonalds after your tour, this may not be the dining room for you.  Next up: Chapter 11 - Activities</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1145,7 +1197,7 @@ When you are touring, if you think this facility may be in the running, then, as
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eY7-KM-lmT">
                                 <rect key="frame" x="8" y="44" width="359" height="565"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <mutableString key="text">I can not begin to impress upon you how important this department is!  This department will determine how your loved ones will fill up their days. 
+                                <string key="text">I can not begin to impress upon you how important this department is!  This department will determine how your loved ones will fill up their days. 
 
 Get the Activity Calendar.  Look it over.  Make sure there are a lot of choices.  Depending on the type of facility required, there should be musical programs, parties, religious services, arts and crafts, adult discussion groups, shopping, movies, and games.  Where would we be without Bingo?
 
@@ -1153,7 +1205,7 @@ If you are choosing a smaller facility, of course, the number and type of activi
 
 Observe the Activity Director.  Is he/she energetic?  Does he/she have a good personality?  Is he/she friendly?
 
-…If the Activity Director resembles the farmer holding the pitchfork in that famous work of art, the place just might be a little too low key!  Next up: Chapter 12 - Housekeeping and Maintenance</mutableString>
+…If the Activity Director resembles the farmer holding the pitchfork in that famous work of art, the place just might be a little too low key!  Next up: Chapter 12 - Housekeeping and Maintenance</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1204,7 +1256,7 @@ Observe the Activity Director.  Is he/she energetic?  Does he/she have a good pe
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lcI-p8-JRn">
                                 <rect key="frame" x="8" y="44" width="359" height="565"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <mutableString key="text">These two departments have a lot to do with keeping your loved one comfortable and in a clean environment.
+                                <string key="text">These two departments have a lot to do with keeping your loved one comfortable and in a clean environment.
 
 The Maintenance Director is there to help when things are broken or not in proper working order, such as the air-conditioning or something as small as making a new key. 
 
@@ -1212,7 +1264,7 @@ The Housekeeping staff should always make sure the rooms smell good and are in o
 
 If the facility is doing the laundry, make sure you label all of the clothes that you bring into the facility.  Most facilities do several residents’ laundry at the same time and clothes could get misplaced. 
 
-…You don’t want Mom to see Mrs. Jones coming to the dining room wearing her favorite dress!  Next up: Chapter 13 - Transportation</mutableString>
+…You don’t want Mom to see Mrs. Jones coming to the dining room wearing her favorite dress!  Next up: Chapter 13 - Transportation</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1263,13 +1315,13 @@ If the facility is doing the laundry, make sure you label all of the clothes tha
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="haJ-HH-KM2">
                                 <rect key="frame" x="8" y="44" width="359" height="565"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <mutableString key="text">Now that your loved one is all settled in his or her new home, we have to think about how we are going to get him or her out!  Just kidding! 
+                                <string key="text">Now that your loved one is all settled in his or her new home, we have to think about how we are going to get him or her out!  Just kidding! 
 
 Seriously, how will residents get to a restaurant if they want to go out to dinner?  How will they get to the Beauty Salon?  How will they get to a store to buy some personal items?  How will they get to a doctor appointment?
 
 This chapter will give you the opportunity to ask every detail about transportation.
 
-…check out the driver.  If he’s wearing quadruple bi-focals, maybe Mom shouldn’t get on the bus!  Next up: Chapter 14 - Emergency Plan &amp; Safety</mutableString>
+…check out the driver.  If he’s wearing quadruple bi-focals, maybe Mom shouldn’t get on the bus!  Next up: Chapter 14 - Emergency Plan &amp; Safety</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1853,6 +1905,7 @@ http://www.alz.org/index.asp
         </scene>
     </scenes>
     <resources>
+        <image name="Cover" width="612" height="792"/>
         <image name="IOW2" width="118" height="50"/>
     </resources>
 </document>
