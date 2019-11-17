@@ -986,15 +986,10 @@ Make sure the room has all the safety features that are needed.  See if the air-
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yYj-lV-Gfh">
-                                <rect key="frame" x="0.0" y="64" width="375" height="583"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="o6o-DD-JtN">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="436"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <string key="text">It’s hard to say if one chapter is more important than another, but this one’s all about the CARE your loved one is going to receive.  That’s VERY important!
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="o6o-DD-JtN">
+                                <rect key="frame" x="8" y="44" width="359" height="565"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">It’s hard to say if one chapter is more important than another, but this one’s all about the CARE your loved one is going to receive.  That’s VERY important!
 
 These questions will determine how comfortable you will feel leaving your family member in the hands of the staff of the particular facility.
 
@@ -1003,25 +998,40 @@ Ask them to show you how they dispense the medications. Where do they keep the m
 If you are really interested in this facility, tell the Marketing Director that you would like to have a meeting with the Director of Nursing before making your decision.
 
 There is no “in other words” here.  This is serious stuff!  Next up: Chapter 10 - Food Services</string>
-                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lkn-t0-Pq5">
-                                        <rect key="frame" x="112" y="444" width="150" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Go To Ch 9 Questions"/>
-                                    </button>
-                                </subviews>
-                            </scrollView>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lkn-t0-Pq5">
+                                <rect key="frame" x="25" y="617" width="325" height="30"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Go To Ch 9 Questions"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="k0f-o4-KAn" firstAttribute="trailing" secondItem="Lkn-t0-Pq5" secondAttribute="trailing" constant="25" id="0wn-rl-emW"/>
+                            <constraint firstItem="Lkn-t0-Pq5" firstAttribute="centerX" secondItem="bhx-RW-ZoF" secondAttribute="centerX" id="6wX-4G-IF0"/>
+                            <constraint firstItem="Lkn-t0-Pq5" firstAttribute="top" secondItem="o6o-DD-JtN" secondAttribute="bottom" constant="8" id="8PK-bu-vOr"/>
+                            <constraint firstItem="o6o-DD-JtN" firstAttribute="leading" secondItem="k0f-o4-KAn" secondAttribute="leading" constant="8" id="B6j-dg-up7"/>
+                            <constraint firstItem="k0f-o4-KAn" firstAttribute="trailing" secondItem="o6o-DD-JtN" secondAttribute="trailing" constant="8" id="Kt9-4B-Ff7"/>
+                            <constraint firstItem="Lkn-t0-Pq5" firstAttribute="top" secondItem="o6o-DD-JtN" secondAttribute="bottom" constant="8" id="LL7-T1-Hoj"/>
+                            <constraint firstItem="o6o-DD-JtN" firstAttribute="top" secondItem="k0f-o4-KAn" secondAttribute="top" id="R0f-sE-EnD"/>
+                            <constraint firstItem="k0f-o4-KAn" firstAttribute="bottom" secondItem="Lkn-t0-Pq5" secondAttribute="bottom" constant="20" id="aOy-QL-Rpo"/>
+                            <constraint firstItem="Lkn-t0-Pq5" firstAttribute="leading" secondItem="k0f-o4-KAn" secondAttribute="leading" constant="25" id="alG-bC-LeH"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="k0f-o4-KAn"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d5T-Ud-z5p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6199.1999999999998" y="940.47976011994012"/>
+            <point key="canvasLocation" x="6119.1999999999998" y="919.79010494752629"/>
         </scene>
         <!--Chapter 10 - Food Services-->
         <scene sceneID="vfj-eF-1O6">
