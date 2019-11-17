@@ -933,42 +933,50 @@ Also, look around to see if your loved ones will fit in well with the residents 
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wjh-Sh-0U2">
-                                <rect key="frame" x="0.0" y="64" width="371" height="518"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IW2-nf-9FO">
-                                        <rect key="frame" x="0.0" y="0.0" width="371" height="465"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <string key="text">This is the part of the book where you have to ask a lot of “money questions.”  Every room you look at could have a different rate depending on the size, the location and whether it’s for one person or two.
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IW2-nf-9FO">
+                                <rect key="frame" x="8" y="44" width="359" height="565"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <mutableString key="text">This is the part of the book where you have to ask a lot of “money questions.”  Every room you look at could have a different rate depending on the size, the location and whether it’s for one person or two.
 
 Can your loved one share a room with someone else?  There are two good reasons why that would be a good thing.  One is that it will definitely be less expensive, and the other is that he or she will have someone to talk to.  If you decide that sharing a room is a possibility, talk to the possible roommate of your loved one.  See if you think it would be a good match.
 
 Make sure the room has all the safety features that are needed.  See if the air-conditioning comes on when you lower the thermostat.
 
-
-
-…if the roommate has icicles hanging off her nose, and she’s comfortable, this may not be a good fit for your loved one.  Next up: Chapter 9 - Medical and Nursing</string>
-                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Asm-mb-A1z">
-                                        <rect key="frame" x="112" y="473" width="150" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Go To Ch 8 Questions"/>
-                                    </button>
-                                </subviews>
-                            </scrollView>
+…if the roommate has icicles hanging off her nose, and she’s comfortable, this may not be a good fit for your loved one.  Next up: Chapter 9 - Medical and Nursing</mutableString>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Asm-mb-A1z">
+                                <rect key="frame" x="25" y="617" width="325" height="30"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Go To Ch 8 Questions"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yAM-eR-nyE" firstAttribute="bottom" secondItem="Asm-mb-A1z" secondAttribute="bottom" constant="20" id="4e5-0m-SCG"/>
+                            <constraint firstItem="IW2-nf-9FO" firstAttribute="leading" secondItem="yAM-eR-nyE" secondAttribute="leading" constant="8" id="5YZ-Og-X5B"/>
+                            <constraint firstItem="Asm-mb-A1z" firstAttribute="top" secondItem="IW2-nf-9FO" secondAttribute="bottom" constant="8" id="Low-ck-i6C"/>
+                            <constraint firstItem="IW2-nf-9FO" firstAttribute="top" secondItem="yAM-eR-nyE" secondAttribute="top" id="Oxa-S4-R5f"/>
+                            <constraint firstItem="yAM-eR-nyE" firstAttribute="trailing" secondItem="Asm-mb-A1z" secondAttribute="trailing" constant="25" id="eNN-EG-XSs"/>
+                            <constraint firstItem="yAM-eR-nyE" firstAttribute="trailing" secondItem="IW2-nf-9FO" secondAttribute="trailing" constant="8" id="iaJ-ZQ-WkZ"/>
+                            <constraint firstItem="Asm-mb-A1z" firstAttribute="top" secondItem="IW2-nf-9FO" secondAttribute="bottom" constant="8" id="plb-DN-0mV"/>
+                            <constraint firstItem="Asm-mb-A1z" firstAttribute="leading" secondItem="yAM-eR-nyE" secondAttribute="leading" constant="25" id="sZT-Bx-7Pe"/>
+                            <constraint firstItem="Asm-mb-A1z" firstAttribute="centerX" secondItem="P49-9q-7fP" secondAttribute="centerX" id="tPI-aP-AtR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="yAM-eR-nyE"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6sI-mV-eeM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5418" y="923"/>
+            <point key="canvasLocation" x="5416.8000000000002" y="922.48875562218893"/>
         </scene>
         <!--Chapter 9 - Medical and Nursing-->
         <scene sceneID="GsL-uO-qcc">
