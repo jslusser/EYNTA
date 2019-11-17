@@ -1041,43 +1041,50 @@ There is no “in other words” here.  This is serious stuff!  Next up: Cha
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="10L-5M-aXe">
-                                <rect key="frame" x="0.0" y="64" width="375" height="583"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hz6-eV-8t3">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="491"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <string key="text">If you ask a potential resident, “What is the most important question you would like to ask the facility?”  It’s a guarantee that they will say. “Is the food good?”
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hz6-eV-8t3">
+                                <rect key="frame" x="8" y="44" width="375" height="565"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <mutableString key="text">If you ask a potential resident, “What is the most important question you would like to ask the facility?”  It’s a guarantee that they will say. “Is the food good?”
 
 Many people need special diets, whether for health reasons or religious reasons, or just because that’s what they like.  In this chapter, you will be able to ask everything you can think of (and some you didn’t think of, but we did, regarding food service).
 
 When you are touring, if you think this facility may be in the running, then, ask to speak with the Food Service Director.  If you’re not in a big hurry, see if you can sample a meal.  If your family member is not with you, see if you can bring him or her back for a meal. 
 
-
-
-
-…If you did not get a “Happy Meal” at the facility, and you find yourselves supersizing every item at McDonalds after your tour, this may not be the dining room for you.  Next up: Chapter 11 - Activities</string>
-                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taq-oe-e9p">
-                                        <rect key="frame" x="109" y="499" width="157" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Go To Ch 10 Questions"/>
-                                    </button>
-                                </subviews>
-                            </scrollView>
+…If you did not get a “Happy Meal” at the facility, and you find yourselves supersizing every item at McDonalds after your tour, this may not be the dining room for you.  Next up: Chapter 11 - Activities</mutableString>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taq-oe-e9p">
+                                <rect key="frame" x="25" y="617" width="325" height="30"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Go To Ch 10 Questions"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="taq-oe-e9p" firstAttribute="top" secondItem="hz6-eV-8t3" secondAttribute="bottom" constant="8" id="7qk-l1-0tT"/>
+                            <constraint firstItem="hz6-eV-8t3" firstAttribute="top" secondItem="7NK-Kl-aY9" secondAttribute="top" id="Frc-7a-Oev"/>
+                            <constraint firstItem="7NK-Kl-aY9" firstAttribute="bottom" secondItem="taq-oe-e9p" secondAttribute="bottom" constant="20" id="IvB-6I-8hb"/>
+                            <constraint firstItem="taq-oe-e9p" firstAttribute="top" secondItem="hz6-eV-8t3" secondAttribute="bottom" constant="8" id="Mn1-yU-gUa"/>
+                            <constraint firstItem="7NK-Kl-aY9" firstAttribute="trailing" secondItem="taq-oe-e9p" secondAttribute="trailing" constant="25" id="Qk9-oo-mw2"/>
+                            <constraint firstItem="hz6-eV-8t3" firstAttribute="leading" secondItem="7NK-Kl-aY9" secondAttribute="leading" constant="8" id="bbw-nz-8jM"/>
+                            <constraint firstItem="hz6-eV-8t3" firstAttribute="trailing" secondItem="7NK-Kl-aY9" secondAttribute="trailing" constant="8" id="pnx-ld-D7M"/>
+                            <constraint firstItem="taq-oe-e9p" firstAttribute="leading" secondItem="7NK-Kl-aY9" secondAttribute="leading" constant="25" id="rPU-go-EJs"/>
+                            <constraint firstItem="taq-oe-e9p" firstAttribute="centerX" secondItem="bgo-5t-A6V" secondAttribute="centerX" id="xCz-D4-g5P"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="7NK-Kl-aY9"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bs1-Bh-ZBO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6996" y="936.88155922038993"/>
+            <point key="canvasLocation" x="6828" y="919.79010494752629"/>
         </scene>
         <!--Chapter 11 - Activities-->
         <scene sceneID="f2h-lp-fu0">
