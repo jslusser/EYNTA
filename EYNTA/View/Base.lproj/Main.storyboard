@@ -936,6 +936,9 @@ Also, look around to see if your loved ones will fit in well with the residents 
                                         <integer key="value" value="25"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="XuR-6q-DBJ" kind="show" id="e1V-il-ZwH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -990,6 +993,9 @@ Make sure the room has all the safety features that are needed.  See if the air-
                                         <integer key="value" value="25"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="QxX-Qn-uZs" kind="show" id="E6d-iV-9aG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -1566,10 +1572,10 @@ http://www.alz.org/index.asp
             </objects>
             <point key="canvasLocation" x="3175" y="1691"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Chapter 6 Questions-->
         <scene sceneID="YPn-ub-xDT">
             <objects>
-                <tableViewController id="Mzp-Ms-coA" customClass="Q6TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Mzp-Ms-coA" userLabel="Chapter 6 Questions" customClass="Q6TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="QmF-o4-1r4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1594,6 +1600,64 @@ http://www.alz.org/index.asp
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2oi-ut-J5o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3926" y="1691"/>
+        </scene>
+        <!--Chapter 7 Questions-->
+        <scene sceneID="GYw-Z0-dz1">
+            <objects>
+                <tableViewController id="XuR-6q-DBJ" userLabel="Chapter 7 Questions" customClass="Q7TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="v5a-rY-zvD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="BL3-Uf-Bt6">
+                                <rect key="frame" x="0.0" y="28" width="375" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BL3-Uf-Bt6" id="CXT-oS-85q">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="XuR-6q-DBJ" id="yw9-CJ-3SM"/>
+                            <outlet property="delegate" destination="XuR-6q-DBJ" id="1Qe-Pu-aeZ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="pm4-os-ZpX"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JzZ-5W-uzs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4665" y="1691"/>
+        </scene>
+        <!--Chapter 8 Questions-->
+        <scene sceneID="IuX-RD-yCK">
+            <objects>
+                <tableViewController id="QxX-Qn-uZs" userLabel="Chapter 8 Questions" customClass="Q8TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="lBu-aQ-b0W">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="0Wl-1q-nXm">
+                                <rect key="frame" x="0.0" y="28" width="375" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0Wl-1q-nXm" id="biT-93-3Gs">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="QxX-Qn-uZs" id="Cvv-bV-2Yg"/>
+                            <outlet property="delegate" destination="QxX-Qn-uZs" id="ddH-dM-q3V"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="qz9-6O-XRm"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="65B-pW-AtA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5417" y="1691"/>
         </scene>
     </scenes>
     <resources>
