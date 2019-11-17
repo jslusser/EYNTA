@@ -828,35 +828,45 @@ gKhOZXh0IHVwOiBDaGFwdGVyIDUgLSBMaWNlbnNlcyAmIEFkbWluaXN0cmF0aW9uA
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MRN-HH-Nsc">
-                                <rect key="frame" x="0.0" y="65" width="375" height="602"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qpv-sn-A5W">
-                                        <rect key="frame" x="8" y="8" width="359" height="267"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <string key="text">Yet another chapter on policies and procedures!  Boring, but an absolute must! 
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qpv-sn-A5W">
+                                <rect key="frame" x="8" y="44" width="359" height="565"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <mutableString key="text">Yet another chapter on policies and procedures!  Boring, but an absolute must! 
 
 Here, you will learn all about important costs that you may or may not incur during your loved one’s stay at the facility you choose.  In this chapter you will get an ALF education, for sure!
 
-...this is the MONEY chapter. You will see the words, “money, fees, rates, up front costs, and increases, in every other question.  It’s scary, but it’s better to know everything up front and leave nothing to chance.  Our philosophy comes into play here... “…educate and therefore protect...”  Next up: Chapter 7 - Observations/Tour</string>
-                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QOb-Z9-G7I">
-                                        <rect key="frame" x="112" y="283" width="150" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Go To Ch 6 Questions"/>
-                                        <connections>
-                                            <segue destination="WNG-uR-GQA" kind="show" id="rkd-1O-Xys"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </scrollView>
+...this is the MONEY chapter. You will see the words, “money, fees, rates, up front costs, and increases", in every other question.  It’s scary, but it’s better to know everything up front and leave nothing to chance.  Our philosophy comes into play here... “…educate and therefore protect...”  Next up: Chapter 7 - Observations/Tour</mutableString>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QOb-Z9-G7I">
+                                <rect key="frame" x="25" y="617" width="325" height="30"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Go To Ch 6 Questions"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="WNG-uR-GQA" kind="show" id="rkd-1O-Xys"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QOb-Z9-G7I" firstAttribute="top" secondItem="qpv-sn-A5W" secondAttribute="bottom" constant="8" id="BfV-gC-oNT"/>
+                            <constraint firstItem="qpv-sn-A5W" firstAttribute="top" secondItem="4yk-lo-tG3" secondAttribute="top" id="ZTS-DH-8Ig"/>
+                            <constraint firstItem="qpv-sn-A5W" firstAttribute="leading" secondItem="4yk-lo-tG3" secondAttribute="leading" constant="8" id="bki-C4-F0A"/>
+                            <constraint firstItem="QOb-Z9-G7I" firstAttribute="leading" secondItem="4yk-lo-tG3" secondAttribute="leading" constant="25" id="fXV-U4-qOq"/>
+                            <constraint firstItem="4yk-lo-tG3" firstAttribute="trailing" secondItem="qpv-sn-A5W" secondAttribute="trailing" constant="8" id="gEc-XE-eOY"/>
+                            <constraint firstItem="QOb-Z9-G7I" firstAttribute="centerX" secondItem="uXI-Be-PfX" secondAttribute="centerX" id="hRo-J0-EuC"/>
+                            <constraint firstItem="4yk-lo-tG3" firstAttribute="bottom" secondItem="QOb-Z9-G7I" secondAttribute="bottom" constant="20" id="m0T-ef-4RR"/>
+                            <constraint firstItem="4yk-lo-tG3" firstAttribute="trailing" secondItem="QOb-Z9-G7I" secondAttribute="trailing" constant="25" id="tkw-3y-PrU"/>
+                            <constraint firstItem="QOb-Z9-G7I" firstAttribute="top" secondItem="qpv-sn-A5W" secondAttribute="bottom" constant="8" id="u1F-f9-Yry"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="4yk-lo-tG3"/>
                     </view>
                 </viewController>
@@ -1480,6 +1490,7 @@ http://www.alz.org/index.asp
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="648-B8-zrG"/>
                     </view>
+                    <navigationItem key="navigationItem" id="C4a-MS-dsn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MyU-IU-7yK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
