@@ -34,7 +34,8 @@ class Q10TableViewController: UITableViewController, CellProtocol {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        tableView.rowHeight = UITableView.automaticDimension
+        tableView.estimatedRowHeight = 600
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
         
