@@ -720,7 +720,7 @@ Making an appointment is “where it’s at!”  Next up: Chapter 4 - Genera
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TLp-NL-kv1">
-                                <rect key="frame" x="8" y="52" width="359" height="569"/>
+                                <rect key="frame" x="8" y="44" width="359" height="565"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <string key="text" base64-UTF8="YES">
 WW91IGFyZSBhYm91dCB0byBlbnRlciB0aGUg4oCccXVlc3Rpb27igJ0gc2VjdGlvbuKAnSBvZiBvdXIg
@@ -765,7 +765,7 @@ gKhOZXh0IHVwOiBDaGFwdGVyIDUgLSBMaWNlbnNlcyAmIEFkbWluaXN0cmF0aW9uA
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7X-fr-Ov2">
-                                <rect key="frame" x="25" y="629" width="325" height="30"/>
+                                <rect key="frame" x="25" y="617" width="325" height="30"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="Go to Ch 4 Questions"/>
@@ -782,16 +782,15 @@ gKhOZXh0IHVwOiBDaGFwdGVyIDUgLSBMaWNlbnNlcyAmIEFkbWluaXN0cmF0aW9uA
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="B7X-fr-Ov2" firstAttribute="top" secondItem="TLp-NL-kv1" secondAttribute="bottom" constant="8" id="4X9-Dg-BQN"/>
-                            <constraint firstItem="B7X-fr-Ov2" firstAttribute="leading" secondItem="T3g-6v-mmf" secondAttribute="leading" constant="25" id="9TN-Jw-E6w"/>
-                            <constraint firstItem="B7X-fr-Ov2" firstAttribute="centerX" secondItem="Gc3-D1-g4b" secondAttribute="centerX" id="JGf-sT-sot"/>
-                            <constraint firstItem="T3g-6v-mmf" firstAttribute="trailing" secondItem="TLp-NL-kv1" secondAttribute="trailing" constant="8" id="Q3c-UL-c4f"/>
-                            <constraint firstItem="T3g-6v-mmf" firstAttribute="bottom" secondItem="B7X-fr-Ov2" secondAttribute="bottom" constant="8" id="QoL-45-9o7"/>
-                            <constraint firstItem="T3g-6v-mmf" firstAttribute="trailing" secondItem="B7X-fr-Ov2" secondAttribute="trailing" constant="25" id="R62-bK-2Fa"/>
-                            <constraint firstItem="B7X-fr-Ov2" firstAttribute="top" secondItem="TLp-NL-kv1" secondAttribute="bottom" constant="8" id="VwY-Lp-1LY"/>
-                            <constraint firstItem="TLp-NL-kv1" firstAttribute="top" secondItem="T3g-6v-mmf" secondAttribute="top" constant="8" id="aK7-JV-jWL"/>
-                            <constraint firstItem="TLp-NL-kv1" firstAttribute="leading" secondItem="T3g-6v-mmf" secondAttribute="leading" constant="8" id="jR1-mE-qzs"/>
-                            <constraint firstItem="TLp-NL-kv1" firstAttribute="centerX" secondItem="Gc3-D1-g4b" secondAttribute="centerX" id="lNh-74-Vrs"/>
+                            <constraint firstItem="TLp-NL-kv1" firstAttribute="leading" secondItem="T3g-6v-mmf" secondAttribute="leading" constant="8" id="IUj-fh-hTf"/>
+                            <constraint firstItem="T3g-6v-mmf" firstAttribute="bottom" secondItem="B7X-fr-Ov2" secondAttribute="bottom" constant="20" id="ReR-qV-yAJ"/>
+                            <constraint firstItem="T3g-6v-mmf" firstAttribute="trailing" secondItem="B7X-fr-Ov2" secondAttribute="trailing" constant="25" id="VEQ-N4-JBS"/>
+                            <constraint firstItem="B7X-fr-Ov2" firstAttribute="top" secondItem="TLp-NL-kv1" secondAttribute="bottom" constant="8" id="Wy5-1d-Oxh"/>
+                            <constraint firstItem="B7X-fr-Ov2" firstAttribute="top" secondItem="TLp-NL-kv1" secondAttribute="bottom" constant="8" id="iES-Az-Wif"/>
+                            <constraint firstItem="T3g-6v-mmf" firstAttribute="trailing" secondItem="TLp-NL-kv1" secondAttribute="trailing" constant="8" id="kn4-g9-423"/>
+                            <constraint firstItem="B7X-fr-Ov2" firstAttribute="centerX" secondItem="Gc3-D1-g4b" secondAttribute="centerX" id="oMB-Rr-MoK"/>
+                            <constraint firstItem="TLp-NL-kv1" firstAttribute="top" secondItem="T3g-6v-mmf" secondAttribute="top" id="wED-uh-M9Y"/>
+                            <constraint firstItem="B7X-fr-Ov2" firstAttribute="leading" secondItem="T3g-6v-mmf" secondAttribute="leading" constant="25" id="xeW-0m-BQl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="T3g-6v-mmf"/>
                     </view>
@@ -810,7 +809,7 @@ gKhOZXh0IHVwOiBDaGFwdGVyIDUgLSBMaWNlbnNlcyAmIEFkbWluaXN0cmF0aW9uA
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SK2-EN-VTl">
-                                <rect key="frame" x="8" y="44" width="359" height="577"/>
+                                <rect key="frame" x="8" y="44" width="359" height="565"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <string key="text">In the following chapter, you will be asking questions about documents, policies and inspections.  These questions will reveal the credibility and professionalism of the individuals that operate the company.  Are they organized?  Do they have all of the things you are asking for?  Remember, the Marketing or Sales Representative may not have everything immediately on hand.  Give him a few minutes to produce the requested documents.
 
@@ -822,7 +821,7 @@ gKhOZXh0IHVwOiBDaGFwdGVyIDUgLSBMaWNlbnNlcyAmIEFkbWluaXN0cmF0aW9uA
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPx-39-cTu">
-                                <rect key="frame" x="25" y="629" width="325" height="30"/>
+                                <rect key="frame" x="25" y="617" width="325" height="30"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="Go To Ch 5 Questions"/>
@@ -838,15 +837,15 @@ gKhOZXh0IHVwOiBDaGFwdGVyIDUgLSBMaWNlbnNlcyAmIEFkbWluaXN0cmF0aW9uA
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="V8c-Xt-gnY" firstAttribute="trailing" secondItem="JPx-39-cTu" secondAttribute="trailing" constant="25" id="B29-zh-ycK"/>
-                            <constraint firstItem="JPx-39-cTu" firstAttribute="top" secondItem="SK2-EN-VTl" secondAttribute="bottom" constant="8" id="EZb-Vt-PkD"/>
-                            <constraint firstItem="V8c-Xt-gnY" firstAttribute="trailing" secondItem="SK2-EN-VTl" secondAttribute="trailing" constant="8" id="KvF-AA-TME"/>
-                            <constraint firstItem="SK2-EN-VTl" firstAttribute="leading" secondItem="V8c-Xt-gnY" secondAttribute="leading" constant="8" id="MTt-jr-NsY"/>
-                            <constraint firstItem="V8c-Xt-gnY" firstAttribute="bottom" secondItem="JPx-39-cTu" secondAttribute="bottom" constant="8" id="gOi-NB-T5k"/>
-                            <constraint firstItem="JPx-39-cTu" firstAttribute="top" secondItem="SK2-EN-VTl" secondAttribute="bottom" constant="8" id="gby-aJ-pB3"/>
-                            <constraint firstItem="JPx-39-cTu" firstAttribute="leading" secondItem="V8c-Xt-gnY" secondAttribute="leading" constant="25" id="j4M-zv-zt8"/>
-                            <constraint firstItem="JPx-39-cTu" firstAttribute="centerX" secondItem="YEw-Nj-JFD" secondAttribute="centerX" id="qXJ-EO-Rs8"/>
-                            <constraint firstItem="SK2-EN-VTl" firstAttribute="top" secondItem="V8c-Xt-gnY" secondAttribute="top" id="rNf-jv-MZ8"/>
+                            <constraint firstItem="SK2-EN-VTl" firstAttribute="top" secondItem="V8c-Xt-gnY" secondAttribute="top" id="3v3-Pq-5ri"/>
+                            <constraint firstItem="JPx-39-cTu" firstAttribute="top" secondItem="SK2-EN-VTl" secondAttribute="bottom" constant="8" id="60N-gT-ArM"/>
+                            <constraint firstItem="JPx-39-cTu" firstAttribute="leading" secondItem="V8c-Xt-gnY" secondAttribute="leading" constant="25" id="AnK-RB-sPV"/>
+                            <constraint firstItem="V8c-Xt-gnY" firstAttribute="trailing" secondItem="SK2-EN-VTl" secondAttribute="trailing" constant="8" id="IbO-jm-bM9"/>
+                            <constraint firstItem="V8c-Xt-gnY" firstAttribute="bottom" secondItem="JPx-39-cTu" secondAttribute="bottom" constant="20" id="Isi-m7-9aI"/>
+                            <constraint firstItem="SK2-EN-VTl" firstAttribute="leading" secondItem="V8c-Xt-gnY" secondAttribute="leading" constant="8" id="QdN-xk-u2F"/>
+                            <constraint firstItem="V8c-Xt-gnY" firstAttribute="trailing" secondItem="JPx-39-cTu" secondAttribute="trailing" constant="25" id="UMy-TJ-SMa"/>
+                            <constraint firstItem="JPx-39-cTu" firstAttribute="centerX" secondItem="YEw-Nj-JFD" secondAttribute="centerX" id="YeA-eC-M6f"/>
+                            <constraint firstItem="JPx-39-cTu" firstAttribute="top" secondItem="SK2-EN-VTl" secondAttribute="bottom" constant="8" id="tic-cy-V3W"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="V8c-Xt-gnY"/>
                     </view>
