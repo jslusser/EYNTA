@@ -415,6 +415,28 @@
                                             <segue destination="qrw-ej-wnO" kind="show" id="ndt-OD-Mib"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="24d-LE-Qmf">
+                                        <rect key="frame" x="0.0" y="820" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="24d-LE-Qmf" id="hhl-le-3eS">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User Registration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NmW-Zo-G6O" userLabel="User Registration">
+                                                    <rect key="frame" x="16" y="11" width="315" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <connections>
+                                            <segue destination="SjV-Tf-t1w" kind="show" id="W6S-z7-c2F"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -476,6 +498,110 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kjg-TE-ILp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="12844" y="941"/>
+        </scene>
+        <!--User Registration-->
+        <scene sceneID="cup-3p-XoV">
+            <objects>
+                <viewController title="User Registration" id="SjV-Tf-t1w" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aRL-ZH-XSW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon250" translatesAutoresizingMaskIntoConstraints="NO" id="qym-qs-zPg">
+                                <rect key="frame" x="62.5" y="44" width="250" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="6an-XD-iny"/>
+                                    <constraint firstAttribute="width" constant="250" id="D4P-WR-e1y"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="81y-p3-9q1">
+                                <rect key="frame" x="112.5" y="340" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="2eO-qA-wzj"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="iQu-Gx-rxp"/>
+                                    <constraint firstAttribute="height" constant="30" id="nIv-jH-4YX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhH-YV-RUY">
+                                <rect key="frame" x="112.5" y="378" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="8ty-ZO-3E0"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="Vcq-0w-fjm"/>
+                                    <constraint firstAttribute="height" constant="30" id="l5z-0P-Vy7"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="mJR-NI-Vrg"/>
+                                </constraints>
+                                <state key="normal" title="Log In"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="opl-Ng-8kj">
+                                <rect key="frame" x="112.5" y="418" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="2UA-ZP-rQq"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="AZy-4d-kFq"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="hxL-3y-tgb"/>
+                                    <constraint firstAttribute="width" constant="150" id="y5O-CS-YFU"/>
+                                </constraints>
+                                <state key="normal" title="Forgot password?"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wne-7S-uaw">
+                                <rect key="frame" x="87.5" y="456" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="L0X-ts-XZd"/>
+                                    <constraint firstAttribute="width" constant="200" id="Oc6-kZ-HYv"/>
+                                    <constraint firstAttribute="height" constant="30" id="Xog-qC-XqU"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="mRq-wV-ewn"/>
+                                </constraints>
+                                <state key="normal" title="Register / Create Account"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1j-jI-1mM">
+                                <rect key="frame" x="50" y="494" width="275" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="275" id="UMO-ee-vcX"/>
+                                    <constraint firstAttribute="height" constant="30" id="fed-pf-dfd"/>
+                                    <constraint firstAttribute="width" constant="275" id="lWh-3g-ETY"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="oBh-3d-J1H"/>
+                                </constraints>
+                                <state key="normal" title="Placeholder for Sign In w/ Apple button"/>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MiY-8L-6k2">
+                                <rect key="frame" x="112.5" y="302" width="150" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="IMe-kq-b1V"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="bvZ-e2-QyJ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="cyM-dm-14U"/>
+                                    <constraint firstAttribute="width" constant="150" id="puF-bJ-Fnz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="qhH-YV-RUY" firstAttribute="top" secondItem="81y-p3-9q1" secondAttribute="bottom" constant="8" id="I9l-GK-7LZ"/>
+                            <constraint firstItem="g1j-jI-1mM" firstAttribute="top" secondItem="wne-7S-uaw" secondAttribute="bottom" constant="8" id="JEZ-Ot-qPv"/>
+                            <constraint firstItem="81y-p3-9q1" firstAttribute="top" secondItem="MiY-8L-6k2" secondAttribute="bottom" constant="8" id="JVi-f0-WNX"/>
+                            <constraint firstItem="MiY-8L-6k2" firstAttribute="top" secondItem="qym-qs-zPg" secondAttribute="bottom" constant="8" id="Jqe-We-GSb"/>
+                            <constraint firstItem="qym-qs-zPg" firstAttribute="top" secondItem="bfp-Yb-3z7" secondAttribute="top" id="QSz-rq-vFy"/>
+                            <constraint firstItem="qym-qs-zPg" firstAttribute="centerX" secondItem="aRL-ZH-XSW" secondAttribute="centerX" id="X5p-L9-RBw"/>
+                            <constraint firstItem="wne-7S-uaw" firstAttribute="top" secondItem="opl-Ng-8kj" secondAttribute="bottom" constant="8" id="h6z-Fn-VwR"/>
+                            <constraint firstItem="MiY-8L-6k2" firstAttribute="top" secondItem="qym-qs-zPg" secondAttribute="bottom" constant="8" id="hnj-WK-TgL"/>
+                            <constraint firstItem="qhH-YV-RUY" firstAttribute="centerX" secondItem="aRL-ZH-XSW" secondAttribute="centerX" id="lN9-7d-FDa"/>
+                            <constraint firstItem="81y-p3-9q1" firstAttribute="centerX" secondItem="aRL-ZH-XSW" secondAttribute="centerX" id="oHv-TD-4xn"/>
+                            <constraint firstItem="opl-Ng-8kj" firstAttribute="top" secondItem="qhH-YV-RUY" secondAttribute="bottom" constant="10" id="pl0-Df-wKa"/>
+                            <constraint firstItem="wne-7S-uaw" firstAttribute="centerX" secondItem="aRL-ZH-XSW" secondAttribute="centerX" id="tbl-v3-Tn2"/>
+                            <constraint firstItem="qhH-YV-RUY" firstAttribute="top" secondItem="81y-p3-9q1" secondAttribute="bottom" constant="8" id="uMq-bc-3Gc"/>
+                            <constraint firstItem="MiY-8L-6k2" firstAttribute="centerX" secondItem="aRL-ZH-XSW" secondAttribute="centerX" id="uXZ-9M-pVD"/>
+                            <constraint firstItem="opl-Ng-8kj" firstAttribute="centerX" secondItem="aRL-ZH-XSW" secondAttribute="centerX" id="wzF-rj-rj7"/>
+                            <constraint firstItem="g1j-jI-1mM" firstAttribute="centerX" secondItem="aRL-ZH-XSW" secondAttribute="centerX" id="yzR-6l-vY9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bfp-Yb-3z7"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xuW-Id-4no"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Jr-Js-MBk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-631" y="920"/>
         </scene>
         <!--Chapter 1 - Introduction-->
         <scene sceneID="3MG-BU-KRg">
@@ -1901,5 +2027,6 @@ http://www.alz.org/index.asp
     <resources>
         <image name="Cover" width="612" height="792"/>
         <image name="IOW2" width="118" height="50"/>
+        <image name="icon250" width="250" height="250"/>
     </resources>
 </document>
