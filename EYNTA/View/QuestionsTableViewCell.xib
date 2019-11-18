@@ -23,7 +23,10 @@
                         <color key="highlightedColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                     </label>
                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wLe-pp-vu7">
-                        <rect key="frame" x="266" y="11" width="51" height="22"/>
+                        <rect key="frame" x="266" y="6.5" width="51" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="49" id="dqa-8H-q12"/>
+                        </constraints>
                         <color key="onTintColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <connections>
                             <action selector="switchTapped:" destination="KGk-i7-Jjw" eventType="valueChanged" id="iGQ-6W-twK"/>
@@ -32,12 +35,9 @@
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="wLe-pp-vu7" secondAttribute="trailing" constant="5" id="B0a-wh-W7i"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="wLe-pp-vu7" secondAttribute="bottom" id="K5Q-6p-Dbf"/>
+                    <constraint firstItem="wLe-pp-vu7" firstAttribute="centerY" secondItem="j7L-Mi-vgg" secondAttribute="centerY" id="FIh-Xs-iHm"/>
                     <constraint firstItem="j7L-Mi-vgg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="S6f-Ry-GF3"/>
-                    <constraint firstItem="j7L-Mi-vgg" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ddM-ph-QPV"/>
                     <constraint firstItem="wLe-pp-vu7" firstAttribute="leading" secondItem="j7L-Mi-vgg" secondAttribute="trailing" constant="5" id="dnG-hv-m42"/>
-                    <constraint firstItem="wLe-pp-vu7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="gKe-rs-LMs"/>
-                    <constraint firstItem="wLe-pp-vu7" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="gLd-1i-bWY"/>
                     <constraint firstItem="j7L-Mi-vgg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="ih0-cj-gmD"/>
                     <constraint firstAttribute="bottomMargin" secondItem="j7L-Mi-vgg" secondAttribute="bottom" id="yuu-Uf-IaT"/>
                 </constraints>
