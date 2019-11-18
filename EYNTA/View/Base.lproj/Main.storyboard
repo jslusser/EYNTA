@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K4N-HZ-usf">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -448,10 +447,10 @@
             </objects>
             <point key="canvasLocation" x="44" y="91.304347826086968"/>
         </scene>
-        <!--View Controller-->
+        <!--Book Cover Title Page-->
         <scene sceneID="HHx-ck-E3I">
             <objects>
-                <viewController id="qrw-ej-wnO" sceneMemberID="viewController">
+                <viewController title="Book Cover Title Page" id="qrw-ej-wnO" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Iz2-BC-7ER">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -463,6 +462,7 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="dSE-wZ-9TX" firstAttribute="leading" secondItem="hZZ-1B-0nq" secondAttribute="leading" id="DOP-Ex-RG2"/>
                             <constraint firstItem="dSE-wZ-9TX" firstAttribute="bottom" secondItem="hZZ-1B-0nq" secondAttribute="bottom" id="Xic-DF-pqn"/>
@@ -592,19 +592,10 @@ Assisted Living is an exciting option for individuals who want to maximize their
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ppu-4h-C9B">
-                                <rect key="frame" x="0.0" y="62" width="375" height="609"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IOW2" translatesAutoresizingMaskIntoConstraints="NO" id="CAe-5I-1gZ">
-                                        <rect key="frame" x="8" y="8" width="359" height="52"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                    </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NCi-O0-Cz1">
-                                        <rect key="frame" x="8" y="68" width="359" height="519"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <string key="text" base64-UTF8="YES">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NCi-O0-Cz1">
+                                <rect key="frame" x="8" y="102" width="359" height="545"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text" base64-UTF8="YES">
 Tm93IHRoYXQgeW91IGhhdmUgcmVhZCBhbGwgb2YgdGhlIHRlY2huaWNhbCBzdHVmZiwgbGV04oCZcyBz
 aXQgZG93biBhbmQgY2hhdC4KCkFzIHByb2Zlc3Npb25hbHMsIHdlIHRha2Ugb3VyIGpvYiB2ZXJ5IHNl
 cmlvdXNseS4gIE91ciBqb2IgaXMgdG8gYXNzaXN0IHNlbmlvcnMgYW5kIGZhbWlsaWVzIGFuZCBoZWFs
@@ -681,22 +672,25 @@ c3QgdHJ5IHRvIGp1ZGdlIGV2ZXJ5dGhpbmcgYmFzZWQgb24gd2hhdCBUSEVZIHdpbGwgcmVxdWlyZSwg
 bm90IHdoYXQgWU9VIHJlcXVpcmUuICBJbiBvdGhlciB3b3Jkcywgd2hvIGlzIHJlYWxseSBtb3Zpbmcg
 aW4/4oCo4oCoTmV4dCB1cDogQ2hhcHRlciAzIC0gQmVmb3JlIFlvdSBHbw
 </string>
-                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IOW2" translatesAutoresizingMaskIntoConstraints="NO" id="CAe-5I-1gZ">
+                                <rect key="frame" x="8" y="44" width="359" height="50"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                            </scrollView>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
-                            <constraint firstItem="p5k-2i-pJR" firstAttribute="bottom" secondItem="ppu-4h-C9B" secondAttribute="bottom" id="FZM-rk-8Yv"/>
-                            <constraint firstItem="ppu-4h-C9B" firstAttribute="top" secondItem="p5k-2i-pJR" secondAttribute="top" id="aE8-Rl-Cr2"/>
-                            <constraint firstItem="ppu-4h-C9B" firstAttribute="leading" secondItem="p5k-2i-pJR" secondAttribute="leading" id="bxd-wX-uZ3"/>
-                            <constraint firstItem="ppu-4h-C9B" firstAttribute="trailing" secondItem="p5k-2i-pJR" secondAttribute="trailing" id="rMh-6r-s5B"/>
+                            <constraint firstItem="p5k-2i-pJR" firstAttribute="trailing" secondItem="CAe-5I-1gZ" secondAttribute="trailing" constant="8" id="1L0-EG-s1J"/>
+                            <constraint firstItem="CAe-5I-1gZ" firstAttribute="leading" secondItem="p5k-2i-pJR" secondAttribute="leading" constant="8" id="8qO-DV-tzT"/>
+                            <constraint firstItem="NCi-O0-Cz1" firstAttribute="leading" secondItem="p5k-2i-pJR" secondAttribute="leading" constant="8" id="FH7-Z5-gGN"/>
+                            <constraint firstItem="p5k-2i-pJR" firstAttribute="trailing" secondItem="NCi-O0-Cz1" secondAttribute="trailing" constant="8" id="NwN-GU-8PK"/>
+                            <constraint firstItem="p5k-2i-pJR" firstAttribute="bottom" secondItem="NCi-O0-Cz1" secondAttribute="bottom" constant="20" id="VzZ-iQ-gy8"/>
+                            <constraint firstItem="CAe-5I-1gZ" firstAttribute="top" secondItem="p5k-2i-pJR" secondAttribute="top" id="fxU-de-fk9"/>
+                            <constraint firstItem="NCi-O0-Cz1" firstAttribute="top" secondItem="CAe-5I-1gZ" secondAttribute="bottom" constant="8" id="gmu-33-jCw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="p5k-2i-pJR"/>
                     </view>
