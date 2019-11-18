@@ -471,7 +471,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hZZ-1B-0nq"/>
                     </view>
-                    <navigationItem key="navigationItem" id="aZM-WJ-c1W"/>
+                    <navigationItem key="navigationItem" title="Book Cover Title Page" id="aZM-WJ-c1W"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kjg-TE-ILp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
