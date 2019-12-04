@@ -502,7 +502,7 @@
         <!--User Registration-->
         <scene sceneID="cup-3p-XoV">
             <objects>
-                <viewController title="User Registration" id="SjV-Tf-t1w" sceneMemberID="viewController">
+                <viewController title="User Registration" id="SjV-Tf-t1w" customClass="UserRegistrationViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aRL-ZH-XSW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -533,6 +533,9 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="mJR-NI-Vrg"/>
                                 </constraints>
                                 <state key="normal" title="Log In"/>
+                                <connections>
+                                    <action selector="login:" destination="SjV-Tf-t1w" eventType="touchUpInside" id="XhV-iL-ERs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="opl-Ng-8kj">
                                 <rect key="frame" x="112.5" y="418" width="150" height="30"/>
@@ -543,6 +546,9 @@
                                     <constraint firstAttribute="width" constant="150" id="y5O-CS-YFU"/>
                                 </constraints>
                                 <state key="normal" title="Forgot password?"/>
+                                <connections>
+                                    <action selector="forgotPassword:" destination="SjV-Tf-t1w" eventType="touchUpInside" id="6Rn-Rr-Cny"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wne-7S-uaw">
                                 <rect key="frame" x="87.5" y="456" width="200" height="30"/>
@@ -553,16 +559,21 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="mRq-wV-ewn"/>
                                 </constraints>
                                 <state key="normal" title="Register / Create Account"/>
+                                <connections>
+                                    <action selector="createAccount:" destination="SjV-Tf-t1w" eventType="touchUpInside" id="le0-SV-xt9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1j-jI-1mM">
-                                <rect key="frame" x="50" y="494" width="275" height="30"/>
+                                <rect key="frame" x="47.5" y="494" width="280" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="275" id="UMO-ee-vcX"/>
-                                    <constraint firstAttribute="height" constant="30" id="fed-pf-dfd"/>
-                                    <constraint firstAttribute="width" constant="275" id="lWh-3g-ETY"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="oBh-3d-J1H"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="UMO-ee-vcX"/>
+                                    <constraint firstAttribute="height" constant="60" id="fed-pf-dfd"/>
                                 </constraints>
                                 <state key="normal" title="Placeholder for Sign In w/ Apple button"/>
+                                <connections>
+                                    <action selector="createAccount:" destination="SjV-Tf-t1w" eventType="touchUpInside" id="q5W-Da-V8E"/>
+                                    <action selector="signInWithApple:" destination="SjV-Tf-t1w" eventType="touchUpInside" id="y0l-EG-0UM"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MiY-8L-6k2">
                                 <rect key="frame" x="112.5" y="302" width="150" height="30"/>
@@ -598,6 +609,10 @@
                         <viewLayoutGuide key="safeArea" id="bfp-Yb-3z7"/>
                     </view>
                     <navigationItem key="navigationItem" id="xuW-Id-4no"/>
+                    <connections>
+                        <outlet property="emailAddress" destination="MiY-8L-6k2" id="DLA-xu-dWF"/>
+                        <outlet property="password" destination="81y-p3-9q1" id="oBX-GE-7U8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Jr-Js-MBk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -719,7 +734,7 @@ Assisted Living is an exciting option for individuals who want to maximize their
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NCi-O0-Cz1">
-                                <rect key="frame" x="8" y="102" width="359" height="545"/>
+                                <rect key="frame" x="8" y="152" width="359" height="495"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <string key="text" base64-UTF8="YES">
 Tm93IHRoYXQgeW91IGhhdmUgcmVhZCBhbGwgb2YgdGhlIHRlY2huaWNhbCBzdHVmZiwgbGV04oCZcyBz
@@ -803,7 +818,7 @@ aW4/4oCo4oCoTmV4dCB1cDogQ2hhcHRlciAzIC0gQmVmb3JlIFlvdSBHbw
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IOW2" translatesAutoresizingMaskIntoConstraints="NO" id="CAe-5I-1gZ">
-                                <rect key="frame" x="8" y="44" width="359" height="50"/>
+                                <rect key="frame" x="8" y="44" width="359" height="100"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </imageView>
                         </subviews>

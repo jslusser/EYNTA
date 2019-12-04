@@ -10,10 +10,19 @@ import UIKit
 
 class Q4TableViewController: UITableViewController, CellProtocol {
     
+        let defaults = UserDefaults.standard
+    
     // MARK: This question array is for the tableView data
     var questions = [Question]()
     // MARK: This question array is for the user selected questions
     var selectedQuestions = [Question]()
+    
+    struct Keys {
+     static let userSelectedQuestions = "userSelectedQuestions"
+    }
+
+
+
     
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: QuestionsTableViewCell) {
         // using guard let syntax to unwrap the optional; if it returns nil then it exits the function and does nothing
@@ -29,11 +38,23 @@ class Q4TableViewController: UITableViewController, CellProtocol {
             guard let index = selectedQuestions.firstIndex(where: { $0.questionCopy == questions[indexPath.row].questionCopy }) else { return }
             selectedQuestions.remove(at: index)
         }
+//       saveSelectedQuestions()
     }
+    
+    func saveSelectedQuestions() {
+        defaults.set(selectedQuestions, forKey: Keys.userSelectedQuestions)
+    }
+    
+//    func checkForSavedSelectedQuestions() {
+//        let savedArray = defaults.object(forKey: Keys.userSelectedQuestions) as? [Question] ?? ""
+//        }
+//    }
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
+//        checkForSavedSelectedQuestions()
+//        print(UserDefaults.standard.dictionaryRepresentation())
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 600
         // Uncomment the following line to preserve selection between presentations
@@ -51,7 +72,7 @@ class Q4TableViewController: UITableViewController, CellProtocol {
         self.questions = ch4questions
         let questionsNib = UINib(nibName: "QuestionsTableViewCell", bundle: nil)
         tableView.register(questionsNib, forCellReuseIdentifier: "QuestionsTableViewCell")
-        tableView.estimatedRowHeight = 50
+       // tableView.estimatedRowHeight = 50
     }
 
     // MARK: - Table view data source

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		941D0F57238356F600D33285 /* SignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D0F56238356F600D33285 /* SignInWithApple.swift */; };
+		941D0F59238357DE00D33285 /* UserRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D0F58238357DE00D33285 /* UserRegistrationViewController.swift */; };
+		941D0F5C2383667D00D33285 /* UserModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 941D0F5A2383667D00D33285 /* UserModel.xcdatamodeld */; };
+		941D0F5F2383681F00D33285 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D0F5D2383681E00D33285 /* User+CoreDataClass.swift */; };
+		941D0F602383681F00D33285 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D0F5E2383681F00D33285 /* User+CoreDataProperties.swift */; };
 		943B2A0A220382D500038A65 /* QuestionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943B2A08220382D500038A65 /* QuestionsTableViewCell.swift */; };
 		943B2A0B220382D500038A65 /* QuestionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 943B2A09220382D500038A65 /* QuestionsTableViewCell.xib */; };
 		943B2A10220385B500038A65 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943B2A0F220385B500038A65 /* Questions.swift */; };
@@ -45,6 +50,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		941D0F56238356F600D33285 /* SignInWithApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithApple.swift; sourceTree = "<group>"; };
+		941D0F58238357DE00D33285 /* UserRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationViewController.swift; sourceTree = "<group>"; };
+		941D0F5B2383667D00D33285 /* UserModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserModel.xcdatamodel; sourceTree = "<group>"; };
+		941D0F5D2383681E00D33285 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		941D0F5E2383681F00D33285 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		943B2A08220382D500038A65 /* QuestionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewCell.swift; sourceTree = "<group>"; };
 		943B2A09220382D500038A65 /* QuestionsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionsTableViewCell.xib; sourceTree = "<group>"; };
 		943B2A0F220385B500038A65 /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
@@ -124,6 +134,8 @@
 				94AF5C042380F081007A710D /* Q14TableViewController.swift */,
 				946676B121EE87A500A61966 /* ContentsTableViewController.swift */,
 				94BBDCCB22075C7B00A1068E /* VocabularyTableViewController.swift */,
+				941D0F56238356F600D33285 /* SignInWithApple.swift */,
+				941D0F58238357DE00D33285 /* UserRegistrationViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -131,6 +143,9 @@
 		943B2A11220385C000038A65 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				941D0F5D2383681E00D33285 /* User+CoreDataClass.swift */,
+				941D0F5E2383681F00D33285 /* User+CoreDataProperties.swift */,
+				941D0F5A2383667D00D33285 /* UserModel.xcdatamodeld */,
 				943B2A0F220385B500038A65 /* Questions.swift */,
 				943B2A14220387A000038A65 /* ch4Questions.json */,
 				943B2A1A2203A41E00038A65 /* ch5Questions.json */,
@@ -265,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941D0F59238357DE00D33285 /* UserRegistrationViewController.swift in Sources */,
 				94AF5BF92380EEAC007A710D /* Q8TableViewController.swift in Sources */,
 				946676A021EE86D800A61966 /* AppDelegate.swift in Sources */,
 				94AF5C012380F063007A710D /* Q12TableViewController.swift in Sources */,
@@ -274,14 +290,18 @@
 				94AF5BF72380EC3D007A710D /* Q7TableViewController.swift in Sources */,
 				943B2A0A220382D500038A65 /* QuestionsTableViewCell.swift in Sources */,
 				943B2A10220385B500038A65 /* Questions.swift in Sources */,
+				941D0F5C2383667D00D33285 /* UserModel.xcdatamodeld in Sources */,
 				94BBDCC922075A1A00A1068E /* VocabularyTableViewCell.swift in Sources */,
 				94BBDCCC22075C7B00A1068E /* VocabularyTableViewController.swift in Sources */,
 				94AF5BFF2380F055007A710D /* Q11TableViewController.swift in Sources */,
 				94AF5C052380F081007A710D /* Q14TableViewController.swift in Sources */,
+				941D0F57238356F600D33285 /* SignInWithApple.swift in Sources */,
 				946676B221EE87A500A61966 /* ContentsTableViewController.swift in Sources */,
 				943B2A19220391BC00038A65 /* Q4TableViewController.swift in Sources */,
+				941D0F602383681F00D33285 /* User+CoreDataProperties.swift in Sources */,
 				94AF5BFB2380F030007A710D /* Q9TableViewController.swift in Sources */,
 				94AF5BFD2380F048007A710D /* Q10TableViewController.swift in Sources */,
+				941D0F5F2383681F00D33285 /* User+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +505,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		941D0F5A2383667D00D33285 /* UserModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				941D0F5B2383667D00D33285 /* UserModel.xcdatamodel */,
+			);
+			currentVersion = 941D0F5B2383667D00D33285 /* UserModel.xcdatamodel */;
+			path = UserModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9466769421EE86D800A61966 /* Project object */;
 }
