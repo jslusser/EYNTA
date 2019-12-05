@@ -201,5 +201,9 @@
  {
      "questionCopy": "Does your facility have hurricane shutters?",
      "chapter": "ch7"
+ },
+ {
+     "questionCopy": "Does your facility have a generator?",
+     "chapter": "ch7"
  }
  ]

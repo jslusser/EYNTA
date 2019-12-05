@@ -632,9 +632,9 @@
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NQU-4t-fWH">
                                         <rect key="frame" x="8" y="0.0" width="359" height="623"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <string key="text">In the past two decades, Assisted Living Facilities have grown nationwide in the health care industry.
+                                        <mutableString key="text">In the past two decades, Assisted Living Facilities have grown nationwide in the health care industry.
 
-There are approximately 33,000 Assisted Living Facilities operating in the United States today.  The number of residents living in a facility can range from just a few to over 300, with the most common size housing between 25 and 120 individuals.
+There are approximately 40,000 Assisted Living Facilities operating in the United States today.  The number of residents living in a facility can range from just a few to over 300, with the most common size housing between 25 and 120 individuals.
 
 Years ago, everyone referred to all nursing facilities as “the home.”  The population within them was a mix and match of all ages, diagnoses, and behaviors.  When a family could no longer care for a loved one, they had no choice but to place him or her in “the home.”  It was the only option available to them at the time.
 
@@ -691,7 +691,7 @@ Every state requires a contract.  In this contract, you will find the monthly co
 Overall, the best way to describe Assisted Living is to think of it as a bridge between living at home and living in a nursing home.  Assisted Living has a residential focus with a home-like environment.  A nursing home is primarily a medical institution.
 
 Assisted Living is an exciting option for individuals who want to maximize their independence while living in the safety of a supervised, residential setting.  Next up: Chapter 2 - In Other Words
-</string>
+</mutableString>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -734,9 +734,9 @@ Assisted Living is an exciting option for individuals who want to maximize their
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NCi-O0-Cz1">
-                                <rect key="frame" x="8" y="152" width="359" height="495"/>
+                                <rect key="frame" x="8" y="102" width="359" height="545"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <string key="text" base64-UTF8="YES">
+                                <mutableString key="text" base64-UTF8="YES">
 Tm93IHRoYXQgeW91IGhhdmUgcmVhZCBhbGwgb2YgdGhlIHRlY2huaWNhbCBzdHVmZiwgbGV04oCZcyBz
 aXQgZG93biBhbmQgY2hhdC4KCkFzIHByb2Zlc3Npb25hbHMsIHdlIHRha2Ugb3VyIGpvYiB2ZXJ5IHNl
 cmlvdXNseS4gIE91ciBqb2IgaXMgdG8gYXNzaXN0IHNlbmlvcnMgYW5kIGZhbWlsaWVzIGFuZCBoZWFs
@@ -756,69 +756,69 @@ a25vdyB5b3VyIGxvdmVkIG9uZSBiZXR0ZXIgdGhhbiBhbnlvbmUgZWxzZS4gV291bGQgYSBjaGFuZGVs
 aWVyIGFuZCBtYXJibGUgZmxvb3IgYmUgaW1wb3J0YW50IHRvIHRoZW0/IElmIGl0IGlzLCB0aGVuIHlv
 dSBtYXkgaGF2ZSB0byB0YWtlIHRoYXQgaW50byBjb25zaWRlcmF0aW9uLiBPdGhlcndpc2UsIHRob3Nl
 IGl0ZW1zIGNvdWxkIG1ha2UgeW91ciBsb3ZlZCBvbmUgZmVlbCB1bmNvbWZvcnRhYmxlIGlmIGhlIG9y
-IHNoZSBpcyBub3QgdXNlZCB0byBpdC4KDApBbHNvLCB3aGlsZSBsb29raW5nIGZvciBjb21tdW5pdGll
-cyB0byB2aXNpdCwgcmVtZW1iZXIgdGhhdCB0aGUgbGFyZ2VzdCBhbmQgbW9zdCBleHBlbnNpdmUgYWR2
-ZXJ0aXNlbWVudCBkb2VzbuKAmXQgYWx3YXlzIHJlcHJlc2VudCB0aGUgbW9zdCBsb3ZpbmcgYW5kIGNh
-cmluZyBwbGFjZS4gIFdoZW4gbG9va2luZyBmb3IgY29tbXVuaXRpZXMsIHlvdSBjYW4gYXNrIGZyaWVu
-ZHMsIGdvIG9uIHRoZSBpbnRlcm5ldCwgdGFsayB0byB5b3VyIGNsZXJneSwgbG9vayBpbiB0aGUgcGhv
-bmUgYm9vaywgY2FsbCBhIHBsYWNlbWVudCBhZ2VuY3ksIG9yIGEgc29jaWFsIHNlcnZpY2UgYWdlbmN5
-LiAKCk1ha2Ugc3VyZSB5b3UgbG9vayBhdCBjb21tdW5pdGllcyB0aGF0IG1hdGNoIHRoZSBnZW9ncmFw
-aGljYWwgbmVlZHMgb2YgeW91IGFuZCB5b3VyIGxvdmVkIG9uZS4gIFlvdSB3YW50IGl0IHRvIGJlIGNs
-b3NlIHRvIGZhbWlseSBhbmQgcG9zc2libHksIHRoZWlyIGRvY3Rvci4gCgpJdOKAmXMgaW1wb3J0YW50
-IHRvIG1ha2UgYSBwbGFuLiAgQWZ0ZXIgeW91IGNob29zZSB0aGUgY29tbXVuaXRpZXMgdGhhdCB5b3Xi
-gJlyZSBnb2luZyB0byBnbyBhbmQgc2VlLCBzZXQgdXAgYSB0b3VyLiAgRGVkaWNhdGUgYSBkYXkgdG8g
-ZG8gdGhpcy4gIEFsbG93IGF0IGxlYXN0IGFuIGhvdXIgZm9yIGVhY2ggY29tbXVuaXR5LiAgWW91IG1h
-eSB3YW50IHRvIHNlZSBvbmUgaW4gdGhlIG1vcm5pbmcsIGhhdmUgbHVuY2ggYW5kIHNlZSB0d28gaW4g
-dGhlIGFmdGVybm9vbi4gIEhvd2V2ZXIgeW91IHdhbnQgdG8gZG8gaXQsIGp1c3QgbWFrZSBzdXJlIHRo
-YXQgeW91IGFsbG93IGVub3VnaCB0aW1lIHRvIHRvdXIgZWFjaCBjb21tdW5pdHkgYW5kIHRpbWUgdG8g
-Z2V0IGZyb20gb25lIHRvIHRoZSBvdGhlci4gIElmIGl0IHRha2VzIG1vcmUgdGhhbiBvbmUgZGF5LCB0
-aGF0IGlzIGZpbmUgYWxzby4gIFRoZSBrZXkgaXMgdG8gc3RheSBjYWxtIGFuZCBnYXRoZXIgYWxsIG9m
-IHRoZSBpbmZvcm1hdGlvbiB5b3UgYXJlIGdvaW5nIHRvIG5lZWQgdG8gbWFrZSBhIGRlY2lzaW9uIHRo
-YXQgYm90aCB5b3UgYW5kIHlvdXIgbG92ZWQgb25lIHdpbGwgYmUgY29tZm9ydGFibGUgd2l0aC4KCk1h
-bnkgcGVvcGxlIGxpa2UgdG8ganVzdCDigJxzaG93IHVw4oCdIGF0IGEgY29tbXVuaXR5IHdpdGhvdXQg
-YW4gYXBwb2ludG1lbnQuICBUaGVzZSBwZW9wbGUgYXJlIGNhbGxlZCDigJxzaG93LXVwcGVycy7igJ0g
-IFRoZXJlIGFyZSBtYW55IHJlYXNvbnMgd2h5IHRoaXMgaXMgbm90IGEgZ29vZCBpZGVhLiBUaGUgbW9z
-dCBpbXBvcnRhbnQgb25lIGlzIHRpbWUuICBJZiB5b3Ugc2hvdyB1cCBmb3IgYSB0b3VyIHdpdGhvdXQg
-YW4gYXBwb2ludG1lbnQsIHRoZXJlIG1heSBiZSBhbm90aGVyIGZhbWlseSB0b3VyaW5nIGFuZCB5b3Ug
-bWF5IGhhdmUgdG8gd2FpdCBhIGxvbmcgdGltZSB1bnRpbCB0aGV5IGNhbiBnZXQgdG8geW91LiAgR29v
-ZCBjb21tdW5pdGllcyB0YWtlIHRpbWUgd2l0aCBlYWNoIGZhbWlseS4gWW91IHdvdWxkIHdhbnQgdGhp
-cyBzYW1lIHRyZWF0bWVudCBmb3IgeW91IGFuZCB5b3VyIGZhbWlseSBhcyB3ZWxsLiAgU28sIGRvbuKA
-mXQgYmUgYSDigJxTSE9XLVVQUEVSIeKAnQoKSGF2aW5nIGJlZW4gQWRtaW5pc3RyYXRvcnMgb2YgdmVy
-eSBsYXJnZSBjb21tdW5pdGllcywgd2UgaGF2ZSB3aXRuZXNzZWQsIGZpcnN0IGhhbmQsIHdoYXQgY2Fu
-IGhhcHBlbiB3aGVuIHBlb3BsZSBqdXN0IArigJxzaG93IHVwLuKAnSBZb3UgbWF5IGNvbWUgdXBvbiBh
-IHNjZW5hcmlvIHRoYXQgaXMgdW5wbGVhc2FudCBvciB1bm5lcnZpbmcuICBUaGluZ3MgaGFwcGVuIGlu
-IGNvbW11bml0aWVzIHdpdGggYW4gZWxkZXJseSBwb3B1bGF0aW9uLCBhbmQgdGhlIGNvbW11bml0eSBz
-aG91bGQgbm90IGJlIGp1ZGdlZCBieSBhbiBpc29sYXRlZCBpbmNpZGVudCwgYnV0IGJ5IGhvdyBpdCBp
-cyBoYW5kbGVkIGJ5IHRoZSBzdGFmZi4gCgpBbm90aGVyIGltcG9ydGFudCByZWFzb24geW91IHNob3Vs
-ZCBtYWtlIGFuIGFwcG9pbnRtZW50IGlzIHRoZSBmYWN0IHRoYXQgeW91IHdhbnQgdG8gdG91ciB0aGUg
-Y29tbXVuaXR5IHdpdGggdGhlIFNhbGVzIG9yIE1hcmtldGluZyBSZXByZXNlbnRhdGl2ZSwgbm90IGEg
-cmVjZXB0aW9uaXN0IG9yIG9mZmljZSB3b3JrZXIgYXMgYSBmaWxsIGluLiBXaGlsZSB0aGV5IG1heSBi
-ZSBhYmxlIHRvIHNob3cgeW91IGFyb3VuZCwgdGhleSBhcmUgbm90IGdvaW5nIHRvIGJlIGFibGUgdG8g
-YW5zd2VyIGFsbCBvZiB5b3VyIHF1ZXN0aW9ucyBhbmQgZ2l2ZSB5b3UgdGhlIHBlcnNvbmFsIGF0dGVu
-dGlvbiB0aGF0IHlvdSB3aWxsIHJlcXVpcmUgaW4gbWFraW5nIHRoaXMgaW1wb3J0YW50IGRlY2lzaW9u
-LiBJbiBvdGhlciB3b3JkcywgeW91IG1heSBlbmQgdXAgZ2V0dGluZyBhIHRvdXIgZnJvbSB0aGUgZXh0
-ZXJtaW5hdG9yIG9uIGhpcyB3YXkgdG8gTXJzLiBKb25lcyBpbiByb29tIDIwOS4KClJlbWVtYmVyLCBh
-bGwgb2YgdGhlc2UgY29tbXVuaXRpZXMgYXJlIHJlZ3VsYXRlZCBieSBzdGF0ZSBsYXdzLCBidXQgZG9u
-4oCZdCBleHBlY3QgcGVyZmVjdGlvbiBhdCBhbGwgdGltZXMuICBUaGVzZSBzYW1lIGNvbW11bml0aWVz
-IGFyZSBydW4gYnkgaHVtYW4gYmVpbmdzLCBhbmQgd2Uga25vdyBodW1hbiBiZWluZ3MgYXJlIG5vdCBw
-ZXJmZWN0LgoKT25jZSB5b3UgYXJlIGluIHRoZSBjb21tdW5pdHkgYW5kIHRvdXJpbmcsIGxvb2sgYXJv
-dW5kIGFuZCB0cnkgdG8gdGhpbmvigKZ3b3VsZCB5b3VyIGxvdmVkIG9uZSBsaWtlIGl0PyAgSXMgaXQg
-YSBwbGFjZSB3aGVyZSB0aGV5IHdvdWxkIGJlIGNvbWZvcnRhYmxlPyAgSXMgaXQgd2hhdCB0aGV5IGFy
-ZSB1c2VkIHRvPyAgTG9vayBhdCB0aGUgYWN0aXZpdGllcyB0aGF0IGFyZSBvZmZlcmVkLiAgV2lsbCB0
-aGV5IGJlIG9mIGludGVyZXN0IHRvIHRoZW0/ICBXaGVuIHlvdSBsb29rIGF0IHRoZSByb29tcywgdHJ5
-IHRvIHRoaW5rIG9mIHdoYXQgdGhleSB3aWxsIHJlcXVpcmUuICBNYXliZSwgaXTigJlzIGp1c3QgYSB0
-ZWxldmlzaW9uLCBhbiBlYXN5IGNoYWlyLCBhIGJlZCwgYSBkcmVzc2VyLCBhIHJlZnJpZ2VyYXRvciwg
-YSBjbG9zZXQgYW5kIGEgYmF0aHJvb20uICBUaGUgaW1wb3J0YW50IHRoaW5nIGlzIHRoYXQgeW91IG11
-c3QgdHJ5IHRvIGp1ZGdlIGV2ZXJ5dGhpbmcgYmFzZWQgb24gd2hhdCBUSEVZIHdpbGwgcmVxdWlyZSwg
-bm90IHdoYXQgWU9VIHJlcXVpcmUuICBJbiBvdGhlciB3b3Jkcywgd2hvIGlzIHJlYWxseSBtb3Zpbmcg
-aW4/4oCo4oCoTmV4dCB1cDogQ2hhcHRlciAzIC0gQmVmb3JlIFlvdSBHbw
-</string>
+IHNoZSBpcyBub3QgdXNlZCB0byBpdC4MCkFsc28sIHdoaWxlIGxvb2tpbmcgZm9yIGNvbW11bml0aWVz
+IHRvIHZpc2l0LCByZW1lbWJlciB0aGF0IHRoZSBsYXJnZXN0IGFuZCBtb3N0IGV4cGVuc2l2ZSBhZHZl
+cnRpc2VtZW50IGRvZXNu4oCZdCBhbHdheXMgcmVwcmVzZW50IHRoZSBtb3N0IGxvdmluZyBhbmQgY2Fy
+aW5nIHBsYWNlLiAgV2hlbiBsb29raW5nIGZvciBjb21tdW5pdGllcywgeW91IGNhbiBhc2sgZnJpZW5k
+cywgZ28gb24gdGhlIGludGVybmV0LCB0YWxrIHRvIHlvdXIgY2xlcmd5LCBsb29rIGluIHRoZSBwaG9u
+ZSBib29rLCBjYWxsIGEgcGxhY2VtZW50IGFnZW5jeSwgb3IgYSBzb2NpYWwgc2VydmljZSBhZ2VuY3ku
+IAoKTWFrZSBzdXJlIHlvdSBsb29rIGF0IGNvbW11bml0aWVzIHRoYXQgbWF0Y2ggdGhlIGdlb2dyYXBo
+aWNhbCBuZWVkcyBvZiB5b3UgYW5kIHlvdXIgbG92ZWQgb25lLiAgWW91IHdhbnQgaXQgdG8gYmUgY2xv
+c2UgdG8gZmFtaWx5IGFuZCBwb3NzaWJseSwgdGhlaXIgZG9jdG9yLiAKCkl04oCZcyBpbXBvcnRhbnQg
+dG8gbWFrZSBhIHBsYW4uICBBZnRlciB5b3UgY2hvb3NlIHRoZSBjb21tdW5pdGllcyB0aGF0IHlvdeKA
+mXJlIGdvaW5nIHRvIGdvIGFuZCBzZWUsIHNldCB1cCBhIHRvdXIuICBEZWRpY2F0ZSBhIGRheSB0byBk
+byB0aGlzLiAgQWxsb3cgYXQgbGVhc3QgYW4gaG91ciBmb3IgZWFjaCBjb21tdW5pdHkuICBZb3UgbWF5
+IHdhbnQgdG8gc2VlIG9uZSBpbiB0aGUgbW9ybmluZywgaGF2ZSBsdW5jaCBhbmQgc2VlIHR3byBpbiB0
+aGUgYWZ0ZXJub29uLiAgSG93ZXZlciB5b3Ugd2FudCB0byBkbyBpdCwganVzdCBtYWtlIHN1cmUgdGhh
+dCB5b3UgYWxsb3cgZW5vdWdoIHRpbWUgdG8gdG91ciBlYWNoIGNvbW11bml0eSBhbmQgdGltZSB0byBn
+ZXQgZnJvbSBvbmUgdG8gdGhlIG90aGVyLiAgSWYgaXQgdGFrZXMgbW9yZSB0aGFuIG9uZSBkYXksIHRo
+YXQgaXMgZmluZSBhbHNvLiAgVGhlIGtleSBpcyB0byBzdGF5IGNhbG0gYW5kIGdhdGhlciBhbGwgb2Yg
+dGhlIGluZm9ybWF0aW9uIHlvdSBhcmUgZ29pbmcgdG8gbmVlZCB0byBtYWtlIGEgZGVjaXNpb24gdGhh
+dCBib3RoIHlvdSBhbmQgeW91ciBsb3ZlZCBvbmUgd2lsbCBiZSBjb21mb3J0YWJsZSB3aXRoLgoKTWFu
+eSBwZW9wbGUgbGlrZSB0byBqdXN0IOKAnHNob3cgdXDigJ0gYXQgYSBjb21tdW5pdHkgd2l0aG91dCBh
+biBhcHBvaW50bWVudC4gIFRoZXNlIHBlb3BsZSBhcmUgY2FsbGVkIOKAnHNob3ctdXBwZXJzLuKAnSAg
+VGhlcmUgYXJlIG1hbnkgcmVhc29ucyB3aHkgdGhpcyBpcyBub3QgYSBnb29kIGlkZWEuIFRoZSBtb3N0
+IGltcG9ydGFudCBvbmUgaXMgdGltZS4gIElmIHlvdSBzaG93IHVwIGZvciBhIHRvdXIgd2l0aG91dCBh
+biBhcHBvaW50bWVudCwgdGhlcmUgbWF5IGJlIGFub3RoZXIgZmFtaWx5IHRvdXJpbmcgYW5kIHlvdSBt
+YXkgaGF2ZSB0byB3YWl0IGEgbG9uZyB0aW1lIHVudGlsIHRoZXkgY2FuIGdldCB0byB5b3UuICBHb29k
+IGNvbW11bml0aWVzIHRha2UgdGltZSB3aXRoIGVhY2ggZmFtaWx5LiBZb3Ugd291bGQgd2FudCB0aGlz
+IHNhbWUgdHJlYXRtZW50IGZvciB5b3UgYW5kIHlvdXIgZmFtaWx5IGFzIHdlbGwuICBTbywgZG9u4oCZ
+dCBiZSBhIOKAnFNIT1ctVVBQRVIh4oCdCgpIYXZpbmcgYmVlbiBBZG1pbmlzdHJhdG9ycyBvZiB2ZXJ5
+IGxhcmdlIGNvbW11bml0aWVzLCB3ZSBoYXZlIHdpdG5lc3NlZCwgZmlyc3QgaGFuZCwgd2hhdCBjYW4g
+aGFwcGVuIHdoZW4gcGVvcGxlIGp1c3QgIOKAnHNob3cgdXAu4oCdIFlvdSBtYXkgY29tZSB1cG9uIGEg
+c2NlbmFyaW8gdGhhdCBpcyB1bnBsZWFzYW50IG9yIHVubmVydmluZy4gIFRoaW5ncyBoYXBwZW4gaW4g
+Y29tbXVuaXRpZXMgd2l0aCBhbiBlbGRlcmx5IHBvcHVsYXRpb24sIGFuZCB0aGUgY29tbXVuaXR5IHNo
+b3VsZCBub3QgYmUganVkZ2VkIGJ5IGFuIGlzb2xhdGVkIGluY2lkZW50LCBidXQgYnkgaG93IGl0IGlz
+IGhhbmRsZWQgYnkgdGhlIHN0YWZmLiAKCkFub3RoZXIgaW1wb3J0YW50IHJlYXNvbiB5b3Ugc2hvdWxk
+IG1ha2UgYW4gYXBwb2ludG1lbnQgaXMgdGhlIGZhY3QgdGhhdCB5b3Ugd2FudCB0byB0b3VyIHRoZSBj
+b21tdW5pdHkgd2l0aCB0aGUgU2FsZXMgb3IgTWFya2V0aW5nIFJlcHJlc2VudGF0aXZlLCBub3QgYSBy
+ZWNlcHRpb25pc3Qgb3Igb2ZmaWNlIHdvcmtlciBhcyBhIGZpbGwgaW4uIFdoaWxlIHRoZXkgbWF5IGJl
+IGFibGUgdG8gc2hvdyB5b3UgYXJvdW5kLCB0aGV5IGFyZSBub3QgZ29pbmcgdG8gYmUgYWJsZSB0byBh
+bnN3ZXIgYWxsIG9mIHlvdXIgcXVlc3Rpb25zIGFuZCBnaXZlIHlvdSB0aGUgcGVyc29uYWwgYXR0ZW50
+aW9uIHRoYXQgeW91IHdpbGwgcmVxdWlyZSBpbiBtYWtpbmcgdGhpcyBpbXBvcnRhbnQgZGVjaXNpb24u
+IEluIG90aGVyIHdvcmRzLCB5b3UgbWF5IGVuZCB1cCBnZXR0aW5nIGEgdG91ciBmcm9tIHRoZSBqYW5p
+dG9yIG9uIGhpcyB3YXkgdG8gTXJzLiBKb25lcyBpbiByb29tIDIwOS4KClJlbWVtYmVyLCBhbGwgb2Yg
+dGhlc2UgY29tbXVuaXRpZXMgYXJlIHJlZ3VsYXRlZCBieSBzdGF0ZSBsYXdzLCBidXQgZG9u4oCZdCBl
+eHBlY3QgcGVyZmVjdGlvbiBhdCBhbGwgdGltZXMuICBUaGVzZSBzYW1lIGNvbW11bml0aWVzIGFyZSBy
+dW4gYnkgaHVtYW4gYmVpbmdzLCBhbmQgd2Uga25vdyBodW1hbiBiZWluZ3MgYXJlIG5vdCBwZXJmZWN0
+LgoKT25jZSB5b3UgYXJlIGluIHRoZSBjb21tdW5pdHkgYW5kIHRvdXJpbmcsIGxvb2sgYXJvdW5kIGFu
+ZCB0cnkgdG8gdGhpbmvigKZ3b3VsZCB5b3VyIGxvdmVkIG9uZSBsaWtlIGl0PyAgSXMgaXQgYSBwbGFj
+ZSB3aGVyZSB0aGV5IHdvdWxkIGJlIGNvbWZvcnRhYmxlPyAgSXMgaXQgd2hhdCB0aGV5IGFyZSB1c2Vk
+IHRvPyAgTG9vayBhdCB0aGUgYWN0aXZpdGllcyB0aGF0IGFyZSBvZmZlcmVkLiAgV2lsbCB0aGV5IGJl
+IG9mIGludGVyZXN0IHRvIHRoZW0/ICBXaGVuIHlvdSBsb29rIGF0IHRoZSByb29tcywgdHJ5IHRvIHRo
+aW5rIG9mIHdoYXQgdGhleSB3aWxsIHJlcXVpcmUuICBNYXliZSwgaXTigJlzIGp1c3QgYSB0ZWxldmlz
+aW9uLCBhbiBlYXN5IGNoYWlyLCBhIGJlZCwgYSBkcmVzc2VyLCBhIHJlZnJpZ2VyYXRvciwgYSBjbG9z
+ZXQgYW5kIGEgYmF0aHJvb20uICBUaGUgaW1wb3J0YW50IHRoaW5nIGlzIHRoYXQgeW91IG11c3QgdHJ5
+IHRvIGp1ZGdlIGV2ZXJ5dGhpbmcgYmFzZWQgb24gd2hhdCBUSEVZIHdpbGwgcmVxdWlyZSwgbm90IHdo
+YXQgWU9VIHJlcXVpcmUuICBJbiBvdGhlciB3b3Jkcywgd2hvIGlzIHJlYWxseSBtb3ZpbmcgaW4/4oCo
+4oCoTmV4dCB1cDogQ2hhcHRlciAzIC0gQmVmb3JlIFlvdSBHbw
+</mutableString>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IOW2" translatesAutoresizingMaskIntoConstraints="NO" id="CAe-5I-1gZ">
-                                <rect key="frame" x="8" y="44" width="359" height="100"/>
+                                <rect key="frame" x="8" y="44" width="359" height="50"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </imageView>
                         </subviews>
@@ -904,7 +904,7 @@ Making an appointment is “where it’s at!”  Next up: Chapter 4 - Genera
                                 <rect key="frame" x="8" y="52" width="359" height="557"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <string key="text" base64-UTF8="YES">
+                                <mutableString key="text" base64-UTF8="YES">
 WW91IGFyZSBhYm91dCB0byBlbnRlciB0aGUg4oCccXVlc3Rpb27igJ0gc2VjdGlvbuKAnSBvZiBvdXIg
 Ym9vay4KCk5vdGU6ICBZb3Ugd2lsbCBuZWVkIGEgeWVsbG93IGhpZ2hsaWdodGVyIGZyb20gdGhpcyBw
 b2ludCBvbi4KClRoaXMgc2VjdGlvbiB3aWxsIGhlbHAgeW91IG9yZ2FuaXplIHlvdXIgdGhvdWdodHMs
@@ -916,32 +916,31 @@ Z2l2aW5nIHlvdSBhIHRvb2wgdGhhdCB3aWxsIHB1dCBZT1UgaW4gY29udHJvbCBvZiB0aGUgdG91cmlu
 ZyBleHBlcmllbmNlLiAgQWxsIG9mIHRoZSBxdWVzdGlvbnMgYXJlIGdyb3VwZWQgYnkgc3ViamVjdHMg
 Zm9yIHlvdXIgY29udmVuaWVuY2UuICBUaGlzIHdpbGwgaGVscCB5b3Ugd2hpbGUgWU9VIGFyZSBpbnRl
 cnZpZXdpbmcgdGhlIEFzc2lzdGVkIExpdmluZyBGYWNpbGl0eS4KCkZyb20gdGhpcyBwb2ludCBvbiwg
-d2Ugd2lsbCBjYWxsIHRoZSBwb3RlbnRpYWwgcmVzaWRlbnQsIGEgcmVzaWRlbnQsIG9rPwoKUHNzc3Nz
-c3TigKbigKbigKbigKbigKYuRG8geW91IGhhdmUgeW91ciBoaWdobGlnaHRlcj8KCkFmdGVyIHlvdSBo
-YXZlIHJlYWQgYWxsIG9mIHRoZSBxdWVzdGlvbnMsIGdvIG92ZXIgYWxsIG9mIHRoZSBxdWVzdGlvbnMg
-b25jZSBhZ2FpbiBhbmQgaGlnaGxpZ2h0IHRoZSBvbmVzIHRoYXQgeW91IHRoaW5rIGFyZSBhcHByb3By
-aWF0ZSBmb3IgeW91ciBzZWFyY2guIAoKSXTigJlzIG9rIGlmIHlvdSBoaWdobGlnaHRlZCBqdXN0IGEg
-ZmV3IHF1ZXN0aW9ucyBvciBpZiB5b3Ugd2FudCB0byBhc2sgYWxsIG9mIHRoZSBxdWVzdGlvbnMgaW4g
-dGhlIGJvb2suIFRoZXNlIGhpZ2hsaWdodGVkIHF1ZXN0aW9ucyB0aGF0IHlvdSBoYXZlIHNlbGVjdGVk
-IGFyZSBub3cgdGFpbG9yZWQgdG8geW91ciBuZWVkcyBvciB0byB0aGUgbmVlZHMgb2YgeW91ciBsb3Zl
-ZCBvbmUuIFRoZXNlIHdpbGwgYmUgdGhlIHF1ZXN0aW9ucyB0aGF0IHlvdSB3aWxsIGFzayB0aHJvdWdo
-b3V0IHlvdXIgQUxGIHRvdXIuICBUaGUgS0VZIGlzIHRvIGdhdGhlciB0aGUgY29ycmVjdCBhbnN3ZXJz
-IHRoYXQgeW91IG5lZWQuIAwKUmVtZW1iZXIsIHlvdSBrbm93IHlvdXJzZWxmIG9yIHlvdXIgbG92ZWQg
-b25lIGJldHRlciB0aGFuIGFueWJvZHkgZWxzZeKApuKApi5idXQgdGFrZSBpbnRvIGNvbnNpZGVyYXRp
-b24gdGhlIGN1cnJlbnQgc3RhdHVzIG9mIHRoYXQgcGVyc29uIGF0IHRoZSB0aW1lIG9mIHlvdXIgc2Vh
-cmNoLiAMCkdlbmVyYWwgQXNwZWN0cyBvZiB0aGUgQ29tbXVuaXR54oCoCkxldOKAmXMgdGhpbmsgYWJv
-dXQgd2hhdCBhIOKAnGZpcnN0IGltcHJlc3Npb27igJ0gcmVhbGx5IG1lYW5zIGluIG91ciBwYXJ0aWN1
-bGFyIGNhc2UuICBZb3UgYXJlIGxvb2tpbmcgZm9yIGEgcGxhY2UgdGhhdCB3aWxsIHRha2Ugd29uZGVy
-ZnVsIGNhcmUgb2YgeW91ciBsb3ZlZCBvbmUuICBJZiB0aGUgZmFjYWRlIG9mIHRoZSBzdHJ1Y3R1cmUg
-aXMgaW4gZGlzcmVwYWlyLCB0aGUgbGFuZHNjYXBpbmcgbGVhdmVzIGEgbG90IHRvIGJlIGRlc2lyZWQs
-IGFuZCBubyB0aG91Z2h0IGlzIGdpdmVuIHRvIGl0cyB1cGtlZXAsIHRoZW4sIHdoYXQgZG9lcyB0aGlz
-IHNheSBhYm91dCBob3cgdGhleSB3aWxsIHRha2UgY2FyZSBvZiB5b3VyIG1vdGhlciwgZmF0aGVyLCBh
-dW50IG9yIHVuY2xlPwoKVGhlIGNhcmUgb2YgdGhlIG91dHNpZGUgb2YgdGhlIGZhY2lsaXR5IGlzIGlu
-ZGljYXRpdmUgb2YgdGhlIGNhcmUgb25lIHdvdWxkIHJlY2VpdmUgaW5zaWRlIHRoZSBmYWNpbGl0eS4K
-CuKApmlmIHRoZSBwbGFudHMgYXJlIGR5aW5nIG9mIHRoaXJzdCBhbmQgdGhlIHBhaW50IGlzIHBlZWxp
-bmcgb2ZmIHRoZSB3YWxscywgeW91IG5lZWQgdG8gcGVlbCBvbiBvdXQgb2YgdGhlcmUgQVNBUCHigKji
-gKhOZXh0IHVwOiBDaGFwdGVyIDUgLSBMaWNlbnNlcyAmIEFkbWluaXN0cmF0aW9uA
-</string>
+d2Ugd2lsbCBjYWxsIHRoZSBwb3RlbnRpYWwgcmVzaWRlbnQsIGEgcmVzaWRlbnQsIG9rPwoKQWZ0ZXIg
+eW91IGhhdmUgcmVhZCBhbGwgb2YgdGhlIHF1ZXN0aW9ucywgZ28gb3ZlciBhbGwgb2YgdGhlIHF1ZXN0
+aW9ucyBvbmNlIGFnYWluIGFuZCBoaWdobGlnaHQgdGhlIG9uZXMgdGhhdCB5b3UgdGhpbmsgYXJlIGFw
+cHJvcHJpYXRlIGZvciB5b3VyIHNlYXJjaC4gCgpJdOKAmXMgb2sgaWYgeW91IGhpZ2hsaWdodGVkIGp1
+c3QgYSBmZXcgcXVlc3Rpb25zIG9yIGlmIHlvdSB3YW50IHRvIGFzayBhbGwgb2YgdGhlIHF1ZXN0aW9u
+cyBpbiB0aGUgYm9vay4gVGhlc2UgaGlnaGxpZ2h0ZWQgcXVlc3Rpb25zIHRoYXQgeW91IGhhdmUgc2Vs
+ZWN0ZWQgYXJlIG5vdyB0YWlsb3JlZCB0byB5b3VyIG5lZWRzIG9yIHRvIHRoZSBuZWVkcyBvZiB5b3Vy
+IGxvdmVkIG9uZS4gVGhlc2Ugd2lsbCBiZSB0aGUgcXVlc3Rpb25zIHRoYXQgeW91IHdpbGwgYXNrIHRo
+cm91Z2hvdXQgeW91ciBBTEYgdG91ci4gIFRoZSBLRVkgaXMgdG8gZ2F0aGVyIHRoZSBjb3JyZWN0IGFu
+c3dlcnMgdGhhdCB5b3UgbmVlZC4gDApSZW1lbWJlciwgeW91IGtub3cgeW91cnNlbGYgb3IgeW91ciBs
+b3ZlZCBvbmUgYmV0dGVyIHRoYW4gYW55Ym9keSBlbHNl4oCm4oCmLmJ1dCB0YWtlIGludG8gY29uc2lk
+ZXJhdGlvbiB0aGUgY3VycmVudCBzdGF0dXMgb2YgdGhhdCBwZXJzb24gYXQgdGhlIHRpbWUgb2YgeW91
+ciBzZWFyY2guIAwKR2VuZXJhbCBBc3BlY3RzIG9mIHRoZSBDb21tdW5pdHnigKgKTGV04oCZcyB0aGlu
+ayBhYm91dCB3aGF0IGEg4oCcZmlyc3QgaW1wcmVzc2lvbuKAnSByZWFsbHkgbWVhbnMgaW4gb3VyIHBh
+cnRpY3VsYXIgY2FzZS4gIFlvdSBhcmUgbG9va2luZyBmb3IgYSBwbGFjZSB0aGF0IHdpbGwgdGFrZSB3
+b25kZXJmdWwgY2FyZSBvZiB5b3VyIGxvdmVkIG9uZS4gIElmIHRoZSBmYWNhZGUgb2YgdGhlIHN0cnVj
+dHVyZSBpcyBpbiBkaXNyZXBhaXIsIHRoZSBsYW5kc2NhcGluZyBsZWF2ZXMgYSBsb3QgdG8gYmUgZGVz
+aXJlZCwgYW5kIG5vIHRob3VnaHQgaXMgZ2l2ZW4gdG8gaXRzIHVwa2VlcCwgdGhlbiwgd2hhdCBkb2Vz
+IHRoaXMgc2F5IGFib3V0IGhvdyB0aGV5IHdpbGwgdGFrZSBjYXJlIG9mIHlvdXIgbW90aGVyLCBmYXRo
+ZXIsIGF1bnQgb3IgdW5jbGU/CgpUaGUgY2FyZSBvZiB0aGUgb3V0c2lkZSBvZiB0aGUgZmFjaWxpdHkg
+aXMgaW5kaWNhdGl2ZSBvZiB0aGUgY2FyZSBvbmUgd291bGQgcmVjZWl2ZSBpbnNpZGUgdGhlIGZhY2ls
+aXR5LgoK4oCmaWYgdGhlIHBsYW50cyBhcmUgZHlpbmcgb2YgdGhpcnN0IGFuZCB0aGUgcGFpbnQgaXMg
+cGVlbGluZyBvZmYgdGhlIHdhbGxzLCB5b3UgbmVlZCB0byBwZWVsIG9uIG91dCBvZiB0aGVyZSBBU0FQ
+IeKAqOKAqE5leHQgdXA6IENoYXB0ZXIgNSAtIExpY2Vuc2VzICYgQWRtaW5pc3RyYXRpb24
+</mutableString>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>

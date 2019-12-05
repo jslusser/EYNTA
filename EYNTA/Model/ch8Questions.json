@@ -245,5 +245,21 @@
  {
      "questionCopy": "Does the community have a master key?",
      "chapter": "ch8"
+ },
+ {
+     "questionCopy": "Is cable included in the rent?",
+     "chapter": "ch8"
+ },
+ {
+     "questionCopy": "Do they provide a TV?",
+     "chapter": "ch8"
+ },
+ {
+     "questionCopy": "Is Internet included in the room?",
+     "chapter": "ch8"
+ },
+ {
+     "questionCopy": "Do you have a WiFi free access area?",
+     "chapter": "ch8"
  }
  ]

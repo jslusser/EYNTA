@@ -285,5 +285,9 @@
  {
      "questionCopy": "Can I see the kitchen?",
      "chapter": "ch10"
+ },
+ {
+     "questionCopy": "Can you accommodate gluten-free and vegan diets?",
+     "chapter": "ch10"
  }
  ]
