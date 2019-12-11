@@ -10,7 +10,7 @@ import UIKit
 
 class Q4TableViewController: UITableViewController, CellProtocol {
     
-        let defaults = UserDefaults.standard
+    //    let defaults = UserDefaults.standard
     
     // MARK: This question array is for the tableView data
     var questions = [Question]()
@@ -41,9 +41,9 @@ class Q4TableViewController: UITableViewController, CellProtocol {
 //       saveSelectedQuestions()
     }
     
-    func saveSelectedQuestions() {
-        defaults.set(selectedQuestions, forKey: Keys.userSelectedQuestions)
-    }
+//    func saveSelectedQuestions() {
+//        defaults.set(selectedQuestions, forKey: Keys.userSelectedQuestions)
+//    }
     
 //    func checkForSavedSelectedQuestions() {
 //        let savedArray = defaults.object(forKey: Keys.userSelectedQuestions) as? [Question] ?? ""
