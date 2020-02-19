@@ -2178,7 +2178,7 @@ http://www.alz.org/index.asp
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Vtu-YR-15h"/>
+                    <navigationItem key="navigationItem" title="Chapter 15 - LGBTQ and Assisted Living Communities" id="Vtu-YR-15h"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kjf-wq-2ZA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
