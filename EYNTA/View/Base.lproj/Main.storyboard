@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K4N-HZ-usf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K4N-HZ-usf">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -327,15 +327,37 @@
                                             <segue destination="u2Z-SZ-2S4" kind="show" id="Tga-wa-pxm"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Xkv-pd-JcK">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="VTR-eN-8bY">
                                         <rect key="frame" x="0.0" y="644" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VTR-eN-8bY" id="fDo-Q8-Et1">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 15 - LGBTQ and Assisted Living Communities" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OT9-rR-cyJ">
+                                                    <rect key="frame" x="16" y="11" width="412" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <connections>
+                                            <segue destination="05P-as-PEW" kind="show" id="2sQ-vz-OZW"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Xkv-pd-JcK">
+                                        <rect key="frame" x="0.0" y="688" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xkv-pd-JcK" id="9ec-kd-1lM">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 15 - Acronyms and Vocabulary" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRH-c2-1Up">
-                                                    <rect key="frame" x="16" y="11" width="299" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 16 - Acronyms and Vocabulary" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRH-c2-1Up">
+                                                    <rect key="frame" x="16" y="11" width="300" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -350,14 +372,14 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="fij-91-msV">
-                                        <rect key="frame" x="0.0" y="688" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="732" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fij-91-msV" id="p6f-Ap-GlW">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 16 - About the Authors" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8QO-BI-5dE">
-                                                    <rect key="frame" x="16" y="11" width="240" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 17 - About the Authors" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8QO-BI-5dE">
+                                                    <rect key="frame" x="16" y="11" width="239" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -372,14 +394,14 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Vq9-78-Ovr">
-                                        <rect key="frame" x="0.0" y="732" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="776" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Vq9-78-Ovr" id="jpZ-w5-aJY">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 17 - Helpful Resources" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9K-fR-f2o">
-                                                    <rect key="frame" x="16" y="11" width="239" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 18 - Helpful Resources" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9K-fR-f2o">
+                                                    <rect key="frame" x="16" y="11" width="240" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -394,7 +416,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Ewr-O4-YJa">
-                                        <rect key="frame" x="0.0" y="776" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="820" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ewr-O4-YJa" id="yiw-Qe-hA3">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
@@ -416,10 +438,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="24d-LE-Qmf">
-                                        <rect key="frame" x="0.0" y="820" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="864" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="24d-LE-Qmf" id="hhl-le-3eS">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User Registration" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NmW-Zo-G6O" userLabel="User Registration">
@@ -497,7 +519,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kjg-TE-ILp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12844" y="941"/>
+            <point key="canvasLocation" x="13857" y="941"/>
         </scene>
         <!--User Registration-->
         <scene sceneID="cup-3p-XoV">
@@ -632,7 +654,7 @@
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NQU-4t-fWH">
                                         <rect key="frame" x="8" y="0.0" width="398" height="774"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <mutableString key="text">In the past two decades, Assisted Living Facilities have grown nationwide in the health care industry.
+                                        <string key="text">In the past two decades, Assisted Living Facilities have grown nationwide in the health care industry.
 
 There are approximately 40,000 Assisted Living Facilities operating in the United States today.  The number of residents living in a facility can range from just a few to over 300, with the most common size housing between 25 and 120 individuals.
 
@@ -691,7 +713,7 @@ Every state requires a contract.  In this contract, you will find the monthly co
 Overall, the best way to describe Assisted Living is to think of it as a bridge between living at home and living in a nursing home.  Assisted Living has a residential focus with a home-like environment.  A nursing home is primarily a medical institution.
 
 Assisted Living is an exciting option for individuals who want to maximize their independence while living in the safety of a supervised, residential setting.  Next up: Chapter 2 - In Other Words
-</mutableString>
+</string>
                                         <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -736,7 +758,7 @@ Assisted Living is an exciting option for individuals who want to maximize their
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NCi-O0-Cz1">
                                 <rect key="frame" x="8" y="146" width="398" height="696"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <mutableString key="text" base64-UTF8="YES">
+                                <string key="text" base64-UTF8="YES">
 Tm93IHRoYXQgeW91IGhhdmUgcmVhZCBhbGwgb2YgdGhlIHRlY2huaWNhbCBzdHVmZiwgbGV04oCZcyBz
 aXQgZG93biBhbmQgY2hhdC4KCkFzIHByb2Zlc3Npb25hbHMsIHdlIHRha2Ugb3VyIGpvYiB2ZXJ5IHNl
 cmlvdXNseS4gIE91ciBqb2IgaXMgdG8gYXNzaXN0IHNlbmlvcnMgYW5kIGZhbWlsaWVzIGFuZCBoZWFs
@@ -812,7 +834,7 @@ ZXQgYW5kIGEgYmF0aHJvb20uICBUaGUgaW1wb3J0YW50IHRoaW5nIGlzIHRoYXQgeW91IG11c3QgdHJ5
 IHRvIGp1ZGdlIGV2ZXJ5dGhpbmcgYmFzZWQgb24gd2hhdCBUSEVZIHdpbGwgcmVxdWlyZSwgbm90IHdo
 YXQgWU9VIHJlcXVpcmUuICBJbiBvdGhlciB3b3Jkcywgd2hvIGlzIHJlYWxseSBtb3ZpbmcgaW4/4oCo
 4oCoTmV4dCB1cDogQ2hhcHRlciAzIC0gQmVmb3JlIFlvdSBHbw
-</mutableString>
+</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -904,7 +926,7 @@ Making an appointment is “where it’s at!”  Next up: Chapter 4 - Genera
                                 <rect key="frame" x="8" y="96" width="398" height="708"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <mutableString key="text" base64-UTF8="YES">
+                                <string key="text" base64-UTF8="YES">
 WW91IGFyZSBhYm91dCB0byBlbnRlciB0aGUg4oCccXVlc3Rpb27igJ0gc2VjdGlvbuKAnSBvZiBvdXIg
 Ym9vay4KCk5vdGU6ICBZb3Ugd2lsbCBuZWVkIGEgeWVsbG93IGhpZ2hsaWdodGVyIGZyb20gdGhpcyBw
 b2ludCBvbi4KClRoaXMgc2VjdGlvbiB3aWxsIGhlbHAgeW91IG9yZ2FuaXplIHlvdXIgdGhvdWdodHMs
@@ -940,7 +962,7 @@ aXMgaW5kaWNhdGl2ZSBvZiB0aGUgY2FyZSBvbmUgd291bGQgcmVjZWl2ZSBpbnNpZGUgdGhlIGZhY2ls
 aXR5LgoK4oCmaWYgdGhlIHBsYW50cyBhcmUgZHlpbmcgb2YgdGhpcnN0IGFuZCB0aGUgcGFpbnQgaXMg
 cGVlbGluZyBvZmYgdGhlIHdhbGxzLCB5b3UgbmVlZCB0byBwZWVsIG9uIG91dCBvZiB0aGVyZSBBU0FQ
 IeKAqOKAqE5leHQgdXA6IENoYXB0ZXIgNSAtIExpY2Vuc2VzICYgQWRtaW5pc3RyYXRpb24
-</mutableString>
+</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1557,10 +1579,110 @@ Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms &amp; Vocabul
             </objects>
             <point key="canvasLocation" x="9909.6000000000004" y="940.47976011994012"/>
         </scene>
-        <!--Chapter 15 - Acronyms and Vocabulary-->
+        <!--Chapter 15 - LGBTQ and Assisted Living Communities-->
+        <scene sceneID="lE1-xc-dEp">
+            <objects>
+                <viewController title="Chapter 15 - LGBTQ and Assisted Living Communities" id="05P-as-PEW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zzd-2C-ycd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ade-ln-34a">
+                                <rect key="frame" x="8" y="90" width="398" height="716"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">When it comes to Assisted Living placement, gay seniors face more issues than seniors from the heterosexual community. First and foremost, members of the LGBTQ community are less likely to have adult children to care for them. 
+
+Many LGBTQ community members have been forgotten or deserted by their own family members. This means there will be no relative or family member willing to oversee their care in their time of need. 
+
+Most states, counties or cities, do not have domestic partner laws in place. This ensures that gay couples will face more challenges concerning their overall benefits. 
+
+It is important to realize, that in the gay community, senior-related issues are still relatively new, as gay rights efforts have traditionally been youth focused. 
+
+It should not matter if you are gay or straight, all individuals should have the same right to live in a place where people feel welcome and happy, respecting each other as part of a society. 
+
+As we mentioned in other chapters, the selection of a facility should not be based on how fancy it is or how the person looks who is giving you a tour. It is about the WHOLE package, i.e.; employees, surroundings, clinical, services, activities, and in this case, the population and the supportive services available to the LGBTQ community. 
+
+It is important to understand that, along with having lovely accommodations and great amenities, recreational activities are important as well. Recreational activities can vary from arts and crafts classes, to outings such as shows, movies, theater, dinner, shopping etc… and why not be able to go to a bar within reasonable hours… maybe for Happy Hour at 5 or 6 pm? 
+
+For example, here is a question you may want to keep in mind. If you or your loved one is accustomed to having a drink every day at 6 pm, can you still have it in the new community you have chosen? 
+
+The intention of this chapter is for you to be able to think about what is relevant to you and your loved one. It is not to create arguments or cause problems. You or your Caregiver must keep in mind that the selection of Alternative Housing, (Independent Living, Assisted Living, etc.) must meet some basic clinical, geographical, financial and psychosocial needs. 
+
+In this chapter, we are giving you and/or your Caregiver basic information to help you in the process of selecting Alternative Housing, taking into consideration your specific likes and dislikes. 
+
+Remember, in any community or society, there is always some form of discrimination among themselves. Society tends to label people and their behaviors rather than embrace and try to understand the differences. 
+
+Finding out if a corporation offers same sex or partnership benefits to their employees is a good indication of what that corporation is about and if they are sensitive to diverse needs. 
+
+You may find out that the person who is conducting the interview at the facility may be gay or gay friendly, but that does not mean that the facility or the corporation is.
+
+It is important to find out if the community you are interested in is involved with any gay organizations and how in tune they are to LGBTQ needs. If not, which may be the most common case, ask if they know of any gay organizations close to the facility so that you may be able to take advantage of their activities.
+
+Regarding accommodations, it is important that you know it is very normal for 2 men or 2 women to be accommodated in the same room as roommates. Many older adults cannot afford to have a private room and opt for sharing with another person. In fact, sharing a room is more the norm that having a private accommodation. 
+
+Assisted Living Communities offer special spousal fees, rates and services to straight couples. We have set up a question format so that you will be able to take advantage of these benefits if it applies in your state, based on your legal status. Some of the benefits are second person fees, couple fees, security deposits, etc.
+
+As we mentioned in previous chapters, there is a second person special rate. It is important to understand how this second person rate can work for you, if it is applicable. 
+
+Depending on what state you are in, and their laws, you may or may not be able to take advantage of this specific rate for couples. The second person rate usually applies to a spouse of a heterosexual couple. 
+
+If your state approves same sex marriages then you can argue the point that you should be entitled to receive this benefit. For example, a husband and wife move into a facility together. The regular monthly rate in this scenario will be $2000 per person. Due to the fact that they are husband and wife, one will pay the $2000 and the other will pay the second person rate. The second person rate can be as little as half of the regular rate. This heterosexual couple will then pay $2000 for one, $1000 for the second person rate with a total of $3000 for the couple’s monthly rate. Therefore, if a gay couple cannot benefit from this second person rate scenario, they will have to pay $2000 each to live in the same accommodations. 
+
+It is also the norm to leave the community for a specific event. Many residents go to family functions, travel to visit relatives or just go out to dinner with a friend. While this is normal, it is important to respect the rules in your new community. 
+
+Remember that these communities are regulated by a governmental agency and the community itself must follow rules and regulations. Most have a sign out sheet. This record is important for your safety. Imagine if there were a fire and they could not find you? Or if your family called and the facility had no idea where you were? You can see that this could cause serious issues.
+
+When you have a question concerning the rules and regulations, please ask the Administrator and you will most likely find out that the answer has something to do with state regulations. 
+
+Along with state regulations, there are or could be policies and procedures that are specific to each individual corporation. These policies and procedures are legal and they must be followed. Corporations can have their own policies and procedures as long as they do not interfere with the state regulations for Alternative Housing. 
+
+It is important to be realistic with the situation that you are facing while searching for that special place. Things may not be as perfect as we may want them to be, so it is important to be creative and make it as perfect as possible for you.
+
+One of the amenities that may be very important is the transportation service. This feature of a community may be relevant for some individuals. If you are the type of person who likes to go out or see friends on a regular basis, you may want to make sure that the community offers transportation. You may want to ask if it is a bus or a private car, if that is relevant to you. 
+
+While you are receiving a tour of the community, make sure that you ask the person that is touring you if they feel that a gay resident would be comfortable in their facility. 
+
+As people who have worked in the industry for many years, we understand the industry very well and no matter if it is in Florida or California, remember, Healthcare is a business. Independent Living, Assisted Living, Nursing Homes, etc…. are all a part of Healthcare. So, make sure that you ask questions from previous chapters and include the ones that are pertinent to your search.
+
+It is important to take into consideration your personal needs, your likes and dislikes, and your choice of lifestyle while selecting the correct assisted living facility for you. 
+
+The following questions are specific and pertinent to the LGBTQ community. 
+IN OTHER WORDS 
+Simple and to the POINT!!!... Every senior wants to be living in a place where specific needs and life experiences will be met and understood. We live in a straight society. Be realistic with your current situation, i.e.; financial, clinical, geographical and social. And make the absolute best out of your choice. This is important to ALL seniors, regardless of sexual orientation.  Next up: Chapter 16 - Acronyms &amp; Vocabulary</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fn-AY-8xJ">
+                                <rect key="frame" x="25" y="814" width="364" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <state key="normal" title="Go To Ch 15 Questions"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="Cy9-En-jmZ" kind="show" id="N08-Vi-mAk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="BnQ-fS-rbY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YTi-jO-8lX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10782" y="936"/>
+        </scene>
+        <!--Chapter 16 - Acronyms and Vocabulary-->
         <scene sceneID="9yD-OV-Bts">
             <objects>
-                <viewController title="Chapter 15 - Acronyms and Vocabulary" id="j6d-UD-0Hs" sceneMemberID="viewController">
+                <viewController title="Chapter 16 - Acronyms and Vocabulary" id="j6d-UD-0Hs" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zed-mw-HWj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1603,12 +1725,12 @@ Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms &amp; Vocabul
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gvC-Gh-odI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10637.6" y="939.58020989505258"/>
+            <point key="canvasLocation" x="11714" y="941"/>
         </scene>
-        <!--Chapter 16 - About the Authors-->
+        <!--Chapter 17 - About the Authors-->
         <scene sceneID="tlp-c7-P9G">
             <objects>
-                <viewController title="Chapter 16 - About the Authors" id="eP9-fo-fNa" sceneMemberID="viewController">
+                <viewController title="Chapter 17 - About the Authors" id="eP9-fo-fNa" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f8T-k6-vpS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1657,12 +1779,12 @@ Next up: Chapter 17 - Helpful Resources</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zKd-EX-AAq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11349.6" y="939.58020989505258"/>
+            <point key="canvasLocation" x="12429" y="941"/>
         </scene>
-        <!--Chapter 17 - Helpful Resources-->
+        <!--Chapter 18 - Helpful Resources-->
         <scene sceneID="tCr-ks-oGW">
             <objects>
-                <viewController title="Chapter 17 - Helpful Resources" id="ldB-bg-HIM" sceneMemberID="viewController">
+                <viewController title="Chapter 18 - Helpful Resources" id="ldB-bg-HIM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ved-aL-Nkr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1716,7 +1838,7 @@ http://www.alz.org/index.asp
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9aZ-M7-fak" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12092" y="940.47976011994012"/>
+            <point key="canvasLocation" x="13138" y="941"/>
         </scene>
         <!--Chapter 4 Questions-->
         <scene sceneID="vQQ-Ob-OoJ">
@@ -2036,6 +2158,31 @@ http://www.alz.org/index.asp
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PBf-uq-L2O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="9910" y="1691"/>
+        </scene>
+        <!--Chapter 15 Questions-->
+        <scene sceneID="J9y-aU-ItP">
+            <objects>
+                <viewController id="Cy9-En-jmZ" userLabel="Chapter 15 Questions" customClass="Q15TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="4us-T0-93l">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="bSV-RQ-MfZ">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bSV-RQ-MfZ" id="hPH-Ek-9rt">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Vtu-YR-15h"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kjf-wq-2ZA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10779.710144927538" y="1690.8482142857142"/>
         </scene>
     </scenes>
     <resources>

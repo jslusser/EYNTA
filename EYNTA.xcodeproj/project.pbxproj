@@ -29,6 +29,8 @@
 		943B2A2D2203BE7800038A65 /* ch13Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 943B2A2C2203BE7800038A65 /* ch13Questions.json */; };
 		943B2A2F2203BE8500038A65 /* ch14Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 943B2A2E2203BE8500038A65 /* ch14Questions.json */; };
 		943B2A312203BE9400038A65 /* ch6Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 943B2A302203BE9400038A65 /* ch6Questions.json */; };
+		944905CE23C54C3E0003F4F7 /* Q15TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944905CD23C54C3E0003F4F7 /* Q15TableViewController.swift */; };
+		944905D023C54D410003F4F7 /* ch15Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 944905CF23C54D410003F4F7 /* ch15Questions.json */; };
 		946373DF220CC38A008FCFEF /* Q6TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946373DE220CC38A008FCFEF /* Q6TableViewController.swift */; };
 		946676A021EE86D800A61966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9466769F21EE86D800A61966 /* AppDelegate.swift */; };
 		946676A521EE86D800A61966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946676A321EE86D800A61966 /* Main.storyboard */; };
@@ -72,6 +74,8 @@
 		943B2A2C2203BE7800038A65 /* ch13Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ch13Questions.json; sourceTree = "<group>"; };
 		943B2A2E2203BE8500038A65 /* ch14Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ch14Questions.json; sourceTree = "<group>"; };
 		943B2A302203BE9400038A65 /* ch6Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ch6Questions.json; sourceTree = "<group>"; };
+		944905CD23C54C3E0003F4F7 /* Q15TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q15TableViewController.swift; sourceTree = "<group>"; };
+		944905CF23C54D410003F4F7 /* ch15Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ch15Questions.json; sourceTree = "<group>"; };
 		946373DE220CC38A008FCFEF /* Q6TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q6TableViewController.swift; sourceTree = "<group>"; };
 		9466769C21EE86D800A61966 /* EYNTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EYNTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9466769F21EE86D800A61966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +136,7 @@
 				94AF5C002380F063007A710D /* Q12TableViewController.swift */,
 				94AF5C022380F071007A710D /* Q13TableViewController.swift */,
 				94AF5C042380F081007A710D /* Q14TableViewController.swift */,
+				944905CD23C54C3E0003F4F7 /* Q15TableViewController.swift */,
 				946676B121EE87A500A61966 /* ContentsTableViewController.swift */,
 				94BBDCCB22075C7B00A1068E /* VocabularyTableViewController.swift */,
 				941D0F56238356F600D33285 /* SignInWithApple.swift */,
@@ -158,6 +163,7 @@
 				943B2A2A2203BE6800038A65 /* ch12Questions.json */,
 				943B2A2C2203BE7800038A65 /* ch13Questions.json */,
 				943B2A2E2203BE8500038A65 /* ch14Questions.json */,
+				944905CF23C54D410003F4F7 /* ch15Questions.json */,
 				94BBDCC52207523B00A1068E /* chx15Glossary.json */,
 				943B2A1E2203BCA300038A65 /* chxQuestions.json */,
 			);
@@ -259,6 +265,7 @@
 				943B2A292203BE5400038A65 /* ch11Questions.json in Resources */,
 				943B2A312203BE9400038A65 /* ch6Questions.json in Resources */,
 				946676AA21EE86DC00A61966 /* LaunchScreen.storyboard in Resources */,
+				944905D023C54D410003F4F7 /* ch15Questions.json in Resources */,
 				94BBDCCA22075A1A00A1068E /* VocabularyTableViewCell.xib in Resources */,
 				94BBDCC62207523B00A1068E /* chx15Glossary.json in Resources */,
 				943B2A1F2203BCA400038A65 /* chxQuestions.json in Resources */,
@@ -280,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				944905CE23C54C3E0003F4F7 /* Q15TableViewController.swift in Sources */,
 				941D0F59238357DE00D33285 /* UserRegistrationViewController.swift in Sources */,
 				94AF5BF92380EEAC007A710D /* Q8TableViewController.swift in Sources */,
 				946676A021EE86D800A61966 /* AppDelegate.swift in Sources */,
