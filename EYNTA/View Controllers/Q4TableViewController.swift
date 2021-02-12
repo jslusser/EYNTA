@@ -44,6 +44,7 @@ class Q4TableViewController: UITableViewController, CellProtocol {
 //    func saveSelectedQuestions() {
 //        defaults.set(selectedQuestions, forKey: Keys.userSelectedQuestions)
 //    }
+    // **Comment for testing purposes only**
     
 //    func checkForSavedSelectedQuestions() {
 //        let savedArray = defaults.object(forKey: Keys.userSelectedQuestions) as? [Question] ?? ""
