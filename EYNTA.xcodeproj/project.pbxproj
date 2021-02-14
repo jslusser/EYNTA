@@ -470,7 +470,7 @@
 				CURRENT_PROJECT_VERSION = 1.4;
 				DEVELOPMENT_TEAM = K373EY5YU9;
 				INFOPLIST_FILE = EYNTA/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -491,7 +491,7 @@
 				CURRENT_PROJECT_VERSION = 1.4;
 				DEVELOPMENT_TEAM = K373EY5YU9;
 				INFOPLIST_FILE = EYNTA/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
