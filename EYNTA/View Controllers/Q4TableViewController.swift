@@ -9,11 +9,12 @@
 import UIKit
 
 class Q4TableViewController: UITableViewController, CellProtocol {
+
     
     var defaults = UserDefaults.standard
     init(defaults: UserDefaults = .standard) {
         self.defaults = defaults
-//        super.init()
+        super.init(nibName: nil, bundle: nil)
     }
     
     required init?(coder: NSCoder) {
@@ -47,6 +48,7 @@ class Q4TableViewController: UITableViewController, CellProtocol {
             selectedQuestions.remove(at: index)
         }
        saveSelectedQuestions()
+        print("saved UserDefaults array \(selectedQuestions)")
     }
     
     func saveSelectedQuestions() {
