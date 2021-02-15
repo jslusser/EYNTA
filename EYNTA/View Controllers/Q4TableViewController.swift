@@ -10,7 +10,15 @@ import UIKit
 
 class Q4TableViewController: UITableViewController, CellProtocol {
     
-    //    let defaults = UserDefaults.standard
+    var defaults = UserDefaults.standard
+    init(defaults: UserDefaults = .standard) {
+        self.defaults = defaults
+//        super.init()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     // MARK: This question array is for the tableView data
     var questions = [Question]()
@@ -38,12 +46,12 @@ class Q4TableViewController: UITableViewController, CellProtocol {
             guard let index = selectedQuestions.firstIndex(where: { $0.questionCopy == questions[indexPath.row].questionCopy }) else { return }
             selectedQuestions.remove(at: index)
         }
-//       saveSelectedQuestions()
+       saveSelectedQuestions()
     }
     
-//    func saveSelectedQuestions() {
-//        defaults.set(selectedQuestions, forKey: Keys.userSelectedQuestions)
-//    }
+    func saveSelectedQuestions() {
+        defaults.set(selectedQuestions, forKey: Keys.userSelectedQuestions)
+    }
 
     
 //    func checkForSavedSelectedQuestions() {
@@ -142,5 +150,5 @@ class Q4TableViewController: UITableViewController, CellProtocol {
         // Pass the selected object to the new view controller.
     }
     */
-    // **Comment 2 for testing purposes only**
+
 }
