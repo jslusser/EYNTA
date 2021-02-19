@@ -9,29 +9,9 @@
 import UIKit
 
 class Q4TableViewController: UITableViewController, CellProtocol {
-
-    
-    var defaults = UserDefaults.standard
-    init(defaults: UserDefaults = .standard) {
-        self.defaults = defaults
-        super.init(nibName: nil, bundle: nil)
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
     
     // MARK: This question array is for the tableView data
     var questions = [Question]()
-    // MARK: This question array is for the user selected questions
-    var selectedQuestions = [Question]()
-    
-    struct Keys {
-     static let userSelectedQuestions = "userSelectedQuestions"
-    }
-
-
-
     
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: QuestionsTableViewCell) {
         // using guard let syntax to unwrap the optional; if it returns nil then it exits the function and does nothing
@@ -40,36 +20,36 @@ class Q4TableViewController: UITableViewController, CellProtocol {
         let ch4SwitchSelected = myCell.questionLabel.text!
         print("Question added/removed was \(String(describing: ch4SwitchSelected))")
         // MARK: - This code block adds or removes selected ingredients based on the status of the switch.
+        
+        questions[indexPath.row].isSelected = status
         if status {
-            selectedQuestions.append(questions[indexPath.row])
+            QuestionStorage.shared.saveSelectedQuestion(question: questions[indexPath.row])
         } else {
             // MARK: - This logic is here in the event that a given ingredient isn't in the selected ingredients array
-            guard let index = selectedQuestions.firstIndex(where: { $0.questionCopy == questions[indexPath.row].questionCopy }) else { return }
-            selectedQuestions.remove(at: index)
+            QuestionStorage.shared.removeSelectedQuestion(question: questions[indexPath.row])
         }
-       saveSelectedQuestions()
-        print("saved UserDefaults array \(selectedQuestions)")
     }
     
-    func saveSelectedQuestions() {
-        defaults.set(selectedQuestions, forKey: Keys.userSelectedQuestions)
+    func checkForSavedSelectedQuestions() {
+        let savedQuestions = QuestionStorage.shared.getSelectedQuestions(by: .ch4)
+        
+        savedQuestions.forEach { savedQuestion in
+            if let indexInViewControllerQuestionsArray = questions.firstIndex(where: { question in
+                question.questionCopy == savedQuestion.questionCopy
+            }) {
+                questions[indexInViewControllerQuestionsArray] = savedQuestion
+            }
+        }
     }
 
-    
-//    func checkForSavedSelectedQuestions() {
-//        let savedArray = defaults.object(forKey: Keys.userSelectedQuestions) as? [Question] ?? ""
-//        }
-//    }
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        checkForSavedSelectedQuestions()
+
 //        print(UserDefaults.standard.dictionaryRepresentation())
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 600
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
@@ -79,8 +59,9 @@ class Q4TableViewController: UITableViewController, CellProtocol {
                 print("Error loading JSON")
                 fatalError()
         }
-        print(ch4questions)
+
         self.questions = ch4questions
+        checkForSavedSelectedQuestions()
         let questionsNib = UINib(nibName: "QuestionsTableViewCell", bundle: nil)
         tableView.register(questionsNib, forCellReuseIdentifier: "QuestionsTableViewCell")
        // tableView.estimatedRowHeight = 50
@@ -102,8 +83,8 @@ class Q4TableViewController: UITableViewController, CellProtocol {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "QuestionsTableViewCell", for: indexPath) as! QuestionsTableViewCell
         let row = indexPath.row
-        cell.configure(questionCopy: questions[row].questionCopy, isSelected: selectedQuestions.contains {$0.questionCopy == questions[row].questionCopy}, setDelegate: self)
-        
+        cell.configure(questionCopy: questions[row].questionCopy, isSelected: questions[row].isSelected, setDelegate: self)
+
         return cell
     }
     

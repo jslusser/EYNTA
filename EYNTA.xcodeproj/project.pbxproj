@@ -38,6 +38,7 @@
 		946676AA21EE86DC00A61966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946676A821EE86DC00A61966 /* LaunchScreen.storyboard */; };
 		946676B221EE87A500A61966 /* ContentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946676B121EE87A500A61966 /* ContentsTableViewController.swift */; };
 		94825F9E23FD82B7005885A7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94825F9D23FD82B7005885A7 /* Localizable.strings */; };
+		94A9ACDF25DF257F000C35BB /* QuestionStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A9ACDE25DF257F000C35BB /* QuestionStorage.swift */; };
 		94AF5BF72380EC3D007A710D /* Q7TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AF5BF62380EC3D007A710D /* Q7TableViewController.swift */; };
 		94AF5BF92380EEAC007A710D /* Q8TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AF5BF82380EEAC007A710D /* Q8TableViewController.swift */; };
 		94AF5BFB2380F030007A710D /* Q9TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AF5BFA2380F030007A710D /* Q9TableViewController.swift */; };
@@ -88,6 +89,7 @@
 		94825F9B23FD7F6E005885A7 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		94825F9C23FD7F6E005885A7 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Main.strings"; sourceTree = "<group>"; };
 		94825F9D23FD82B7005885A7 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		94A9ACDE25DF257F000C35BB /* QuestionStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStorage.swift; sourceTree = "<group>"; };
 		94AF5BF62380EC3D007A710D /* Q7TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q7TableViewController.swift; sourceTree = SOURCE_ROOT; };
 		94AF5BF82380EEAC007A710D /* Q8TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Q8TableViewController.swift; path = EYNTA/Q8TableViewController.swift; sourceTree = SOURCE_ROOT; };
 		94AF5BFA2380F030007A710D /* Q9TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Q9TableViewController.swift; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 		9466769E21EE86D800A61966 /* EYNTA */ = {
 			isa = PBXGroup;
 			children = (
+				94A9ACDD25DF2569000C35BB /* DataLayer */,
 				9466769F21EE86D800A61966 /* AppDelegate.swift */,
 				943B2A0E2203858000038A65 /* View Controllers */,
 				943B2A11220385C000038A65 /* Model */,
@@ -202,6 +205,14 @@
 				946676AB21EE86DC00A61966 /* Info.plist */,
 			);
 			path = EYNTA;
+			sourceTree = "<group>";
+		};
+		94A9ACDD25DF2569000C35BB /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				94A9ACDE25DF257F000C35BB /* QuestionStorage.swift */,
+			);
+			path = DataLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,6 +326,7 @@
 				943B2A19220391BC00038A65 /* Q4TableViewController.swift in Sources */,
 				941D0F602383681F00D33285 /* User+CoreDataProperties.swift in Sources */,
 				94AF5BFB2380F030007A710D /* Q9TableViewController.swift in Sources */,
+				94A9ACDF25DF257F000C35BB /* QuestionStorage.swift in Sources */,
 				94AF5BFD2380F048007A710D /* Q10TableViewController.swift in Sources */,
 				941D0F5F2383681F00D33285 /* User+CoreDataClass.swift in Sources */,
 			);

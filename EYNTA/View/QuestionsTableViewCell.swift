@@ -32,6 +32,7 @@ class QuestionsTableViewCell: UITableViewCell {
     func configure(questionCopy: String, isSelected: Bool, setDelegate: CellProtocol) {
         questionLabel.text = questionCopy
         questionLabel.font = UIFont.preferredFont(forTextStyle: UIFont.TextStyle.headline)
+        questionSwitch.isOn = isSelected
         delegate = setDelegate
     }
 }
