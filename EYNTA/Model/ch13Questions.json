@@ -1,73 +1,91 @@
  [{
   "questionCopy": "Do you have a driver on your staff?",
-  "chapter": "ch13"
+  "chapter": "ch13",
+  "isSelected": false
   },
  {
      "questionCopy": "Is the driver a full-time employee?",
-     "chapter": "ch13"
+     "chapter": "ch13",
+     "isSelected": false
  },
  {
      "questionCopy": "What type of license does the driver have?",
-     "chapter": "ch13"
+     "chapter": "ch13",
+     "isSelected": false
  },
  {
      "questionCopy": "Does your driver work on the weekend?",
-     "chapter": "ch13"
+     "chapter": "ch13",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have more than one driver?",
-     "chapter": "ch13"
+     "chapter": "ch13",
+     "isSelected": false
  },
  {
      "questionCopy": "Does the facility own its own bus?",
-     "chapter": "ch13"
+     "chapter": "ch13",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have a car service?",
-     "chapter": "ch13"
+     "chapter": "ch13",
+     "isSelected": false
  },
  {
      "questionCopy": "Is your bus or van wheelchair accessible?",
-     "chapter": "ch13"
+     "chapter": "ch13",
+     "isSelected": false
  },
  {
      "questionCopy": "If not, do you arrange for special transportation?",
-     "chapter": "ch13"
+     "chapter": "ch13",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you provide resident transportation to doctor appointments?",
-     "chapter": "ch13"
+     "chapter": "ch13",
+     "isSelected": false
  },
  {
      "questionCopy": "Is there an extra charge for this?",
-     "chapter": "ch13"
+     "chapter": "ch13",
+     "isSelected": false
  },
  {
      "questionCopy": "What is the maximum distance for which you provide transportatio to doctors?",
-     "chapter": "ch13"
+     "chapter": "ch13",
+     "isSelected": false
  },
  {
      "questionCopy": "Are the residents dropped off and picked up, or does someone stay with them?",
-     "chapter": "ch13"
+     "chapter": "ch13",
+     "isSelected": false
  },
  {
      "questionCopy": "Is there an extra charge if someone stays with them?",
-     "chapter": "ch13"
+     "chapter": "ch13",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you provide resident transportation to the bank?",
-     "chapter": "ch13"
+     "chapter": "ch13",
+     "isSelected": false
  },
  {
      "questionCopy": "Is there a charge for that?",
-     "chapter": "ch13"
+     "chapter": "ch13",
+     "isSelected": false
  },
  {
      "questionCopy": "Is your driver available for personal errands?",
-     "chapter": "ch13"
+     "chapter": "ch13",
+     "isSelected": false
  },
  {
      "questionCopy": "Is there a charge for that?",
-     "chapter": "ch13"
+     "chapter": "ch13",
+     "isSelected": false
  }
  ]
