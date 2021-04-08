@@ -22,6 +22,7 @@ struct Question : Codable, Equatable {
 }
 
 struct Vocabulary : Codable {
+    let termNumber: Int
     let term: String
     let definition: String
     let chapter: ChapterNumber
