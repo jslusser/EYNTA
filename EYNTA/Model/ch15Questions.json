@@ -1,102 +1,127 @@
 [{
  "questionCopy": "Is your community LGBTQ friendly?",
- "chapter": "ch15"
+ "chapter": "ch15",
+ "isSelected": false
  },
 {
     "questionCopy": "If a gay couple moves into your community, can they take advantage of the second person rate?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "Are there any other gay residents in your community?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "Do you have openly gay employees in the facility?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "Do you have male Certified Nursing Assistants?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "Do you have female Certified Nursing Assistants?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "Are there any recreational activities geared toward the LGBTQ population?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "Do you have all male residents in this facility?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "Do you have all female residents in this facility?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "Is your facility both male and female?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "Are there any transgender residents in your facility?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "Can 2 men share an accommodation?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "Can 2 women share an accommodation?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "Can the Resident leave the facility for a specific event?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "Are there any gay organizations involved with your facility?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "According to your knowledge, are there any gay organizations close to your facility?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "Do you have a discrimination policy at your facility?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "Do you have a policy concerning two men or two women holding hands?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "Does the facility have a policy on LGBTQ? (Lesbian, Gay, Bi-sexual,Transgender or Questioning/Queer)",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "Is transportation available for evening events outside of the facility?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "Is there an extra cost for that transportation?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "Do you have a group in your facility for gay residents? (as in Italian Club, Yiddish Club, etc.)",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "If you do, how often do they meet?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "Do you have a confidentiality policy in your facility?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 },
 {
     "questionCopy": "In your opinion, would a gay resident be comfortable in your facility?",
-    "chapter": "ch15"
+    "chapter": "ch15",
+    "isSelected": false
 }
 ]
 
