@@ -1,229 +1,275 @@
  [{
-  "questionCopy": "Do you have an Activities Director?",
+     "questionNumber": 1,
+     "questionCopy": "Do you have an Activities Director?",
   "chapter": "ch11",
   "isSelected": false
   },
  {
+     "questionNumber": 2,
      "questionCopy": "Do you have an Assitant Activities Director?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 3,
      "questionCopy": "Is the Activities Director a full time employee?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 4,
      "questionCopy": "Is the Assistant Activities Director a full time employee?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 5,
      "questionCopy": "How many staff members make up the Activities Department?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 6,
      "questionCopy": "Does your Activities Director manage a Volunteer Program?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 7,
      "questionCopy": "What type of Activities do you provide?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 8,
      "questionCopy": "Can I see this month's Activities Calendar?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 9,
      "questionCopy": "Do you provide Musical Entertainment in house?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 10,
      "questionCopy": "How often?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 11,
      "questionCopy": "Do you provide Current Events and Discussion Programs?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 12,
      "questionCopy": "What types of Religious Services are provided?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 13,
      "questionCopy": "Are there any evening activities?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 14,
      "questionCopy": "What activities are offered on the weekends?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 15,
      "questionCopy": "Do you have Pet Therapy for the residents?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 16,
      "questionCopy": "How do you celebrate the Holidays?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 17,
      "questionCopy": "How do you celebrate the resident's Birthdays?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 18,
      "questionCopy": "Do you take the residents out for shopping?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 19,
      "questionCopy": "Where do you take them?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 20,
      "questionCopy": "How often do you take them?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 21,
      "questionCopy": "Do you take the residents to outside events like movies or plays?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 22,
      "questionCopy": "How often?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 23,
      "questionCopy": "Can the residents participate in outside community activites?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 24,
      "questionCopy": "Is transportation provided for utside community activities?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 25,
      "questionCopy": "Do you have Resident Council Meetings?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 26,
      "questionCopy": "How often?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 27,
      "questionCopy": "Do you have a suggestion box?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 28,
      "questionCopy": "Do you provide an escort to activites, if needed?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 29,
      "questionCopy": "Is there a charge for that?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 30,
      "questionCopy": "Can a resident be taken out of your facility with a family member or a friend for social reasons?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 31,
      "questionCopy": "How long can a resident be out of the facility with a family member?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 32,
      "questionCopy": "Will the Actiities Director encourage the resident to participate in activities?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 33,
      "questionCopy": "Do you have a Beauty Salon on site?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 34,
      "questionCopy": "What are the charges for that service?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 35,
      "questionCopy": "Do you have a Library?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 36,
      "questionCopy": "Do you have large print books?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 37,
      "questionCopy": "If not, do you take residents to the library or have books brought in?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 38,
      "questionCopy": "xDo you have a TV room?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 39,
      "questionCopy": "Do you have an Exercise Program?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 40,
      "questionCopy": "Do you have a store on premises for residents' needs?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 41,
      "questionCopy": "Do you have a swimming pool?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 42,
      "questionCopy": "Is your pool heated?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 43,
      "questionCopy": "Do you have a Bar Area?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 44,
      "questionCopy": "Do you have wireless internet in your Community?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 45,
      "questionCopy": "Do you have computers available for the residents to use?",
      "chapter": "ch11",
      "isSelected": false
  },
  {
+     "questionNumber": 46,
      "questionCopy": "do you have a Cafe area?",
      "chapter": "ch11",
      "isSelected": false

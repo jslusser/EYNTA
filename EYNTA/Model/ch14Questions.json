@@ -1,154 +1,185 @@
  [{
-  "questionCopy": "Do you have an Emergency Plan?",
+     "questionNumber": 1,
+     "questionCopy": "Do you have an Emergency Plan?",
   "chapter": "ch14",
   "isSelected": false
   },
  {
+     "questionNumber": 2,
      "questionCopy": "Do you have an Evacuation Plan?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 3,
      "questionCopy": "Are these plans posted?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 4,
      "questionCopy": "Can I see them?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 5,
      "questionCopy": "Who approves your Emergency Plan?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 6,
      "questionCopy": "Who approves your Evacuation Plan?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 7,
      "questionCopy": "Is your facility built to withstand tornados (if applicable)?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 8,
      "questionCopy": "Is your facility built to withstand hurricanes (if applicable)?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 9,
      "questionCopy": "Is your facility built to withstand earthquakes (if applicable)?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 10,
      "questionCopy": "Do you notify the family prior to an evacuation when possible?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 11,
      "questionCopy": "Where do you take the residents if there is a need for evacuation?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 12,
      "questionCopy": "Can I have the address and phone number of that facility?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 13,
      "questionCopy": "Can the family decide if they want to take the resident home?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 14,
      "questionCopy": "Who determines when the facility should be evacuated?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 15,
      "questionCopy": "Were you here the last time there was an evacuation?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 16,
      "questionCopy": "Are you a host facility for another community in the area?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 17,
      "questionCopy": "Do you have enough supplies for the residents if you host another community?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 18,
      "questionCopy": "Can I see your emergency supplies?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 19,
      "questionCopy": "What is your policy concerning food, water, and medication during an emergency?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 20,
      "questionCopy": "Are you in a flood zone?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 21,
      "questionCopy": "Do you have Fire Drills?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 22,
      "questionCopy": "How often?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 23,
      "questionCopy": "What are your regulations concerning smoking?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 24,
      "questionCopy": "What are your regulation concerning alcohol consumption?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 25,
      "questionCopy": "Do you have a security guard on duty at night?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 26,
      "questionCopy": "Are all doors locked at night?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 27,
      "questionCopy": "Do you have a sprinkler system in all of the rooms as well as the common areas?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 28,
      "questionCopy": "Do you have a generator?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 29,
      "questionCopy": "Will your elevator still work in a blackout?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 30,
      "questionCopy": "How quickly are calls for assistance responded to?",
      "chapter": "ch14",
      "isSelected": false
  },
  {
+     "questionNumber": 31,
      "questionCopy": "Is there enough staff to meet the residents' needs?",
      "chapter": "ch14",
      "isSelected": false
