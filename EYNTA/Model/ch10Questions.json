@@ -1,293 +1,366 @@
  [{
   "questionCopy": "How many daily meals are incouded in the monthly rate?",
-  "chapter": "ch10"
+  "chapter": "ch10",
+  "isSelected": false
   },
  {
      "questionCopy": "How many meals do you provide in the dining room?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "How many meals are provided in a 24 hour period?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Are your meals pre-made, or homemade?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have a menu?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Can I see a menu?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "If you only provide 2 daily meals in your rate, can the resident purchase the third meal?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "If you provie 2 daily meals in your rate, can the resident select which meals he or she wants?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have a policy for missed meals?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "If a resident misses a meal, will you still proie that meal or a snack after dining room hours?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "If I do not any meals, do I still have to pay the same monthly rate?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "How many courses do you offer per meal?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you provide tray service to the rooms?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have a menu that the resident can order from?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Is there a charge for that?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "How much?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you provide an alternate entree if a resident does not like what is being served?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Can residents have seconds if they wish?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you provide Holiday meals?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Can I try a meal in your dining room?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you provide snacks?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "How aften are snacks provided?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you provide special diets?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you provide a Glatt Kosher diet?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you provide a Kosher style diet?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you provide Kosher meats?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have a Kosher kitchen?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you proide a Renal diet?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you provide a Diabetic diet?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you provide a Puree diet?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you provide a No Added Salt diet?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you provide Thikened Liquid diets in the dining room?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "How does a server know who receives a special diet and what that diet is?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Will you cut up food for residents that need that service?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you serve fresh fruit and vegetables daily?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Are soda and juices available and included in the monthly rate?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have soup an salad on your menu every day?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have a Food Service Director?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have a Licensed Dietician planning the meals?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have a seperate cook/chef?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Who supervises your food service staff?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have a Dining Room Manager?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have a hostess in the dining room?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Who are the servers in the dining room?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "What is the ratio of servers to tables in the dining room?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Are silverware, glass and china always used in the dining room?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you ever use paper goods or plastic in the dining room?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Is the atmosphere calm and enjoyable during mealtime?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have restaurant style dining?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have buffet style dining?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "If you do provide buffet dining, will someone assist with serving the residents?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Can residents bring their own condiments to the dining room?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Is there more than one seating in your dining room?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "If yes, what time are the seatings?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have more than one seating for each meal?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have open seating in the dining room?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Can residents select the seating that they want?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have assigned seating in the dining room?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you keep attendance records for all meals?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have a policy for dining room attire?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "How many people do you have per table in the dining room?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "If the resident has a guest in the dining room with them, do they have to pay extra?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have a private dining area for guests or family visits?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Are wheelchairs allowed in the dining room?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Are your tables wheelchair accessible, and can they be adjusted?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you provide an alternate dining area for those who require more assistance?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you assist with feeding, if needed?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have vending machines in the common areas?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you provide change for the residents?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have ice makers available to residents?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Is water available to the residents at all times?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Can I see the kitchen?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  },
  {
      "questionCopy": "Can you accommodate gluten-free and vegan diets?",
-     "chapter": "ch10"
+     "chapter": "ch10",
+     "isSelected": false
  }
  ]
