@@ -1,320 +1,400 @@
  [{
   "questionCopy": "Do you have a Registered Nurse (RN) on staff?",
-  "chapter": "ch9"
+  "chapter": "ch9",
+  "isSelected": false
   },
  {
      "questionCopy": "Do you have an RN on call?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have a Licensed Practial Nurse (LPN) on staff?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Is either an RN or an LPN on staff 24 hours a day, 7 days a week?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "What is the ratio of Certified Nursing Assistants (CNA) to residents?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have a Medical Director?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have a doctor that comes to your community?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "How often?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Does the doctor take all tyoes of insurances?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have a shower schedule?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "How many days a week do the residents receive showers?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "If they want more showers, is there a charge for that?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Does someone stay in the room while the resident is taking a shower?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you provide assistance with dressing and personal care?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Is there an extra charge for that?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "How much personal care does a resident receive in an ALF?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you provide incontinence care?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "is there an extra charge for that?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "What is your policy concerning a bedside commode?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you provide assistance in transporting a resident to the dining room or activity room if needed?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Is there an extra charge for that?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you check on the residents during the night?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Can residents keep their own doctors?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you provide transportation to that doctor?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Is there an extra charge for that?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you make doctor appointments for the residents?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have an emergency response system?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "How does it work?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have a pull cord in the bathroom or the bedroom, or do the residents wear a pendant?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you charge for Level of Care?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "What are the costs for each Level of Care?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "What personal care items are included in the rate?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "What is your policy regarding medication supplies?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Can residents get their medication from the VA clinic or another entity and bring it to the ALF?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Who supplies resident medications?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "How is the medication billed?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Who dispenses the medication?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Is your staff trained to dispense medication?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Is your staff supervised by a nurse while they are dispensing medications?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Can residents take their own medication?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "What is your policy on self-medication?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have adjustable beds?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Who supplies incontient supplies?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Who pays for incontinent supplies?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have a Home Health Agency in house?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Can I have their business card?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Can residents use the Home Health Agency in the event they need extra services?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you have a Physical Therapy Agency in your facility?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "What insurances do they accept?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Is the Physical Therapy Agency part of your staff?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "If not, can I have their busiess card?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Does a Podiatrist visit your community on a regular basis?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "How often?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "What insurance does he accept?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you accept any feeding tubes?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "If residents can manage their own feeding tubes, can they be admitted to your community?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Can you take a person with a colostomy?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Do you provide nebulizer treatments?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Can you admit a person who requires oxygen?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Can a resident live in your ALF with a catheter?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Can a resident who requires thickened liquids reside in your community?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Does your staff assist residents who require thickened liquids?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "What is your policy on the use of thickened liquids?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "What is your policy on wound care?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Can you provide IV therapy?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Can a resident use an electric wheelchair in your community?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "When is a resident no longer able to live in your community?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "How long can a resident be bedridden and still remain in your commuity?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Does your community allow private aides to assist residents if needed?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Can a family member or friend sleep over in a resident's room?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Is there a charge for that?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Can a resident be on Hospice care and still reside in your community?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Can a person with Dementia or Alzheimer's live in your community?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "If so, is there a seperate area of the community where they reside?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Is your staff trained to handle peopel with Dementia or Alzheimer's?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Is the resident's privacy respected?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Does your staff knock on the door before entering the room?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Are the residents treated with respect and dignity?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  },
  {
      "questionCopy": "Can a resident be transferred with assistance by more than one person?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  }, {
      "questionCopy": "Can a resident with a communicable disease be admitted?",
-     "chapter": "ch9"
+     "chapter": "ch9",
+     "isSelected": false
  }
  ]
