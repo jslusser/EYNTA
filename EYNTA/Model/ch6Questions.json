@@ -1,334 +1,401 @@
  [{
-  "questionCopy": "Do you require a contract?",
+     "questionNumber": 1,
+     "questionCopy": "Do you require a contract?",
   "chapter": "ch6",
   "isSelected": false
   },
  {
+     "questionNumber": 2,
      "questionCopy": "May I see a copy of a contract?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 3,
      "questionCopy": "May I take a copy home to read?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 4,
      "questionCopy": "May I get a copy of everything after I sign it?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 5,
      "questionCopy": "What length of time does to contract cover?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 6,
      "questionCopy": "Will the resident or family member have to sign a contract?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 7,
      "questionCopy": "Can a resident sign his or her own contract?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 8,
      "questionCopy": "Do I need specific documentation to move it?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 9,
      "questionCopy": "Do I have to pay a community fee?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 10,
      "questionCopy": "Is the community fee refundable?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 11,
      "questionCopy": "Do I have to pay an administration fee?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 12,
      "questionCopy": "Is the administration fee refundable?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 13,
      "questionCopy": "Can I make payments on these fees?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 14,
      "questionCopy": "Can these fees be waived?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 15,
      "questionCopy": "Can I use either fee for the last month's rent?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 16,
      "questionCopy": "Do I have to pay any other up-front costs?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 17,
      "questionCopy": "What services are provided in the monthly rate?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 18,
      "questionCopy": "What services are extra, and what is the charge for those?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 19,
      "questionCopy": "Does the cost of a unit depend on the location?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 20,
      "questionCopy": "Do you evaluate each potential resident before admission?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 21,
      "questionCopy": "Who determines the Level of Care at your facility?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 22,
      "questionCopy": "How do you determine the Level of Care for a resident?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 23,
      "questionCopy": "How long does the process take for a resident to be admitted to your facility?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 24,
      "questionCopy": "Can a resident be admitted to your facility within 24 hours?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 25,
      "questionCopy": "Would you admit a resident who has been Baker Acted?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 26,
      "questionCopy": "Do you admit a resident with a primary psychiatric diagnosis?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 27,
      "questionCopy": "Do you have an age limitation for admission?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 28,
      "questionCopy": "Do you require a Do Not Resuscitate form?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 29,
      "questionCopy": "Would you admit a resident who is being discharged from a psychiatric unit?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 30,
      "questionCopy": "What is the policy concerning rent increases?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 31,
      "questionCopy": "How much notice do you give a resident when increasing the monthly rate?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 32,
      "questionCopy": "By what percentage will the rate be increased?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 33,
      "questionCopy": "Can monthly rates and increases be negotiated?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 34,
      "questionCopy": "Do you have any specials running right now that I can take advantage of?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 35,
      "questionCopy": "What day of the month is the payment due?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 36,
      "questionCopy": "Is there a grace period?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 37,
      "questionCopy": "Are there late fees?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 38,
      "questionCopy": "How much are the late fees?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 39,
      "questionCopy": "What type of notice is required in order to move out?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 40,
      "questionCopy": "Do you hold a bed or unit for a resident when they are in the hospital?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 41,
      "questionCopy": "Do you have a bedhold policy?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 42,
      "questionCopy": "Does a resident have to give notice if he requires Nursing Home care?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 43,
      "questionCopy": "What is your policy if a resident becomes bedridden?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 44,
      "questionCopy": "What is the policy if a resident needs total assistance with all Activities of Daily Living (ADL's)?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 45,
      "questionCopy": "Do you have a Resident's Rights policy?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 46,
      "questionCopy": "Do you have a Resident Fund policy?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 47,
      "questionCopy": "How often is a written statement provided?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 48,
      "questionCopy": "Do residents have access to their personal funds at all times?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 49,
      "questionCopy": "Can a resident be admitted in a private room and move to a shared accommodation at a later date?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 50,
      "questionCopy": "What is the policy for changing from a private room to a shared accommodation?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 51,
      "questionCopy": "Can you restrict a resident's visitors?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 52,
      "questionCopy": "How do you monitor visitors at your community?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 53,
      "questionCopy": "What is your policy on tipping?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 54,
      "questionCopy": "What is your policy on scooters and electric wheelchairs?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 55,
      "questionCopy": "Do you require a special deposit for a scooter or an electric wheelchair?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 56,
      "questionCopy": "Do you have a Staff Appreciation Program?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 57,
      "questionCopy": "Do you work with any State Benefit Program?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 58,
      "questionCopy": "Do you work with the Long Term Care Diversion Program (if available) ?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 59,
      "questionCopy": "Do you work with the Medicaid Waiver (if available) ?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 60,
      "questionCopy": "Do you work with the Veteran's Administration Program?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 61,
      "questionCopy": "Are the utilities included in the monthly rate?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 62,
      "questionCopy": "Do you work with a furniture rental company?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 63,
      "questionCopy": "xDo you have valet service for the residents?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 64,
      "questionCopy": "Do you accept pets?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 65,
      "questionCopy": "Is there a special deposit for a pet?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 66,
      "questionCopy": "What is your Pet Policy?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
+     "questionNumber": 67,
      "questionCopy": "Can a resident be in a shared accommodation and still have a pet?",
      "chapter": "ch6",
      "isSelected": false

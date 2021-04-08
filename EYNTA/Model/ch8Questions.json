@@ -1,329 +1,395 @@
  [{
-  "questionCopy": "Do you have private rooms?",
+     "questionNumber": 1,
+     "questionCopy": "Do you have private rooms?",
   "chapter": "ch8",
   "isSelected": false
   },
  {
+     "questionNumber": 2,
      "questionCopy": "What is the monthly rate?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 3,
      "questionCopy": "Do your private rooms have private bathrooms?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 4,
      "questionCopy": "If not, how many residents share the bathroom?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 5,
      "questionCopy": "Do you have shared rooms?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 6,
      "questionCopy": "What is the monnthly rate?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 7,
      "questionCopy": "What type of shared accommodations do you offer?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 8,
      "questionCopy": "How many residents are in a shared room?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 9,
      "questionCopy": "What is the monthly rate?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 10,
      "questionCopy": "How many people share a bathroom?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 11,
      "questionCopy": "Do you have studios?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 12,
      "questionCopy": "What is the monthly rate?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 13,
      "questionCopy": "Do you have 1 bedroom apartments?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 14,
      "questionCopy": "What is the monthly rate?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 15,
      "questionCopy": "Do you have 2 bedroom apartments?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 16,
      "questionCopy": "What is the monthly rate?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 17,
      "questionCopy": "Do you have a second person fee?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 18,
      "questionCopy": "What is the monthly rate?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 19,
      "questionCopy": "What is the largest unit that your facility has?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 20,
      "questionCopy": "Can you give me the square footage for each unit?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 21,
      "questionCopy": "Do you have floor plans?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 22,
      "questionCopy": "Do you have units with patios?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 23,
      "questionCopy": "Are the residents allowed to smoke on the patio?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 24,
      "questionCopy": "Are the patios screened in?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 25,
      "questionCopy": "Do you supply furniture?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 26,
      "questionCopy": "Is there a charge for that?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 27,
      "questionCopy": "What furniture do you supply?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 28,
      "questionCopy": "Can residents bring their own furniture?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 29,
      "questionCopy": "Do you encourage residents to bring their own furniture?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 30,
      "questionCopy": "Is there a closet in the room?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 31,
      "questionCopy": "How many people share the closet?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 32,
      "questionCopy": "Is there a stove in the room?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 33,
      "questionCopy": "Is there a microwave in the room?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 34,
      "questionCopy": "Can residents bring their own microwaves?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 35,
      "questionCopy": "Can a resident bring a hot plate?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 36,
      "questionCopy": "Can a resident bring a coffee maker?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 37,
      "questionCopy": "Is there a refrigerator in the room?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 38,
      "questionCopy": "Can a resident bring a refrigerator?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 39,
      "questionCopy": "Are the refrigerators self defrosting?  If not, who will defrost the refrigerator",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 40,
      "questionCopy": "Do you provide phone service for the residents?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 41,
      "questionCopy": "If not, who orders the phone line?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 42,
      "questionCopy": "Do you have phone jacks in their rooms?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 43,
      "questionCopy": "Do you have an in-house phone system for the residents' use?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 44,
      "questionCopy": "Is there an air conditioning unit in the room?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 45,
      "questionCopy": "If air conditioning is central, do the residents have access to working the thermostat?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 46,
      "questionCopy": "Are the room doors wide enough for a wheelchair?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 47,
      "questionCopy": "Is the room large enough to be able to keep an electric wheelchair or scooter inside the room?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 48,
      "questionCopy": "Are the bathroom doors wide enough for a wheelchair?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 49,
      "questionCopy": "Are their grab bars in the bathroom by the commode as well as in the shower?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 50,
      "questionCopy": "Is toilet paper incouded in the monthly rate?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 51,
      "questionCopy": "Do the bathrooms have showers or tubs? (Shower are safer)",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 52,
      "questionCopy": "Is the bathroom air conditioned?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 53,
      "questionCopy": "Is there an exhaust fan in the bathroom?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 54,
      "questionCopy": "Is the bathroom floor slippery?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 55,
      "questionCopy": "Is there a medicine cabinet in the bathroom?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 56,
      "questionCopy": "Is there hot and cold running water in the bathroom?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 57,
      "questionCopy": "Does the toilet flush properly?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 58,
      "questionCopy": "Is the bathroom sink wheelchair accessible?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 59,
      "questionCopy": "Does the room have a lock on it?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 60,
      "questionCopy": "Will the resident be given a key?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 61,
      "questionCopy": "Is there a charge for a lost key?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 62,
      "questionCopy": "Does the community have a master key?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 63,
      "questionCopy": "Is cable included in the rent?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 64,
      "questionCopy": "Do they provide a TV?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 65,
      "questionCopy": "Is Internet included in the room?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
+     "questionNumber": 66,
      "questionCopy": "Do you have a WiFi free access area?",
      "chapter": "ch8",
      "isSelected": false

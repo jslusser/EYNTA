@@ -13,6 +13,7 @@ enum ChapterNumber: String, Codable {
 }
 
 struct Question : Codable, Equatable {
+    let questionNumber: Int
     let questionCopy: String
     let chapter: ChapterNumber
     var isSelected: Bool

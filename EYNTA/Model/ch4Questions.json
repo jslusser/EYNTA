@@ -1,89 +1,107 @@
  [{
+  "questionNumber": 1,
   "questionCopy": "Is the community in the desired location?",
   "chapter": "ch4",
   "isSelected": false
   },
  {
+     "questionNumber": 2,
      "questionCopy": "Is there easy access to the main road?",
      "chapter": "ch4",
      "isSelected": false
  },
  {
+     "questionNumber": 3,
      "questionCopy": "Is it within reasonable proximity to your home?",
      "chapter": "ch4",
      "isSelected": false
  },
  {
+     "questionNumber": 4,
      "questionCopy": "Is the facility close to a hospital?",
      "chapter": "ch4",
      "isSelected": false
  },
  {
+     "questionNumber": 5,
      "questionCopy": "Does the neighborhood look safe?",
      "chapter": "ch4",
      "isSelected": false
  },
  {
+     "questionNumber": 6,
      "questionCopy": "Is the parking lot well lighted?",
      "chapter": "ch4",
      "isSelected": false
  },
  {
+     "questionNumber": 7,
      "questionCopy": "Is the parking lot safe?",
      "chapter": "ch4",
      "isSelected": false
  },
  {
+     "questionNumber": 8,
      "questionCopy": "Is the community gated?",
      "chapter": "ch4",
      "isSelected": false
  },
  {
+     "questionNumber": 9,
      "questionCopy": "Is the gate managed by a person 24 hours a day?",
      "chapter": "ch4",
      "isSelected": false
  },
  {
+     "questionNumber": 10,
      "questionCopy": "Is the outside area protected from the elements?",
      "chapter": "ch4",
      "isSelected": false
  },
  {
+     "questionNumber": 11,
      "questionCopy": "Is there a covered entrance for pick up and drop off of residents?",
      "chapter": "ch4",
      "isSelected": false
  },
  {
+     "questionNumber": 12,
      "questionCopy": "Is there a seperate entrance for deliveries?",
      "chapter": "ch4",
      "isSelected": false
  },
  {
+     "questionNumber": 13,
      "questionCopy": "Is there a seperate entrance for staff?",
      "chapter": "ch4",
      "isSelected": false
  },
  {
+     "questionNumber": 14,
      "questionCopy": "Is the overall appearance of the property satisfactory?",
      "chapter": "ch4",
      "isSelected": false
  },
  {
+     "questionNumber": 15,
      "questionCopy": "Is the landscaping neat and well taken care of?",
      "chapter": "ch4",
      "isSelected": false
  },
  {
+     "questionNumber": 16,
      "questionCopy": "Are the enough parking spaces for the residents and guests?",
      "chapter": "ch4",
      "isSelected": false
  },
  {
+     "questionNumber": 17,
      "questionCopy": "Is there an outside area for residents to enjoy?",
      "chapter": "ch4",
      "isSelected": false
  },
  {
+     "questionNumber": 18,
      "questionCopy": "Is there enough outside seating for residents and family?",
      "chapter": "ch4",
      "isSelected": false

@@ -1,134 +1,161 @@
  [{
+  "questionNumber": 1,
   "questionCopy": "How long has your community been in business?",
   "chapter": "ch5",
   "isSelected": false
   },
  {
+     "questionNumber": 2,
      "questionCopy": "Is your community privately or corporately owned?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 3,
      "questionCopy": "How long have the present owners owned it?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 4,
      "questionCopy": "Are the owners local or out of state?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 5,
      "questionCopy": "Do you have a safe available for residents' use?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 6,
      "questionCopy": "What type of license does your community have?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 7,
      "questionCopy": "Do you have an updated license issued by the state of (insert state in which the community is located)?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 8,
      "questionCopy": "Does it have an effective date and an expiration date?  May I see it?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 9,
      "questionCopy": "Is your community LGBTQ friendly?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 10,
      "questionCopy": "How many beds are you licensed for?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 11,
      "questionCopy": "Where is your license posted?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 12,
      "questionCopy": "When was your last inspection?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 13,
      "questionCopy": "Did you receive any violations on your last state inspection?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 14,
      "questionCopy": "May I see a copy of your last state inspection?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 15,
      "questionCopy": "How long has the Administrator been working at your facility?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 16,
      "questionCopy": "Is your Aministrator the owner of the facility?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 17,
      "questionCopy": "Is your Administrator licensed?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 18,
      "questionCopy": "Do you have an Assistant Administrator?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 19,
      "questionCopy": "Do you have Department Heads?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 20,
      "questionCopy": "Do you have a Director of Nursing?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 21,
      "questionCopy": "How long has your Director of Nursing been working at your facility?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 22,
      "questionCopy": "Is the Director of Nursing available on weekends?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 23,
      "questionCopy": "Does the Director of Nursing have an assistant?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 24,
      "questionCopy": "Do you have a Bookkeeper on staff?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 25,
      "questionCopy": "If you do not have a Bookkeeper, who handles the accounting?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 26,
      "questionCopy": "Is your Administrative Staff available on the weekends?",
      "chapter": "ch5",
      "isSelected": false
  },
  {
+     "questionNumber": 27,
      "questionCopy": "Who manages the facility during the weekend?",
      "chapter": "ch5",
      "isSelected": false
