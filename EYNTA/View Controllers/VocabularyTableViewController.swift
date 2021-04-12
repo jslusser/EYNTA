@@ -36,7 +36,28 @@ class VocabularyTableViewController: UITableViewController, CellProtocol {
         tableView.register(questionsNib, forCellReuseIdentifier: "VocabularyTableViewCell")
         tableView.estimatedRowHeight = 50
     }
+ //   MARK: - Table view data source
+//    deleted override
+   override func numberOfSections(in tableView: UITableView) -> Int {
+//        #warning Incomplete implementation, return the number of sections
+       return 1
+   }
 
+ //   deleted override
+   override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        #warning Incomplete implementation, return the number of rows
+       return self.terms.count
+       
+   }
+
+
+
+  override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+       let cell = tableView.dequeueReusableCell(withIdentifier: "VocabularyTableViewCell", for: indexPath) as! VocabularyTableViewCell
+       let row = indexPath.row
+  //     cell.configure(term: terms[row].term, setDelegate: self)
+    cell.configure(term: terms[row].term)
+       return cell
 }
 
 // MARK: - Table view data source
@@ -96,26 +117,7 @@ class VocabularyTableViewController: UITableViewController, CellProtocol {
 
 
 
-// MARK: - Table view data source
-// deleted override
-func numberOfSections(in tableView: UITableView) -> Int {
-    // #warning Incomplete implementation, return the number of sections
-    return 1
-}
-
-// deleted override
-func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    // #warning Incomplete implementation, return the number of rows
-    //return self.terms.count
-    return 10
-}
 
 
-// deleted override
-func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCell(withIdentifier: "VocabularyTableViewCell", for: indexPath) as! VocabularyTableViewCell
-    let row = indexPath.row
-    cell.configure(term: terms[row].term, setDelegate: self)
-    
-    return cell
 */
+}

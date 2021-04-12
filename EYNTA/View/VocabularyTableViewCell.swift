@@ -26,7 +26,7 @@ class VocabularyTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func configure(term: String, isSelected: Bool) {
+    func configure(term: String) {
         vocabularyLabel.text = term
         vocabularyLabel.font = UIFont.preferredFont(forTextStyle: UIFont.TextStyle.headline)
     }    
