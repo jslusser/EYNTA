@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K4N-HZ-usf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K4N-HZ-usf">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,8 +15,8 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="6TR-WO-Qd2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
                         <sections>
                             <tableViewSection id="sUY-GB-HJD">
                                 <cells>
@@ -35,8 +36,8 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
                                         <connections>
                                             <segue destination="g2j-If-LQI" kind="show" id="neu-Y3-8zM"/>
                                         </connections>
@@ -57,8 +58,8 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
                                         <connections>
                                             <segue destination="6WS-Kf-dK8" kind="show" id="xSY-e7-YvJ"/>
                                         </connections>
@@ -79,8 +80,8 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
                                         <connections>
                                             <segue destination="lw1-bf-YpV" kind="show" id="x0F-tN-2Km"/>
                                         </connections>
@@ -101,8 +102,8 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
                                         <connections>
                                             <segue destination="d44-ca-3f6" kind="show" id="Rfm-Sz-dgn"/>
                                         </connections>
@@ -123,8 +124,8 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
                                         <connections>
                                             <segue destination="Jb8-nj-9dO" kind="show" id="ak3-Rh-sFC"/>
                                         </connections>
@@ -145,8 +146,8 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
                                         <connections>
                                             <segue destination="4lE-MQ-hxc" kind="show" id="Dcj-cU-Bxx"/>
                                         </connections>
@@ -167,8 +168,8 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
                                         <connections>
                                             <segue destination="phW-QS-0br" kind="show" id="xax-Ti-thD"/>
                                         </connections>
@@ -189,8 +190,8 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
                                         <connections>
                                             <segue destination="KFD-CI-3YA" kind="show" id="9Rn-cj-yKE"/>
                                         </connections>
@@ -211,8 +212,8 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
                                         <connections>
                                             <segue destination="OJN-2k-5hv" kind="show" id="BQ9-0Q-kfx"/>
                                         </connections>
@@ -233,8 +234,8 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
                                         <connections>
                                             <segue destination="mGZ-01-itl" kind="show" id="U4a-Q1-8Fo"/>
                                         </connections>
@@ -255,8 +256,8 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
                                         <connections>
                                             <segue destination="rHv-BU-rzW" kind="show" id="Pk6-Rc-00G"/>
                                         </connections>
@@ -277,8 +278,8 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
                                         <connections>
                                             <segue destination="Peu-FK-kmo" kind="show" id="1lv-lf-PMd"/>
                                         </connections>
@@ -299,8 +300,8 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
                                         <connections>
                                             <segue destination="fmi-To-rtB" kind="show" id="aXe-DN-HVh"/>
                                         </connections>
@@ -321,8 +322,8 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
                                         <connections>
                                             <segue destination="u2Z-SZ-2S4" kind="show" id="Tga-wa-pxm"/>
                                         </connections>
@@ -343,8 +344,8 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
                                         <connections>
                                             <segue destination="05P-as-PEW" kind="show" id="2sQ-vz-OZW"/>
                                         </connections>
@@ -365,8 +366,8 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
                                         <connections>
                                             <segue destination="j6d-UD-0Hs" kind="show" id="I6X-kV-1dg"/>
                                         </connections>
@@ -387,8 +388,8 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
                                         <connections>
                                             <segue destination="eP9-fo-fNa" kind="show" id="04k-s7-YZX"/>
                                         </connections>
@@ -409,8 +410,8 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
                                         <connections>
                                             <segue destination="ldB-bg-HIM" kind="show" id="gUr-gu-zJ9"/>
                                         </connections>
@@ -431,8 +432,8 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
                                         <connections>
                                             <segue destination="qrw-ej-wnO" kind="show" id="ndt-OD-Mib"/>
                                         </connections>
@@ -453,8 +454,8 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
                                         <connections>
                                             <segue destination="SjV-Tf-t1w" kind="show" id="W6S-z7-c2F"/>
                                         </connections>
@@ -501,19 +502,19 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cover" translatesAutoresizingMaskIntoConstraints="NO" id="dSE-wZ-9TX">
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="hZZ-1B-0nq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="dSE-wZ-9TX" firstAttribute="leading" secondItem="hZZ-1B-0nq" secondAttribute="leading" id="DOP-Ex-RG2"/>
                             <constraint firstItem="dSE-wZ-9TX" firstAttribute="bottom" secondItem="hZZ-1B-0nq" secondAttribute="bottom" id="Xic-DF-pqn"/>
                             <constraint firstItem="dSE-wZ-9TX" firstAttribute="top" secondItem="hZZ-1B-0nq" secondAttribute="top" id="djx-br-vq8"/>
                             <constraint firstItem="dSE-wZ-9TX" firstAttribute="trailing" secondItem="hZZ-1B-0nq" secondAttribute="trailing" id="ifg-ok-0hr"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="hZZ-1B-0nq"/>
                     </view>
                     <navigationItem key="navigationItem" title="Book Cover Title Page" id="aZM-WJ-c1W"/>
                 </viewController>
@@ -546,7 +547,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhH-YV-RUY">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhH-YV-RUY">
                                 <rect key="frame" x="132" y="422" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="8ty-ZO-3E0"/>
@@ -559,7 +560,7 @@
                                     <action selector="login:" destination="SjV-Tf-t1w" eventType="touchUpInside" id="XhV-iL-ERs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="opl-Ng-8kj">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="opl-Ng-8kj">
                                 <rect key="frame" x="132" y="462" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="2UA-ZP-rQq"/>
@@ -572,7 +573,7 @@
                                     <action selector="forgotPassword:" destination="SjV-Tf-t1w" eventType="touchUpInside" id="6Rn-Rr-Cny"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wne-7S-uaw">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wne-7S-uaw">
                                 <rect key="frame" x="107" y="500" width="200" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="L0X-ts-XZd"/>
@@ -585,7 +586,7 @@
                                     <action selector="createAccount:" destination="SjV-Tf-t1w" eventType="touchUpInside" id="le0-SV-xt9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1j-jI-1mM">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1j-jI-1mM">
                                 <rect key="frame" x="67" y="538" width="280" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="UMO-ee-vcX"/>
@@ -609,7 +610,8 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="bfp-Yb-3z7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="qhH-YV-RUY" firstAttribute="top" secondItem="81y-p3-9q1" secondAttribute="bottom" constant="8" id="I9l-GK-7LZ"/>
                             <constraint firstItem="g1j-jI-1mM" firstAttribute="top" secondItem="wne-7S-uaw" secondAttribute="bottom" constant="8" id="JEZ-Ot-qPv"/>
@@ -628,7 +630,6 @@
                             <constraint firstItem="opl-Ng-8kj" firstAttribute="centerX" secondItem="aRL-ZH-XSW" secondAttribute="centerX" id="wzF-rj-rj7"/>
                             <constraint firstItem="g1j-jI-1mM" firstAttribute="centerX" secondItem="aRL-ZH-XSW" secondAttribute="centerX" id="yzR-6l-vY9"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="bfp-Yb-3z7"/>
                     </view>
                     <navigationItem key="navigationItem" id="xuW-Id-4no"/>
                     <connections>
@@ -653,7 +654,7 @@
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NQU-4t-fWH">
                                         <rect key="frame" x="8" y="0.0" width="398" height="774"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <string key="text">In the past two decades, Assisted Living Facilities have grown nationwide in the health care industry.
 
 There are approximately 40,000 Assisted Living Facilities operating in the United States today.  The number of residents living in a facility can range from just a few to over 300, with the most common size housing between 25 and 120 individuals.
@@ -714,13 +715,13 @@ Overall, the best way to describe Assisted Living is to think of it as a bridge 
 
 Assisted Living is an exciting option for individuals who want to maximize their independence while living in the safety of a supervised, residential setting.  Next up: Chapter 2 - In Other Words
 </string>
-                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <constraints>
                                     <constraint firstItem="NQU-4t-fWH" firstAttribute="centerX" secondItem="SVV-XJ-aZo" secondAttribute="centerX" id="AVI-bK-mT2"/>
                                     <constraint firstItem="NQU-4t-fWH" firstAttribute="leading" secondItem="SVV-XJ-aZo" secondAttribute="leadingMargin" id="Gtb-fB-KbZ"/>
@@ -731,15 +732,15 @@ Assisted Living is an exciting option for individuals who want to maximize their
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="ifT-ZF-Ucy"/>
+                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="SVV-XJ-aZo" firstAttribute="centerX" secondItem="TpH-yy-iBV" secondAttribute="centerX" id="22u-0t-p83"/>
                             <constraint firstItem="SVV-XJ-aZo" firstAttribute="bottom" secondItem="ifT-ZF-Ucy" secondAttribute="bottom" id="VZL-zn-mEE"/>
                             <constraint firstItem="SVV-XJ-aZo" firstAttribute="leading" secondItem="ifT-ZF-Ucy" secondAttribute="leading" id="Vj1-20-4Jf"/>
                             <constraint firstItem="SVV-XJ-aZo" firstAttribute="top" secondItem="ifT-ZF-Ucy" secondAttribute="top" id="ihu-Un-nBk"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="ifT-ZF-Ucy"/>
                     </view>
                     <navigationItem key="navigationItem" id="BMz-E7-2Nu"/>
                 </viewController>
@@ -757,7 +758,7 @@ Assisted Living is an exciting option for individuals who want to maximize their
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NCi-O0-Cz1">
                                 <rect key="frame" x="8" y="146" width="398" height="696"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text" base64-UTF8="YES">
 Tm93IHRoYXQgeW91IGhhdmUgcmVhZCBhbGwgb2YgdGhlIHRlY2huaWNhbCBzdHVmZiwgbGV04oCZcyBz
 aXQgZG93biBhbmQgY2hhdC4KCkFzIHByb2Zlc3Npb25hbHMsIHdlIHRha2Ugb3VyIGpvYiB2ZXJ5IHNl
@@ -835,17 +836,18 @@ IHRvIGp1ZGdlIGV2ZXJ5dGhpbmcgYmFzZWQgb24gd2hhdCBUSEVZIHdpbGwgcmVxdWlyZSwgbm90IHdo
 YXQgWU9VIHJlcXVpcmUuICBJbiBvdGhlciB3b3Jkcywgd2hvIGlzIHJlYWxseSBtb3ZpbmcgaW4/4oCo
 4oCoTmV4dCB1cDogQ2hhcHRlciAzIC0gQmVmb3JlIFlvdSBHbw
 </string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IOW2" translatesAutoresizingMaskIntoConstraints="NO" id="CAe-5I-1gZ">
                                 <rect key="frame" x="8" y="88" width="398" height="50"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="p5k-2i-pJR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="p5k-2i-pJR" firstAttribute="trailing" secondItem="CAe-5I-1gZ" secondAttribute="trailing" constant="8" id="1L0-EG-s1J"/>
                             <constraint firstItem="CAe-5I-1gZ" firstAttribute="leading" secondItem="p5k-2i-pJR" secondAttribute="leading" constant="8" id="8qO-DV-tzT"/>
@@ -855,7 +857,6 @@ YXQgWU9VIHJlcXVpcmUuICBJbiBvdGhlciB3b3Jkcywgd2hvIGlzIHJlYWxseSBtb3ZpbmcgaW4/4oCo
                             <constraint firstItem="CAe-5I-1gZ" firstAttribute="top" secondItem="p5k-2i-pJR" secondAttribute="top" id="fxU-de-fk9"/>
                             <constraint firstItem="NCi-O0-Cz1" firstAttribute="top" secondItem="CAe-5I-1gZ" secondAttribute="bottom" constant="8" id="gmu-33-jCw"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="p5k-2i-pJR"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xy1-8W-jyE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -872,7 +873,7 @@ YXQgWU9VIHJlcXVpcmUuICBJbiBvdGhlciB3b3Jkcywgd2hvIGlzIHJlYWxseSBtb3ZpbmcgaW4/4oCo
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="i1R-OZ-rZ4">
                                 <rect key="frame" x="8" y="96" width="398" height="792"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Now that you have chosen the facilities you want to tour, it’s time to make an appointment. Ask to speak with the Marketing or Sales Director.  Tell them that you would like to ask a few questions before you decide to tour.
 
 What is the Marketing Director’s name?  Will that person be the one to tour you?  Can he or she tour you on a weekend?  If not, is there an Assistant Marketing Director?  What is his or her name?  Will he or she be able to tour you on a weekend?
@@ -894,20 +895,20 @@ After this phone conversation, if you feel this facility may be worth looking at
 From what you have just read, it makes it even clearer why you don’t want to be a “showupper.”  All of the above things have to be discussed in detail with each family.
 
 Making an appointment is “where it’s at!”  Next up: Chapter 4 - General Aspects of Community</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="xL1-97-mFd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="i1R-OZ-rZ4" firstAttribute="leading" secondItem="xL1-97-mFd" secondAttribute="leading" constant="8" id="21p-QP-rCx"/>
                             <constraint firstAttribute="bottom" secondItem="i1R-OZ-rZ4" secondAttribute="bottom" constant="8" id="47d-Ik-hOl"/>
                             <constraint firstItem="xL1-97-mFd" firstAttribute="trailing" secondItem="i1R-OZ-rZ4" secondAttribute="trailing" constant="8" id="FFT-Jv-wMD"/>
                             <constraint firstItem="i1R-OZ-rZ4" firstAttribute="top" secondItem="xL1-97-mFd" secondAttribute="top" constant="8" id="Rfh-o1-bFD"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="xL1-97-mFd"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aKr-CL-WSe" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -924,8 +925,8 @@ Making an appointment is “where it’s at!”  Next up: Chapter 4 - Genera
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TLp-NL-kv1">
                                 <rect key="frame" x="8" y="96" width="398" height="708"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <string key="text" base64-UTF8="YES">
 WW91IGFyZSBhYm91dCB0byBlbnRlciB0aGUg4oCccXVlc3Rpb27igJ0gc2VjdGlvbuKAnSBvZiBvdXIg
 Ym9vay4KCk5vdGU6ICBZb3Ugd2lsbCBuZWVkIGEgeWVsbG93IGhpZ2hsaWdodGVyIGZyb20gdGhpcyBw
@@ -963,14 +964,14 @@ aXR5LgoK4oCmaWYgdGhlIHBsYW50cyBhcmUgZHlpbmcgb2YgdGhpcnN0IGFuZCB0aGUgcGFpbnQgaXMg
 cGVlbGluZyBvZmYgdGhlIHdhbGxzLCB5b3UgbmVlZCB0byBwZWVsIG9uIG91dCBvZiB0aGVyZSBBU0FQ
 IeKAqOKAqE5leHQgdXA6IENoYXB0ZXIgNSAtIExpY2Vuc2VzICYgQWRtaW5pc3RyYXRpb24
 </string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7X-fr-Ov2">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B7X-fr-Ov2">
                                 <rect key="frame" x="25" y="812" width="364" height="30"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Go to Ch 4 Questions"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -983,8 +984,9 @@ IeKAqOKAqE5leHQgdXA6IENoYXB0ZXIgNSAtIExpY2Vuc2VzICYgQWRtaW5pc3RyYXRpb24
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="T3g-6v-mmf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="TLp-NL-kv1" firstAttribute="leading" secondItem="T3g-6v-mmf" secondAttribute="leading" constant="8" id="IUj-fh-hTf"/>
                             <constraint firstItem="T3g-6v-mmf" firstAttribute="bottom" secondItem="B7X-fr-Ov2" secondAttribute="bottom" constant="20" id="ReR-qV-yAJ"/>
@@ -996,7 +998,6 @@ IeKAqOKAqE5leHQgdXA6IENoYXB0ZXIgNSAtIExpY2Vuc2VzICYgQWRtaW5pc3RyYXRpb24
                             <constraint firstItem="TLp-NL-kv1" firstAttribute="top" secondItem="T3g-6v-mmf" secondAttribute="top" constant="8" id="wED-uh-M9Y"/>
                             <constraint firstItem="B7X-fr-Ov2" firstAttribute="leading" secondItem="T3g-6v-mmf" secondAttribute="leading" constant="25" id="xeW-0m-BQl"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="T3g-6v-mmf"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7rx-1L-vXd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1014,20 +1015,20 @@ IeKAqOKAqE5leHQgdXA6IENoYXB0ZXIgNSAtIExpY2Vuc2VzICYgQWRtaW5pc3RyYXRpb24
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SK2-EN-VTl">
                                 <rect key="frame" x="8" y="88" width="398" height="716"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">In the following chapter, you will be asking questions about documents, policies and inspections.  These questions will reveal the credibility and professionalism of the individuals that operate the company.  Are they organized?  Do they have all of the things you are asking for?  Remember, the Marketing or Sales Representative may not have everything immediately on hand.  Give him a few minutes to produce the requested documents.
 
 (insert image here)
 
 ...although very important, you will be asking questions about some pretty boring stuff.  But, if things you are asking for are not shown to you, it’s time to move on.  Next up: Chapter 6 - Contract</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPx-39-cTu">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JPx-39-cTu">
                                 <rect key="frame" x="25" y="812" width="364" height="30"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Go To Ch 5 Questions"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1039,8 +1040,9 @@ IeKAqOKAqE5leHQgdXA6IENoYXB0ZXIgNSAtIExpY2Vuc2VzICYgQWRtaW5pc3RyYXRpb24
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="V8c-Xt-gnY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="SK2-EN-VTl" firstAttribute="top" secondItem="V8c-Xt-gnY" secondAttribute="top" id="3v3-Pq-5ri"/>
                             <constraint firstItem="JPx-39-cTu" firstAttribute="top" secondItem="SK2-EN-VTl" secondAttribute="bottom" constant="8" id="60N-gT-ArM"/>
@@ -1052,7 +1054,6 @@ IeKAqOKAqE5leHQgdXA6IENoYXB0ZXIgNSAtIExpY2Vuc2VzICYgQWRtaW5pc3RyYXRpb24
                             <constraint firstItem="JPx-39-cTu" firstAttribute="centerX" secondItem="YEw-Nj-JFD" secondAttribute="centerX" id="YeA-eC-M6f"/>
                             <constraint firstItem="JPx-39-cTu" firstAttribute="top" secondItem="SK2-EN-VTl" secondAttribute="bottom" constant="8" id="tic-cy-V3W"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="V8c-Xt-gnY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x4q-Kk-bqe" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1069,20 +1070,20 @@ IeKAqOKAqE5leHQgdXA6IENoYXB0ZXIgNSAtIExpY2Vuc2VzICYgQWRtaW5pc3RyYXRpb24
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qpv-sn-A5W">
                                 <rect key="frame" x="8" y="88" width="398" height="716"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Yet another chapter on policies and procedures!  Boring, but an absolute must! 
 
 Here, you will learn all about important costs that you may or may not incur during your loved one’s stay at the facility you choose.  In this chapter you will get an ALF education, for sure!
 
 ...this is the MONEY chapter. You will see the words, “money, fees, rates, up front costs, and increases", in every other question.  It’s scary, but it’s better to know everything up front and leave nothing to chance.  Our philosophy comes into play here... “…educate and therefore protect...”  Next up: Chapter 7 - Observations/Tour</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QOb-Z9-G7I">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QOb-Z9-G7I">
                                 <rect key="frame" x="25" y="812" width="364" height="30"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Go To Ch 6 Questions"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1094,8 +1095,9 @@ Here, you will learn all about important costs that you may or may not incur dur
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="4yk-lo-tG3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="QOb-Z9-G7I" firstAttribute="top" secondItem="qpv-sn-A5W" secondAttribute="bottom" constant="8" id="BfV-gC-oNT"/>
                             <constraint firstItem="qpv-sn-A5W" firstAttribute="top" secondItem="4yk-lo-tG3" secondAttribute="top" id="ZTS-DH-8Ig"/>
@@ -1107,7 +1109,6 @@ Here, you will learn all about important costs that you may or may not incur dur
                             <constraint firstItem="4yk-lo-tG3" firstAttribute="trailing" secondItem="QOb-Z9-G7I" secondAttribute="trailing" constant="25" id="tkw-3y-PrU"/>
                             <constraint firstItem="QOb-Z9-G7I" firstAttribute="top" secondItem="qpv-sn-A5W" secondAttribute="bottom" constant="8" id="u1F-f9-Yry"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="4yk-lo-tG3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="twq-5I-mAD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1124,20 +1125,20 @@ Here, you will learn all about important costs that you may or may not incur dur
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="18S-li-cwM">
                                 <rect key="frame" x="8" y="88" width="398" height="716"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Now, you are going to actually SEE the facility.  Keep your eyes wide open!  You are mainly looking for safety issues.
 
 Also, look around to see if your loved ones will fit in well with the residents that you see.  Do they look well cared for?  Say hi to them, and ask them how they like it there.
 
 …if you trip over an obstacle on the floor, you have not found the right place.  If you fall and slide down the hallway into someone’s room, you definitely have not found the right place.  Oh, and if a staff member is smoking in the bathroom….it’s time to move on.  Next up: Chapter 8 - Accommodations</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIt-yZ-ZgG">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIt-yZ-ZgG">
                                 <rect key="frame" x="25" y="812" width="364" height="30"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Go To Ch 7 Questions"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1149,8 +1150,9 @@ Also, look around to see if your loved ones will fit in well with the residents 
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="ESO-Yv-XH2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="ESO-Yv-XH2" firstAttribute="bottom" secondItem="XIt-yZ-ZgG" secondAttribute="bottom" constant="20" id="4Hq-Mm-gUB"/>
                             <constraint firstItem="18S-li-cwM" firstAttribute="top" secondItem="ESO-Yv-XH2" secondAttribute="top" id="8c7-Zb-gxD"/>
@@ -1162,7 +1164,6 @@ Also, look around to see if your loved ones will fit in well with the residents 
                             <constraint firstItem="XIt-yZ-ZgG" firstAttribute="top" secondItem="18S-li-cwM" secondAttribute="bottom" constant="8" id="SZj-cC-Aei"/>
                             <constraint firstItem="XIt-yZ-ZgG" firstAttribute="leading" secondItem="ESO-Yv-XH2" secondAttribute="leading" constant="25" id="rMv-nA-3qr"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="ESO-Yv-XH2"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aEe-0o-xze" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1179,7 +1180,7 @@ Also, look around to see if your loved ones will fit in well with the residents 
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IW2-nf-9FO">
                                 <rect key="frame" x="8" y="88" width="398" height="716"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">This is the part of the book where you have to ask a lot of “money questions.”  Every room you look at could have a different rate depending on the size, the location and whether it’s for one person or two.
 
 Can your loved one share a room with someone else?  There are two good reasons why that would be a good thing.  One is that it will definitely be less expensive, and the other is that he or she will have someone to talk to.  If you decide that sharing a room is a possibility, talk to the possible roommate of your loved one.  See if you think it would be a good match.
@@ -1187,14 +1188,14 @@ Can your loved one share a room with someone else?  There are two good reasons w
 Make sure the room has all the safety features that are needed.  See if the air-conditioning comes on when you lower the thermostat.
 
 …if the roommate has icicles hanging off her nose, and she’s comfortable, this may not be a good fit for your loved one.  Next up: Chapter 9 - Medical and Nursing</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Asm-mb-A1z">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Asm-mb-A1z">
                                 <rect key="frame" x="25" y="812" width="364" height="30"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Go To Ch 8 Questions"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1206,8 +1207,9 @@ Make sure the room has all the safety features that are needed.  See if the air-
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="yAM-eR-nyE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="yAM-eR-nyE" firstAttribute="bottom" secondItem="Asm-mb-A1z" secondAttribute="bottom" constant="20" id="4e5-0m-SCG"/>
                             <constraint firstItem="IW2-nf-9FO" firstAttribute="leading" secondItem="yAM-eR-nyE" secondAttribute="leading" constant="8" id="5YZ-Og-X5B"/>
@@ -1219,7 +1221,6 @@ Make sure the room has all the safety features that are needed.  See if the air-
                             <constraint firstItem="Asm-mb-A1z" firstAttribute="leading" secondItem="yAM-eR-nyE" secondAttribute="leading" constant="25" id="sZT-Bx-7Pe"/>
                             <constraint firstItem="Asm-mb-A1z" firstAttribute="centerX" secondItem="P49-9q-7fP" secondAttribute="centerX" id="tPI-aP-AtR"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="yAM-eR-nyE"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6sI-mV-eeM" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1236,7 +1237,7 @@ Make sure the room has all the safety features that are needed.  See if the air-
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="o6o-DD-JtN">
                                 <rect key="frame" x="8" y="88" width="398" height="716"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">It’s hard to say if one chapter is more important than another, but this one’s all about the CARE your loved one is going to receive.  That’s VERY important!
 
 These questions will determine how comfortable you will feel leaving your family member in the hands of the staff of the particular facility.
@@ -1246,14 +1247,14 @@ Ask them to show you how they dispense the medications. Where do they keep the m
 If you are really interested in this facility, tell the Marketing Director that you would like to have a meeting with the Director of Nursing before making your decision.
 
 There is no “in other words” here.  This is serious stuff!  Next up: Chapter 10 - Food Services</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lkn-t0-Pq5">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lkn-t0-Pq5">
                                 <rect key="frame" x="25" y="812" width="364" height="30"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Go To Ch 9 Questions"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1265,8 +1266,9 @@ There is no “in other words” here.  This is serious stuff!  Next up: Cha
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="k0f-o4-KAn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="k0f-o4-KAn" firstAttribute="trailing" secondItem="Lkn-t0-Pq5" secondAttribute="trailing" constant="25" id="0wn-rl-emW"/>
                             <constraint firstItem="Lkn-t0-Pq5" firstAttribute="centerX" secondItem="bhx-RW-ZoF" secondAttribute="centerX" id="6wX-4G-IF0"/>
@@ -1278,7 +1280,6 @@ There is no “in other words” here.  This is serious stuff!  Next up: Cha
                             <constraint firstItem="k0f-o4-KAn" firstAttribute="bottom" secondItem="Lkn-t0-Pq5" secondAttribute="bottom" constant="20" id="aOy-QL-Rpo"/>
                             <constraint firstItem="Lkn-t0-Pq5" firstAttribute="leading" secondItem="k0f-o4-KAn" secondAttribute="leading" constant="25" id="alG-bC-LeH"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="k0f-o4-KAn"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d5T-Ud-z5p" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1295,7 +1296,7 @@ There is no “in other words” here.  This is serious stuff!  Next up: Cha
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hz6-eV-8t3">
                                 <rect key="frame" x="8" y="88" width="414" height="716"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">If you ask a potential resident, “What is the most important question you would like to ask the facility?”  It’s a guarantee that they will say. “Is the food good?”
 
 Many people need special diets, whether for health reasons or religious reasons, or just because that’s what they like.  In this chapter, you will be able to ask everything you can think of (and some you didn’t think of, but we did, regarding food service).
@@ -1303,14 +1304,14 @@ Many people need special diets, whether for health reasons or religious reasons,
 When you are touring, if you think this facility may be in the running, then, ask to speak with the Food Service Director.  If you’re not in a big hurry, see if you can sample a meal.  If your family member is not with you, see if you can bring him or her back for a meal. 
 
 …If you did not get a “Happy Meal” at the facility, and you find yourselves supersizing every item at McDonalds after your tour, this may not be the dining room for you.  Next up: Chapter 11 - Activities</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taq-oe-e9p">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taq-oe-e9p">
                                 <rect key="frame" x="25" y="812" width="364" height="30"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Go To Ch 10 Questions"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1322,8 +1323,9 @@ When you are touring, if you think this facility may be in the running, then, as
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="7NK-Kl-aY9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="taq-oe-e9p" firstAttribute="top" secondItem="hz6-eV-8t3" secondAttribute="bottom" constant="8" id="7qk-l1-0tT"/>
                             <constraint firstItem="hz6-eV-8t3" firstAttribute="top" secondItem="7NK-Kl-aY9" secondAttribute="top" id="Frc-7a-Oev"/>
@@ -1335,7 +1337,6 @@ When you are touring, if you think this facility may be in the running, then, as
                             <constraint firstItem="taq-oe-e9p" firstAttribute="leading" secondItem="7NK-Kl-aY9" secondAttribute="leading" constant="25" id="rPU-go-EJs"/>
                             <constraint firstItem="taq-oe-e9p" firstAttribute="centerX" secondItem="bgo-5t-A6V" secondAttribute="centerX" id="xCz-D4-g5P"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="7NK-Kl-aY9"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bs1-Bh-ZBO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1352,7 +1353,7 @@ When you are touring, if you think this facility may be in the running, then, as
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eY7-KM-lmT">
                                 <rect key="frame" x="8" y="88" width="398" height="716"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">I can not begin to impress upon you how important this department is!  This department will determine how your loved ones will fill up their days. 
 
 Get the Activity Calendar.  Look it over.  Make sure there are a lot of choices.  Depending on the type of facility required, there should be musical programs, parties, religious services, arts and crafts, adult discussion groups, shopping, movies, and games.  Where would we be without Bingo?
@@ -1362,14 +1363,14 @@ If you are choosing a smaller facility, of course, the number and type of activi
 Observe the Activity Director.  Is he/she energetic?  Does he/she have a good personality?  Is he/she friendly?
 
 …If the Activity Director resembles the farmer holding the pitchfork in that famous work of art, the place just might be a little too low key!  Next up: Chapter 12 - Housekeeping and Maintenance</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YKj-I8-jiW">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YKj-I8-jiW">
                                 <rect key="frame" x="25" y="812" width="364" height="30"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Go To Ch 11 Questions"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1381,8 +1382,9 @@ Observe the Activity Director.  Is he/she energetic?  Does he/she have a good pe
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="gMb-ft-FYy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="gMb-ft-FYy" firstAttribute="bottom" secondItem="YKj-I8-jiW" secondAttribute="bottom" constant="20" id="6aQ-T4-ZIF"/>
                             <constraint firstItem="eY7-KM-lmT" firstAttribute="top" secondItem="gMb-ft-FYy" secondAttribute="top" id="Ljo-ym-bni"/>
@@ -1394,7 +1396,6 @@ Observe the Activity Director.  Is he/she energetic?  Does he/she have a good pe
                             <constraint firstItem="gMb-ft-FYy" firstAttribute="trailing" secondItem="YKj-I8-jiW" secondAttribute="trailing" constant="25" id="q0E-Re-HWp"/>
                             <constraint firstItem="YKj-I8-jiW" firstAttribute="leading" secondItem="gMb-ft-FYy" secondAttribute="leading" constant="25" id="uuz-NN-rPn"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="gMb-ft-FYy"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10Q-wq-rVb" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1411,7 +1412,7 @@ Observe the Activity Director.  Is he/she energetic?  Does he/she have a good pe
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lcI-p8-JRn">
                                 <rect key="frame" x="8" y="88" width="398" height="716"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">These two departments have a lot to do with keeping your loved one comfortable and in a clean environment.
 
 The Maintenance Director is there to help when things are broken or not in proper working order, such as the air-conditioning or something as small as making a new key. 
@@ -1421,14 +1422,14 @@ The Housekeeping staff should always make sure the rooms smell good and are in o
 If the facility is doing the laundry, make sure you label all of the clothes that you bring into the facility.  Most facilities do several residents’ laundry at the same time and clothes could get misplaced. 
 
 …You don’t want Mom to see Mrs. Jones coming to the dining room wearing her favorite dress!  Next up: Chapter 13 - Transportation</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j0T-s4-1Zf">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j0T-s4-1Zf">
                                 <rect key="frame" x="25" y="812" width="364" height="30"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Go To Ch 12 Questions"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1440,8 +1441,9 @@ If the facility is doing the laundry, make sure you label all of the clothes tha
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="pVx-nl-cR7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="lcI-p8-JRn" firstAttribute="leading" secondItem="pVx-nl-cR7" secondAttribute="leading" constant="8" id="6It-ux-fen"/>
                             <constraint firstItem="pVx-nl-cR7" firstAttribute="trailing" secondItem="j0T-s4-1Zf" secondAttribute="trailing" constant="25" id="CKE-sm-rfc"/>
@@ -1453,7 +1455,6 @@ If the facility is doing the laundry, make sure you label all of the clothes tha
                             <constraint firstItem="lcI-p8-JRn" firstAttribute="top" secondItem="pVx-nl-cR7" secondAttribute="top" id="oZt-5T-wYQ"/>
                             <constraint firstItem="pVx-nl-cR7" firstAttribute="trailing" secondItem="lcI-p8-JRn" secondAttribute="trailing" constant="8" id="sp0-fM-rBo"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="pVx-nl-cR7"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Qw-fh-wKh" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1470,7 +1471,7 @@ If the facility is doing the laundry, make sure you label all of the clothes tha
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="haJ-HH-KM2">
                                 <rect key="frame" x="8" y="88" width="398" height="716"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Now that your loved one is all settled in his or her new home, we have to think about how we are going to get him or her out!  Just kidding! 
 
 Seriously, how will residents get to a restaurant if they want to go out to dinner?  How will they get to the Beauty Salon?  How will they get to a store to buy some personal items?  How will they get to a doctor appointment?
@@ -1478,14 +1479,14 @@ Seriously, how will residents get to a restaurant if they want to go out to dinn
 This chapter will give you the opportunity to ask every detail about transportation.
 
 …check out the driver.  If he’s wearing quadruple bi-focals, maybe Mom shouldn’t get on the bus!  Next up: Chapter 14 - Emergency Plan &amp; Safety</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USs-bb-qoU">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USs-bb-qoU">
                                 <rect key="frame" x="25" y="812" width="364" height="30"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Go To Ch 13 Questions"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1497,8 +1498,9 @@ This chapter will give you the opportunity to ask every detail about transportat
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="rtr-w9-Y5F"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="haJ-HH-KM2" firstAttribute="leading" secondItem="rtr-w9-Y5F" secondAttribute="leading" constant="8" id="2RL-Fv-GwE"/>
                             <constraint firstItem="haJ-HH-KM2" firstAttribute="top" secondItem="rtr-w9-Y5F" secondAttribute="top" id="381-tf-bgF"/>
@@ -1510,7 +1512,6 @@ This chapter will give you the opportunity to ask every detail about transportat
                             <constraint firstItem="USs-bb-qoU" firstAttribute="leading" secondItem="rtr-w9-Y5F" secondAttribute="leading" constant="25" id="mE7-pO-P7G"/>
                             <constraint firstItem="USs-bb-qoU" firstAttribute="centerX" secondItem="8X0-PZ-3Tt" secondAttribute="centerX" id="wpo-W9-DdI"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="rtr-w9-Y5F"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tVS-Wb-NC3" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1527,7 +1528,7 @@ This chapter will give you the opportunity to ask every detail about transportat
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cTw-Ml-RHl">
                                 <rect key="frame" x="8" y="88" width="398" height="716"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">This chapter separates the men from the boys, the professionals from the non-professionals, and most importantly, the safe communities from the unsafe communities.
 
 You’re going to ask about fire drills, evacuations, generators, fire   sprinkler systems, hurricanes, floods, and tornados.  This is all about the safety of your loved one.
@@ -1540,14 +1541,14 @@ There is no “in other words” here.  This is serious stuff!
 
   
 Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms &amp; Vocabulary</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHW-AC-God">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHW-AC-God">
                                 <rect key="frame" x="25" y="812" width="364" height="30"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Go To Ch 14 Questions"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1559,8 +1560,9 @@ Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms &amp; Vocabul
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="t5N-Kl-jTz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="XHW-AC-God" firstAttribute="top" secondItem="cTw-Ml-RHl" secondAttribute="bottom" constant="8" id="2Uv-Hm-psw"/>
                             <constraint firstItem="XHW-AC-God" firstAttribute="centerX" secondItem="JXw-wo-DPY" secondAttribute="centerX" id="2YT-J6-C1R"/>
@@ -1572,7 +1574,6 @@ Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms &amp; Vocabul
                             <constraint firstItem="t5N-Kl-jTz" firstAttribute="trailing" secondItem="XHW-AC-God" secondAttribute="trailing" constant="25" id="iUB-gv-ewP"/>
                             <constraint firstItem="XHW-AC-God" firstAttribute="top" secondItem="cTw-Ml-RHl" secondAttribute="bottom" constant="8" id="sBA-WU-KDs"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="t5N-Kl-jTz"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DZb-Hl-BsD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1590,7 +1591,7 @@ Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms &amp; Vocabul
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ade-ln-34a">
                                 <rect key="frame" x="8" y="90" width="398" height="716"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">When it comes to Assisted Living placement, gay seniors face more issues than seniors from the heterosexual community. First and foremost, members of the LGBTQ community are less likely to have adult children to care for them. 
 
 Many LGBTQ community members have been forgotten or deserted by their own family members. This means there will be no relative or family member willing to oversee their care in their time of need. 
@@ -1650,15 +1651,15 @@ It is important to take into consideration your personal needs, your likes and d
 The following questions are specific and pertinent to the LGBTQ community. 
 IN OTHER WORDS 
 Simple and to the POINT!!!... Every senior wants to be living in a place where specific needs and life experiences will be met and understood. We live in a straight society. Be realistic with your current situation, i.e.; financial, clinical, geographical and social. And make the absolute best out of your choice. This is important to ALL seniors, regardless of sexual orientation.  Next up: Chapter 16 - Acronyms &amp; Vocabulary</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fn-AY-8xJ">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fn-AY-8xJ">
                                 <rect key="frame" x="25" y="814" width="364" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal" title="Go To Ch 15 Questions"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -1670,9 +1671,9 @@ Simple and to the POINT!!!... Every senior wants to be living in a place where s
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                         <viewLayoutGuide key="safeArea" id="BnQ-fS-rbY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YTi-jO-8lX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1687,45 +1688,41 @@ Simple and to the POINT!!!... Every senior wants to be living in a place where s
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o1Z-DJ-3HC">
+                                <rect key="frame" x="57" y="812" width="301" height="30"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <state key="normal" title="Go To Ch 16 Terms"/>
+                                <connections>
+                                    <segue destination="tXN-cT-lEe" kind="show" id="l4r-9X-lgh"/>
+                                </connections>
+                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="56q-zx-wBV">
-                                <rect key="frame" x="8" y="88" width="398" height="716"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.  Next up: Chapter 16 - About the Authors</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <rect key="frame" x="8" y="96" width="398" height="690"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.  Next up: Chapter 16 - About the Authors</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tb4-Ma-9SU">
-                                <rect key="frame" x="25" y="812" width="364" height="30"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <state key="normal" title="Button"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="25"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                        <constraints>
-                            <constraint firstItem="56q-zx-wBV" firstAttribute="leading" secondItem="QoF-tr-CJp" secondAttribute="leading" constant="8" id="3WO-5t-4dM"/>
-                            <constraint firstItem="56q-zx-wBV" firstAttribute="top" secondItem="QoF-tr-CJp" secondAttribute="top" id="66U-9q-JWo"/>
-                            <constraint firstItem="QoF-tr-CJp" firstAttribute="trailing" secondItem="56q-zx-wBV" secondAttribute="trailing" constant="8" id="EVN-Ia-Nyr"/>
-                            <constraint firstItem="Tb4-Ma-9SU" firstAttribute="centerX" secondItem="zed-mw-HWj" secondAttribute="centerX" id="FER-4i-Xhb"/>
-                            <constraint firstItem="Tb4-Ma-9SU" firstAttribute="leading" secondItem="QoF-tr-CJp" secondAttribute="leading" constant="25" id="b1V-N6-TSG"/>
-                            <constraint firstItem="Tb4-Ma-9SU" firstAttribute="top" secondItem="56q-zx-wBV" secondAttribute="bottom" constant="8" id="e3d-6o-1ok"/>
-                            <constraint firstItem="Tb4-Ma-9SU" firstAttribute="top" secondItem="56q-zx-wBV" secondAttribute="bottom" constant="8" id="hDu-UO-Dgk"/>
-                            <constraint firstItem="QoF-tr-CJp" firstAttribute="bottom" secondItem="Tb4-Ma-9SU" secondAttribute="bottom" constant="20" id="lsM-72-Tdg"/>
-                            <constraint firstItem="QoF-tr-CJp" firstAttribute="trailing" secondItem="Tb4-Ma-9SU" secondAttribute="trailing" constant="25" id="xrH-wx-zWI"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="QoF-tr-CJp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
+                        <constraints>
+                            <constraint firstItem="QoF-tr-CJp" firstAttribute="bottom" secondItem="o1Z-DJ-3HC" secondAttribute="bottom" constant="20" id="Cm2-d2-UWf"/>
+                            <constraint firstItem="o1Z-DJ-3HC" firstAttribute="top" secondItem="56q-zx-wBV" secondAttribute="bottom" constant="26" id="Q1z-JE-JgB"/>
+                            <constraint firstItem="56q-zx-wBV" firstAttribute="leading" secondItem="QoF-tr-CJp" secondAttribute="leading" constant="8" id="boz-ZU-FdK"/>
+                            <constraint firstItem="o1Z-DJ-3HC" firstAttribute="top" secondItem="56q-zx-wBV" secondAttribute="bottom" constant="26" id="e2e-eP-DaO"/>
+                            <constraint firstItem="56q-zx-wBV" firstAttribute="top" secondItem="QoF-tr-CJp" secondAttribute="top" constant="8" id="jbg-2E-kqc"/>
+                            <constraint firstItem="o1Z-DJ-3HC" firstAttribute="leading" secondItem="QoF-tr-CJp" secondAttribute="leading" constant="57" id="rAI-QI-RbN"/>
+                            <constraint firstItem="QoF-tr-CJp" firstAttribute="trailing" secondItem="o1Z-DJ-3HC" secondAttribute="trailing" constant="56" id="x1j-Zj-5Ul"/>
+                            <constraint firstItem="QoF-tr-CJp" firstAttribute="trailing" secondItem="56q-zx-wBV" secondAttribute="trailing" constant="8" id="zdT-Il-uQ1"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gvC-Gh-odI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11714" y="941"/>
+            <point key="canvasLocation" x="11673.913043478262" y="926.78571428571422"/>
         </scene>
         <!--Chapter 17 - About the Authors-->
         <scene sceneID="tlp-c7-P9G">
@@ -1737,7 +1734,7 @@ Simple and to the POINT!!!... Every senior wants to be living in a place where s
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="46p-vG-nFN">
                                 <rect key="frame" x="8" y="88" width="398" height="754"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Humberto Fortuna, MA, MS, was born in Buenos Aires, Argentina in 1968. At age 20, Mr. Fortuna earned his first Master of Arts degree at the Santa Ana Music Conservatory.  
 Mr. Fortuna began his career in the health care field by working as an Activities Program Director in a senior center in South Florida. He became a Social Service Director in various long term care facilities and a Unit Manager for an Alzheimer’s-Dementia skilled nursing facility.  
  Mr. Fortuna was awarded his second Master’s Degree in Health Care Management, with a concentration in Nursing Home Administration from Lynn University, Florida, in 1998. He then furthered his studies and received a Graduate Certificate in Aging Studies in 1999.  The same year, he became an Activity Consultant, certified by the National Certification Council for Activity Professionals.	
@@ -1761,20 +1758,20 @@ or mail us at 2699 Stirling Road, Suite C-107, Ft. Lauderdale, Florida 33312.
  To contact Humberto, e-mail him at humberto@scoopforseniors.com
 
 Next up: Chapter 17 - Helpful Resources</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="B96-Yv-xe6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="B96-Yv-xe6" firstAttribute="bottom" secondItem="46p-vG-nFN" secondAttribute="bottom" constant="20" id="9tD-S7-ji8"/>
                             <constraint firstItem="B96-Yv-xe6" firstAttribute="trailing" secondItem="46p-vG-nFN" secondAttribute="trailing" constant="8" id="Lv4-Lf-XGj"/>
                             <constraint firstItem="46p-vG-nFN" firstAttribute="leading" secondItem="B96-Yv-xe6" secondAttribute="leading" constant="8" id="cyX-Uw-X9B"/>
                             <constraint firstItem="46p-vG-nFN" firstAttribute="top" secondItem="B96-Yv-xe6" secondAttribute="top" id="dQH-fa-eeX"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="B96-Yv-xe6"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zKd-EX-AAq" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1791,7 +1788,7 @@ Next up: Chapter 17 - Helpful Resources</string>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="scO-3D-3Pa">
                                 <rect key="frame" x="8" y="88" width="398" height="754"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Medicare
@@ -1816,7 +1813,7 @@ Alzheimer’s Association
 http://www.alz.org/index.asp
 </string>
                                         <attributes>
-                                            <color key="NSColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="NSColor" systemColor="labelColor"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
                                         </attributes>
                                     </fragment>
@@ -1825,15 +1822,15 @@ http://www.alz.org/index.asp
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="oRE-i3-9Oq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="oRE-i3-9Oq" firstAttribute="bottom" secondItem="scO-3D-3Pa" secondAttribute="bottom" constant="20" id="9pJ-d3-EtD"/>
                             <constraint firstItem="scO-3D-3Pa" firstAttribute="leading" secondItem="oRE-i3-9Oq" secondAttribute="leading" constant="8" id="PNF-DW-lAV"/>
                             <constraint firstItem="oRE-i3-9Oq" firstAttribute="trailing" secondItem="scO-3D-3Pa" secondAttribute="trailing" constant="8" id="agV-Sm-EZp"/>
                             <constraint firstItem="scO-3D-3Pa" firstAttribute="top" secondItem="oRE-i3-9Oq" secondAttribute="top" id="jlb-y7-0pW"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="oRE-i3-9Oq"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9aZ-M7-fak" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1905,7 +1902,7 @@ http://www.alz.org/index.asp
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="QmF-o4-1r4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="1Vp-mg-5Ve">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
@@ -1934,7 +1931,7 @@ http://www.alz.org/index.asp
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="v5a-rY-zvD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="BL3-Uf-Bt6">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
@@ -1963,7 +1960,7 @@ http://www.alz.org/index.asp
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="lBu-aQ-b0W">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="0Wl-1q-nXm">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
@@ -1992,7 +1989,7 @@ http://www.alz.org/index.asp
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="INb-yO-LLr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ZhJ-yA-QNc">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
@@ -2021,7 +2018,7 @@ http://www.alz.org/index.asp
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="N1p-u0-S12">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="hvj-tN-ot2">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
@@ -2050,7 +2047,7 @@ http://www.alz.org/index.asp
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Rwt-vR-DkD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="pNF-Zg-fgc">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
@@ -2079,7 +2076,7 @@ http://www.alz.org/index.asp
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="sMf-sY-c9A">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Uuw-bG-8aa">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
@@ -2108,7 +2105,7 @@ http://www.alz.org/index.asp
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="oul-m4-1Jx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Xh2-iN-Jok">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
@@ -2137,7 +2134,7 @@ http://www.alz.org/index.asp
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="f32-Hc-wXw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="gZZ-vH-Qta">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
@@ -2166,7 +2163,7 @@ http://www.alz.org/index.asp
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="4us-T0-93l">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="bSV-RQ-MfZ">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
@@ -2184,10 +2181,54 @@ http://www.alz.org/index.asp
             </objects>
             <point key="canvasLocation" x="10779.710144927538" y="1690.8482142857142"/>
         </scene>
+        <!--Chapter 16 Glossary-->
+        <scene sceneID="4g1-Af-rYx">
+            <objects>
+                <tableViewController title="Chapter 16 Glossary" id="tXN-cT-lEe" customClass="VocabularyTableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="a8v-g9-Far">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="joR-NA-MEY">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="joR-NA-MEY" id="vqA-OL-stn">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="tXN-cT-lEe" id="H27-VN-tjP"/>
+                            <outlet property="delegate" destination="tXN-cT-lEe" id="fuO-MW-HMI"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="WZ1-Qp-Yjr"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="37E-H2-d1a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11674" y="1691"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Cover" width="612" height="792"/>
         <image name="IOW2" width="118" height="50"/>
         <image name="icon250" width="250" height="250"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>

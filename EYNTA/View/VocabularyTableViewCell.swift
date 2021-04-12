@@ -9,7 +9,8 @@
 import UIKit
 
 class VocabularyTableViewCell: UITableViewCell {
-    
+
+    weak var delegate: CellProtocol?
     
     @IBOutlet weak var vocabularyLabel: UILabel!
     

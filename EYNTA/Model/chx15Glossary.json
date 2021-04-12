@@ -1,10 +1,9 @@
  [{
      "termNumber": 1,
   "term": "Administrator",
-  "definition": "A professional person who oversees the day to day operations of an ALF.
-",
+  "definition": "A professional person who oversees the day to day operations of an ALF.",
   "chapter": "ch15"
-  },
+ },
  {
      "termNumber": 2,
      "term": "ADL's",
@@ -355,7 +354,7 @@
  },
  {
      "termNumber": 60,
-     "term": "Side rails,
+     "term": "Side rails",
      "definition": "Rails on a hospital bed for protection.",
      "chapter": "ch15"
  },
