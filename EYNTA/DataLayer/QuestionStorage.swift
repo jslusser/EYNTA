@@ -33,7 +33,7 @@ class QuestionStorage {
     
     func saveSelectedQuestion(question: Question) {
         var questionsToUpdate = getSelectedQuestions(by: question.chapter)
-        if questionsToUpdate.contains(where: { $0.questionCopy == question.questionCopy }) == false {
+        if questionsToUpdate.contains(where: { $0.questionNumber == question.questionNumber }) == false {
             //TO DO: Once order property set, change this to maintain order.
             questionsToUpdate.append(question)
         }
@@ -44,7 +44,7 @@ class QuestionStorage {
     func removeSelectedQuestion(question: Question) {
         var questionsToUpdate = getSelectedQuestions(by: question.chapter)
         
-        if let index = questionsToUpdate.firstIndex(where: { $0.questionCopy == question.questionCopy }) {
+        if let index = questionsToUpdate.firstIndex(where: { $0.questionNumber == question.questionNumber }) {
             questionsToUpdate.remove(at: index)
         }
         
