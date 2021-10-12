@@ -17,8 +17,33 @@ struct Question : Codable, Equatable, Hashable {
     let questionCopy: String
     let chapter: ChapterNumber
     var isSelected: Bool
+    var userAnswer: String
     
-    // TODO: Fix this and make more correctly: 
+    enum CodingKeys: String, CodingKey {
+        case questionNumber = "questionNumber"
+        case questionCopy = "questionCopy"
+        case chapter = "chapter"
+        case isSelected = "isSelected"
+        case userAnswer = "userAnswer"
+    }
+    
+    // TODO: Fix this and make more correctly:
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+    
+        questionNumber = try container.decode(Int.self, forKey: .questionNumber)
+        questionCopy = try container.decode(String.self, forKey: .questionCopy)
+        chapter = try container.decode(ChapterNumber.self, forKey: .chapter)
+        isSelected = try container.decode(Bool.self, forKey: .isSelected)
+        if let theAnswer: String = try? container.decode(String.self, forKey: .userAnswer) {
+            userAnswer = theAnswer
+        } else {
+            userAnswer = ""
+        }
+        
+        
+    }
 }
 
 struct Vocabulary : Codable {
