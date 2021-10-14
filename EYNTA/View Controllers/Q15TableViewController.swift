@@ -29,7 +29,21 @@ class Q15TableViewController: UITableViewController, CellProtocol {
                // MARK: - This logic is here in the event that a given ingredient isn't in the selected ingredients array
                QuestionStorage.shared.removeSelectedQuestion(question: questions[indexPath.row])
            }
+           tableView.reloadRows(at: [indexPath], with: .none)
        }
+    
+    
+    func answerWasUpdated(newAnswer: String, for myCell: QuestionsTableViewCell) {
+        // using guard let syntax to unwrap the optional; if it returns nil then it exits the function and does nothing
+        guard let indexPath = self.tableView.indexPath(for: myCell) else { return }
+        print("cell at indexpath \(String(describing: indexPath)) answer was changed to\(newAnswer)")
+      
+        questions[indexPath.row].userAnswer = newAnswer
+        
+        QuestionStorage.shared.saveSelectedQuestion(question: questions[indexPath.row])
+    }
+    
+
        
        func checkForSavedSelectedQuestions() {
            let savedQuestions = QuestionStorage.shared.getSelectedQuestions(by: .ch15)
@@ -81,13 +95,14 @@ class Q15TableViewController: UITableViewController, CellProtocol {
        }
 
        
-       override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-           let cell = tableView.dequeueReusableCell(withIdentifier: "QuestionsTableViewCell", for: indexPath) as! QuestionsTableViewCell
-           let row = indexPath.row
-           cell.configure(questionCopy: questions[row].questionCopy, isSelected: questions[row].isSelected, setDelegate: self)
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "QuestionsTableViewCell", for: indexPath) as! QuestionsTableViewCell
+        let row = indexPath.row
+        let question = questions[row]
+        cell.configure(question: question, setDelegate: self)
 
-           return cell
-       }
+        return cell
+    }
    }
 
     

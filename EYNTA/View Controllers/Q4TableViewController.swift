@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Q4TableViewController: UITableViewController, CellProtocol {
+class Q4TableViewController: QuestionTableViewController, CellProtocol {
     
     // MARK: This question array is for the tableView data
     var questions = [Question]()
@@ -50,6 +50,7 @@ class Q4TableViewController: UITableViewController, CellProtocol {
 //        print(UserDefaults.standard.dictionaryRepresentation())
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 600
+        tableView.keyboardDismissMode = .interactive
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
@@ -83,11 +84,22 @@ class Q4TableViewController: UITableViewController, CellProtocol {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "QuestionsTableViewCell", for: indexPath) as! QuestionsTableViewCell
         let row = indexPath.row
-        cell.configure(questionCopy: questions[row].questionCopy, isSelected: questions[row].isSelected, setDelegate: self)
+        let question = questions[row]
+        cell.configure(question: question, setDelegate: self)
 
         return cell
     }
     
+    func answerWasUpdated(newAnswer: String, for myCell: QuestionsTableViewCell) {
+        // using guard let syntax to unwrap the optional; if it returns nil then it exits the function and does nothing
+        guard let indexPath = self.tableView.indexPath(for: myCell) else { return }
+        print("cell at indexpath \(String(describing: indexPath)) answer was changed to\(newAnswer)")
+      
+        questions[indexPath.row].userAnswer = newAnswer
+        
+        QuestionStorage.shared.saveSelectedQuestion(question: questions[indexPath.row])
+    }
+
 
     /*
     // Override to support conditional editing of the table view.

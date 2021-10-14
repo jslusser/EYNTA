@@ -10,7 +10,6 @@ import UIKit
 
 class Q10TableViewController: UITableViewController, CellProtocol {
 
-    
     // MARK: This question array is for the tableView data
     var questions = [Question]()
     
@@ -84,7 +83,8 @@ class Q10TableViewController: UITableViewController, CellProtocol {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "QuestionsTableViewCell", for: indexPath) as! QuestionsTableViewCell
         let row = indexPath.row
-        cell.configure(questionCopy: questions[row].questionCopy, isSelected: questions[row].isSelected, setDelegate: self)
+        let question = questions[row]
+        cell.configure(question: question, setDelegate: self)
 
         return cell
     }

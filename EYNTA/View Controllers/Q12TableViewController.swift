@@ -84,7 +84,8 @@ class Q12TableViewController: UITableViewController, CellProtocol {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "QuestionsTableViewCell", for: indexPath) as! QuestionsTableViewCell
         let row = indexPath.row
-        cell.configure(questionCopy: questions[row].questionCopy, isSelected: questions[row].isSelected, setDelegate: self)
+        let question = questions[row]
+        cell.configure(question: question, setDelegate: self)
 
         return cell
     }
