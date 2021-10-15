@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Q15TableViewController: UITableViewController, CellProtocol {
+class Q15TableViewController: QuestionTableViewController, CellProtocol {
     
        
        // MARK: This question array is for the tableView data
@@ -103,9 +103,10 @@ class Q15TableViewController: UITableViewController, CellProtocol {
 
         return cell
     }
-   }
+   
 
-    
+
+}
     
     
     

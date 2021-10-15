@@ -11,6 +11,10 @@
 import UIKit
 
 class VocabularyTableViewController: UITableViewController, CellProtocol {
+    func answerWasUpdated(newAnswer: String, for myCell: QuestionsTableViewCell) {
+        
+    }
+    
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: QuestionsTableViewCell) {
         }
     

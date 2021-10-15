@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Q8TableViewController: UITableViewController, CellProtocol {
+class Q8TableViewController: QuestionTableViewController, CellProtocol {
  
 
     
@@ -90,9 +90,18 @@ class Q8TableViewController: UITableViewController, CellProtocol {
 
         return cell
     }
+
+    
+func answerWasUpdated(newAnswer: String, for myCell: QuestionsTableViewCell) {
+    // using guard let syntax to unwrap the optional; if it returns nil then it exits the function and does nothing
+    guard let indexPath = self.tableView.indexPath(for: myCell) else { return }
+    print("cell at indexpath \(String(describing: indexPath)) answer was changed to\(newAnswer)")
+  
+    questions[indexPath.row].userAnswer = newAnswer
+    
+    QuestionStorage.shared.saveSelectedQuestion(question: questions[indexPath.row])
+    }
 }
-    
-    
     
     
 //    // MARK: This question array is for the tableView data

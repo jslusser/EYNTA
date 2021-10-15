@@ -8,12 +8,29 @@
 
 import UIKit
 
-class Q5TableViewController: UITableViewController, CellProtocol {
+class Q5TableViewController: QuestionTableViewController, CellProtocol {
 
     // MARK: This question array is for the tableView data
     var questions = [Question]()
 //    // MARK: This question array is for the user selected questions
 //    var selectedQuestions = [Question]()
+    
+//    func switchButtonTapped(WithStatus status: Bool, ForCell myCell: QuestionsTableViewCell) {
+//        // using guard let syntax to unwrap the optional; if it returns nil then it exits the function and does nothing
+//        guard let indexPath = self.tableView.indexPath(for: myCell) else { return }
+//        print("cell at indexpath \(String(describing: indexPath)) tapped with switch status \(status)")
+//        let ch5SwitchSelected = myCell.questionLabel.text!
+//        print("Question added/removed was \(String(describing: ch5SwitchSelected))")
+//        // MARK: - This code block adds or removes selected ingredients based on the status of the switch.
+//
+//        questions[indexPath.row].isSelected = status
+//        if status {
+//            QuestionStorage.shared.saveSelectedQuestion(question: questions[indexPath.row])
+//        } else {
+//            // MARK: - This logic is here in the event that a given ingredient isn't in the selected ingredients array
+//            QuestionStorage.shared.removeSelectedQuestion(question: questions[indexPath.row])
+//        }
+//    }
     
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: QuestionsTableViewCell) {
         // using guard let syntax to unwrap the optional; if it returns nil then it exits the function and does nothing
@@ -66,7 +83,8 @@ class Q5TableViewController: UITableViewController, CellProtocol {
 //        print(UserDefaults.standard.dictionaryRepresentation())
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 600
-
+        tableView.keyboardDismissMode = .interactive
+        
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         guard let url = Bundle.main.url(forResource: "ch5Questions", withExtension: "json"),
@@ -127,7 +145,16 @@ class Q5TableViewController: UITableViewController, CellProtocol {
 
         return cell
     }
-    
+  
+    func answerWasUpdated(newAnswer: String, for myCell: QuestionsTableViewCell) {
+        // using guard let syntax to unwrap the optional; if it returns nil then it exits the function and does nothing
+        guard let indexPath = self.tableView.indexPath(for: myCell) else { return }
+        print("cell at indexpath \(String(describing: indexPath)) answer was changed to\(newAnswer)")
+      
+        questions[indexPath.row].userAnswer = newAnswer
+        
+        QuestionStorage.shared.saveSelectedQuestion(question: questions[indexPath.row])
+    }
     
 //    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 //        let cell = tableView.dequeueReusableCell(withIdentifier: "QuestionsTableViewCell", for: indexPath) as! QuestionsTableViewCell

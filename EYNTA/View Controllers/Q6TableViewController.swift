@@ -8,12 +8,29 @@
 
 import UIKit
 
-class Q6TableViewController: UITableViewController, CellProtocol {
+class Q6TableViewController: QuestionTableViewController, CellProtocol {
 
     
     // MARK: This question array is for the tableView data
     var questions = [Question]()
     
+//    func switchButtonTapped(WithStatus status: Bool, ForCell myCell: QuestionsTableViewCell) {
+//        // using guard let syntax to unwrap the optional; if it returns nil then it exits the function and does nothing
+//        guard let indexPath = self.tableView.indexPath(for: myCell) else { return }
+//        print("cell at indexpath \(String(describing: indexPath)) tapped with switch status \(status)")
+//        let ch6SwitchSelected = myCell.questionLabel.text!
+//        print("Question added/removed was \(String(describing: ch6SwitchSelected))")
+//        // MARK: - This code block adds or removes selected ingredients based on the status of the switch.
+//        
+//        questions[indexPath.row].isSelected = status
+//        if status {
+//            QuestionStorage.shared.saveSelectedQuestion(question: questions[indexPath.row])
+//        } else {
+//            // MARK: - This logic is here in the event that a given ingredient isn't in the selected ingredients array
+//            QuestionStorage.shared.removeSelectedQuestion(question: questions[indexPath.row])
+//        }
+//    }
+//    
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: QuestionsTableViewCell) {
         // using guard let syntax to unwrap the optional; if it returns nil then it exits the function and does nothing
         guard let indexPath = self.tableView.indexPath(for: myCell) else { return }
@@ -89,9 +106,18 @@ class Q6TableViewController: UITableViewController, CellProtocol {
 
         return cell
     }
+
+    
+    func answerWasUpdated(newAnswer: String, for myCell: QuestionsTableViewCell) {
+    // using guard let syntax to unwrap the optional; if it returns nil then it exits the function and does nothing
+    guard let indexPath = self.tableView.indexPath(for: myCell) else { return }
+    print("cell at indexpath \(String(describing: indexPath)) answer was changed to\(newAnswer)")
+  
+    questions[indexPath.row].userAnswer = newAnswer
+    
+    QuestionStorage.shared.saveSelectedQuestion(question: questions[indexPath.row])
+    }
 }
-    
-    
     
     
         
