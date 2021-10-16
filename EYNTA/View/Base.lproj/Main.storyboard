@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K4N-HZ-usf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K4N-HZ-usf">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -21,10 +22,10 @@
                             <tableViewSection id="sUY-GB-HJD">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="sGG-Vw-c32">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sGG-Vw-c32" id="bgU-IW-eDr">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 1 - Introduction" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ItO-Ri-cCK" userLabel="Chapter 1 - Introduction">
@@ -43,10 +44,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="P9q-Q7-K0r">
-                                        <rect key="frame" x="0.0" y="72" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="88" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="P9q-Q7-K0r" id="stk-2X-Dv5">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 2 - In Other Words" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XHg-bI-LAa">
@@ -65,10 +66,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="iSV-Zv-cfk">
-                                        <rect key="frame" x="0.0" y="116" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="131.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iSV-Zv-cfk" id="HZy-sM-x1x">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 3 - Before You Go" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DzX-7z-e2X">
@@ -87,10 +88,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ukD-Vf-RXm">
-                                        <rect key="frame" x="0.0" y="160" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="175" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ukD-Vf-RXm" id="uYt-Cu-VzL">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 4 - General Aspects of Community" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cf6-4U-7Fi">
@@ -109,10 +110,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="GZt-9G-DMf">
-                                        <rect key="frame" x="0.0" y="204" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="218.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GZt-9G-DMf" id="cJV-Ni-Bw2">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 5 - Licenses &amp; Administration" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ow7-AS-uMh">
@@ -131,10 +132,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="jh9-Qj-DS0">
-                                        <rect key="frame" x="0.0" y="248" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="262" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jh9-Qj-DS0" id="4CD-kh-CnX">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 6 - Contract" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LBx-UG-I8N">
@@ -153,10 +154,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="gFk-QV-btu">
-                                        <rect key="frame" x="0.0" y="292" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="305.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gFk-QV-btu" id="vKx-t8-3Td">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 7 - Observations/Tour" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFQ-dQ-vR5">
@@ -175,10 +176,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Fvd-Lk-w0N">
-                                        <rect key="frame" x="0.0" y="336" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="349" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Fvd-Lk-w0N" id="V70-kM-6uQ">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 8 - Accommodations" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKQ-jv-dGK">
@@ -197,10 +198,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="gIh-qj-a03">
-                                        <rect key="frame" x="0.0" y="380" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="392.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gIh-qj-a03" id="hUv-Pq-L3k">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 9 - Medical and Nursing" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZlH-Hl-JCp">
@@ -219,10 +220,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="vYb-3r-Fce">
-                                        <rect key="frame" x="0.0" y="424" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="436" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vYb-3r-Fce" id="Rpd-x7-hnA">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 10 - Food Services" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pvw-Ci-k8q">
@@ -241,10 +242,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="epD-Jn-vSk">
-                                        <rect key="frame" x="0.0" y="468" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="479.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="epD-Jn-vSk" id="VxW-IM-4mQ">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 11 - Activities" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WuX-Kx-bog">
@@ -263,10 +264,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="yzs-gg-C1K">
-                                        <rect key="frame" x="0.0" y="512" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="523" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yzs-gg-C1K" id="PHy-R9-smE">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 12 - Housekeeping &amp; Maintenance" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxe-iD-Fr7">
@@ -285,10 +286,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="NQG-VM-Wpa">
-                                        <rect key="frame" x="0.0" y="556" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="566.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="NQG-VM-Wpa" id="2JN-9s-yXf">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 13 - Transportation" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fK7-59-SBn">
@@ -307,10 +308,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="WxC-aO-k3u">
-                                        <rect key="frame" x="0.0" y="600" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="610" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WxC-aO-k3u" id="RGz-9Y-ptR">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 14 - Emergency Plan &amp; Safety" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2H-A3-BVG">
@@ -329,10 +330,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="VTR-eN-8bY">
-                                        <rect key="frame" x="0.0" y="644" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="653.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VTR-eN-8bY" id="fDo-Q8-Et1">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 15 - LGBTQ and Assisted Living Communities" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OT9-rR-cyJ">
@@ -351,10 +352,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Xkv-pd-JcK">
-                                        <rect key="frame" x="0.0" y="688" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="697" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xkv-pd-JcK" id="9ec-kd-1lM">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 16 - Acronyms and Vocabulary" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRH-c2-1Up">
@@ -373,10 +374,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="fij-91-msV">
-                                        <rect key="frame" x="0.0" y="732" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="740.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fij-91-msV" id="p6f-Ap-GlW">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 17 - About the Authors" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8QO-BI-5dE">
@@ -395,10 +396,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Vq9-78-Ovr">
-                                        <rect key="frame" x="0.0" y="776" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="784" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Vq9-78-Ovr" id="jpZ-w5-aJY">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chapter 18 - Helpful Resources" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9K-fR-f2o">
@@ -417,10 +418,10 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Ewr-O4-YJa">
-                                        <rect key="frame" x="0.0" y="820" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="827.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ewr-O4-YJa" id="yiw-Qe-hA3">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Book Cover Title Page" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkv-Dl-Qw5" userLabel="Book Cover Title Page">
@@ -439,7 +440,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="24d-LE-Qmf">
-                                        <rect key="frame" x="0.0" y="864" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="871" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="24d-LE-Qmf" id="hhl-le-3eS">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
@@ -655,7 +656,7 @@
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NQU-4t-fWH">
                                         <rect key="frame" x="8" y="0.0" width="398" height="774"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <string key="text">In the past two decades, Assisted Living Facilities have grown nationwide in the health care industry.
+                                        <mutableString key="text">In the past two decades, Assisted Living Facilities have grown nationwide in the health care industry.
 
 There are approximately 40,000 Assisted Living Facilities operating in the United States today.  The number of residents living in a facility can range from just a few to over 300, with the most common size housing between 25 and 120 individuals.
 
@@ -714,7 +715,7 @@ Every state requires a contract.  In this contract, you will find the monthly co
 Overall, the best way to describe Assisted Living is to think of it as a bridge between living at home and living in a nursing home.  Assisted Living has a residential focus with a home-like environment.  A nursing home is primarily a medical institution.
 
 Assisted Living is an exciting option for individuals who want to maximize their independence while living in the safety of a supervised, residential setting.  Next up: Chapter 2 - In Other Words
-</string>
+</mutableString>
                                         <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -874,7 +875,7 @@ YXQgWU9VIHJlcXVpcmUuICBJbiBvdGhlciB3b3Jkcywgd2hvIGlzIHJlYWxseSBtb3ZpbmcgaW4/4oCo
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="i1R-OZ-rZ4">
                                 <rect key="frame" x="8" y="96" width="398" height="792"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">Now that you have chosen the facilities you want to tour, it’s time to make an appointment. Ask to speak with the Marketing or Sales Director.  Tell them that you would like to ask a few questions before you decide to tour.
+                                <mutableString key="text">Now that you have chosen the facilities you want to tour, it’s time to make an appointment. Ask to speak with the Marketing or Sales Director.  Tell them that you would like to ask a few questions before you decide to tour.
 
 What is the Marketing Director’s name?  Will that person be the one to tour you?  Can he or she tour you on a weekend?  If not, is there an Assistant Marketing Director?  What is his or her name?  Will he or she be able to tour you on a weekend?
 
@@ -894,7 +895,7 @@ After this phone conversation, if you feel this facility may be worth looking at
 
 From what you have just read, it makes it even clearer why you don’t want to be a “showupper.”  All of the above things have to be discussed in detail with each family.
 
-Making an appointment is “where it’s at!”  Next up: Chapter 4 - General Aspects of Community</string>
+Making an appointment is “where it’s at!”  Next up: Chapter 4 - General Aspects of Community</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -927,7 +928,7 @@ Making an appointment is “where it’s at!”  Next up: Chapter 4 - Genera
                                 <rect key="frame" x="8" y="96" width="398" height="708"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="tintColor" systemColor="labelColor"/>
-                                <string key="text" base64-UTF8="YES">
+                                <mutableString key="text" base64-UTF8="YES">
 WW91IGFyZSBhYm91dCB0byBlbnRlciB0aGUg4oCccXVlc3Rpb27igJ0gc2VjdGlvbuKAnSBvZiBvdXIg
 Ym9vay4KCk5vdGU6ICBZb3Ugd2lsbCBuZWVkIGEgeWVsbG93IGhpZ2hsaWdodGVyIGZyb20gdGhpcyBw
 b2ludCBvbi4KClRoaXMgc2VjdGlvbiB3aWxsIGhlbHAgeW91IG9yZ2FuaXplIHlvdXIgdGhvdWdodHMs
@@ -963,7 +964,7 @@ aXMgaW5kaWNhdGl2ZSBvZiB0aGUgY2FyZSBvbmUgd291bGQgcmVjZWl2ZSBpbnNpZGUgdGhlIGZhY2ls
 aXR5LgoK4oCmaWYgdGhlIHBsYW50cyBhcmUgZHlpbmcgb2YgdGhpcnN0IGFuZCB0aGUgcGFpbnQgaXMg
 cGVlbGluZyBvZmYgdGhlIHdhbGxzLCB5b3UgbmVlZCB0byBwZWVsIG9uIG91dCBvZiB0aGVyZSBBU0FQ
 IeKAqOKAqE5leHQgdXA6IENoYXB0ZXIgNSAtIExpY2Vuc2VzICYgQWRtaW5pc3RyYXRpb24
-</string>
+</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1016,11 +1017,11 @@ IeKAqOKAqE5leHQgdXA6IENoYXB0ZXIgNSAtIExpY2Vuc2VzICYgQWRtaW5pc3RyYXRpb24
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SK2-EN-VTl">
                                 <rect key="frame" x="8" y="88" width="398" height="716"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">In the following chapter, you will be asking questions about documents, policies and inspections.  These questions will reveal the credibility and professionalism of the individuals that operate the company.  Are they organized?  Do they have all of the things you are asking for?  Remember, the Marketing or Sales Representative may not have everything immediately on hand.  Give him a few minutes to produce the requested documents.
+                                <mutableString key="text">In the following chapter, you will be asking questions about documents, policies and inspections.  These questions will reveal the credibility and professionalism of the individuals that operate the company.  Are they organized?  Do they have all of the things you are asking for?  Remember, the Marketing or Sales Representative may not have everything immediately on hand.  Give him a few minutes to produce the requested documents.
 
 (insert image here)
 
-...although very important, you will be asking questions about some pretty boring stuff.  But, if things you are asking for are not shown to you, it’s time to move on.  Next up: Chapter 6 - Contract</string>
+...although very important, you will be asking questions about some pretty boring stuff.  But, if things you are asking for are not shown to you, it’s time to move on.  Next up: Chapter 6 - Contract</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1071,11 +1072,11 @@ IeKAqOKAqE5leHQgdXA6IENoYXB0ZXIgNSAtIExpY2Vuc2VzICYgQWRtaW5pc3RyYXRpb24
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qpv-sn-A5W">
                                 <rect key="frame" x="8" y="88" width="398" height="716"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">Yet another chapter on policies and procedures!  Boring, but an absolute must! 
+                                <mutableString key="text">Yet another chapter on policies and procedures!  Boring, but an absolute must! 
 
 Here, you will learn all about important costs that you may or may not incur during your loved one’s stay at the facility you choose.  In this chapter you will get an ALF education, for sure!
 
-...this is the MONEY chapter. You will see the words, “money, fees, rates, up front costs, and increases", in every other question.  It’s scary, but it’s better to know everything up front and leave nothing to chance.  Our philosophy comes into play here... “…educate and therefore protect...”  Next up: Chapter 7 - Observations/Tour</string>
+...this is the MONEY chapter. You will see the words, “money, fees, rates, up front costs, and increases", in every other question.  It’s scary, but it’s better to know everything up front and leave nothing to chance.  Our philosophy comes into play here... “…educate and therefore protect...”  Next up: Chapter 7 - Observations/Tour</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1126,11 +1127,11 @@ Here, you will learn all about important costs that you may or may not incur dur
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="18S-li-cwM">
                                 <rect key="frame" x="8" y="88" width="398" height="716"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">Now, you are going to actually SEE the facility.  Keep your eyes wide open!  You are mainly looking for safety issues.
+                                <mutableString key="text">Now, you are going to actually SEE the facility.  Keep your eyes wide open!  You are mainly looking for safety issues.
 
 Also, look around to see if your loved ones will fit in well with the residents that you see.  Do they look well cared for?  Say hi to them, and ask them how they like it there.
 
-…if you trip over an obstacle on the floor, you have not found the right place.  If you fall and slide down the hallway into someone’s room, you definitely have not found the right place.  Oh, and if a staff member is smoking in the bathroom….it’s time to move on.  Next up: Chapter 8 - Accommodations</string>
+…if you trip over an obstacle on the floor, you have not found the right place.  If you fall and slide down the hallway into someone’s room, you definitely have not found the right place.  Oh, and if a staff member is smoking in the bathroom….it’s time to move on.  Next up: Chapter 8 - Accommodations</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1181,13 +1182,13 @@ Also, look around to see if your loved ones will fit in well with the residents 
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IW2-nf-9FO">
                                 <rect key="frame" x="8" y="88" width="398" height="716"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">This is the part of the book where you have to ask a lot of “money questions.”  Every room you look at could have a different rate depending on the size, the location and whether it’s for one person or two.
+                                <mutableString key="text">This is the part of the book where you have to ask a lot of “money questions.”  Every room you look at could have a different rate depending on the size, the location and whether it’s for one person or two.
 
 Can your loved one share a room with someone else?  There are two good reasons why that would be a good thing.  One is that it will definitely be less expensive, and the other is that he or she will have someone to talk to.  If you decide that sharing a room is a possibility, talk to the possible roommate of your loved one.  See if you think it would be a good match.
 
 Make sure the room has all the safety features that are needed.  See if the air-conditioning comes on when you lower the thermostat.
 
-…if the roommate has icicles hanging off her nose, and she’s comfortable, this may not be a good fit for your loved one.  Next up: Chapter 9 - Medical and Nursing</string>
+…if the roommate has icicles hanging off her nose, and she’s comfortable, this may not be a good fit for your loved one.  Next up: Chapter 9 - Medical and Nursing</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1238,7 +1239,7 @@ Make sure the room has all the safety features that are needed.  See if the air-
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="o6o-DD-JtN">
                                 <rect key="frame" x="8" y="88" width="398" height="716"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">It’s hard to say if one chapter is more important than another, but this one’s all about the CARE your loved one is going to receive.  That’s VERY important!
+                                <mutableString key="text">It’s hard to say if one chapter is more important than another, but this one’s all about the CARE your loved one is going to receive.  That’s VERY important!
 
 These questions will determine how comfortable you will feel leaving your family member in the hands of the staff of the particular facility.
 
@@ -1246,7 +1247,7 @@ Ask them to show you how they dispense the medications. Where do they keep the m
 
 If you are really interested in this facility, tell the Marketing Director that you would like to have a meeting with the Director of Nursing before making your decision.
 
-There is no “in other words” here.  This is serious stuff!  Next up: Chapter 10 - Food Services</string>
+There is no “in other words” here.  This is serious stuff!  Next up: Chapter 10 - Food Services</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1297,13 +1298,13 @@ There is no “in other words” here.  This is serious stuff!  Next up: Cha
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hz6-eV-8t3">
                                 <rect key="frame" x="8" y="88" width="414" height="716"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">If you ask a potential resident, “What is the most important question you would like to ask the facility?”  It’s a guarantee that they will say. “Is the food good?”
+                                <mutableString key="text">If you ask a potential resident, “What is the most important question you would like to ask the facility?”  It’s a guarantee that they will say. “Is the food good?”
 
 Many people need special diets, whether for health reasons or religious reasons, or just because that’s what they like.  In this chapter, you will be able to ask everything you can think of (and some you didn’t think of, but we did, regarding food service).
 
 When you are touring, if you think this facility may be in the running, then, ask to speak with the Food Service Director.  If you’re not in a big hurry, see if you can sample a meal.  If your family member is not with you, see if you can bring him or her back for a meal. 
 
-…If you did not get a “Happy Meal” at the facility, and you find yourselves supersizing every item at McDonalds after your tour, this may not be the dining room for you.  Next up: Chapter 11 - Activities</string>
+…If you did not get a “Happy Meal” at the facility, and you find yourselves supersizing every item at McDonalds after your tour, this may not be the dining room for you.  Next up: Chapter 11 - Activities</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1354,7 +1355,7 @@ When you are touring, if you think this facility may be in the running, then, as
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eY7-KM-lmT">
                                 <rect key="frame" x="8" y="88" width="398" height="716"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">I can not begin to impress upon you how important this department is!  This department will determine how your loved ones will fill up their days. 
+                                <mutableString key="text">I can not begin to impress upon you how important this department is!  This department will determine how your loved ones will fill up their days. 
 
 Get the Activity Calendar.  Look it over.  Make sure there are a lot of choices.  Depending on the type of facility required, there should be musical programs, parties, religious services, arts and crafts, adult discussion groups, shopping, movies, and games.  Where would we be without Bingo?
 
@@ -1362,7 +1363,7 @@ If you are choosing a smaller facility, of course, the number and type of activi
 
 Observe the Activity Director.  Is he/she energetic?  Does he/she have a good personality?  Is he/she friendly?
 
-…If the Activity Director resembles the farmer holding the pitchfork in that famous work of art, the place just might be a little too low key!  Next up: Chapter 12 - Housekeeping and Maintenance</string>
+…If the Activity Director resembles the farmer holding the pitchfork in that famous work of art, the place just might be a little too low key!  Next up: Chapter 12 - Housekeeping and Maintenance</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1413,7 +1414,7 @@ Observe the Activity Director.  Is he/she energetic?  Does he/she have a good pe
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lcI-p8-JRn">
                                 <rect key="frame" x="8" y="88" width="398" height="716"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">These two departments have a lot to do with keeping your loved one comfortable and in a clean environment.
+                                <mutableString key="text">These two departments have a lot to do with keeping your loved one comfortable and in a clean environment.
 
 The Maintenance Director is there to help when things are broken or not in proper working order, such as the air-conditioning or something as small as making a new key. 
 
@@ -1421,7 +1422,7 @@ The Housekeeping staff should always make sure the rooms smell good and are in o
 
 If the facility is doing the laundry, make sure you label all of the clothes that you bring into the facility.  Most facilities do several residents’ laundry at the same time and clothes could get misplaced. 
 
-…You don’t want Mom to see Mrs. Jones coming to the dining room wearing her favorite dress!  Next up: Chapter 13 - Transportation</string>
+…You don’t want Mom to see Mrs. Jones coming to the dining room wearing her favorite dress!  Next up: Chapter 13 - Transportation</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1472,13 +1473,13 @@ If the facility is doing the laundry, make sure you label all of the clothes tha
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="haJ-HH-KM2">
                                 <rect key="frame" x="8" y="88" width="398" height="716"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">Now that your loved one is all settled in his or her new home, we have to think about how we are going to get him or her out!  Just kidding! 
+                                <mutableString key="text">Now that your loved one is all settled in his or her new home, we have to think about how we are going to get him or her out!  Just kidding! 
 
 Seriously, how will residents get to a restaurant if they want to go out to dinner?  How will they get to the Beauty Salon?  How will they get to a store to buy some personal items?  How will they get to a doctor appointment?
 
 This chapter will give you the opportunity to ask every detail about transportation.
 
-…check out the driver.  If he’s wearing quadruple bi-focals, maybe Mom shouldn’t get on the bus!  Next up: Chapter 14 - Emergency Plan &amp; Safety</string>
+…check out the driver.  If he’s wearing quadruple bi-focals, maybe Mom shouldn’t get on the bus!  Next up: Chapter 14 - Emergency Plan &amp; Safety</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1529,7 +1530,7 @@ This chapter will give you the opportunity to ask every detail about transportat
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cTw-Ml-RHl">
                                 <rect key="frame" x="8" y="88" width="398" height="716"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">This chapter separates the men from the boys, the professionals from the non-professionals, and most importantly, the safe communities from the unsafe communities.
+                                <mutableString key="text">This chapter separates the men from the boys, the professionals from the non-professionals, and most importantly, the safe communities from the unsafe communities.
 
 You’re going to ask about fire drills, evacuations, generators, fire   sprinkler systems, hurricanes, floods, and tornados.  This is all about the safety of your loved one.
 
@@ -1540,7 +1541,7 @@ You should feel totally secure after you finish asking the questions in this cha
 There is no “in other words” here.  This is serious stuff!
 
   
-Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms &amp; Vocabulary</string>
+Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms &amp; Vocabulary</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1592,7 +1593,7 @@ Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms &amp; Vocabul
                                 <rect key="frame" x="8" y="90" width="398" height="716"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">When it comes to Assisted Living placement, gay seniors face more issues than seniors from the heterosexual community. First and foremost, members of the LGBTQ community are less likely to have adult children to care for them. 
+                                <mutableString key="text">When it comes to Assisted Living placement, gay seniors face more issues than seniors from the heterosexual community. First and foremost, members of the LGBTQ community are less likely to have adult children to care for them. 
 
 Many LGBTQ community members have been forgotten or deserted by their own family members. This means there will be no relative or family member willing to oversee their care in their time of need. 
 
@@ -1650,7 +1651,7 @@ It is important to take into consideration your personal needs, your likes and d
 
 The following questions are specific and pertinent to the LGBTQ community. 
 IN OTHER WORDS 
-Simple and to the POINT!!!... Every senior wants to be living in a place where specific needs and life experiences will be met and understood. We live in a straight society. Be realistic with your current situation, i.e.; financial, clinical, geographical and social. And make the absolute best out of your choice. This is important to ALL seniors, regardless of sexual orientation.  Next up: Chapter 16 - Acronyms &amp; Vocabulary</string>
+Simple and to the POINT!!!... Every senior wants to be living in a place where specific needs and life experiences will be met and understood. We live in a straight society. Be realistic with your current situation, i.e.; financial, clinical, geographical and social. And make the absolute best out of your choice. This is important to ALL seniors, regardless of sexual orientation.  Next up: Chapter 16 - Acronyms &amp; Vocabulary</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1735,7 +1736,7 @@ Simple and to the POINT!!!... Every senior wants to be living in a place where s
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="46p-vG-nFN">
                                 <rect key="frame" x="8" y="88" width="398" height="754"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">Humberto Fortuna, MA, MS, was born in Buenos Aires, Argentina in 1968. At age 20, Mr. Fortuna earned his first Master of Arts degree at the Santa Ana Music Conservatory.  
+                                <mutableString key="text">Humberto Fortuna, MA, MS, was born in Buenos Aires, Argentina in 1968. At age 20, Mr. Fortuna earned his first Master of Arts degree at the Santa Ana Music Conservatory.  
 Mr. Fortuna began his career in the health care field by working as an Activities Program Director in a senior center in South Florida. He became a Social Service Director in various long term care facilities and a Unit Manager for an Alzheimer’s-Dementia skilled nursing facility.  
  Mr. Fortuna was awarded his second Master’s Degree in Health Care Management, with a concentration in Nursing Home Administration from Lynn University, Florida, in 1998. He then furthered his studies and received a Graduate Certificate in Aging Studies in 1999.  The same year, he became an Activity Consultant, certified by the National Certification Council for Activity Professionals.	
  Mr. Fortuna was the Executive Director for a 220 bed Assisted Living Facility in Pompano Beach, Florida, until he went on to create his own company, Placement Counselors Corporation, in September, 1999. His company currently represents over 500 communities, including Skilled Nursing Facilities, Assisted Living Facilities, Adult Family Care Facilities, and Alzheimer’s-Dementia Units in the southeast region of Florida.  He also continues to be a consultant for the above mentioned facilities.
@@ -1757,7 +1758,7 @@ or mail us at 2699 Stirling Road, Suite C-107, Ft. Lauderdale, Florida 33312.
  To contact Cindy, e-mail her at cindy@scoopforseniors.com   
  To contact Humberto, e-mail him at humberto@scoopforseniors.com
 
-Next up: Chapter 17 - Helpful Resources</string>
+Next up: Chapter 17 - Helpful Resources</mutableString>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1847,7 +1848,7 @@ http://www.alz.org/index.asp
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="dE6-B9-50J" customClass="QuestionsTableViewCell" customModule="EYNTA" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dE6-B9-50J" id="taQ-c5-EDz">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -1876,7 +1877,7 @@ http://www.alz.org/index.asp
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ZoZ-qs-itN">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZoZ-qs-itN" id="iXP-zK-6l6">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -1905,7 +1906,7 @@ http://www.alz.org/index.asp
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="1Vp-mg-5Ve">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1Vp-mg-5Ve" id="Zfn-FG-meM">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -1934,7 +1935,7 @@ http://www.alz.org/index.asp
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="BL3-Uf-Bt6">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BL3-Uf-Bt6" id="CXT-oS-85q">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -1963,7 +1964,7 @@ http://www.alz.org/index.asp
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="0Wl-1q-nXm">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0Wl-1q-nXm" id="biT-93-3Gs">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -1992,7 +1993,7 @@ http://www.alz.org/index.asp
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ZhJ-yA-QNc">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZhJ-yA-QNc" id="wOp-XQ-gBy">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -2021,7 +2022,7 @@ http://www.alz.org/index.asp
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="hvj-tN-ot2">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hvj-tN-ot2" id="4Ai-SH-Fzp">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -2050,7 +2051,7 @@ http://www.alz.org/index.asp
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="pNF-Zg-fgc">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pNF-Zg-fgc" id="J4L-Pj-yzr">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -2079,7 +2080,7 @@ http://www.alz.org/index.asp
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Uuw-bG-8aa">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Uuw-bG-8aa" id="5Kt-ec-E88">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -2108,7 +2109,7 @@ http://www.alz.org/index.asp
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Xh2-iN-Jok">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xh2-iN-Jok" id="8sH-fX-vn9">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -2137,7 +2138,7 @@ http://www.alz.org/index.asp
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="gZZ-vH-Qta">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gZZ-vH-Qta" id="bVZ-hq-0bB">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -2166,7 +2167,7 @@ http://www.alz.org/index.asp
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="bSV-RQ-MfZ">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bSV-RQ-MfZ" id="hPH-Ek-9rt">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -2191,7 +2192,7 @@ http://www.alz.org/index.asp
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="joR-NA-MEY">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="joR-NA-MEY" id="vqA-OL-stn">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>

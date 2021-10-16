@@ -14,6 +14,22 @@ class QuestionStorage {
     let decoder = JSONDecoder()
     let encoder = JSONEncoder()
     
+    /// Loads questions from initial JSON files, whether they are selected or not. Covers existing beahvior.
+    /// - Parameter chapter: The Chapter for which questions are needed
+    /// - Returns: An array of json.
+    func getJSONQuestions(for chapter: ChapterNumber) -> [Question] {
+        let resourceName = chapter.rawValue + "Questions"
+
+        guard let url = Bundle.main.url(forResource: resourceName, withExtension: "json"),
+            let chapterJSONData = try? Data(contentsOf: url),
+            let chapterQuestions = try? JSONDecoder().decode(Array<Question>.self, from: chapterJSONData) else {
+                print("Error loading JSON")
+                // return empty array of questions instead.
+                fatalError()
+        }
+        return chapterQuestions
+    }
+    
     func getSelectedQuestions(by chapter: ChapterNumber) -> [Question] {
         guard let dataArray = userDefaults.value(forKey: chapter.rawValue) as? [Data] else { return [Question]() }
         

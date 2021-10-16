@@ -55,10 +55,3 @@ protocol CellProtocol: AnyObject {
     func switchButtonTapped(WithStatus status: Bool, ForCell myCell: QuestionsTableViewCell)
     func answerWasUpdated(newAnswer: String, for myCell: QuestionsTableViewCell)
 }
-
-class QuestionTableViewController: UITableViewController {
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("A cell was selected. Time to stop editing textviews")
-        tableView.endEditing(true)
-    }
-}
