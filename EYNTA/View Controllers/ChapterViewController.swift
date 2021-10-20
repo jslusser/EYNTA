@@ -83,7 +83,8 @@ class ChapterViewController: UIViewController {
         }
 
         let button = UIButton(primaryAction: action)
-        button.setTitle("Go to \(chapter.rawValue.capitalized) Questions", for: .normal)
+        button.setTitle("Go to \(chapter.displayCh) Questions", for: .normal)
+        button.layer.cornerRadius = 20
         button.setTitleColor(.black, for: .normal)
         button.backgroundColor = .systemYellow
         return button

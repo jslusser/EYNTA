@@ -10,6 +10,23 @@ import Foundation
 
 enum ChapterNumber: String, Codable {
     case ch4, ch5, ch6, ch7, ch8, ch9, ch10, ch11, ch12, ch13, ch14, ch15
+    
+    var displayCh: String {
+        switch self {
+        case .ch4: return "Ch 4"
+        case .ch5: return "Ch 5"
+        case .ch6: return "Ch 6"
+        case .ch7: return "Ch 7"
+        case .ch8: return "Ch 8"
+        case .ch9: return "Ch 9"
+        case .ch10: return "Ch 10"
+        case .ch11: return "Ch 11"
+        case .ch12: return "Ch 12"
+        case .ch13: return "Ch 13"
+        case .ch14: return "Ch 14"
+        case .ch15: return "Ch 15"
+        }
+    }
 }
 
 struct Question : Codable, Equatable, Hashable {

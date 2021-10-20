@@ -108,5 +108,7 @@ extension QuestionTableViewController: CellProtocol {
         questions[indexPath.row].userAnswer = newAnswer
         
         QuestionStorage.shared.saveSelectedQuestion(question: questions[indexPath.row])
+        
+        tableView.reloadSections(IndexSet(integer: indexPath.section), with: .fade)
     }
 }

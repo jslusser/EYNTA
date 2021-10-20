@@ -45,7 +45,8 @@ Assisted Living Facility is the most common term used for this type of housing. 
      • Adult Congregate Care Communities
      • Retirement Residences
      • Supported Care Facilities
-     • Senior Living Communities 
+     • Senior Living Communities
+ 
 In Florida, and in many other states, six-bed facilities are becoming very popular, as well.  These smaller facilities are gaining popularity due to the fact that they are able to provide more personalized services.  These facilities are usually in private homes and are licensed and regulated by the same governmental agencies that govern all of the Assisted Living Facilities, regardless of size.  The smaller homes must pass all surveys and inspections required by the state in which they are located.
  The average age of a resident in an Assisted Living Facility is a little over 80, and usually someone who is in need of at least one or more Activities of Daily Living.  Some of the Activities of Daily Living (ADLs) are showering, dressing, toileting, eating and medication management.  The staff of an Assisted Living Facility is trained to provide assistance with all of those ADLs.
 
@@ -53,7 +54,8 @@ We should mention here that the need for some type of lifestyle change is usuall
 
      • Difficulty in self-care, such as bathing, dressing, toileting, or eating;
      • Decline in physical or mental health;
-     • Family not available to provide care or supervision. 
+     • Family not available to provide care or supervision.
+ 
 As we mentioned before, as a result of new regulations and changes in the health care industry, residents are now provided with more services in an Assisted Living Facility to include, but are not limited to:  housekeeping and laundry services, transportation to doctors, social activities and 24 hour supervision.
 
 There are many Assisted Living Facilities that provide care for the mentally ill and people with advanced dementia or Alzheimer’s disease. Secured areas for individuals that require closer supervision in order to manage their behaviors are provided.  These areas can be a part of the main building or a separate, self-contained unit.
@@ -140,8 +142,11 @@ From this point on, we will call the potential resident, a resident, ok?
 After you have read all of the questions, go over all of the questions once again and highlight the ones that you think are appropriate for your search.
 
 It’s ok if you highlighted just a few questions or if you want to ask all of the questions in the book. These highlighted questions that you have selected are now tailored to your needs or to the needs of your loved one. These will be the questions that you will ask throughout your ALF tour.  The KEY is to gather the correct answers that you need.
+
 Remember, you know yourself or your loved one better than anybody else…….but take into consideration the current status of that person at the time of your search.
-General Aspects of the Community 
+
+General Aspects of the Community
+ 
 Let’s think about what a “first impression” really means in our particular case.  You are looking for a place that will take wonderful care of your loved one.  If the facade of the structure is in disrepair, the landscaping leaves a lot to be desired, and no thought is given to its upkeep, then, what does this say about how they will take care of your mother, father, aunt or uncle?
 
 The care of the outside of the facility is indicative of the care one would receive inside the facility.
@@ -314,7 +319,9 @@ Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms & Vocabulary
     It is important to take into consideration your personal needs, your likes and dislikes, and your choice of lifestyle while selecting the correct assisted living facility for you.
 
     The following questions are specific and pertinent to the LGBTQ community. 
+    
     IN OTHER WORDS 
+    
     Simple and to the POINT!!!... Every senior wants to be living in a place where specific needs and life experiences will be met and understood. We live in a straight society. Be realistic with your current situation, i.e.; financial, clinical, geographical and social. And make the absolute best out of your choice. This is important to ALL seniors, regardless of sexual orientation.  Next up: Chapter 16 - Acronyms & Vocabulary
     """
     
