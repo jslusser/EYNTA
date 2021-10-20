@@ -34,6 +34,9 @@
 		946676AA21EE86DC00A61966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946676A821EE86DC00A61966 /* LaunchScreen.storyboard */; };
 		946676B221EE87A500A61966 /* ContentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946676B121EE87A500A61966 /* ContentsTableViewController.swift */; };
 		94825F9E23FD82B7005885A7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94825F9D23FD82B7005885A7 /* Localizable.strings */; };
+		949E6A3F2720D42200400820 /* GlossaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949E6A3E2720D42200400820 /* GlossaryTableViewCell.swift */; };
+		949E6A412720D9CF00400820 /* HelpfulResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949E6A402720D9CF00400820 /* HelpfulResourcesViewController.swift */; };
+		949E6A432720DDFA00400820 /* BookCoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949E6A422720DDFA00400820 /* BookCoverViewController.swift */; };
 		94A9ACDF25DF257F000C35BB /* QuestionStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A9ACDE25DF257F000C35BB /* QuestionStorage.swift */; };
 		94BBDCC62207523B00A1068E /* chx15Glossary.json in Resources */ = {isa = PBXBuildFile; fileRef = 94BBDCC52207523B00A1068E /* chx15Glossary.json */; };
 		94BBDCC922075A1A00A1068E /* VocabularyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BBDCC722075A1A00A1068E /* VocabularyTableViewCell.swift */; };
@@ -77,6 +80,9 @@
 		94825F9B23FD7F6E005885A7 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		94825F9C23FD7F6E005885A7 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Main.strings"; sourceTree = "<group>"; };
 		94825F9D23FD82B7005885A7 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		949E6A3E2720D42200400820 /* GlossaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossaryTableViewCell.swift; sourceTree = "<group>"; };
+		949E6A402720D9CF00400820 /* HelpfulResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpfulResourcesViewController.swift; sourceTree = "<group>"; };
+		949E6A422720DDFA00400820 /* BookCoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCoverViewController.swift; sourceTree = "<group>"; };
 		94A9ACDE25DF257F000C35BB /* QuestionStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionStorage.swift; sourceTree = "<group>"; };
 		94BBDCC52207523B00A1068E /* chx15Glossary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = chx15Glossary.json; sourceTree = "<group>"; };
 		94BBDCC722075A1A00A1068E /* VocabularyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyTableViewCell.swift; sourceTree = "<group>"; };
@@ -107,6 +113,7 @@
 				943B2A08220382D500038A65 /* QuestionsTableViewCell.swift */,
 				943B2A09220382D500038A65 /* QuestionsTableViewCell.xib */,
 				94BBDCC722075A1A00A1068E /* VocabularyTableViewCell.swift */,
+				949E6A3E2720D42200400820 /* GlossaryTableViewCell.swift */,
 				94BBDCC822075A1A00A1068E /* VocabularyTableViewCell.xib */,
 			);
 			path = View;
@@ -118,6 +125,8 @@
 				946676B121EE87A500A61966 /* ContentsTableViewController.swift */,
 				94F0F828271A39FD0065C35B /* ChapterViewController.swift */,
 				94BBDCCB22075C7B00A1068E /* VocabularyTableViewController.swift */,
+				949E6A402720D9CF00400820 /* HelpfulResourcesViewController.swift */,
+				949E6A422720DDFA00400820 /* BookCoverViewController.swift */,
 				941D0F56238356F600D33285 /* SignInWithApple.swift */,
 				941D0F58238357DE00D33285 /* UserRegistrationViewController.swift */,
 				94F0F822271A2C180065C35B /* QuestionTableViewController.swift */,
@@ -284,6 +293,7 @@
 				941D0F59238357DE00D33285 /* UserRegistrationViewController.swift in Sources */,
 				94F0F823271A2C180065C35B /* QuestionTableViewController.swift in Sources */,
 				946676A021EE86D800A61966 /* AppDelegate.swift in Sources */,
+				949E6A3F2720D42200400820 /* GlossaryTableViewCell.swift in Sources */,
 				943B2A0A220382D500038A65 /* QuestionsTableViewCell.swift in Sources */,
 				94F0F829271A39FD0065C35B /* ChapterViewController.swift in Sources */,
 				943B2A10220385B500038A65 /* Questions.swift in Sources */,
@@ -293,10 +303,12 @@
 				94BBDCCC22075C7B00A1068E /* VocabularyTableViewController.swift in Sources */,
 				941D0F57238356F600D33285 /* SignInWithApple.swift in Sources */,
 				946676B221EE87A500A61966 /* ContentsTableViewController.swift in Sources */,
+				949E6A412720D9CF00400820 /* HelpfulResourcesViewController.swift in Sources */,
 				94F0F827271A32810065C35B /* RootViewController.swift in Sources */,
 				941D0F602383681F00D33285 /* User+CoreDataProperties.swift in Sources */,
 				94A9ACDF25DF257F000C35BB /* QuestionStorage.swift in Sources */,
 				941D0F5F2383681F00D33285 /* User+CoreDataClass.swift in Sources */,
+				949E6A432720DDFA00400820 /* BookCoverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

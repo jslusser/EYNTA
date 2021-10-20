@@ -98,6 +98,7 @@ extension QuestionTableViewController: CellProtocol {
             // MARK: - This logic is here in the event that a given ingredient isn't in the selected ingredients array
             QuestionStorage.shared.removeSelectedQuestion(question: questions[indexPath.row])
         }
+        updateUI(indexPath: indexPath)
     }
     
     func answerWasUpdated(newAnswer: String, for myCell: QuestionsTableViewCell) {
@@ -109,6 +110,11 @@ extension QuestionTableViewController: CellProtocol {
         
         QuestionStorage.shared.saveSelectedQuestion(question: questions[indexPath.row])
         
-        tableView.reloadSections(IndexSet(integer: indexPath.section), with: .fade)
+        updateUI(indexPath: indexPath)
+    }
+    
+    func updateUI(indexPath: IndexPath) {
+        tableView.reloadRows(at: [indexPath], with: .fade)
+        
     }
 }

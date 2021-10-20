@@ -10,18 +10,13 @@
 //New attempt Apr 08, 2010
 import UIKit
 
-class VocabularyTableViewController: UITableViewController, CellProtocol {
-    func answerWasUpdated(newAnswer: String, for myCell: QuestionsTableViewCell) {
-        
-    }
-    
-    func switchButtonTapped(WithStatus status: Bool, ForCell myCell: QuestionsTableViewCell) {
-        }
-    
+class VocabularyTableViewController: UITableViewController {
     var terms = [Vocabulary]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .systemPink
+        tableView.register(GlossaryTableViewCell.self, forCellReuseIdentifier: GlossaryTableViewCell.reuseId)
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -36,8 +31,7 @@ class VocabularyTableViewController: UITableViewController, CellProtocol {
         }
         print(ch15terms)
         self.terms = ch15terms
-        let questionsNib = UINib(nibName: "VocabularyTableViewCell", bundle: nil)
-        tableView.register(questionsNib, forCellReuseIdentifier: "VocabularyTableViewCell")
+//        tableView.register(GlossaryTableViewCell.self, forCellReuseIdentifier: GlossaryTableViewCell.reuseId)
         tableView.estimatedRowHeight = 50
     }
  //   MARK: - Table view data source
@@ -54,14 +48,13 @@ class VocabularyTableViewController: UITableViewController, CellProtocol {
        
    }
 
-
-
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-       let cell = tableView.dequeueReusableCell(withIdentifier: "VocabularyTableViewCell", for: indexPath) as! VocabularyTableViewCell
-       let row = indexPath.row
-  //     cell.configure(term: terms[row].term, setDelegate: self)
-    cell.configure(term: terms[row].term)
-       return cell
+
+      guard let cell = tableView.dequeueReusableCell(withIdentifier: GlossaryTableViewCell.reuseId) as? GlossaryTableViewCell else { return UITableViewCell() }
+
+      let term = terms[indexPath.row]
+      cell.configure(term: term)
+      return cell
 }
 
 // MARK: - Table view data source

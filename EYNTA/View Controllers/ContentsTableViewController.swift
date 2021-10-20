@@ -124,19 +124,20 @@ class ContentsTableViewController: UITableViewController {
     
     func viewControllerToPresent(for item: Item) -> UIViewController {
         switch item {
-        case .ch1, .ch2, .ch3, .ch4, .ch5, .ch6, .ch7, .ch8, .ch9, .ch10, .ch11, .ch12, .ch13, .ch14, .ch15:
+        case .ch1, .ch2, .ch3, .ch4, .ch5, .ch6, .ch7, .ch8, .ch9, .ch10, .ch11, .ch12, .ch13, .ch14, .ch15, .ch17:
             let newVC = ChapterViewController(text: item.chapterText,
                                               image: item.chapterImage,
                                               chapterNumber: item.chapterNumber)
             return newVC
             
-        case .ch16, .ch17, .ch18:
-            // TODO: Handle Ch 16, 17, 18
-            return UIViewController()
+        case .ch16:
+            return VocabularyTableViewController()
+       
+        case .ch18:
+            return HelpfulResourcesViewController(text: item.chapterText)
             
         case .titlePage:
-            // TODO: Handle titlePage
-            return UIViewController()
+            return BookCoverViewController(imageName: "Cover")
            
         }
         

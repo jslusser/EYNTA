@@ -357,25 +357,25 @@ Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed 
     
     static let chapter18Text = """
 Medicare
-http://www.medicare.gov/
+https://www.medicare.gov/
 
 Medicaid
-http://www.cms.hhs.gov/home/medicaid.asp
+https://www.cms.hhs.gov/home/medicaid.asp
 
 Florida Medicaid
-http://www.medicaidapplication.org/
+https://www.medicaidapplication.org/
 
 Veterans Affairs
-http://www.va.gov/
+https://www.va.gov/
 
 SunServe
-http://www.sunserve.org/
+https://www.sunserve.org/
 
 Placement Counselors Corporation
-http://www.placementcounselors.com
+https://www.placementcounselors.com
 
 Alzheimer’s Association
-http://www.alz.org/index.asp
+https://www.alz.org/index.asp
 
 """
     
