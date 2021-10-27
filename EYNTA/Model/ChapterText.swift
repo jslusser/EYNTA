@@ -151,6 +151,8 @@ Let’s think about what a “first impression” really means in our particular
 
 The care of the outside of the facility is indicative of the care one would receive inside the facility.
 
+INSERT IMAGE HERE
+
 …if the plants are dying of thirst and the paint is peeling off the walls, you need to peel on out of there ASAP!  Next up: Chapter 5 - Licenses & Administration
 """
     
@@ -169,6 +171,8 @@ Yet another chapter on policies and procedures!  Boring, but an absolute must!
 
 Here, you will learn all about important costs that you may or may not incur during your loved one’s stay at the facility you choose.  In this chapter you will get an ALF education, for sure!
 
+INSERT IMAGE HERE
+
 ...this is the MONEY chapter. You will see the words, “money, fees, rates, up front costs, and increases", in every other question.  It’s scary, but it’s better to know everything up front and leave nothing to chance.  Our philosophy comes into play here... “…educate and therefore protect...”  Next up: Chapter 7 - Observations/Tour
 """
     
@@ -177,6 +181,8 @@ Here, you will learn all about important costs that you may or may not incur dur
 
     Also, look around to see if your loved ones will fit in well with the residents that you see.  Do they look well cared for?  Say hi to them, and ask them how they like it there.
 
+    INSERT IMAGE HERE
+    
     …if you trip over an obstacle on the floor, you have not found the right place.  If you fall and slide down the hallway into someone’s room, you definitely have not found the right place.  Oh, and if a staff member is smoking in the bathroom….it’s time to move on.  Next up: Chapter 8 - Accommodations
     """
     
@@ -186,6 +192,8 @@ This is the part of the book where you have to ask a lot of “money questions.�
 Can your loved one share a room with someone else?  There are two good reasons why that would be a good thing.  One is that it will definitely be less expensive, and the other is that he or she will have someone to talk to.  If you decide that sharing a room is a possibility, talk to the possible roommate of your loved one.  See if you think it would be a good match.
 
 Make sure the room has all the safety features that are needed.  See if the air-conditioning comes on when you lower the thermostat.
+
+INSERT IMAGE HERE
 
 …if the roommate has icicles hanging off her nose, and she’s comfortable, this may not be a good fit for your loved one.  Next up: Chapter 9 - Medical and Nursing
 """
@@ -199,6 +207,8 @@ Make sure the room has all the safety features that are needed.  See if the air-
 
     If you are really interested in this facility, tell the Marketing Director that you would like to have a meeting with the Director of Nursing before making your decision.
 
+    INSERT IMAGE HERE
+    
     There is no “in other words” here.  This is serious stuff!  Next up: Chapter 10 - Food Services
     """
     
@@ -208,6 +218,8 @@ If you ask a potential resident, “What is the most important question you woul
 Many people need special diets, whether for health reasons or religious reasons, or just because that’s what they like.  In this chapter, you will be able to ask everything you can think of (and some you didn’t think of, but we did, regarding food service).
 
 When you are touring, if you think this facility may be in the running, then, ask to speak with the Food Service Director.  If you’re not in a big hurry, see if you can sample a meal.  If your family member is not with you, see if you can bring him or her back for a meal.
+
+    INSERT IMAGE HERE
 
 …If you did not get a “Happy Meal” at the facility, and you find yourselves supersizing every item at McDonalds after your tour, this may not be the dining room for you.  Next up: Chapter 11 - Activities
 """
@@ -221,6 +233,8 @@ When you are touring, if you think this facility may be in the running, then, as
 
     Observe the Activity Director.  Is he/she energetic?  Does he/she have a good personality?  Is he/she friendly?
 
+    INSERT IMAGE HERE
+    
     …If the Activity Director resembles the farmer holding the pitchfork in that famous work of art, the place just might be a little too low key!  Next up: Chapter 12 - Housekeeping and Maintenance
     """
     
@@ -233,6 +247,8 @@ The Housekeeping staff should always make sure the rooms smell good and are in o
 
 If the facility is doing the laundry, make sure you label all of the clothes that you bring into the facility.  Most facilities do several residents’ laundry at the same time and clothes could get misplaced.
 
+    INSERT IMAGE HERE
+
 …You don’t want Mom to see Mrs. Jones coming to the dining room wearing her favorite dress!  Next up: Chapter 13 - Transportation
 """
     
@@ -243,6 +259,8 @@ If the facility is doing the laundry, make sure you label all of the clothes tha
 
     This chapter will give you the opportunity to ask every detail about transportation.
 
+    INSERT IMAGE HERE
+    
     …check out the driver.  If he’s wearing quadruple bi-focals, maybe Mom shouldn’t get on the bus!  Next up: Chapter 14 - Emergency Plan & Safety
     """
     
@@ -254,6 +272,8 @@ You’re going to ask about fire drills, evacuations, generators, fire   sprinkl
 Don’t be afraid or embarrassed to ask to see the generator or the fire drill log.  Check out the elevators.  Make sure they close properly and not too quickly.  Make sure you know where your loved one can be found after a disaster.  Get names and addresses of where he or she will be taken if need be.
 
 You should feel totally secure after you finish asking the questions in this chapter.  If you don’t, this is not the place for you.
+
+    INSERT IMAGE HERE
 
 There is no “in other words” here.  This is serious stuff!
 
@@ -330,12 +350,18 @@ Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed 
 """
     
     static let chapter17Text = """
+    INSERT IMAGE HERE
+    
     Humberto Fortuna, MA, MS, was born in Buenos Aires, Argentina in 1968. At age 20, Mr. Fortuna earned his first Master of Arts degree at the Santa Ana Music Conservatory. 
     Mr. Fortuna began his career in the health care field by working as an Activities Program Director in a senior center in South Florida. He became a Social Service Director in various long term care facilities and a Unit Manager for an Alzheimer’s-Dementia skilled nursing facility.
      Mr. Fortuna was awarded his second Master’s Degree in Health Care Management, with a concentration in Nursing Home Administration from Lynn University, Florida, in 1998. He then furthered his studies and received a Graduate Certificate in Aging Studies in 1999.  The same year, he became an Activity Consultant, certified by the National Certification Council for Activity Professionals.
      Mr. Fortuna was the Executive Director for a 220 bed Assisted Living Facility in Pompano Beach, Florida, until he went on to create his own company, Placement Counselors Corporation, in September, 1999. His company currently represents over 500 communities, including Skilled Nursing Facilities, Assisted Living Facilities, Adult Family Care Facilities, and Alzheimer’s-Dementia Units in the southeast region of Florida.  He also continues to be a consultant for the above mentioned facilities.
      Mr. Fortuna currently has his own private practice as a Geriatric Specialist and serves as a Board member for the SunServe organization, as well as other advisory boards. With his partner, Cindy VanDusen,  he continues to develop Scoop Publishing as one of the most interesting and resourceful companies devoted to the senior community. Their ultimate goal is to educate and protect our senior population.
-     Visit us at www.scoopforseniors.com  Cindy VanDusen began her senior advocate career as a Certified Exercise Instructor in 1983 and brought that knowledge to the senior population by creating exercise and fitness programs for many Assisted Living Facilities and Nursing Homes.  For 11 years, she owned and operated her own exercise studio, “Off Broadway Workshop,” where she offered special classes for seniors .
+     Visit us at www.scoopforseniors.com 
+    
+        INSERT IMAGE HERE 
+    
+    Cindy VanDusen began her senior advocate career as a Certified Exercise Instructor in 1983 and brought that knowledge to the senior population by creating exercise and fitness programs for many Assisted Living Facilities and Nursing Homes.  For 11 years, she owned and operated her own exercise studio, “Off Broadway Workshop,” where she offered special classes for seniors .
     In 1992, she created her own company, “Activities on Wheels” which brought activity programs into various health care facilities and senior living condominiums.  “Activities on Wheels” provided her with  experience in dealing with diverse types of health care facilities as well as a diverse senior population. She worked with Independent, Assisted Living, Dementia and Nursing Home residents, realizing that each segment of the senior population had very different needs.
      Cindy VanDusen has written and published many  books and games for the senior population including “Make Your Point,” (1996) “Math and Riddle Bingo,” (1998), “Quizmania,” (2001) and “You Can’t Bloom In Your Room,” (2003), all of which are still available today.
      After selling her successful company, she became interested in the Administration area of the health care industry.  She earned her CORE Training Certificate from the Florida Department of Elder Affairs in 2000 and became involved in Marketing and Sales for Assisted Living Facilities. After 12 years in the same 200 bed Assisted Living Facility as the Marketing and Sales Director, she stepped into the Executive Director position.
@@ -346,6 +372,8 @@ Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed 
     Through our formal education and experience in the field, and as owners of senior related businesses, we are able to comprehend and understand the health care needs of clients, families and health care providers, thus creating our perfect partnership.
      All the items that we present at “Scoop for Seniors” are of our own creation.  As a unique team, we are able to create books, games, music and other related products that can be used by professionals and caregivers working with the geriatric population.
      We hope you will continue to visit our site regularly as we will be adding new and interesting products all the time.
+    
+    INSERT IMAGE HERE
 
     If you would like to contact us directly with any suggestions, or if you are in need of more resources, please feel free to contact us directly via email at info@scoopforseniors.com
     or mail us at 2699 Stirling Road, Suite C-107, Ft. Lauderdale, Florida 33312.
