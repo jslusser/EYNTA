@@ -11,15 +11,12 @@ import UIKit
 class ChapterViewController: UIViewController {
 
     let scrollView = UIScrollView()
-    let textLabel = UILabel()
     let stackView = UIStackView()
-    let imageView = UIImageView()
-    let image: UIImage?
     let chapterNumber: ChapterNumber?
+    let pageContent: [PageContent]
     
-    init(text: String, image: UIImage? = nil, chapterNumber: ChapterNumber? = nil) {
-        self.textLabel.text = text
-        self.image = image
+    init(dataContent: [PageContent], chapterNumber: ChapterNumber? = nil) {
+        self.pageContent = dataContent
         self.chapterNumber = chapterNumber
         super.init(nibName: nil, bundle: nil)
     }
@@ -34,10 +31,9 @@ class ChapterViewController: UIViewController {
     }
     
     func setupLayout() {
-        [scrollView, stackView, textLabel].forEach { eachOne in
+        [scrollView, stackView].forEach { eachOne in
             eachOne.translatesAutoresizingMaskIntoConstraints = false
         }
-
      
         view.addSubview(scrollView)
         scrollView.addSubview(stackView)
@@ -45,10 +41,6 @@ class ChapterViewController: UIViewController {
         stackView.axis = .vertical
         stackView.distribution = .fill
         stackView.spacing = 16
-        
-        textLabel.textColor = .black
-        textLabel.font = UIFont.preferredFont(forTextStyle: .body)
-        textLabel.numberOfLines = 0
         
         let guide = view.readableContentGuide
         NSLayoutConstraint.activate([
@@ -64,16 +56,69 @@ class ChapterViewController: UIViewController {
             stackView.widthAnchor.constraint(equalTo: scrollView.widthAnchor)
         ])
         
-        if let image = image {
-            setupImageView(image: image)
-        }
-        stackView.addArrangedSubview(textLabel)
+        let displayContent = buildDisplayContent(from: pageContent)
+        addContentToStackView(displayContent: displayContent)
         
         if let chapterNumber = chapterNumber {
             let button = chapterButton(for: chapterNumber)
             stackView.addArrangedSubview(button)
         }
     }
+    
+    // MARK: - Converting Text and Images to views for the Screen
+    
+    func buildDisplayContent(from pageContent: [PageContent]) -> [UIView] {
+        var displayContent = [UIView]()
+        
+        pageContent.forEach { item in
+            switch item {
+            case let .text(text):
+                let generatedLabel = buildLabel(text: text)
+                displayContent.append(generatedLabel)
+                
+            case let .image(image):
+                let generatedImage = buildImageView(image: image)
+                displayContent.append(generatedImage)
+
+            case let .customText(customText):
+                print("Add support for building a label with custom text later on. I will convert this to normal text")
+                let normalText = customText.string
+                let generatedLabel = buildLabel(text: normalText)
+                displayContent.append(generatedLabel)
+            }
+        }
+
+        return displayContent
+    }
+    
+    func addContentToStackView(displayContent: [UIView]) {
+        displayContent.forEach { eachOne in
+            stackView.addArrangedSubview(eachOne)
+        }
+    }
+    
+    private func buildLabel(text: String) -> UILabel {
+        let generatedLabel = UILabel()
+        generatedLabel.translatesAutoresizingMaskIntoConstraints = false
+        generatedLabel.text = text
+        generatedLabel.textColor = .label
+        generatedLabel.font = UIFont.preferredFont(forTextStyle: .body)
+        generatedLabel.numberOfLines = 0
+        
+        return generatedLabel
+    }
+    
+    private func buildImageView(image: UIImage?) -> UIImageView {
+        let imageView = UIImageView()
+        imageView.translatesAutoresizingMaskIntoConstraints = false
+        imageView.image = image
+        imageView.contentMode = .scaleAspectFit
+        imageView.heightAnchor.constraint(equalToConstant: 142).isActive = true
+        
+        return imageView
+    }
+    
+    // MARK: - Chapter Button
     
     func chapterButton(for chapter: ChapterNumber) -> UIButton {
         // This action sends you to the QuestionsTableViewController
@@ -88,14 +133,6 @@ class ChapterViewController: UIViewController {
         button.setTitleColor(.black, for: .normal)
         button.backgroundColor = .systemYellow
         return button
-    }
-    
-    func setupImageView(image: UIImage) {
-        imageView.contentMode = .scaleAspectFit
-        imageView.image = image
-        imageView.translatesAutoresizingMaskIntoConstraints = false
-        stackView.addArrangedSubview(imageView)
-        imageView.heightAnchor.constraint(equalToConstant: 142).isActive = true
     }
 }
 

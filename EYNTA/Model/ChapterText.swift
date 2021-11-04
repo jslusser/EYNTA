@@ -128,34 +128,6 @@ Making an appointment is “where it’s at!”  Next up: Chapter 4 - Genera
 
 """
     
-    static let chapter4Text = """
-You are about to enter the “question” section” of our book.
-
-Note:  You will need a yellow highlighter from this point on.
-
-This section will help you organize your thoughts, choose your questions, and help you gather the information that you need in making an intelligent decision.  As always, the ultimate goal is to give you peace of mind.
-
-These questions were created with the intention of educating you and giving you a tool that will put YOU in control of the touring experience.  All of the questions are grouped by subjects for your convenience.  This will help you while YOU are interviewing the Assisted Living Facility.
-
-From this point on, we will call the potential resident, a resident, ok?
-
-After you have read all of the questions, go over all of the questions once again and highlight the ones that you think are appropriate for your search.
-
-It’s ok if you highlighted just a few questions or if you want to ask all of the questions in the book. These highlighted questions that you have selected are now tailored to your needs or to the needs of your loved one. These will be the questions that you will ask throughout your ALF tour.  The KEY is to gather the correct answers that you need.
-
-Remember, you know yourself or your loved one better than anybody else…….but take into consideration the current status of that person at the time of your search.
-
-General Aspects of the Community
- 
-Let’s think about what a “first impression” really means in our particular case.  You are looking for a place that will take wonderful care of your loved one.  If the facade of the structure is in disrepair, the landscaping leaves a lot to be desired, and no thought is given to its upkeep, then, what does this say about how they will take care of your mother, father, aunt or uncle?
-
-The care of the outside of the facility is indicative of the care one would receive inside the facility.
-
-INSERT IMAGE HERE
-
-…if the plants are dying of thirst and the paint is peeling off the walls, you need to peel on out of there ASAP!  Next up: Chapter 5 - Licenses & Administration
-"""
-    
     static let chapter5Text = """
     In the following chapter, you will be asking questions about documents, policies and inspections.  These questions will reveal the credibility and professionalism of the individuals that operate the company.  Are they organized?  Do they have all of the things you are asking for?  Remember, the Marketing or Sales Representative may not have everything immediately on hand.  Give him a few minutes to produce the requested documents.
     
@@ -407,38 +379,4 @@ https://www.alz.org/index.asp
 
 """
     
-}
-
-
-extension ContentsTableViewController.Item {
-    var chapterText: String {
-        switch self {
-        case .ch1: return ChapterText.chapter1Text
-        case .ch2: return ChapterText.chapter2Text
-        case .ch3: return ChapterText.chapter3Text
-        case .ch4: return ChapterText.chapter4Text
-        case .ch5: return ChapterText.chapter5Text
-        case .ch6: return ChapterText.chapter6Text
-        case .ch7: return ChapterText.chapter7Text
-        case .ch8: return ChapterText.chapter8Text
-        case .ch9: return ChapterText.chapter9Text
-        case .ch10: return ChapterText.chapter10Text
-        case .ch11: return ChapterText.chapter11Text
-        case .ch12: return ChapterText.chapter12Text
-        case .ch13: return ChapterText.chapter13Text
-        case .ch14: return ChapterText.chapter14Text
-        case .ch15: return ChapterText.chapter15Text
-        case .ch16: return "You need to handle this differently"
-        case .ch17: return ChapterText.chapter17Text
-        case .ch18: return ChapterText.chapter18Text
-        case .titlePage: return "This needs the image. Use a different VC"
-        }
-    }
-    
-    var chapterImage: UIImage? {
-        switch self {
-        case .ch2: return UIImage(named: "IOW")
-        default: return nil
-        }
-    }
 }

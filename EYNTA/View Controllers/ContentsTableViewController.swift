@@ -125,8 +125,7 @@ class ContentsTableViewController: UITableViewController {
     func viewControllerToPresent(for item: Item) -> UIViewController {
         switch item {
         case .ch1, .ch2, .ch3, .ch4, .ch5, .ch6, .ch7, .ch8, .ch9, .ch10, .ch11, .ch12, .ch13, .ch14, .ch15, .ch17:
-            let newVC = ChapterViewController(text: item.chapterText,
-                                              image: item.chapterImage,
+            let newVC = ChapterViewController(dataContent: item.dataContent,
                                               chapterNumber: item.chapterNumber)
             return newVC
             
