@@ -19,15 +19,15 @@ extension ContentsTableViewController.Item {
         case .ch6: return ChapterDataContent.chapter6Content
         case .ch7: return ChapterDataContent.chapter7Content
         case .ch8: return ChapterDataContent.chapter8Content
-        case .ch9: return [.text(ChapterText.chapter9Text)]
-        case .ch10: return [.text(ChapterText.chapter10Text)]
-        case .ch11: return [.text(ChapterText.chapter11Text)]
-        case .ch12: return [.text(ChapterText.chapter12Text)]
-        case .ch13: return [.text(ChapterText.chapter13Text)]
-        case .ch14: return [.text(ChapterText.chapter14Text)]
+        case .ch9: return ChapterDataContent.chapter9Content
+        case .ch10: return ChapterDataContent.chapter10Content
+        case .ch11: return ChapterDataContent.chapter11Content
+        case .ch12: return ChapterDataContent.chapter12Content
+        case .ch13: return ChapterDataContent.chapter13Content
+        case .ch14: return ChapterDataContent.chapter14Content
         case .ch15: return [.text(ChapterText.chapter15Text)]
         case .ch16: return [.text("You need to handle this differently")]
-        case .ch17: return [.text(ChapterText.chapter17Text)]
+        case .ch17: return ChapterDataContent.chapter17Content
         case .ch18: return [.text(ChapterText.chapter18Text)]
         case .titlePage: return [.text("This needs the image. Use a different VC")]
         }
