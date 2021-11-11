@@ -230,7 +230,7 @@ struct ChapterDataContent {
         ]
     
     static let chapter17Content: [PageContent] = [
-        .image(.iow),
+        .image(.fortuna),
         .text(
                     """
                         Humberto Fortuna, MA, MS, was born in Buenos Aires, Argentina in 1968. At age 20, Mr. Fortuna earned his first Master of Arts degree at the Santa Ana Music Conservatory. 
@@ -241,7 +241,7 @@ struct ChapterDataContent {
                          Visit us at www.scoopforseniors.com 
                     """
             ),
-            .image(.iow),
+            .image(.vandusen),
             .text(
                 """
                     Cindy VanDusen began her senior advocate career as a Certified Exercise Instructor in 1983 and brought that knowledge to the senior population by creating exercise and fitness programs for many Assisted Living Facilities and Nursing Homes.  For 11 years, she owned and operated her own exercise studio, “Off Broadway Workshop,” where she offered special classes for seniors .
@@ -256,7 +256,16 @@ struct ChapterDataContent {
                      All the items that we present at “Scoop for Seniors” are of our own creation.  As a unique team, we are able to create books, games, music and other related products that can be used by professionals and caregivers working with the geriatric population.
                      We hope you will continue to visit our site regularly as we will be adding new and interesting products all the time.
                 """
-             )
+             ),
+        .image(.iow),
+        .text(
+            """
+                    If you would like to contact us directly with any suggestions, or if you are in need of more resources, please feel free to contact us directly via email at info@scoopforseniors.com
+                    or mail us at 2699 Stirling Road, Suite C-107, Ft. Lauderdale, Florida 33312.
+                     To contact Cindy, e-mail her at cindy@scoopforseniors.com
+                     To contact Humberto, e-mail him at humberto@scoopforseniors.com
+            """
+            )
         ]
 }
 

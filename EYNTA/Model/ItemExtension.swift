@@ -70,6 +70,12 @@ extension UIImage {
     static var iow: UIImage? {
         return UIImage(named: "IOW")
     }
+    static var fortuna: UIImage? {
+        return UIImage(named: "Fortuna")
+    }
+    static var vandusen: UIImage? {
+        return UIImage(named: "VanDusen")
+    }
 }
 
 enum PageContent {
