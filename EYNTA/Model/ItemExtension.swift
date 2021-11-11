@@ -15,10 +15,10 @@ extension ContentsTableViewController.Item {
         case .ch2: return [.text(ChapterText.chapter2Text)]
         case .ch3: return [.text(ChapterText.chapter3Text)]
         case .ch4: return ChapterDataContent.chapter4Content
-        case .ch5: return [.text(ChapterText.chapter5Text)]
-        case .ch6: return [.text(ChapterText.chapter6Text)]
-        case .ch7: return [.text(ChapterText.chapter7Text)]
-        case .ch8: return [.text(ChapterText.chapter8Text)]
+        case .ch5: return ChapterDataContent.chapter5Content
+        case .ch6: return ChapterDataContent.chapter6Content
+        case .ch7: return ChapterDataContent.chapter7Content
+        case .ch8: return ChapterDataContent.chapter8Content
         case .ch9: return [.text(ChapterText.chapter9Text)]
         case .ch10: return [.text(ChapterText.chapter10Text)]
         case .ch11: return [.text(ChapterText.chapter11Text)]

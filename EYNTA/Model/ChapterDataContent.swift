@@ -41,9 +41,77 @@ struct ChapterDataContent {
         .text(
                         """
 
-                    …if the plants are dying of thirst and the paint is peeling off the walls, you need to peel on out of there ASAP!  Next up: Chapter 5 - Licenses & Administration
+                    …if the plants are dying of thirst and the paint is peeling off the walls, you need to peel on out of there ASAP! 
                 """
         )
     ]
+    
+    static let chapter5Content: [PageContent] = [
+        .text(
+                    """
+                       In the following chapter, you will be asking questions about documents, policies and inspections.  These questions will reveal the credibility and professionalism of the individuals that operate the company.  Are they organized?  Do they have all of the things you are asking for?  Remember, the Marketing or Sales Representative may not have everything immediately on hand.  Give him a few minutes to produce the requested documents.
+                    """
+            ),
+            .image(.iow),
+            .text(
+                            """
+                ...although very important, you will be asking questions about some pretty boring stuff.  But, if things you are asking for are not shown to you, it’s time to move on. 
+                """
+             )
+        ]
+    
+    static let chapter6Content: [PageContent] = [
+        .text(
+                    """
+                    Yet another chapter on policies and procedures!  Boring, but an absolute must!
+
+                    Here, you will learn all about important costs that you may or may not incur during your loved one’s stay at the facility you choose.  In this chapter you will get an ALF education, for sure!
+
+                    """
+            ),
+            .image(.iow),
+            .text(
+                            """
+                ...this is the MONEY chapter. You will see the words, “money, fees, rates, up front costs, and increases", in every other question.  It’s scary, but it’s better to know everything up front and leave nothing to chance.  Our philosophy comes into play here... “…educate and therefore protect...”
+                """
+             )
+        ]
+    
+    static let chapter7Content: [PageContent] = [
+        .text(
+                    """
+                       Now, you are going to actually SEE the facility.  Keep your eyes wide open!  You are mainly looking for safety issues.
+
+                       Also, look around to see if your loved ones will fit in well with the residents that you see.  Do they look well cared for?  Say hi to them, and ask them how they like it there.
+
+                    """
+            ),
+            .image(.iow),
+            .text(
+                            """
+                  …if you trip over an obstacle on the floor, you have not found the right place.  If you fall and slide down the hallway into someone’s room, you definitely have not found the right place.  Oh, and if a staff member is smoking in the bathroom….it’s time to move on.
+                """
+             )
+        ]
+    
+    static let chapter8Content: [PageContent] = [
+        .text(
+                    """
+                    This is the part of the book where you have to ask a lot of “money questions.”  Every room you look at could have a different rate depending on the size, the location and whether it’s for one person or two.
+
+                    Can your loved one share a room with someone else?  There are two good reasons why that would be a good thing.  One is that it will definitely be less expensive, and the other is that he or she will have someone to talk to.  If you decide that sharing a room is a possibility, talk to the possible roommate of your loved one.  See if you think it would be a good match.
+
+                    Make sure the room has all the safety features that are needed.  See if the air-conditioning comes on when you lower the thermostat.
+
+                    """
+            ),
+            .image(.iow),
+            .text(
+                            """
+                …if the roommate has icicles hanging off her nose, and she’s comfortable, this may not be a good fit for your loved one.
+                """
+             )
+        ]
+    
 }
 
