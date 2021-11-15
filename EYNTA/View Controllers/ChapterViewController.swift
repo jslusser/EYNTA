@@ -112,7 +112,7 @@ class ChapterViewController: UIViewController {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.image = image
-        imageView.contentMode = .scaleAspectFit
+        imageView.contentMode = .scaleAspectFill
         imageView.heightAnchor.constraint(equalToConstant: 142).isActive = true
         
         return imageView
