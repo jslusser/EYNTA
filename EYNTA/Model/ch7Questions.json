@@ -180,13 +180,13 @@
  },
  {
      "questionNumber": 31,
-     "questionCopy": "xIs the menu posted in the dining room?",
+     "questionCopy": "Is the menu posted in the dining room?",
      "chapter": "ch7",
      "isSelected": false
  },
  {
      "questionNumber": 32,
-     "questionCopy": "Do you provide mail boxes for the resieents?",
+     "questionCopy": "Do you provide mail boxes for the residents?",
      "chapter": "ch7",
      "isSelected": false
  },
@@ -252,7 +252,7 @@
  },
  {
      "questionNumber": 43,
-     "questionCopy": "Is there a designated area for smkoking?",
+     "questionCopy": "Is there a designated area for smoking?",
      "chapter": "ch7",
      "isSelected": false
  },
@@ -276,7 +276,7 @@
  },
  {
      "questionNumber": 47,
-     "questionCopy": "Is your main enterance supervised at all times?",
+     "questionCopy": "Is your main entrance supervised at all times?",
      "chapter": "ch7",
      "isSelected": false
  },

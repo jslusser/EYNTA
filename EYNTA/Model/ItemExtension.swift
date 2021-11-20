@@ -76,6 +76,9 @@ extension UIImage {
     static var vandusen: UIImage? {
         return UIImage(named: "VanDusen")
     }
+    static var fortuna2: UIImage? {
+        return UIImage(named: "Fortuna2")
+    }
 }
 
 enum PageContent {

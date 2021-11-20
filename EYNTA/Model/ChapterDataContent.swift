@@ -15,19 +15,17 @@ struct ChapterDataContent {
                     """
                 You are about to enter the “question” section” of our book.
                 
-                Note:  You will need a yellow highlighter from this point on.
-                
                 This section will help you organize your thoughts, choose your questions, and help you gather the information that you need in making an intelligent decision.  As always, the ultimate goal is to give you peace of mind.
                 
                 These questions were created with the intention of educating you and giving you a tool that will put YOU in control of the touring experience.  All of the questions are grouped by subjects for your convenience.  This will help you while YOU are interviewing the Assisted Living Facility.
                 
                 From this point on, we will call the potential resident, a resident, ok?
                 
-                After you have read all of the questions, go over all of the questions once again and highlight the ones that you think are appropriate for your search.
+                After you have read all of the questions, go over all of the questions once again and select the ones that you think are appropriate for your search using the toggle switch to the right of the question.  Once the question is selected, the toggle switch will turn yellow and you will be able to enter the answer in the space provided.
                 
-                It’s ok if you highlighted just a few questions or if you want to ask all of the questions in the book. These highlighted questions that you have selected are now tailored to your needs or to the needs of your loved one. These will be the questions that you will ask throughout your ALF tour.  The KEY is to gather the correct answers that you need.
+                It’s ok if you selected just a few questions or if you want to ask all of the questions in the book. These questions that you have selected are now tailored to your needs or to the needs of your loved one. These will be the questions that you will ask throughout your ALF tour.  The KEY is to gather the correct answers that you need.
                 
-                Remember, you know yourself or your loved one better than anybody else…….but take into consideration the current status of that person at the time of your search.
+                Remember, you know yourself or your loved one better than anybody else...but take into consideration the current status of that person at the time of your search.
                 
                 General Aspects of the Community
                  
@@ -230,20 +228,29 @@ struct ChapterDataContent {
         ]
     
     static let chapter17Content: [PageContent] = [
-        .image(.fortuna),
+        .image(.fortuna2),
         .text(
                     """
-                        Humberto Fortuna, MA, MS, was born in Buenos Aires, Argentina in 1968. At age 20, Mr. Fortuna earned his first Master of Arts degree at the Santa Ana Music Conservatory. 
-                        Mr. Fortuna began his career in the health care field by working as an Activities Program Director in a senior center in South Florida. He became a Social Service Director in various long term care facilities and a Unit Manager for an Alzheimer’s-Dementia skilled nursing facility.
-                         Mr. Fortuna was awarded his second Master’s Degree in Health Care Management, with a concentration in Nursing Home Administration from Lynn University, Florida, in 1998. He then furthered his studies and received a Graduate Certificate in Aging Studies in 1999.  The same year, he became an Activity Consultant, certified by the National Certification Council for Activity Professionals.
-                         Mr. Fortuna was the Executive Director for a 220 bed Assisted Living Facility in Pompano Beach, Florida, until he went on to create his own company, Placement Counselors Corporation, in September, 1999. His company currently represents over 500 communities, including Skilled Nursing Facilities, Assisted Living Facilities, Adult Family Care Facilities, and Alzheimer’s-Dementia Units in the southeast region of Florida.  He also continues to be a consultant for the above mentioned facilities.
-                         Mr. Fortuna currently has his own private practice as a Geriatric Specialist and serves as a Board member for the SunServe organization, as well as other advisory boards. With his partner, Cindy VanDusen,  he continues to develop Scoop Publishing as one of the most interesting and resourceful companies devoted to the senior community. Their ultimate goal is to educate and protect our senior population.
-                         Visit us at www.scoopforseniors.com 
+                    
+                    
+                    
+                    Humberto Fortuna, MA, MS, was born in Buenos Aires, Argentina in 1968. At age 20, Mr. Fortuna earned his first Master of Arts degree at the Santa Ana Music Conservatory. 
+                    
+                    Mr. Fortuna began his career in the health care field by working as an Activities Program Director in a senior center in South Florida. He became a Social Service Director in various long term care facilities and a Unit Manager for an Alzheimer’s-Dementia skilled nursing facility.
+                    
+                    Mr. Fortuna was awarded his second Master’s Degree in Health Care Management, with a concentration in Nursing Home Administration from Lynn University, Florida, in 1998. He then furthered his studies and received a Graduate Certificate in Aging Studies in 1999.  The same year, he became an Activity Consultant, certified by the National Certification Council for Activity Professionals.
+                    
+                    Mr. Fortuna was the Executive Director for a 220 bed Assisted Living Facility in Pompano Beach, Florida, until he went on to create his own company, Placement Counselors Corporation, in September, 1999. His company currently represents over 500 communities, including Skilled Nursing Facilities, Assisted Living Facilities, Adult Family Care Facilities, and Alzheimer’s-Dementia Units in the southeast region of Florida.  He also continues to be a consultant for the above mentioned facilities.
+                    
+                    Mr. Fortuna currently has his own private practice as a Geriatric Specialist and serves as a Board member for the SunServe organization, as well as other advisory boards. With his partner, Cindy VanDusen,  he continues to develop Scoop Publishing as one of the most interesting and resourceful companies devoted to the senior community. Their ultimate goal is to educate and protect our senior population.
+                        
+                    Visit us at https://www.55plusmag.us 
                     """
             ),
-            .image(.vandusen),
+            //.image(.vandusen),
             .text(
                 """
+                
                     Cindy VanDusen began her senior advocate career as a Certified Exercise Instructor in 1983 and brought that knowledge to the senior population by creating exercise and fitness programs for many Assisted Living Facilities and Nursing Homes.  For 11 years, she owned and operated her own exercise studio, “Off Broadway Workshop,” where she offered special classes for seniors .
                     In 1992, she created her own company, “Activities on Wheels” which brought activity programs into various health care facilities and senior living condominiums.  “Activities on Wheels” provided her with  experience in dealing with diverse types of health care facilities as well as a diverse senior population. She worked with Independent, Assisted Living, Dementia and Nursing Home residents, realizing that each segment of the senior population had very different needs.
                      Cindy VanDusen has written and published many  books and games for the senior population including “Make Your Point,” (1996) “Math and Riddle Bingo,” (1998), “Quizmania,” (2001) and “You Can’t Bloom In Your Room,” (2003), all of which are still available today.
@@ -260,10 +267,8 @@ struct ChapterDataContent {
         .image(.iow),
         .text(
             """
-                    If you would like to contact us directly with any suggestions, or if you are in need of more resources, please feel free to contact us directly via email at info@scoopforseniors.com
-                    or mail us at 2699 Stirling Road, Suite C-107, Ft. Lauderdale, Florida 33312.
-                     To contact Cindy, e-mail her at cindy@scoopforseniors.com
-                     To contact Humberto, e-mail him at humberto@scoopforseniors.com
+                    If you would like to contact us directly with any suggestions, or if you are in need of more resources, please feel free to contact us directly via email at info@55plusmag.us
+                    or mail us at P.O. Box 5801, Oakland Park, Florida 33310.
             """
             )
         ]

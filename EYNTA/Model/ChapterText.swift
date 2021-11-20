@@ -258,8 +258,6 @@ Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms & Vocabulary
 
     Many LGBTQ community members have been forgotten or deserted by their own family members. This means there will be no relative or family member willing to oversee their care in their time of need.
 
-    Most states, counties or cities, do not have domestic partner laws in place. This ensures that gay couples will face more challenges concerning their overall benefits.
-
     It is important to realize, that in the gay community, senior-related issues are still relatively new, as gay rights efforts have traditionally been youth focused.
 
     It should not matter if you are gay or straight, all individuals should have the same right to live in a place where people feel welcome and happy, respecting each other as part of a society.
@@ -284,13 +282,11 @@ Do you have an Emergency Plan?  Next up: Chapter 15 - Acronyms & Vocabulary
 
     Regarding accommodations, it is important that you know it is very normal for 2 men or 2 women to be accommodated in the same room as roommates. Many older adults cannot afford to have a private room and opt for sharing with another person. In fact, sharing a room is more the norm that having a private accommodation.
 
-    Assisted Living Communities offer special spousal fees, rates and services to straight couples. We have set up a question format so that you will be able to take advantage of these benefits if it applies in your state, based on your legal status. Some of the benefits are second person fees, couple fees, security deposits, etc.
+    Assisted Living Communities offer special spousal fees, rates and services. We have set up a question format so that you will be able to take advantage of these benefits if it applies in your state, based on your legal status. Some of the benefits are second person fees, couple fees, security deposits, etc.
 
     As we mentioned in previous chapters, there is a second person special rate. It is important to understand how this second person rate can work for you, if it is applicable.
 
-    Depending on what state you are in, and their laws, you may or may not be able to take advantage of this specific rate for couples. The second person rate usually applies to a spouse of a heterosexual couple.
-
-    If your state approves same sex marriages then you can argue the point that you should be entitled to receive this benefit. For example, a husband and wife move into a facility together. The regular monthly rate in this scenario will be $2000 per person. Due to the fact that they are husband and wife, one will pay the $2000 and the other will pay the second person rate. The second person rate can be as little as half of the regular rate. This heterosexual couple will then pay $2000 for one, $1000 for the second person rate with a total of $3000 for the couple’s monthly rate. Therefore, if a gay couple cannot benefit from this second person rate scenario, they will have to pay $2000 each to live in the same accommodations.
+    Depending on what state you are in, and their laws, you may or may not be able to take advantage of this specific rate for couples. The second person rate usually applies to a legally married spouse.
 
     It is also the norm to leave the community for a specific event. Many residents go to family functions, travel to visit relatives or just go out to dinner with a friend. While this is normal, it is important to respect the rules in your new community.
 
@@ -362,21 +358,21 @@ https://www.medicare.gov/
 Medicaid
 https://www.cms.hhs.gov/home/medicaid.asp
 
-Florida Medicaid
-https://www.medicaidapplication.org/
-
 Veterans Affairs
 https://www.va.gov/
-
-SunServe
-https://www.sunserve.org/
 
 Placement Counselors Corporation
 https://www.placementcounselors.com
 
 Alzheimer’s Association
 https://www.alz.org/index.asp
-
 """
     
 }
+//Florida Medicaid
+//https://www.medicaidapplication.org/
+
+
+//SunServe
+//https://www.sunserve.org/
+

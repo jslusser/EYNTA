@@ -24,7 +24,7 @@
  },
  {
      "questionNumber": 5,
-     "questionCopy": "What length of time does to contract cover?",
+     "questionCopy": "What length of time does the contract cover?",
      "chapter": "ch6",
      "isSelected": false
  },
@@ -42,7 +42,7 @@
  },
  {
      "questionNumber": 8,
-     "questionCopy": "Do I need specific documentation to move it?",
+     "questionCopy": "Do I need specific documentation to move in?",
      "chapter": "ch6",
      "isSelected": false
  },
@@ -342,13 +342,13 @@
  },
  {
      "questionNumber": 58,
-     "questionCopy": "Do you work with the Long Term Care Diversion Program (if available) ?",
+     "questionCopy": "Do you work with Long Term Care Diversion Programs (if available) ?",
      "chapter": "ch6",
      "isSelected": false
  },
  {
      "questionNumber": 59,
-     "questionCopy": "Do you work with the Medicaid Waiver (if available) ?",
+     "questionCopy": "Do you work with the State Medicaid Managed Long Term Care Programs (if available) ?",
      "chapter": "ch6",
      "isSelected": false
  },
@@ -372,7 +372,7 @@
  },
  {
      "questionNumber": 63,
-     "questionCopy": "xDo you have valet service for the residents?",
+     "questionCopy": "Do you have valet service for the residents?",
      "chapter": "ch6",
      "isSelected": false
  },

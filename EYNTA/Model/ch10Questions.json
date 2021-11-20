@@ -1,6 +1,6 @@
  [{
      "questionNumber": 1,
-     "questionCopy": "How many daily meals are incouded in the monthly rate?",
+     "questionCopy": "How many daily meals are included in the monthly rate?",
   "chapter": "ch10",
   "isSelected": false
   },
@@ -42,7 +42,7 @@
  },
  {
      "questionNumber": 8,
-     "questionCopy": "If you provie 2 daily meals in your rate, can the resident select which meals he or she wants?",
+     "questionCopy": "If you provide 2 daily meals in your rate, can the resident select which meals he or she wants?",
      "chapter": "ch10",
      "isSelected": false
  },
@@ -54,13 +54,13 @@
  },
  {
      "questionNumber": 10,
-     "questionCopy": "If a resident misses a meal, will you still proie that meal or a snack after dining room hours?",
+     "questionCopy": "If a resident misses a meal, will you still provide that meal or a snack after dining room hours?",
      "chapter": "ch10",
      "isSelected": false
  },
  {
      "questionNumber": 11,
-     "questionCopy": "If I do not any meals, do I still have to pay the same monthly rate?",
+     "questionCopy": "If I do not consume any meals, do I still have to pay the same monthly rate?",
      "chapter": "ch10",
      "isSelected": false
  },
@@ -162,7 +162,7 @@
  },
  {
      "questionNumber": 28,
-     "questionCopy": "Do you proide a Renal diet?",
+     "questionCopy": "Do you provide a Renal diet?",
      "chapter": "ch10",
      "isSelected": false
  },
@@ -186,7 +186,7 @@
  },
  {
      "questionNumber": 32,
-     "questionCopy": "Do you provide Thikened Liquid diets in the dining room?",
+     "questionCopy": "Do you provide Thickened Liquid diets in the dining room?",
      "chapter": "ch10",
      "isSelected": false
  },
@@ -204,7 +204,7 @@
  },
  {
      "questionNumber": 35,
-     "questionCopy": "Do you serve fresh fruit and vegetables daily?",
+     "questionCopy": "Do you serve fresh fruits and vegetables daily?",
      "chapter": "ch10",
      "isSelected": false
  },
@@ -216,7 +216,7 @@
  },
  {
      "questionNumber": 37,
-     "questionCopy": "Do you have soup an salad on your menu every day?",
+     "questionCopy": "Do you have soup and salad on your menu every day?",
      "chapter": "ch10",
      "isSelected": false
  },
@@ -234,7 +234,7 @@
  },
  {
      "questionNumber": 40,
-     "questionCopy": "Do you have a seperate cook/chef?",
+     "questionCopy": "Do you have a separate cook/chef?",
      "chapter": "ch10",
      "isSelected": false
  },

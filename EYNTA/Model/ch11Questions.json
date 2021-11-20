@@ -6,7 +6,7 @@
   },
  {
      "questionNumber": 2,
-     "questionCopy": "Do you have an Assitant Activities Director?",
+     "questionCopy": "Do you have an Assistant Activities Director?",
      "chapter": "ch11",
      "isSelected": false
  },
@@ -138,7 +138,7 @@
  },
  {
      "questionNumber": 24,
-     "questionCopy": "Is transportation provided for utside community activities?",
+     "questionCopy": "Is transportation provided for outside community activities?",
      "chapter": "ch11",
      "isSelected": false
  },
@@ -186,7 +186,7 @@
  },
  {
      "questionNumber": 32,
-     "questionCopy": "Will the Actiities Director encourage the resident to participate in activities?",
+     "questionCopy": "Will the Activities Director encourage the resident to participate in activities?",
      "chapter": "ch11",
      "isSelected": false
  },
@@ -222,7 +222,7 @@
  },
  {
      "questionNumber": 38,
-     "questionCopy": "xDo you have a TV room?",
+     "questionCopy": "Do you have a TV room?",
      "chapter": "ch11",
      "isSelected": false
  },
@@ -270,7 +270,7 @@
  },
  {
      "questionNumber": 46,
-     "questionCopy": "do you have a Cafe area?",
+     "questionCopy": "Do you have a Cafe area?",
      "chapter": "ch11",
      "isSelected": false
  }

@@ -30,7 +30,7 @@
  },
  {
      "questionNumber": 6,
-     "questionCopy": "What is the monnthly rate?",
+     "questionCopy": "What is the monthly rate?",
      "chapter": "ch8",
      "isSelected": false
  },
@@ -288,19 +288,19 @@
  },
  {
      "questionNumber": 49,
-     "questionCopy": "Are their grab bars in the bathroom by the commode as well as in the shower?",
+     "questionCopy": "Are there grab bars in the bathroom by the commode as well as in the shower?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
      "questionNumber": 50,
-     "questionCopy": "Is toilet paper incouded in the monthly rate?",
+     "questionCopy": "Is toilet paper included in the monthly rate?",
      "chapter": "ch8",
      "isSelected": false
  },
  {
      "questionNumber": 51,
-     "questionCopy": "Do the bathrooms have showers or tubs? (Shower are safer)",
+     "questionCopy": "Do the bathrooms have showers or tubs? (Showers are safer)",
      "chapter": "ch8",
      "isSelected": false
  },
