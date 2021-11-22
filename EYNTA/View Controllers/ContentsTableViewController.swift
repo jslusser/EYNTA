@@ -51,7 +51,7 @@ class ContentsTableViewController: UITableViewController {
             case .ch13: return "Chapter 13 - Transportation"
             case .ch14: return "Chapter 14 - Emergency Plan & Safety"
             case .ch15: return "Chapter 15 - LGBTQ and Assisted Living Communities"
-            case .ch16: return "Chapter 16 - Acronyms an Vocabulary"
+            case .ch16: return "Chapter 16 - Acronyms and Vocabulary"
             case .ch17: return "Chapter 17 - About the Authors"
             case .ch18: return "Chapter 18 - Helpful Resources"
             case .titlePage: return "Book Cover Title Page"
@@ -79,7 +79,8 @@ class ContentsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        navigationItem.title = "Contents"
+        navigationItem.title = "Table of Contents"
+        
         setupTableView()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -111,6 +112,7 @@ class ContentsTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         let item = items[indexPath.row]
         cell.textLabel?.text = item.title
+        cell.textLabel?.textColor = .white
         cell.contentView.backgroundColor = .systemBlue
         return cell
     }
