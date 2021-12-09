@@ -366,6 +366,41 @@ https://www.placementcounselors.com
 
 Alzheimer’s Association
 https://www.alz.org/index.asp
+
+-----------------------------
+
+More books by Humberto Fortuna;
+
+Everything You Need to Ask When Selecting an Assisted Living Facility
+https://www.amazon.com/Everything-Selecting-Assisted-Living-Facility/dp/B08NYGRK1S/ref=sr_1_3?keywords=Humberto+fortuna&qid=1638541577&sr=8-3
+
+
+Learn and Practice 2021 USCIS Questions & Answers
+https://www.amazon.com/Learn-Practice-USCIS-Questions-Answers-ebook/dp/B08XMPH49N/ref=sr_1_2?keywords=Humberto+fortuna&qid=1638541577&sr=8-2
+
+
+A Journey to Plant Spirit Medicine: San Pedro and Ayahuasca
+https://www.amazon.com/Journey-Plant-Spirit-Medicine-Ayahuasca-ebook/dp/B08P2B4RT3/ref=sr_1_1?keywords=Humberto+fortuna&qid=1638541577&sr=8-1
+
+
+Freedom From Emotional Dependency: The Journey
+https://www.amazon.com/Freedom-Emotional-Dependency-Humberto-Fortuna-ebook/dp/B09C8Q3VYQ/ref=sr_1_7?keywords=Humberto+fortuna&qid=1638542262&sr=8-7
+
+
+You are not Toxic... The Relationship is!
+https://www.amazon.com/You-are-Toxic-Relationship-Unconditional-ebook/dp/B09KM37VZB/ref=sr_1_6?keywords=Humberto+fortuna&qid=1638542262&sr=8-6
+
+
+
+EN ESPAÑOL
+
+Todo lo que Usted Necesita Preguntar Sobre Casas Asistidas
+https://www.amazon.com/Usted-Necesita-Preguntar-Sobre-Asistidas-ebook/dp/B08MXX7BMF/ref=sr_1_1?keywords=Humberto+fortuna+casas+asistidas&qid=1638542205&sr=8-1
+
+
+Viaje a la Medicina de Plantas Sagradas: San Pedro y Ayahuasca
+https://www.amazon.com/Viaje-Medicina-Plantas-Sagradas-Ayahuasca/dp/B096TRVDNQ/ref=sr_1_4?keywords=Humberto+fortuna&qid=1638541577&sr=8-4
+
 """
     
 }

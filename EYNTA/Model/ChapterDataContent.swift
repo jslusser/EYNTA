@@ -311,7 +311,10 @@ struct ChapterDataContent {
                     
                     Mr. Fortuna currently has his own private practice as a Geriatric Specialist and serves as a Board member for the SunServe organization, as well as other advisory boards. With his partner, Cindy VanDusen,  he continues to develop Placement Counselors Corporation as one of the most interesting and resourceful companies devoted to the senior community. Their ultimate goal is to educate and protect our senior population.
                         
-                    Visit us at https://www.55plusmag.us 
+                    More about Humberto
+                    https://humfor.allauthor.com
+                    
+                    ------------------------------------
                     """
             ),
             //.image(.vandusen),
@@ -335,8 +338,14 @@ struct ChapterDataContent {
         .image(.iow),
         .text(
             """
-            If you would like to contact us directly with any suggestions, or if you are in need of more resources, please feel free to contact us directly via email at info@55plusmag.us or mail us at Placement Counselors Corporation, P.O. Box 5801, Oakland Park, Florida 33310.
-            """
+If you would like to contact us directly with any suggestions, or if you are in need of more resources, please feel free to contact us directly via email at info@55plusmag.us or mail us at;
+
+Placement Counselors Corporation,
+P.O. Box 5801,
+Oakland Park, Florida 33310
+            
+and visit us online at https://www.55plusmag.us 
+"""
             )
         ]
 }
