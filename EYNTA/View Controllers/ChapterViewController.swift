@@ -14,6 +14,7 @@ class ChapterViewController: UIViewController {
     let stackView = UIStackView()
     let chapterNumber: ChapterNumber?
     let pageContent: [PageContent]
+
     
     init(dataContent: [PageContent], chapterNumber: ChapterNumber? = nil) {
         self.pageContent = dataContent
@@ -112,8 +113,9 @@ class ChapterViewController: UIViewController {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.image = image
-        imageView.contentMode = .scaleAspectFill
+        imageView.contentMode = .scaleAspectFit
         imageView.heightAnchor.constraint(equalToConstant: 142).isActive = true
+        imageView.clipsToBounds = true
         
         return imageView
     }

@@ -312,7 +312,7 @@ struct ChapterDataContent {
                     Mr. Fortuna currently has his own private practice as a Geriatric Specialist and serves as a Board member for the SunServe organization, as well as other advisory boards. With his partner, Cindy VanDusen,  he continues to develop Placement Counselors Corporation as one of the most interesting and resourceful companies devoted to the senior community. Their ultimate goal is to educate and protect our senior population.
                         
                     More about Humberto
-                    https://humfor.allauthor.com
+                    https://humbertofortuna.com
                     
                     ------------------------------------
                     """
