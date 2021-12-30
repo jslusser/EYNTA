@@ -297,10 +297,6 @@ struct ChapterDataContent {
         .image(.fortuna2),
         .text(
                     """
-                    
-                    
-                    
-                    
                     Humberto Fortuna, MA, MS, was born in Buenos Aires, Argentina in 1968. At age 20, Mr. Fortuna earned his first Master of Arts degree at the Santa Ana Music Conservatory. 
                     
                     Mr. Fortuna began his career in the health care field by working as an Activities Program Director in a senior center in South Florida. He became a Social Service Director in various long term care facilities and a Unit Manager for an Alzheimer’s-Dementia skilled nursing facility.
