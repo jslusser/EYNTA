@@ -74,7 +74,7 @@
 		943B2A2E2203BE8500038A65 /* ch14Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ch14Questions.json; sourceTree = "<group>"; };
 		943B2A302203BE9400038A65 /* ch6Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ch6Questions.json; sourceTree = "<group>"; };
 		944905CF23C54D410003F4F7 /* ch15Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ch15Questions.json; sourceTree = "<group>"; };
-		9466769C21EE86D800A61966 /* EYNTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EYNTA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9466769C21EE86D800A61966 /* ALF Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ALF Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9466769F21EE86D800A61966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		946676A421EE86D800A61966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		946676A621EE86DC00A61966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -179,7 +179,7 @@
 		9466769D21EE86D800A61966 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9466769C21EE86D800A61966 /* EYNTA.app */,
+				9466769C21EE86D800A61966 /* ALF Finder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -209,9 +209,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9466769B21EE86D800A61966 /* EYNTA */ = {
+		9466769B21EE86D800A61966 /* ALF Finder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 946676AE21EE86DC00A61966 /* Build configuration list for PBXNativeTarget "EYNTA" */;
+			buildConfigurationList = 946676AE21EE86DC00A61966 /* Build configuration list for PBXNativeTarget "ALF Finder" */;
 			buildPhases = (
 				9466769821EE86D800A61966 /* Sources */,
 				9466769921EE86D800A61966 /* Frameworks */,
@@ -221,9 +221,9 @@
 			);
 			dependencies = (
 			);
-			name = EYNTA;
+			name = "ALF Finder";
 			productName = EYNTA;
-			productReference = 9466769C21EE86D800A61966 /* EYNTA.app */;
+			productReference = 9466769C21EE86D800A61966 /* ALF Finder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -256,7 +256,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9466769B21EE86D800A61966 /* EYNTA */,
+				9466769B21EE86D800A61966 /* ALF Finder */,
 			);
 		};
 /* End PBXProject section */
@@ -518,7 +518,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		946676AE21EE86DC00A61966 /* Build configuration list for PBXNativeTarget "EYNTA" */ = {
+		946676AE21EE86DC00A61966 /* Build configuration list for PBXNativeTarget "ALF Finder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				946676AF21EE86DC00A61966 /* Debug */,

@@ -43,7 +43,7 @@ class QuestionTableViewController: UITableViewController {
     
     // MARK: - Handling Changes
     func checkForSavedSelectedQuestions() {
-        let savedQuestions = QuestionStorage.shared.getSelectedQuestions(by: .ch4)
+        let savedQuestions = QuestionStorage.shared.getSelectedQuestions(by: chapter)
         
         savedQuestions.forEach { savedQuestion in
             if let indexInViewControllerQuestionsArray = questions.firstIndex(where: { question in
