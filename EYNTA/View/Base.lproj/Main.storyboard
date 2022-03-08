@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K4N-HZ-usf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="K4N-HZ-usf">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -12,7 +11,7 @@
         <!--Contents-->
         <scene sceneID="Hni-fh-vPY">
             <objects>
-                <tableViewController id="rPU-10-UCP" customClass="ContentsTableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="rPU-10-UCP" customClass="ContentsTableViewController" customModule="ALF_Finder" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="6TR-WO-Qd2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -526,7 +525,7 @@
         <!--User Registration-->
         <scene sceneID="cup-3p-XoV">
             <objects>
-                <viewController title="User Registration" id="SjV-Tf-t1w" customClass="UserRegistrationViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="User Registration" id="SjV-Tf-t1w" customClass="UserRegistrationViewController" customModule="ALF_Finder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aRL-ZH-XSW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1841,13 +1840,13 @@ http://www.alz.org/index.asp
         <!--Chapter 4 Questions-->
         <scene sceneID="vQQ-Ob-OoJ">
             <objects>
-                <tableViewController title="Chapter 4 Questions" id="Lme-Fd-5Cx" customClass="Q4TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Chapter 4 Questions" id="Lme-Fd-5Cx" customClass="Q4TableViewController" customModule="ALF_Finder" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="GFY-36-McD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="dE6-B9-50J" customClass="QuestionsTableViewCell" customModule="EYNTA" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CH4Q" id="dE6-B9-50J" customClass="QuestionsTableViewCell" customModule="ALF_Finder" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dE6-B9-50J" id="taQ-c5-EDz">
@@ -1870,13 +1869,13 @@ http://www.alz.org/index.asp
         <!--Chapter 5 Questions-->
         <scene sceneID="vxf-IQ-hU6">
             <objects>
-                <tableViewController title="Chapter 5 Questions" id="rvK-Ez-ruc" customClass="Q5TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Chapter 5 Questions" id="rvK-Ez-ruc" customClass="Q5TableViewController" customModule="ALF_Finder" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="oaf-hC-v21">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ZoZ-qs-itN">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CH5Q" id="ZoZ-qs-itN">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZoZ-qs-itN" id="iXP-zK-6l6">
@@ -1899,13 +1898,13 @@ http://www.alz.org/index.asp
         <!--Chapter 6 Questions-->
         <scene sceneID="YPn-ub-xDT">
             <objects>
-                <tableViewController id="Mzp-Ms-coA" userLabel="Chapter 6 Questions" customClass="Q6TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Mzp-Ms-coA" userLabel="Chapter 6 Questions" customClass="Q6TableViewController" customModule="ALF_Finder" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="QmF-o4-1r4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="1Vp-mg-5Ve">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CH6Q" id="1Vp-mg-5Ve">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1Vp-mg-5Ve" id="Zfn-FG-meM">
@@ -1928,13 +1927,13 @@ http://www.alz.org/index.asp
         <!--Chapter 7 Questions-->
         <scene sceneID="GYw-Z0-dz1">
             <objects>
-                <tableViewController id="XuR-6q-DBJ" userLabel="Chapter 7 Questions" customClass="Q7TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="XuR-6q-DBJ" userLabel="Chapter 7 Questions" customClass="Q7TableViewController" customModule="ALF_Finder" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="v5a-rY-zvD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="BL3-Uf-Bt6">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CH7Q" id="BL3-Uf-Bt6">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BL3-Uf-Bt6" id="CXT-oS-85q">
@@ -1957,13 +1956,13 @@ http://www.alz.org/index.asp
         <!--Chapter 8 Questions-->
         <scene sceneID="IuX-RD-yCK">
             <objects>
-                <tableViewController id="QxX-Qn-uZs" userLabel="Chapter 8 Questions" customClass="Q8TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="QxX-Qn-uZs" userLabel="Chapter 8 Questions" customClass="Q8TableViewController" customModule="ALF_Finder" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="lBu-aQ-b0W">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="0Wl-1q-nXm">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CH8Q" id="0Wl-1q-nXm">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0Wl-1q-nXm" id="biT-93-3Gs">
@@ -1986,13 +1985,13 @@ http://www.alz.org/index.asp
         <!--Chapter 9 Questions-->
         <scene sceneID="CwG-a4-GC7">
             <objects>
-                <tableViewController id="Uaa-hz-ghq" userLabel="Chapter 9 Questions" customClass="Q9TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Uaa-hz-ghq" userLabel="Chapter 9 Questions" customClass="Q9TableViewController" customModule="ALF_Finder" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="INb-yO-LLr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ZhJ-yA-QNc">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CH9Q" id="ZhJ-yA-QNc">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZhJ-yA-QNc" id="wOp-XQ-gBy">
@@ -2015,13 +2014,13 @@ http://www.alz.org/index.asp
         <!--Chapter 10 Questions-->
         <scene sceneID="Lq6-K5-H8U">
             <objects>
-                <tableViewController id="Vhh-0a-uP1" userLabel="Chapter 10 Questions" customClass="Q10TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Vhh-0a-uP1" userLabel="Chapter 10 Questions" customClass="Q10TableViewController" customModule="ALF_Finder" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="N1p-u0-S12">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="hvj-tN-ot2">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CH10Q" id="hvj-tN-ot2">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hvj-tN-ot2" id="4Ai-SH-Fzp">
@@ -2044,13 +2043,13 @@ http://www.alz.org/index.asp
         <!--Chapter 11 Questions-->
         <scene sceneID="6YW-a5-gAT">
             <objects>
-                <tableViewController id="PVO-CM-v3E" userLabel="Chapter 11 Questions" customClass="Q11TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="PVO-CM-v3E" userLabel="Chapter 11 Questions" customClass="Q11TableViewController" customModule="ALF_Finder" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Rwt-vR-DkD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="pNF-Zg-fgc">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CH11Q" id="pNF-Zg-fgc">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pNF-Zg-fgc" id="J4L-Pj-yzr">
@@ -2073,13 +2072,13 @@ http://www.alz.org/index.asp
         <!--Chapter 12 Questions-->
         <scene sceneID="bto-sG-7lD">
             <objects>
-                <tableViewController id="kvE-rj-1gr" userLabel="Chapter 12 Questions" customClass="Q12TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="kvE-rj-1gr" userLabel="Chapter 12 Questions" customClass="Q12TableViewController" customModule="ALF_Finder" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="sMf-sY-c9A">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Uuw-bG-8aa">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CH12Q" id="Uuw-bG-8aa">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Uuw-bG-8aa" id="5Kt-ec-E88">
@@ -2102,13 +2101,13 @@ http://www.alz.org/index.asp
         <!--Chapter 13 Questions-->
         <scene sceneID="lZb-LF-TBr">
             <objects>
-                <tableViewController id="RMx-kt-ZKu" userLabel="Chapter 13 Questions" customClass="Q13TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="RMx-kt-ZKu" userLabel="Chapter 13 Questions" customClass="Q13TableViewController" customModule="ALF_Finder" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="oul-m4-1Jx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Xh2-iN-Jok">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CH13Q" id="Xh2-iN-Jok">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xh2-iN-Jok" id="8sH-fX-vn9">
@@ -2131,13 +2130,13 @@ http://www.alz.org/index.asp
         <!--Chapter 14 Questions-->
         <scene sceneID="lKO-pk-yb5">
             <objects>
-                <tableViewController id="lkT-Fn-FJx" userLabel="Chapter 14 Questions" customClass="Q14TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="lkT-Fn-FJx" userLabel="Chapter 14 Questions" customClass="Q14TableViewController" customModule="ALF_Finder" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="f32-Hc-wXw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="gZZ-vH-Qta">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CH14Q" id="gZZ-vH-Qta">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gZZ-vH-Qta" id="bVZ-hq-0bB">
@@ -2160,13 +2159,13 @@ http://www.alz.org/index.asp
         <!--Chapter 15 Questions-->
         <scene sceneID="J9y-aU-ItP">
             <objects>
-                <viewController id="Cy9-En-jmZ" userLabel="Chapter 15 Questions" customClass="Q15TableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Cy9-En-jmZ" userLabel="Chapter 15 Questions" customClass="Q15TableViewController" customModule="ALF_Finder" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="4us-T0-93l">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="bSV-RQ-MfZ">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CH15Q" id="bSV-RQ-MfZ">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bSV-RQ-MfZ" id="hPH-Ek-9rt">
@@ -2185,13 +2184,13 @@ http://www.alz.org/index.asp
         <!--Chapter 16 Glossary-->
         <scene sceneID="4g1-Af-rYx">
             <objects>
-                <tableViewController title="Chapter 16 Glossary" id="tXN-cT-lEe" customClass="VocabularyTableViewController" customModule="EYNTA" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Chapter 16 Glossary" id="tXN-cT-lEe" customClass="VocabularyTableViewController" customModule="ALF_Finder" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="a8v-g9-Far">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="joR-NA-MEY">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CH16Q" id="joR-NA-MEY">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="joR-NA-MEY" id="vqA-OL-stn">
