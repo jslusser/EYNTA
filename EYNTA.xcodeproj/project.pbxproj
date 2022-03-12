@@ -31,7 +31,6 @@
 		943B2A312203BE9400038A65 /* ch6Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 943B2A302203BE9400038A65 /* ch6Questions.json */; };
 		944905D023C54D410003F4F7 /* ch15Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 944905CF23C54D410003F4F7 /* ch15Questions.json */; };
 		946676A021EE86D800A61966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9466769F21EE86D800A61966 /* AppDelegate.swift */; };
-		946676A521EE86D800A61966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946676A321EE86D800A61966 /* Main.storyboard */; };
 		946676A721EE86DC00A61966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946676A621EE86DC00A61966 /* Assets.xcassets */; };
 		946676AA21EE86DC00A61966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946676A821EE86DC00A61966 /* LaunchScreen.storyboard */; };
 		946676B221EE87A500A61966 /* ContentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946676B121EE87A500A61966 /* ContentsTableViewController.swift */; };
@@ -76,7 +75,6 @@
 		944905CF23C54D410003F4F7 /* ch15Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ch15Questions.json; sourceTree = "<group>"; };
 		9466769C21EE86D800A61966 /* ALF Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ALF Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9466769F21EE86D800A61966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		946676A421EE86D800A61966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		946676A621EE86DC00A61966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		946676A921EE86DC00A61966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		946676AB21EE86DC00A61966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				946676A821EE86DC00A61966 /* LaunchScreen.storyboard */,
-				946676A321EE86D800A61966 /* Main.storyboard */,
 				943B2A08220382D500038A65 /* QuestionsTableViewCell.swift */,
 				943B2A09220382D500038A65 /* QuestionsTableViewCell.xib */,
 				94BBDCC722075A1A00A1068E /* VocabularyTableViewCell.swift */,
@@ -279,7 +276,6 @@
 				943B2A2F2203BE8500038A65 /* ch14Questions.json in Resources */,
 				946676A721EE86DC00A61966 /* Assets.xcassets in Resources */,
 				943B2A272203BE4700038A65 /* ch10Questions.json in Resources */,
-				946676A521EE86D800A61966 /* Main.storyboard in Resources */,
 				943B2A1B2203A41E00038A65 /* ch5Questions.json in Resources */,
 				943B2A212203BE1800038A65 /* ch7Questions.json in Resources */,
 				943B2A15220387A000038A65 /* ch4Questions.json in Resources */,
@@ -320,14 +316,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		946676A321EE86D800A61966 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				946676A421EE86D800A61966 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		946676A821EE86DC00A61966 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
