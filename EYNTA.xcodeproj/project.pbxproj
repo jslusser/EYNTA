@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		941D0F57238356F600D33285 /* SignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D0F56238356F600D33285 /* SignInWithApple.swift */; };
-		941D0F59238357DE00D33285 /* UserRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D0F58238357DE00D33285 /* UserRegistrationViewController.swift */; };
-		941D0F5C2383667D00D33285 /* UserModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 941D0F5A2383667D00D33285 /* UserModel.xcdatamodeld */; };
-		941D0F5F2383681F00D33285 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D0F5D2383681E00D33285 /* User+CoreDataClass.swift */; };
-		941D0F602383681F00D33285 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941D0F5E2383681F00D33285 /* User+CoreDataProperties.swift */; };
 		942C7921273357AF001E5B99 /* ChapterDataContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942C7920273357AF001E5B99 /* ChapterDataContent.swift */; };
 		942C7923273358B7001E5B99 /* ItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942C7922273358B7001E5B99 /* ItemExtension.swift */; };
 		943B2A0A220382D500038A65 /* QuestionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943B2A08220382D500038A65 /* QuestionsTableViewCell.swift */; };
@@ -50,11 +45,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		941D0F56238356F600D33285 /* SignInWithApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithApple.swift; sourceTree = "<group>"; };
-		941D0F58238357DE00D33285 /* UserRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationViewController.swift; sourceTree = "<group>"; };
-		941D0F5B2383667D00D33285 /* UserModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserModel.xcdatamodel; sourceTree = "<group>"; };
-		941D0F5D2383681E00D33285 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		941D0F5E2383681F00D33285 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		942C7920273357AF001E5B99 /* ChapterDataContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterDataContent.swift; sourceTree = "<group>"; };
 		942C7922273358B7001E5B99 /* ItemExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemExtension.swift; sourceTree = "<group>"; };
 		943B2A08220382D500038A65 /* QuestionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewCell.swift; sourceTree = "<group>"; };
@@ -126,8 +116,6 @@
 				94BBDCCB22075C7B00A1068E /* VocabularyTableViewController.swift */,
 				949E6A402720D9CF00400820 /* HelpfulResourcesViewController.swift */,
 				949E6A422720DDFA00400820 /* BookCoverViewController.swift */,
-				941D0F56238356F600D33285 /* SignInWithApple.swift */,
-				941D0F58238357DE00D33285 /* UserRegistrationViewController.swift */,
 				94F0F822271A2C180065C35B /* QuestionTableViewController.swift */,
 				94F0F826271A32810065C35B /* RootViewController.swift */,
 			);
@@ -137,9 +125,6 @@
 		943B2A11220385C000038A65 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				941D0F5D2383681E00D33285 /* User+CoreDataClass.swift */,
-				941D0F5E2383681F00D33285 /* User+CoreDataProperties.swift */,
-				941D0F5A2383667D00D33285 /* UserModel.xcdatamodeld */,
 				943B2A0F220385B500038A65 /* Questions.swift */,
 				94F0F82A271A43770065C35B /* ChapterText.swift */,
 				942C7920273357AF001E5B99 /* ChapterDataContent.swift */,
@@ -290,25 +275,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				942C7923273358B7001E5B99 /* ItemExtension.swift in Sources */,
-				941D0F59238357DE00D33285 /* UserRegistrationViewController.swift in Sources */,
 				94F0F823271A2C180065C35B /* QuestionTableViewController.swift in Sources */,
 				946676A021EE86D800A61966 /* AppDelegate.swift in Sources */,
 				949E6A3F2720D42200400820 /* GlossaryTableViewCell.swift in Sources */,
 				943B2A0A220382D500038A65 /* QuestionsTableViewCell.swift in Sources */,
 				94F0F829271A39FD0065C35B /* ChapterViewController.swift in Sources */,
 				943B2A10220385B500038A65 /* Questions.swift in Sources */,
-				941D0F5C2383667D00D33285 /* UserModel.xcdatamodeld in Sources */,
 				94BBDCC922075A1A00A1068E /* VocabularyTableViewCell.swift in Sources */,
 				94F0F82B271A43770065C35B /* ChapterText.swift in Sources */,
 				94BBDCCC22075C7B00A1068E /* VocabularyTableViewController.swift in Sources */,
 				942C7921273357AF001E5B99 /* ChapterDataContent.swift in Sources */,
-				941D0F57238356F600D33285 /* SignInWithApple.swift in Sources */,
 				946676B221EE87A500A61966 /* ContentsTableViewController.swift in Sources */,
 				949E6A412720D9CF00400820 /* HelpfulResourcesViewController.swift in Sources */,
 				94F0F827271A32810065C35B /* RootViewController.swift in Sources */,
-				941D0F602383681F00D33285 /* User+CoreDataProperties.swift in Sources */,
 				94A9ACDF25DF257F000C35BB /* QuestionStorage.swift in Sources */,
-				941D0F5F2383681F00D33285 /* User+CoreDataClass.swift in Sources */,
 				949E6A432720DDFA00400820 /* BookCoverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,19 +491,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		941D0F5A2383667D00D33285 /* UserModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				941D0F5B2383667D00D33285 /* UserModel.xcdatamodel */,
-			);
-			currentVersion = 941D0F5B2383667D00D33285 /* UserModel.xcdatamodel */;
-			path = UserModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 9466769421EE86D800A61966 /* Project object */;
 }
