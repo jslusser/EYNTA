@@ -36,25 +36,25 @@ class ContentsTableViewController: UITableViewController {
        
         var title: String {
             switch self {
-            case .ch1: return "Chapter 1 - Introduction"
-            case .ch2: return "Chapter 2 - In Other Words"
-            case .ch3: return "Chapter 3 - Before You Go"
-            case .ch4: return "Chapter 4 - General Aspects of Community"
-            case .ch5: return "Chapter 5 - Licenses & Administration"
-            case .ch6: return "Chapter 6 - Contract"
-            case .ch7: return "Chapter 7 - Observations/Tour"
-            case .ch8: return "Chapter 8 - Accommodations"
-            case .ch9: return "Chapter 9 - Medical and Nursing"
-            case .ch10: return "Chapter 10 - Food Services"
-            case .ch11: return "Chapter 11 - Activities"
-            case .ch12: return "Chapter 12 - Housekeeping & Maintenance"
-            case .ch13: return "Chapter 13 - Transportation"
-            case .ch14: return "Chapter 14 - Emergency Plan & Safety"
-            case .ch15: return "Chapter 15 - LGBTQ and Assisted Living Communities"
-            case .ch16: return "Chapter 16 - Acronyms and Vocabulary"
-            case .ch17: return "Chapter 17 - About the Authors"
-            case .ch18: return "Chapter 18 - Helpful Resources"
-            case .titlePage: return "Book Cover Title Page"
+            case .ch1: return NSLocalizedString("Chapter 1 - Introduction", comment: "Add comment here")
+            case .ch2: return NSLocalizedString("Chapter 2 - In Other Words", comment: "Add comment here")
+            case .ch3: return NSLocalizedString("Chapter 3 - Before You Go", comment: "Add comment here")
+            case .ch4: return NSLocalizedString("Chapter 4 - General Aspects of Community", comment: "Add comment here")
+            case .ch5: return NSLocalizedString("Chapter 5 - Licenses & Administration", comment: "Add comment here")
+            case .ch6: return NSLocalizedString("Chapter 6 - Contract", comment: "Add comment here")
+            case .ch7: return NSLocalizedString("Chapter 7 - Observations/Tour", comment: "Add comment here")
+            case .ch8: return NSLocalizedString("Chapter 8 - Accommodations", comment: "Add comment here")
+            case .ch9: return NSLocalizedString("Chapter 9 - Medical and Nursing", comment: "Add comment here")
+            case .ch10: return NSLocalizedString("Chapter 10 - Food Services", comment: "Add comment here")
+            case .ch11: return NSLocalizedString("Chapter 11 - Activities", comment: "Add comment here")
+            case .ch12: return NSLocalizedString("Chapter 12 - Housekeeping & Maintenance", comment: "Add comment here")
+            case .ch13: return NSLocalizedString("Chapter 13 - Transportation", comment: "Add comment here")
+            case .ch14: return NSLocalizedString("Chapter 14 - Emergency Plan & Safety", comment: "Add comment here")
+            case .ch15: return NSLocalizedString("Chapter 15 - LGBTQ and Assisted Living Communities", comment: "Add comment here")
+            case .ch16: return NSLocalizedString("Chapter 16 - Acronyms and Vocabulary", comment: "Add comment here")
+            case .ch17: return NSLocalizedString("Chapter 17 - About the Authors", comment: "Add comment here")
+            case .ch18: return NSLocalizedString("Chapter 18 - Helpful Resources", comment: "Add comment here")
+            case .titlePage: return NSLocalizedString("Book Cover Title Page", comment: "Add comment here")
             }
         }
         
@@ -79,7 +79,8 @@ class ContentsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        navigationItem.title = "Table of Contents"
+        //navigationItem.title = "Table of Contents"
+        navigationItem.title = NSLocalizedString("Table of Contents", comment: "Add comment here")
         
         setupTableView()
         // Uncomment the following line to preserve selection between presentations
