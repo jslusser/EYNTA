@@ -11,126 +11,17 @@ import UIKit
 
 struct ChapterText {
 
- //   static let chapter1Text: String = """
     static let chapter1Text = NSLocalizedString("""
                                                 chapter1Text
                                                 """, comment: "Add comment here")
-//    """
-//    In the past two decades, Assisted Living Facilities have grown nationwide in the health care industry.
-//
-//There are approximately 40,000 Assisted Living Facilities operating in the United States today.  The number of residents living in a facility can range from just a few to over 300, with the most common size housing between 25 and 120 individuals.
-//
-//Years ago, everyone referred to all nursing facilities as “the home.”  The population within them was a mix and match of all ages, diagnoses, and behaviors.  When a family could no longer care for a loved one, they had no choice but to place him or her in “the home.”  It was the only option available to them at the time.
-//
-//When Assisted Living Facilities were first created, they were more like hotels or retirement communities.  If people had incontinence issues or required more one on one supervised, personal care, they would have to leave the facility and go to a nursing home.
-//
-//During this time there was a tremendous growth in the senior population.  This was due to many factors such as seniors living longer, and the knowledge that the baby boomers would be aging in the very near future.  The governmental agencies, nationwide, had to modify, update, and find new ways to accommodate the senior community.
-//
-//The government and the health care industry worked together to create regulated communities to provide appropriate, as well as personalized care that would meet the needs of each individual.  These changes not only improved the quality of service, but made it more cost-effective for families paying privately.  It was also more cost-effective for the government to assist an individual financially and make sure they were receiving the proper care in an Assisted Living Facility rather than a Skilled Nursing Home.
-//
-//Once the Assisted Living Facilities were established, the need for other types of alternative housing came to light.  Some of these were Independent Living Facilities, Adult Family Care Homes, Alzheimer-Dementia Units and Skilled Nursing Facilities.
-//
-//Even today, many people do not completely understand the concept of, or what is actually offered in an Assisted Living Facility.
-//
-//Assisted Living Facilities are licensed and regulated by the state in which they are located.  Because the concept of an Assisted Living Facility can vary from state to state, eligibility can also vary.
-//
-//In some cases, the criterion for being admitted into an Assisted Living Facility, is as simple as being able to transfer from one chair to another with assistance.  Keep in mind, the resident must be able to assist in completing this task.  The purpose of an Assisted Living Facility is to “ASSIST,” not to actually do the task for the resident.  The goal is to keep the resident as active and involved in his own personal care while performing the Activities of Daily Living.
-//
-//Admission criteria are not only based on clinical aspects, but on many other issues such as safety.  A prospective resident must be physically able to exit the building, with assistance, in a fire drill or any other emergency situation.
-//
-//In some cases, Assisted Living Facilities will not admit people even if they can transfer.   Each facility has its own criteria, their own policies, and their own target population type.  They may not want wheelchairs or even walkers. This is up to them.  They can implement any house policy they choose, as long as they remain in compliance with the state regulations.
-//
-//Because Assisted Living Facilities are privately or corporately owned, the policies they implement are legal as long as they are approved by the health care administration in whatever state they are located.
-//
-//Assisted Living Facility is the most common term used for this type of housing.  Some other terms are:
-//
-//     • Residential Care Facilities
-//     • Personal Care Facilities
-//     • Adult Congregate Care Communities
-//     • Retirement Residences
-//     • Supported Care Facilities
-//     • Senior Living Communities
-// 
-//In Florida, and in many other states, six-bed facilities are becoming very popular, as well.  These smaller facilities are gaining popularity due to the fact that they are able to provide more personalized services.  These facilities are usually in private homes and are licensed and regulated by the same governmental agencies that govern all of the Assisted Living Facilities, regardless of size.  The smaller homes must pass all surveys and inspections required by the state in which they are located.
-// The average age of a resident in an Assisted Living Facility is a little over 80, and usually someone who is in need of at least one or more Activities of Daily Living.  Some of the Activities of Daily Living (ADLs) are showering, dressing, toileting, eating and medication management.  The staff of an Assisted Living Facility is trained to provide assistance with all of those ADLs.
-//
-//We should mention here that the need for some type of lifestyle change is usually first indicated when a person has difficulty in one or more of the following areas:
-//
-//     • Difficulty in self-care, such as bathing, dressing, toileting, or eating;
-//     • Decline in physical or mental health;
-//     • Family not available to provide care or supervision.
-// 
-//As we mentioned before, as a result of new regulations and changes in the health care industry, residents are now provided with more services in an Assisted Living Facility to include, but are not limited to:  housekeeping and laundry services, transportation to doctors, social activities and 24 hour supervision.
-//
-//There are many Assisted Living Facilities that provide care for the mentally ill and people with advanced dementia or Alzheimer’s disease. Secured areas for individuals that require closer supervision in order to manage their behaviors are provided.  These areas can be a part of the main building or a separate, self-contained unit.
-//
-//Assisted Living Facilities offer social and recreational programs, entertainment, and other stimulating activities.  Studies show that social interaction and activities have a strong impact on the well- being of the elderly.  The goal of the Assisted Living Facility is to promote the independence of the residents as well as provide a home-like setting.  Having an active and social environment can help to achieve this goal.
-//
-//Most facilities are paid for by private, “out of pocket” funds.  However, financial assistance can be found through the Veteran’s Administration, Long Term Care Insurance, and some state programs if certain requirements are met.
-//
-//The majority of facilities receive payments on a monthly basis, similar to a rent. Many require a security deposit or a community fee which may be refundable, depending on the community policy.
-//
-//It is important to note that additional fees may be included in the monthly rate.  There may be fees for “a la carte” services or Level of Care.  Some communities do have an all-inclusive rate which may be more beneficial for the prospective resident.  This will allow for more care as needed while maintaining the same monthly rate.
-//
-//Every state requires a contract.  In this contract, you will find the monthly costs and a list of services that the individual will be receiving at the facility. Contracts may be broken by giving a written notice in the time frame required by the state in which the facility is located and by the community policy.
-//
-//Overall, the best way to describe Assisted Living is to think of it as a bridge between living at home and living in a nursing home.  Assisted Living has a residential focus with a home-like environment.  A nursing home is primarily a medical institution.
-//
-//Assisted Living is an exciting option for individuals who want to maximize their independence while living in the safety of a supervised, residential setting.  Next up: Chapter 2 - In Other Words
-//
-//"""
     
-    static let chapter2Text: String = """
-Now that you have read all of the technical stuff, let’s sit down and chat.
-        
-As professionals, we take our job very seriously.  Our job is to assist seniors and families and healthcare professionals in choosing an Assisted Living Community for their loved one or client. We understand that this is a very important decision and we do not take it lightly.
-
-On the other hand, we believe that humor can help in every situation.  Throughout this book, you will see that we will always give you the technical information that you need with a touch of humor thrown in. This is a trying time for you and our goal is to help you get through it.
-
-Let's figure out what’s important in selecting an Assisted Living Facility. Many of you are looking for a community that is beautiful and fancy.  While you want it to be nice, you have to realize the true needs of the person who will be living there. You know your loved one better than anyone else. Would a chandelier and marble floor be important to them? If it is, then you may have to take that into consideration. Otherwise, those items could make your loved one feel uncomfortable if he or she is not used to it.
-
-Also, while looking for communities to visit, remember that the largest and most expensive advertisement doesn’t always represent the most loving and caring place.  When looking for communities, you can ask friends, go on the internet, talk to your clergy, look in the phone book, call a placement agency, or a social service agency.
-
-Make sure you look at communities that match the geographical needs of you and your loved one.  You want it to be close to family and possibly, their doctor.
-
-It’s important to make a plan.  After you choose the communities that you’re going to go and see, set up a tour.  Dedicate a day to do this.  Allow at least an hour for each community.  You may want to see one in the morning, have lunch and see two in the afternoon.  However you want to do it, just make sure that you allow enough time to tour each community and time to get from one to the other.  If it takes more than one day, that is fine also.  The key is to stay calm and gather all of the information you are going to need to make a decision that both you and your loved one will be comfortable with.
-
-Many people like to just “show up” at a community without an appointment.  These people are called “show-uppers.”  There are many reasons why this is not a good idea. The most important one is time.  If you show up for a tour without an appointment, there may be another family touring and you may have to wait a long time until they can get to you.  Good communities take time with each family. You would want this same treatment for you and your family as well.  So, don’t be a “SHOW-UPPER!”
-
-Having been Administrators of very large communities, we have witnessed, first hand, what can happen when people just  “show up.” You may come upon a scenario that is unpleasant or unnerving.  Things happen in communities with an elderly population, and the community should not be judged by an isolated incident, but by how it is handled by the staff.
-
-Another important reason you should make an appointment is the fact that you want to tour the community with the Sales or Marketing Representative, not a receptionist or office worker as a fill in. While they may be able to show you around, they are not going to be able to answer all of your questions and give you the personal attention that you will require in making this important decision. In other words, you may end up getting a tour from the janitor on his way to Mrs. Jones in room 209.
-
-Remember, all of these communities are regulated by state laws, but don’t expect perfection at all times.  These same communities are run by human beings, and we know human beings are not perfect.
-
-Once you are in the community and touring, look around and try to think…would your loved one like it?  Is it a place where they would be comfortable?  Is it what they are used to?  Look at the activities that are offered.  Will they be of interest to them?  When you look at the rooms, try to think of what they will require.  Maybe, it’s just a television, an easy chair, a bed, a dresser, a refrigerator, a closet and a bathroom.  The important thing is that you must try to judge everything based on what THEY will require, not what YOU require.  In other words, who is really moving in?  Next up: Chapter 3 - Before You Go
-
-"""
+    static let chapter2Text = NSLocalizedString("""
+                                                chapter2Text
+                                                """, comment: "Add comment here")
     
-    static let chapter3Text: String = """
-Now that you have chosen the facilities you want to tour, it’s time to make an appointment. Ask to speak with the Marketing or Sales Director.  Tell them that you would like to ask a few questions before you decide to tour.
-
-What is the Marketing Director’s name?  Will that person be the one to tour you?  Can he or she tour you on a weekend?  If not, is there an Assistant Marketing Director?  What is his or her name?  Will he or she be able to tour you on a weekend?
-
-Ask some brief, general questions about cost and accommodations.   Discuss price ranges for the type of room you think that you may be interested in.  Make sure the Facility is within your budget range before you go.  Of course, if you have time, you can ask the Marketing Director to send you brochures with a price list and you can digest that information before you go to tour the facility.
-
-When speaking with the Marketing Director, give a brief synopsis of your loved one’s condition.  In most cases, the Marketing Director will be able to tell you on the phone whether they can accommodate him or her at their facility. Depending on what care your loved one needs, ask questions pertaining to his or her specific situation, such as Alzheimer care, acceptance of wheelchairs (electric or otherwise), catheters, and/or feeding tubes.  These types of preliminary questions will assist you in not wasting your valuable time.
- 
-After this phone conversation, if you feel this facility may be worth looking at and may meet the needs of your loved one, then go ahead and make the appointment.  When you go, make sure you have the following information with you:
-
-* Name of first and secondary insurance companies;
-
-* Was he or she a Veteran or a spouse of a veteran?
-
-* As much information on his or her medical condition as you can provide;
-
-* A budget for him or her that you have figured out in advance, composed of Social Security income, amount of pension he or she is receiving, any other monthly income, savings, assets, or his or her ability to receive any other income from any other source.
-
-From what you have just read, it makes it even clearer why you don’t want to be a “showupper.”  All of the above things have to be discussed in detail with each family.
-
-Making an appointment is “where it’s at!”  Next up: Chapter 4 - General Aspects of Community
-
-"""
+    static let chapter3Text = NSLocalizedString("""
+                                                chapter3Text
+                                                """, comment: "Add comment here")
     
     static let chapter5Text = """
     In the following chapter, you will be asking questions about documents, policies and inspections.  These questions will reveal the credibility and professionalism of the individuals that operate the company.  Are they organized?  Do they have all of the things you are asking for?  Remember, the Marketing or Sales Representative may not have everything immediately on hand.  Give him a few minutes to produce the requested documents.
