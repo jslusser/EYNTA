@@ -5,6 +5,7 @@
   Created by James Slusser on 2/19/20.
   Copyright © 2020 James Slusser. All rights reserved.
 */
+//  ContentsTableViewController.swift
 "Chapter 1 - Introduction" = "Capítulo 1 - Introducción";
 "Chapter 2 - In Other Words" = "Capítulo 2 - En Otras Palabras";
 "Chapter 3 - Before You Go" = "Capítulo 3 - Antes de Irte";
@@ -26,3 +27,76 @@
 "Book Cover Title Page" = "Página de Título de Portada del Libro";
 
 "Table of Contents" = "Índice de Contenidos";
+
+//  ChapterText.swift
+"chapter1Text" = "
+En las últimas dos décadas en los Estados Unidos, las Casas de Asistencia Geriátrica (llamamos así a propiedades que brindan internación para personas dependientes o semi-dependientes)  han crecido a nivel nacional en la industria de la salud.
+
+Hay más de 40.000 Residencias operando en los Estados Unidos hoy. El número de residentes puede ir de unos pocos hasta 300, comúnmente con una capacidad para entre 25 y 120 individuos.
+
+Años atrás, todos se referían a las residencias como “el hogar”. La población era una mezcla, reuniendo a todas las edades, diagnósticos, y comportamientos. Cuando una familia no podía cuidar de un ser querido  no tenían alternativa más que ubicarlo/a en “el hogar”. Era la única opción disponible para ellos en esa época.
+
+Cuando las Residencias Geriátricas  fueron creadas,  parecían más hoteles o comunidades de retiro. Si las personas padecían de incontinencia, requerían supervisión permanente, o atención personalizada, debían abandonar la institución e ir a una Casa de Enfermería o Sanatorio.
+
+Durante ese tiempo hubo un gran crecimiento en la población de personas mayores. Esto fue producto de varios factores como el aumento de la longevidad, y el conocimiento de que los “Baby Boomers” envejecerían en un futuro cercano. Las agencias gubernamentales a nivel nacional, tuvieron que modificar, actualizar, y encontrar nuevas formas de acomodar a la comunidad de adultos mayores.
+El Gobierno y la industria de la salud trabajaron juntos para crear Residencias reguladas, para proveer cuidado apropiado, como personalizado que pueda cubrir las necesidades de cada individuo. Estos cambios no sólo mejoraron la calidad de servicio sino que también resultaron ser más rentable para las familias poder pagar un servicio privado. También resultó ser más rentable para el Gobierno financiar la asistencia de un individuo y saber que se le estaba brindando un buen cuidado en una Residencia Asistida que en un Sanatorio o Casa de Enfermería.
+
+Una vez que  las Residencias Geriátricas se establecieron,  la necesidad de que otros tipos de alternativas  para hospedar ancianos salieron a la luz. Algunos fueron (y son) Residencias  para  personas auto válidos (es decir que  son autónomas, se valen por sí mismos), Hogares de ancianos, Unidades para personas con Alzheimer u otro tipo de Demencia y Sanatorios.
+
+Aún en nuestros días, muchas personas no comprenden totalmente el concepto de, o lo que se ofrece realmente en una Residencia Geriátrica.
+
+Estas Residencias tienen licencias y están reguladas según el Estado donde se encuentren. Esto es porque el concepto varía de Estado en Estado, los niveles de cuidado de pacientes también varían.
+
+En algunos casos, el criterio para ser admitido en una de estas Residencias es tan simple como poder moverse físicamente  de una silla a otra aunque se le brinde asistencia. El propósito de una Residencia Geriátrica es de “asistir”, no realizar la tarea del residente. Lo ideal es dejar  al residente tan activo e involucrado con su propio cuidado mientras realiza las actividades cotidianas.
+El criterio de admisión no está solamente basado en los aspectos clínicos, sino que también en otros asuntos como por ejemplo la seguridad. Un posible residente debe estar físicamente capacitado para dejar el lugar, con asistencia, en una situación de emergencia como un requisito de admisión en muchos Estados.
+
+En algunos casos, las Residencias Geriátricas podrán no admitir a una persona aun  pudiéndose trasladar por si solo/a. Cada Institución tiene su criterio, sus propias políticas, y su propio objetivo de pacientes a quien cuidar. Pueden no querer personas en sillas de ruedas o andadores. Esto depende de ellos. Pueden implementar la política que deseen, mientras estén bajo las regulaciones del Estado.
+
+Porque son propiedades privadas o corporaciones, las políticas que implementan son legales mientras sean aprobadas por la Administración de Salud según el Estado donde se localicen.
+
+Assisted Living Facility (en los estados Unidos) es el término más comúnmente usado para este tipo de hospedaje. Otros términos son:
+
+    • Residential Care Facilities
+    •  Personal Care Facilities
+    •   Adult Congregate Care Communities
+    •   Retirement Residences
+    •   Supported Care Facilities
+    •   Senior Living Communities
+
+En muchos Estados, los establecimientos de seis camas están volviéndose muy populares. Estas pequeñas instituciones están ganando  popularidad ya que pueden proveer servicios más personalizados. Por lo general son casas privadas y están reguladas por las mismas agencias del gobierno que controlan todas las Residencias independientemente del tamaño. Los pequeños hogares deben pasar todos los exámenes e inspecciones requeridas por el Estado en el que residen.
+
+La edad promedio en las Residencias Geriátricas es un poco más de 80 años, y usualmente alguien que está en necesidad de asistencia en una o dos actividades cotidianas. Algunas de las actividades cotidianas son ducharse, cambiarse de ropa, higienizarse,  comer y la administración de los medicamentos. El personal de una residencia geriátrica está entrenado para proveer asistencia en todas esas tareas.
+
+Debemos mencionar aquí que la necesidad de algún tipo de cambio en el estilo de vida es indicada cuando la persona tiene dificultades en una o más de las siguientes áreas:
+
+     Dificultad en su cuidado personal, como bañarse, cambiarse, higienizarse, o comer:
+
+     Deterioro de su salud física o mental;
+
+     Carencia de la comunidad para proveer asistencia domiciliaria;
+
+     La Familia no puede proveer cuidado o supervisión.
+
+Como mencionamos anteriormente, como resultado de las nuevas regulaciones y cambios en la industria del cuidado de la
+salud, los residentes son provistos con más servicios en una Residencia geriátrica que no sólo se limita a: hospedaje, servicio de lavandería, transporte, actividades sociales y 24 horas de supervisión.
+
+Muchos de estos establecimientos brindan asistencia a personas con enfermedades mentales, demencias en estado avanzado o con la  enfermedad de Alzheimer. Es decir, están provistos de áreas de seguridad para aquellos que requieren una supervisión permanente para poder manejar sus comportamientos. Estas áreas pueden ser parte del edificio principal o unidades independientes.
+
+Las Residencias Geriátricas ofrecen  programas de socialización y recreativos, entretenimiento, y otras actividades de estimulación. Estudios demuestran que la interacción social y las actividades tienen un fuerte impacto en la calidad de vida de los adultos mayores.
+
+Muchas de estas Residencias son privadas, quedando fuera de presupuesto para algunas familias. De todos modos es posible obtener asistencia financiera a través de la Administración de Veteranos de Guerra, Seguros de Retiro, y algunos programas estatales si reúnen los requisitos necesarios.
+
+La mayoría se paga mensualmente, de forma similar a una renta o alquiler. Muchas requieren un depósito de seguridad o un arancel especial que luego puede ser reembolsado, dependiendo de la política de la residencia.
+
+Es  importante destacar que algunos costos adicionales pueden ser incluidos en la mensualidad. Pueden ser derivados de servicios “a la carta” o del nivel de cuidado requeridos. Algunas tienen un
+
+honorario ‘all-inclusive’ (todo incluido) que podría ser más beneficioso para el posible residente. Esto le permitirá recibir todos los cuidados que vaya necesitando a través del tiempo, manteniendo la misma mensualidad.
+
+Todos los Estados requieren un contrato. En este contrato, usted va a encontrar los costos mensuales y la lista de servicios que brindan en la Residencia. Los contratos pueden romperse por escrito en los tiempos estipulados por el Estado en los que la residencia está ubicada y la política de la misma.
+
+Así y todo, la mejor manera de definir una Residencia Geriátrica es pensarla como el punto intermedio entre vivir en casa y vivir en un Sanatorio o Casa de Enfermería. Estas propiedades tienen un enfoque residencial con un entorno parecido a su propia casa. Un Sanatorio/Casa de Enfermería es básicamente una institución médica.
+
+Las Residencias Geriátricas son una opción (vital) para las personas que quieren maximizar su  independencia mientras viven  con la seguridad dada por la supervisión permanente en  un establecimiento de características residenciales.
+
+";
+

@@ -10,71 +10,75 @@ import Foundation
 import UIKit
 
 struct ChapterText {
-    
-    static let chapter1Text: String = """
-In the past two decades, Assisted Living Facilities have grown nationwide in the health care industry.
 
-There are approximately 40,000 Assisted Living Facilities operating in the United States today.  The number of residents living in a facility can range from just a few to over 300, with the most common size housing between 25 and 120 individuals.
-
-Years ago, everyone referred to all nursing facilities as “the home.”  The population within them was a mix and match of all ages, diagnoses, and behaviors.  When a family could no longer care for a loved one, they had no choice but to place him or her in “the home.”  It was the only option available to them at the time.
-
-When Assisted Living Facilities were first created, they were more like hotels or retirement communities.  If people had incontinence issues or required more one on one supervised, personal care, they would have to leave the facility and go to a nursing home.
-
-During this time there was a tremendous growth in the senior population.  This was due to many factors such as seniors living longer, and the knowledge that the baby boomers would be aging in the very near future.  The governmental agencies, nationwide, had to modify, update, and find new ways to accommodate the senior community.
-
-The government and the health care industry worked together to create regulated communities to provide appropriate, as well as personalized care that would meet the needs of each individual.  These changes not only improved the quality of service, but made it more cost-effective for families paying privately.  It was also more cost-effective for the government to assist an individual financially and make sure they were receiving the proper care in an Assisted Living Facility rather than a Skilled Nursing Home.
-
-Once the Assisted Living Facilities were established, the need for other types of alternative housing came to light.  Some of these were Independent Living Facilities, Adult Family Care Homes, Alzheimer-Dementia Units and Skilled Nursing Facilities.
-
-Even today, many people do not completely understand the concept of, or what is actually offered in an Assisted Living Facility.
-
-Assisted Living Facilities are licensed and regulated by the state in which they are located.  Because the concept of an Assisted Living Facility can vary from state to state, eligibility can also vary.
-
-In some cases, the criterion for being admitted into an Assisted Living Facility, is as simple as being able to transfer from one chair to another with assistance.  Keep in mind, the resident must be able to assist in completing this task.  The purpose of an Assisted Living Facility is to “ASSIST,” not to actually do the task for the resident.  The goal is to keep the resident as active and involved in his own personal care while performing the Activities of Daily Living.
-
-Admission criteria are not only based on clinical aspects, but on many other issues such as safety.  A prospective resident must be physically able to exit the building, with assistance, in a fire drill or any other emergency situation.
-
-In some cases, Assisted Living Facilities will not admit people even if they can transfer.   Each facility has its own criteria, their own policies, and their own target population type.  They may not want wheelchairs or even walkers. This is up to them.  They can implement any house policy they choose, as long as they remain in compliance with the state regulations.
-
-Because Assisted Living Facilities are privately or corporately owned, the policies they implement are legal as long as they are approved by the health care administration in whatever state they are located.
-
-Assisted Living Facility is the most common term used for this type of housing.  Some other terms are:
-
-     • Residential Care Facilities
-     • Personal Care Facilities
-     • Adult Congregate Care Communities
-     • Retirement Residences
-     • Supported Care Facilities
-     • Senior Living Communities
- 
-In Florida, and in many other states, six-bed facilities are becoming very popular, as well.  These smaller facilities are gaining popularity due to the fact that they are able to provide more personalized services.  These facilities are usually in private homes and are licensed and regulated by the same governmental agencies that govern all of the Assisted Living Facilities, regardless of size.  The smaller homes must pass all surveys and inspections required by the state in which they are located.
- The average age of a resident in an Assisted Living Facility is a little over 80, and usually someone who is in need of at least one or more Activities of Daily Living.  Some of the Activities of Daily Living (ADLs) are showering, dressing, toileting, eating and medication management.  The staff of an Assisted Living Facility is trained to provide assistance with all of those ADLs.
-
-We should mention here that the need for some type of lifestyle change is usually first indicated when a person has difficulty in one or more of the following areas:
-
-     • Difficulty in self-care, such as bathing, dressing, toileting, or eating;
-     • Decline in physical or mental health;
-     • Family not available to provide care or supervision.
- 
-As we mentioned before, as a result of new regulations and changes in the health care industry, residents are now provided with more services in an Assisted Living Facility to include, but are not limited to:  housekeeping and laundry services, transportation to doctors, social activities and 24 hour supervision.
-
-There are many Assisted Living Facilities that provide care for the mentally ill and people with advanced dementia or Alzheimer’s disease. Secured areas for individuals that require closer supervision in order to manage their behaviors are provided.  These areas can be a part of the main building or a separate, self-contained unit.
-
-Assisted Living Facilities offer social and recreational programs, entertainment, and other stimulating activities.  Studies show that social interaction and activities have a strong impact on the well- being of the elderly.  The goal of the Assisted Living Facility is to promote the independence of the residents as well as provide a home-like setting.  Having an active and social environment can help to achieve this goal.
-
-Most facilities are paid for by private, “out of pocket” funds.  However, financial assistance can be found through the Veteran’s Administration, Long Term Care Insurance, and some state programs if certain requirements are met.
-
-The majority of facilities receive payments on a monthly basis, similar to a rent. Many require a security deposit or a community fee which may be refundable, depending on the community policy.
-
-It is important to note that additional fees may be included in the monthly rate.  There may be fees for “a la carte” services or Level of Care.  Some communities do have an all-inclusive rate which may be more beneficial for the prospective resident.  This will allow for more care as needed while maintaining the same monthly rate.
-
-Every state requires a contract.  In this contract, you will find the monthly costs and a list of services that the individual will be receiving at the facility. Contracts may be broken by giving a written notice in the time frame required by the state in which the facility is located and by the community policy.
-
-Overall, the best way to describe Assisted Living is to think of it as a bridge between living at home and living in a nursing home.  Assisted Living has a residential focus with a home-like environment.  A nursing home is primarily a medical institution.
-
-Assisted Living is an exciting option for individuals who want to maximize their independence while living in the safety of a supervised, residential setting.  Next up: Chapter 2 - In Other Words
-
-"""
+ //   static let chapter1Text: String = """
+    static let chapter1Text = NSLocalizedString("""
+                                                chapter1Text
+                                                """, comment: "Add comment here")
+//    """
+//    In the past two decades, Assisted Living Facilities have grown nationwide in the health care industry.
+//
+//There are approximately 40,000 Assisted Living Facilities operating in the United States today.  The number of residents living in a facility can range from just a few to over 300, with the most common size housing between 25 and 120 individuals.
+//
+//Years ago, everyone referred to all nursing facilities as “the home.”  The population within them was a mix and match of all ages, diagnoses, and behaviors.  When a family could no longer care for a loved one, they had no choice but to place him or her in “the home.”  It was the only option available to them at the time.
+//
+//When Assisted Living Facilities were first created, they were more like hotels or retirement communities.  If people had incontinence issues or required more one on one supervised, personal care, they would have to leave the facility and go to a nursing home.
+//
+//During this time there was a tremendous growth in the senior population.  This was due to many factors such as seniors living longer, and the knowledge that the baby boomers would be aging in the very near future.  The governmental agencies, nationwide, had to modify, update, and find new ways to accommodate the senior community.
+//
+//The government and the health care industry worked together to create regulated communities to provide appropriate, as well as personalized care that would meet the needs of each individual.  These changes not only improved the quality of service, but made it more cost-effective for families paying privately.  It was also more cost-effective for the government to assist an individual financially and make sure they were receiving the proper care in an Assisted Living Facility rather than a Skilled Nursing Home.
+//
+//Once the Assisted Living Facilities were established, the need for other types of alternative housing came to light.  Some of these were Independent Living Facilities, Adult Family Care Homes, Alzheimer-Dementia Units and Skilled Nursing Facilities.
+//
+//Even today, many people do not completely understand the concept of, or what is actually offered in an Assisted Living Facility.
+//
+//Assisted Living Facilities are licensed and regulated by the state in which they are located.  Because the concept of an Assisted Living Facility can vary from state to state, eligibility can also vary.
+//
+//In some cases, the criterion for being admitted into an Assisted Living Facility, is as simple as being able to transfer from one chair to another with assistance.  Keep in mind, the resident must be able to assist in completing this task.  The purpose of an Assisted Living Facility is to “ASSIST,” not to actually do the task for the resident.  The goal is to keep the resident as active and involved in his own personal care while performing the Activities of Daily Living.
+//
+//Admission criteria are not only based on clinical aspects, but on many other issues such as safety.  A prospective resident must be physically able to exit the building, with assistance, in a fire drill or any other emergency situation.
+//
+//In some cases, Assisted Living Facilities will not admit people even if they can transfer.   Each facility has its own criteria, their own policies, and their own target population type.  They may not want wheelchairs or even walkers. This is up to them.  They can implement any house policy they choose, as long as they remain in compliance with the state regulations.
+//
+//Because Assisted Living Facilities are privately or corporately owned, the policies they implement are legal as long as they are approved by the health care administration in whatever state they are located.
+//
+//Assisted Living Facility is the most common term used for this type of housing.  Some other terms are:
+//
+//     • Residential Care Facilities
+//     • Personal Care Facilities
+//     • Adult Congregate Care Communities
+//     • Retirement Residences
+//     • Supported Care Facilities
+//     • Senior Living Communities
+// 
+//In Florida, and in many other states, six-bed facilities are becoming very popular, as well.  These smaller facilities are gaining popularity due to the fact that they are able to provide more personalized services.  These facilities are usually in private homes and are licensed and regulated by the same governmental agencies that govern all of the Assisted Living Facilities, regardless of size.  The smaller homes must pass all surveys and inspections required by the state in which they are located.
+// The average age of a resident in an Assisted Living Facility is a little over 80, and usually someone who is in need of at least one or more Activities of Daily Living.  Some of the Activities of Daily Living (ADLs) are showering, dressing, toileting, eating and medication management.  The staff of an Assisted Living Facility is trained to provide assistance with all of those ADLs.
+//
+//We should mention here that the need for some type of lifestyle change is usually first indicated when a person has difficulty in one or more of the following areas:
+//
+//     • Difficulty in self-care, such as bathing, dressing, toileting, or eating;
+//     • Decline in physical or mental health;
+//     • Family not available to provide care or supervision.
+// 
+//As we mentioned before, as a result of new regulations and changes in the health care industry, residents are now provided with more services in an Assisted Living Facility to include, but are not limited to:  housekeeping and laundry services, transportation to doctors, social activities and 24 hour supervision.
+//
+//There are many Assisted Living Facilities that provide care for the mentally ill and people with advanced dementia or Alzheimer’s disease. Secured areas for individuals that require closer supervision in order to manage their behaviors are provided.  These areas can be a part of the main building or a separate, self-contained unit.
+//
+//Assisted Living Facilities offer social and recreational programs, entertainment, and other stimulating activities.  Studies show that social interaction and activities have a strong impact on the well- being of the elderly.  The goal of the Assisted Living Facility is to promote the independence of the residents as well as provide a home-like setting.  Having an active and social environment can help to achieve this goal.
+//
+//Most facilities are paid for by private, “out of pocket” funds.  However, financial assistance can be found through the Veteran’s Administration, Long Term Care Insurance, and some state programs if certain requirements are met.
+//
+//The majority of facilities receive payments on a monthly basis, similar to a rent. Many require a security deposit or a community fee which may be refundable, depending on the community policy.
+//
+//It is important to note that additional fees may be included in the monthly rate.  There may be fees for “a la carte” services or Level of Care.  Some communities do have an all-inclusive rate which may be more beneficial for the prospective resident.  This will allow for more care as needed while maintaining the same monthly rate.
+//
+//Every state requires a contract.  In this contract, you will find the monthly costs and a list of services that the individual will be receiving at the facility. Contracts may be broken by giving a written notice in the time frame required by the state in which the facility is located and by the community policy.
+//
+//Overall, the best way to describe Assisted Living is to think of it as a bridge between living at home and living in a nursing home.  Assisted Living has a residential focus with a home-like environment.  A nursing home is primarily a medical institution.
+//
+//Assisted Living is an exciting option for individuals who want to maximize their independence while living in the safety of a supervised, residential setting.  Next up: Chapter 2 - In Other Words
+//
+//"""
     
     static let chapter2Text: String = """
 Now that you have read all of the technical stuff, let’s sit down and chat.
