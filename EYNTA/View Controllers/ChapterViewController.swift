@@ -102,6 +102,7 @@ class ChapterViewController: UIViewController {
         let generatedLabel = UILabel()
         generatedLabel.translatesAutoresizingMaskIntoConstraints = false
         generatedLabel.text = text
+        generatedLabel.adjustsFontForContentSizeCategory = true
         generatedLabel.textColor = .label
         generatedLabel.font = UIFont.preferredFont(forTextStyle: .body)
         generatedLabel.numberOfLines = 0
@@ -128,12 +129,13 @@ class ChapterViewController: UIViewController {
             let questionsTVC = QuestionTableViewController(chapter: chapter)
             self?.navigationController?.pushViewController(questionsTVC, animated: true)
         }
-
-        let button = UIButton(primaryAction: action)
-        button.setTitle("Go to \(chapter.displayCh) Questions", for: .normal)
-        button.layer.cornerRadius = 20
-        button.setTitleColor(.black, for: .normal)
-        button.backgroundColor = .systemYellow
+        var config = UIButton.Configuration.filled()
+        config.title = "Go to \(chapter.displayCh) Questions"
+        config.baseBackgroundColor = .systemYellow
+        config.baseForegroundColor = .label
+        config.cornerStyle = .capsule
+        
+        let button = UIButton(configuration: config, primaryAction: action)
         return button
     }
 }
